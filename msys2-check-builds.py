@@ -115,7 +115,7 @@ def get_pkgbuild_versions(pkgbuild_path):
     return pkgbuild_path, packages
 
 
-def iter_all_pkgbuilds(repo_path):
+def iter_all_pkgbuilds(repo_path, show_progress):
 
     pkgbuild_paths = []
     if os.path.isfile(repo_path) and os.path.basename(repo_path) == "PKGBUILD":
@@ -139,7 +139,8 @@ def iter_all_pkgbuilds(repo_path):
     pool = ThreadPool(cpu_count() * 2)
     pool_iter = pool.imap_unordered(get_pkgbuild_versions, pkgbuild_paths)
     for i, (p, v) in enumerate(pool_iter):
-        print("%d/%d" % (i + 1, len(pkgbuild_paths)), file=sys.stderr)
+        if show_progress:
+            print("%d/%d" % (i + 1, len(pkgbuild_paths)), file=sys.stderr)
         for name, version in v.items():
             yield (p, name, version)
     pool.close()
@@ -151,6 +152,10 @@ def main(argv):
     parser.add_argument(
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")
+    parser.add_argument('--show-missing', action='store_true',
+                        help="show packages not in the repo")
+    parser.add_argument('--show-progress', action='store_true',
+                        help="show progress of parsing PKGBUILD files")
     args = parser.parse_args(argv[1:])
 
     _load_cache()
@@ -165,9 +170,11 @@ def main(argv):
         pkgbuilds_in_repo[package_name] = version
 
     repo_path = os.path.abspath(args.path)
-    for path, name, version in iter_all_pkgbuilds(repo_path):
+    show_progress = args.show_progress
+    for path, name, version in iter_all_pkgbuilds(repo_path, show_progress):
         if name not in pkgbuilds_in_repo:
-            print("NOT IN REPO: %s (%s)" % (name, path))
+            if args.show_missing:
+                print("NOT IN REPO: %s (%s)" % (name, path))
         else:
             repo_version = pkgbuilds_in_repo[name]
             if version != repo_version:
