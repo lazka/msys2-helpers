@@ -122,6 +122,8 @@ def iter_all_pkgbuilds(repo_path, show_progress):
     if os.path.isfile(repo_path) and os.path.basename(repo_path) == "PKGBUILD":
         pkgbuild_paths.append(repo_path)
     else:
+        print("Searching for PKGBUILD files in %s" % repo_path,
+              file=sys.stderr)
         for base, dirs, files in os.walk(repo_path):
             for f in files:
                 if f == "PKGBUILD":
@@ -180,7 +182,7 @@ def main(argv):
         else:
             repo_version = pkgbuilds_in_repo[name]
             if version != repo_version:
-                print("DIFFERENTE VERSION: %s local=%s repo=%s (%s)" % (
+                print("%-50s local=%-25s repo=%-25s %s" % (
                     name, version, repo_version, path))
 
 
