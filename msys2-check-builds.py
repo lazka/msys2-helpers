@@ -86,6 +86,8 @@ def iter_all_pkgbuilds(repo_path):
         for base, dirs, files in os.walk(repo_path):
             for f in files:
                 if f == "PKGBUILD":
+                    # in case we find a PKGBUILD, don't go deeper
+                    del dirs[:]
                     path = os.path.join(base, f)
                     pkgbuild_paths.append(path)
         pkgbuild_paths.sort()
