@@ -73,7 +73,6 @@ def get_pkgbuild_versions(pkgbuild_path):
             if epoch:
                 version = "%s~%s" % (epoch, version)
             packages[pkgname] = version
-            pkgver = pkgrel = epoch = None
     return packages
 
 
