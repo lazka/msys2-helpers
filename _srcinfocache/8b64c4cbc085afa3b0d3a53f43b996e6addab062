@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-wget
+	pkgdesc = Wget retrieves files using HTTP, HTTPS and FTP (mingw-w64)
+	pkgver = 1.18
+	pkgrel = 1
+	url = https://www.gnu.org/software/wget/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-x86_64-pcre
+	depends = mingw-w64-x86_64-libidn
+	depends = mingw-w64-x86_64-openssl
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/wget/wget-1.18.tar.xz
+	sha256sums = b5b55b75726c04c06fe253daec9329a6f1a3c0c1878e3ea76ebfebc139ea9cc1
+
+pkgname = mingw-w64-x86_64-wget
+
+pkgbase = mingw-w64-wget
+	pkgdesc = Wget retrieves files using HTTP, HTTPS and FTP (mingw-w64)
+	pkgver = 1.18
+	pkgrel = 1
+	url = https://www.gnu.org/software/wget/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-i686-pcre
+	depends = mingw-w64-i686-libidn
+	depends = mingw-w64-i686-openssl
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/wget/wget-1.18.tar.xz
+	sha256sums = b5b55b75726c04c06fe253daec9329a6f1a3c0c1878e3ea76ebfebc139ea9cc1
+
+pkgname = mingw-w64-i686-wget
+

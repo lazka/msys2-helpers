@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-clutter-gtk
+	pkgdesc = Clutter integration with GTK+ (mingw-w64)
+	pkgver = 1.8.2
+	pkgrel = 1
+	url = http://clutter-project.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-clutter
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/clutter-gtk/1.8/clutter-gtk-1.8.2.tar.xz
+	source = 0002-msys-fix-introspection-build.patch
+	sha256sums = da27d486325490ad3f65d2abf9413aeb8b4a8f7b559e4b2f73567a5344a26b94
+	sha256sums = 837624b334fa432d6f1a1c346060f102c17c9ba24e277d21b0e4bbe6396d0043
+
+pkgname = mingw-w64-x86_64-clutter-gtk
+
+pkgbase = mingw-w64-clutter-gtk
+	pkgdesc = Clutter integration with GTK+ (mingw-w64)
+	pkgver = 1.8.2
+	pkgrel = 1
+	url = http://clutter-project.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gobject-introspection
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-clutter
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/clutter-gtk/1.8/clutter-gtk-1.8.2.tar.xz
+	source = 0002-msys-fix-introspection-build.patch
+	sha256sums = da27d486325490ad3f65d2abf9413aeb8b4a8f7b559e4b2f73567a5344a26b94
+	sha256sums = 837624b334fa432d6f1a1c346060f102c17c9ba24e277d21b0e4bbe6396d0043
+
+pkgname = mingw-w64-i686-clutter-gtk
+

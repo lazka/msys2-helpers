@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-zope.interface
+	pkgdesc = Interfaces for Python (mingw-w64)
+	pkgver = 4.4.2
+	pkgrel = 1
+	url = https://github.com/zopefoundation/zope.interface
+	arch = any
+	license = ZPL 2.1
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = https://pypi.python.org/packages/c5/88/93373971f893714f0dc15e09696ec4886ee8b4e561ce5ae45612c2c516c4/zope.interface-4.4.2.tar.gz
+	sha256sums = 4e59e427200201f69ef82956ddf9e527891becf5b7cde8ec3ce39e1d0e262eb0
+
+pkgname = mingw-w64-x86_64-python2-zope.interface
+
+pkgname = mingw-w64-x86_64-python3-zope.interface
+
+pkgbase = mingw-w64-python-zope.interface
+	pkgdesc = Interfaces for Python (mingw-w64)
+	pkgver = 4.4.2
+	pkgrel = 1
+	url = https://github.com/zopefoundation/zope.interface
+	arch = any
+	license = ZPL 2.1
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = https://pypi.python.org/packages/c5/88/93373971f893714f0dc15e09696ec4886ee8b4e561ce5ae45612c2c516c4/zope.interface-4.4.2.tar.gz
+	sha256sums = 4e59e427200201f69ef82956ddf9e527891becf5b7cde8ec3ce39e1d0e262eb0
+
+pkgname = mingw-w64-i686-python2-zope.interface
+
+pkgname = mingw-w64-i686-python3-zope.interface
+

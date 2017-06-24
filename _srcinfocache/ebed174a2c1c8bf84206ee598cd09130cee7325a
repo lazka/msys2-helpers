@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-ldns
+	pkgdesc = Fast DNS library supporting recent RFCs (mingw-w64)
+	pkgver = 1.6.17
+	pkgrel = 4
+	url = https://www.nlnetlabs.nl/projects/ldns/
+	arch = any
+	license = custom:BSD
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-openssl
+	optdepends = mingw-w64-x86_64-dnssec-anchors
+	options = strip
+	options = staticlibs
+	source = https://www.nlnetlabs.nl/downloads/ldns/ldns-1.6.17.tar.gz
+	source = ldns-1.6.17-relocate.patch
+	source = doxyparse-deprecations.patch
+	sha256sums = 8b88e059452118e8949a2752a55ce59bc71fa5bc414103e17f5b6b06f9bcc8cd
+	sha256sums = ccfc8e148beda4232d0567318972fd71a2f0d8cf9b4e0e1edef6ce84eaf07b6b
+	sha256sums = ac4d0766d25f63f0d64b2cc7edd73bc1046876b53b2b3ebf2587afc777c2bc23
+
+pkgname = mingw-w64-x86_64-ldns
+
+pkgbase = mingw-w64-ldns
+	pkgdesc = Fast DNS library supporting recent RFCs (mingw-w64)
+	pkgver = 1.6.17
+	pkgrel = 4
+	url = https://www.nlnetlabs.nl/projects/ldns/
+	arch = any
+	license = custom:BSD
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-openssl
+	optdepends = mingw-w64-i686-dnssec-anchors
+	options = strip
+	options = staticlibs
+	source = https://www.nlnetlabs.nl/downloads/ldns/ldns-1.6.17.tar.gz
+	source = ldns-1.6.17-relocate.patch
+	source = doxyparse-deprecations.patch
+	sha256sums = 8b88e059452118e8949a2752a55ce59bc71fa5bc414103e17f5b6b06f9bcc8cd
+	sha256sums = ccfc8e148beda4232d0567318972fd71a2f0d8cf9b4e0e1edef6ce84eaf07b6b
+	sha256sums = ac4d0766d25f63f0d64b2cc7edd73bc1046876b53b2b3ebf2587afc777c2bc23
+
+pkgname = mingw-w64-i686-ldns
+

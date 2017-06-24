@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-rapidjson
+	pkgdesc = A fast JSON parser/generator for C++ with both SAX/DOM style API (mingw-w64)
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/miloyip/rapidjson
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	source = https://github.com/miloyip/rapidjson/archive/v1.0.2.tar.gz
+	source = 0001-Use-relative-paths-for-doxygen-outputs.patch
+	source = 0002-Add-CMake-check-for-MinGW.patch
+	source = 0003-Exclude-CMakeLists.txt-from-install-targets.patch
+	source = 0004-CMake-Install-compiled-example-executables.patch
+	sha256sums = c3711ed2b3c76a5565ee9f0128bb4ec6753dbcc23450b713842df8f236d08666
+	sha256sums = 5a838fe611b367f8939231aae1f604f83fd97108d3b2ac66def00ff1205afcf2
+	sha256sums = 8160d2ef142055cecb520b23cf11e90e0a6e92719427fa33755800cc748cf8be
+	sha256sums = 04ba9821bb09d5f035093bce09690717101f03851308aa12d498311f11024b02
+	sha256sums = 479b8654f0418aa89f245af4345e5df409ac5a91667815a47592da1b6d5d9eee
+
+pkgname = mingw-w64-x86_64-rapidjson
+
+pkgbase = mingw-w64-rapidjson
+	pkgdesc = A fast JSON parser/generator for C++ with both SAX/DOM style API (mingw-w64)
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/miloyip/rapidjson
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	source = https://github.com/miloyip/rapidjson/archive/v1.0.2.tar.gz
+	source = 0001-Use-relative-paths-for-doxygen-outputs.patch
+	source = 0002-Add-CMake-check-for-MinGW.patch
+	source = 0003-Exclude-CMakeLists.txt-from-install-targets.patch
+	source = 0004-CMake-Install-compiled-example-executables.patch
+	sha256sums = c3711ed2b3c76a5565ee9f0128bb4ec6753dbcc23450b713842df8f236d08666
+	sha256sums = 5a838fe611b367f8939231aae1f604f83fd97108d3b2ac66def00ff1205afcf2
+	sha256sums = 8160d2ef142055cecb520b23cf11e90e0a6e92719427fa33755800cc748cf8be
+	sha256sums = 04ba9821bb09d5f035093bce09690717101f03851308aa12d498311f11024b02
+	sha256sums = 479b8654f0418aa89f245af4345e5df409ac5a91667815a47592da1b6d5d9eee
+
+pkgname = mingw-w64-i686-rapidjson
+

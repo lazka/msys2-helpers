@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-cloog
+	pkgdesc = Library that generates loops for scanning polyhedra
+	pkgver = 0.18.1
+	pkgrel = 3
+	url = http://www.bastoul.net/cloog/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-isl
+	depends = mingw-w64-x86_64-isl
+	options = staticlibs
+	source = http://www.bastoul.net/cloog/pages/download/cloog-0.18.1.tar.gz
+	source = cloog-0.18.1-no-undefined.patch
+	source = cloog-0.18.1-isl-use-documented-functions.patch
+	source = cloog-0.18.1-isl-use-isl_val.patch
+	sha256sums = 02500a4edd14875f94fe84cbeda4290425cb0c1c2474c6f75d75a303d64b4196
+	sha256sums = 70a9ba72be85a9982e99e3c093c0a2de563120a6bddde57c8332355e8a622bc0
+	sha256sums = 128fa2b4d6e281a8713f141052a6ca4e0bec217cac2445d6f8bd388bb451f632
+	sha256sums = 0e198323f73c6a7dc68c634632a9c6f9bca5ceac878f680e31d21cedd5ef2b20
+
+pkgname = mingw-w64-x86_64-cloog
+
+pkgbase = mingw-w64-cloog
+	pkgdesc = Library that generates loops for scanning polyhedra
+	pkgver = 0.18.1
+	pkgrel = 3
+	url = http://www.bastoul.net/cloog/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-isl
+	depends = mingw-w64-i686-isl
+	options = staticlibs
+	source = http://www.bastoul.net/cloog/pages/download/cloog-0.18.1.tar.gz
+	source = cloog-0.18.1-no-undefined.patch
+	source = cloog-0.18.1-isl-use-documented-functions.patch
+	source = cloog-0.18.1-isl-use-isl_val.patch
+	sha256sums = 02500a4edd14875f94fe84cbeda4290425cb0c1c2474c6f75d75a303d64b4196
+	sha256sums = 70a9ba72be85a9982e99e3c093c0a2de563120a6bddde57c8332355e8a622bc0
+	sha256sums = 128fa2b4d6e281a8713f141052a6ca4e0bec217cac2445d6f8bd388bb451f632
+	sha256sums = 0e198323f73c6a7dc68c634632a9c6f9bca5ceac878f680e31d21cedd5ef2b20
+
+pkgname = mingw-w64-i686-cloog
+

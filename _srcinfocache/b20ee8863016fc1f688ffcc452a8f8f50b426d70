@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-freeglut
+	pkgdesc = Freeglut allows the user to create and manage windows containing OpenGL contexts (mingw32-w64)
+	pkgver = 3.0.0
+	pkgrel = 4
+	url = https://freeglut.sourceforge.io/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	noextract = freeglut-3.0.0.tar.gz
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz
+	source = 0001-Emit-the-correct-LIBNAME-to-.pc-files.patch
+	sha256sums = 2a43be8515b01ea82bcfa17d29ae0d40bd128342f0930cd1f375f1ff999f76a2
+	sha256sums = 2a4409366ed6661695cb2ce8cfb0084f0e337d76116d16d507945fa5f2d67cd3
+
+pkgname = mingw-w64-x86_64-freeglut
+
+pkgbase = mingw-w64-freeglut
+	pkgdesc = Freeglut allows the user to create and manage windows containing OpenGL contexts (mingw32-w64)
+	pkgver = 3.0.0
+	pkgrel = 4
+	url = https://freeglut.sourceforge.io/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	noextract = freeglut-3.0.0.tar.gz
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz
+	source = 0001-Emit-the-correct-LIBNAME-to-.pc-files.patch
+	sha256sums = 2a43be8515b01ea82bcfa17d29ae0d40bd128342f0930cd1f375f1ff999f76a2
+	sha256sums = 2a4409366ed6661695cb2ce8cfb0084f0e337d76116d16d507945fa5f2d67cd3
+
+pkgname = mingw-w64-i686-freeglut
+

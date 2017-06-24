@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-meson
+	pkgdesc = High-productivity build system (mingw-w64)
+	pkgver = 0.41.1
+	pkgrel = 1
+	url = http://mesonbuild.com/
+	arch = any
+	license = Apache 2
+	depends = mingw-w64-x86_64-python3
+	depends = mingw-w64-x86_64-ninja
+	options = strip
+	options = staticlibs
+	source = https://github.com/mesonbuild/meson/releases/download/0.41.1/meson-0.41.1.tar.gz
+	sha256sums = 3d160b0514ff3d25f0a47975c6f70fd82b76c589876d10413efc5e01df43e0c2
+
+pkgname = mingw-w64-x86_64-meson
+
+pkgbase = mingw-w64-meson
+	pkgdesc = High-productivity build system (mingw-w64)
+	pkgver = 0.41.1
+	pkgrel = 1
+	url = http://mesonbuild.com/
+	arch = any
+	license = Apache 2
+	depends = mingw-w64-i686-python3
+	depends = mingw-w64-i686-ninja
+	options = strip
+	options = staticlibs
+	source = https://github.com/mesonbuild/meson/releases/download/0.41.1/meson-0.41.1.tar.gz
+	sha256sums = 3d160b0514ff3d25f0a47975c6f70fd82b76c589876d10413efc5e01df43e0c2
+
+pkgname = mingw-w64-i686-meson
+

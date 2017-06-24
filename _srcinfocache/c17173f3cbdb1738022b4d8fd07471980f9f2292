@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-clink-git
+	pkgdesc = Bash's powerful command line editing in cmd.exe (mingw-w64)
+	pkgver = 0.4.4.r616.a60c0a0
+	pkgrel = 1
+	url = https://mridgers.github.io/clink
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-premake
+	makedepends = git
+	provides = mingw-w64-x86_64-clink
+	conflicts = mingw-w64-x86_64-clink
+	source = git+https://github.com/mridgers/clink.git
+	source = 0001-Relocation.patch
+	sha256sums = SKIP
+	sha256sums = 7d208979f4dd6bd40533ab5f3489b3bfb4023059d8cc0ffcc710c355fa18777d
+
+pkgname = mingw-w64-x86_64-clink-git
+
+pkgbase = mingw-w64-clink-git
+	pkgdesc = Bash's powerful command line editing in cmd.exe (mingw-w64)
+	pkgver = 0.4.4.r616.a60c0a0
+	pkgrel = 1
+	url = https://mridgers.github.io/clink
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-premake
+	makedepends = git
+	provides = mingw-w64-i686-clink
+	conflicts = mingw-w64-i686-clink
+	source = git+https://github.com/mridgers/clink.git
+	source = 0001-Relocation.patch
+	sha256sums = SKIP
+	sha256sums = 7d208979f4dd6bd40533ab5f3489b3bfb4023059d8cc0ffcc710c355fa18777d
+
+pkgname = mingw-w64-i686-clink-git
+

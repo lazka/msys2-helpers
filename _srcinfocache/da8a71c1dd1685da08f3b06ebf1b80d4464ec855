@@ -1,0 +1,46 @@
+pkgbase = bison
+	pkgdesc = The GNU general-purpose parser generator
+	pkgver = 3.0.4
+	pkgrel = 1
+	url = https://www.gnu.org/software/bison/bison.html
+	install = bison.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL3
+	makedepends = flex
+	depends = m4
+	depends = sh
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz
+	source = https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz.sig
+	source = bison-3.0.2-msys2.patch
+	sha256sums = a72428c7917bdf9fa93cb8181c971b6e22834125848cf1d03ce10b1bb0716fe1
+	sha256sums = SKIP
+	sha256sums = 30de63cac14dee4a538ee3147ecbd95e5cd5c11acf7e0d72ec39ceccce71c0b4
+
+pkgname = bison
+
+pkgbase = bison
+	pkgdesc = The GNU general-purpose parser generator
+	pkgver = 3.0.4
+	pkgrel = 1
+	url = https://www.gnu.org/software/bison/bison.html
+	install = bison.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL3
+	makedepends = flex
+	depends = m4
+	depends = sh
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz
+	source = https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz.sig
+	source = bison-3.0.2-msys2.patch
+	sha256sums = a72428c7917bdf9fa93cb8181c971b6e22834125848cf1d03ce10b1bb0716fe1
+	sha256sums = SKIP
+	sha256sums = 30de63cac14dee4a538ee3147ecbd95e5cd5c11acf7e0d72ec39ceccce71c0b4
+
+pkgname = bison
+

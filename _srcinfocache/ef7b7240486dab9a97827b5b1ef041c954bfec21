@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-hunspell-en
+	pkgdesc = Hunspell dictionaries (mingw-w64)
+	pkgver = 2016.11.20
+	pkgrel = 2
+	url = https://wordlist.sourceforge.io/
+	arch = any
+	license = LGPL
+	license = custom:scowl
+	makedepends = unzip
+	optdepends = mingw-w64-x86_64-hunspell
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_US-large-2016.11.20.zip
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_CA-large-2016.11.20.zip
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_GB-large-2016.11.20.zip
+	sha256sums = 6546eae2501b8508f69bf9da9a53b95382251ff4393ccbc5e5ab45a2ec993619
+	sha256sums = d9061f967d647ca500f821164b1908cf02831909423d8f4dd0496a332702f8a4
+	sha256sums = 1dbfa6eb6ef9143be0fd3274e22b6d961cfae73ee78db8227f8df27fdae832a4
+
+pkgname = mingw-w64-x86_64-hunspell-en
+
+pkgbase = mingw-w64-hunspell-en
+	pkgdesc = Hunspell dictionaries (mingw-w64)
+	pkgver = 2016.11.20
+	pkgrel = 2
+	url = https://wordlist.sourceforge.io/
+	arch = any
+	license = LGPL
+	license = custom:scowl
+	makedepends = unzip
+	optdepends = mingw-w64-i686-hunspell
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_US-large-2016.11.20.zip
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_CA-large-2016.11.20.zip
+	source = https://downloads.sourceforge.net/wordlist/hunspell-en_GB-large-2016.11.20.zip
+	sha256sums = 6546eae2501b8508f69bf9da9a53b95382251ff4393ccbc5e5ab45a2ec993619
+	sha256sums = d9061f967d647ca500f821164b1908cf02831909423d8f4dd0496a332702f8a4
+	sha256sums = 1dbfa6eb6ef9143be0fd3274e22b6d961cfae73ee78db8227f8df27fdae832a4
+
+pkgname = mingw-w64-i686-hunspell-en
+

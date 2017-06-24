@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-SDL_image
+	pkgdesc = A simple library to load images of various formats as SDL surfaces (mingw-w64)
+	pkgver = 1.2.12
+	pkgrel = 5
+	url = https://libsdl.org/projects/SDL_image
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-SDL
+	depends = mingw-w64-x86_64-libjpeg-turbo
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-libtiff
+	depends = mingw-w64-x86_64-libwebp
+	depends = mingw-w64-x86_64-zlib
+	source = https://libsdl.org/projects/SDL_image/release/SDL_image-1.2.12.tar.gz
+	sha256sums = 0b90722984561004de84847744d566809dbb9daf732a9e503b91a1b5a84e5699
+
+pkgname = mingw-w64-x86_64-SDL_image
+
+pkgbase = mingw-w64-SDL_image
+	pkgdesc = A simple library to load images of various formats as SDL surfaces (mingw-w64)
+	pkgver = 1.2.12
+	pkgrel = 5
+	url = https://libsdl.org/projects/SDL_image
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-SDL
+	depends = mingw-w64-i686-libjpeg-turbo
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-libtiff
+	depends = mingw-w64-i686-libwebp
+	depends = mingw-w64-i686-zlib
+	source = https://libsdl.org/projects/SDL_image/release/SDL_image-1.2.12.tar.gz
+	sha256sums = 0b90722984561004de84847744d566809dbb9daf732a9e503b91a1b5a84e5699
+
+pkgname = mingw-w64-i686-SDL_image
+

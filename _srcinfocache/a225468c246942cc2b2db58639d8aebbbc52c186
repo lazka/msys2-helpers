@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-atom-editor-git
+	pkgdesc = Cross-platform desktop application shell (mingw-w64)
+	pkgver = r18372.d4f7e71
+	pkgrel = 2
+	url = https://atom.io
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-ninja
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = git
+	depends = mingw-w64-x86_64-nodejs
+	source = atom-editor-x86_64::git+https://github.com/atom/atom#branch=master
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-atom-editor-git
+
+pkgbase = mingw-w64-atom-editor-git
+	pkgdesc = Cross-platform desktop application shell (mingw-w64)
+	pkgver = r18372.d4f7e71
+	pkgrel = 2
+	url = https://atom.io
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-ninja
+	makedepends = mingw-w64-i686-python2
+	makedepends = git
+	depends = mingw-w64-i686-nodejs
+	source = atom-editor-i686::git+https://github.com/atom/atom#branch=master
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-atom-editor-git
+

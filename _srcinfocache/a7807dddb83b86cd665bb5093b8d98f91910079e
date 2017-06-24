@@ -1,0 +1,36 @@
+pkgbase = msys2-w32api-headers
+	pkgdesc = Win32 API headers for MSYS2 32bit toolchain
+	pkgver = 5.0.0.4766.db8f08d
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	groups = msys2-devel
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-cross-gcc
+	options = staticlibs
+	options = !buildflags
+	source = mingw-w64::git+https://git.code.sf.net/p/mingw-w64/mingw-w64
+	sha256sums = SKIP
+
+pkgname = msys2-w32api-headers
+
+pkgbase = msys2-w32api-headers
+	pkgdesc = Win32 API headers for MSYS2 32bit toolchain
+	pkgver = 5.0.0.4766.db8f08d
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	groups = msys2-devel
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-cross-gcc
+	options = staticlibs
+	options = !buildflags
+	source = mingw-w64::git+https://git.code.sf.net/p/mingw-w64/mingw-w64
+	sha256sums = SKIP
+
+pkgname = msys2-w32api-headers
+

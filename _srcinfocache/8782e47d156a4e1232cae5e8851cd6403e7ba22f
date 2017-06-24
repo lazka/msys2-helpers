@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-gnome-js-common
+	pkgdesc = GNOME JavaScript common modules (mingw-w64)
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://wiki.gnome.org/action/show/Projects/Seed
+	arch = any
+	license = GPL3
+	makedepends = intltool
+	source = https://download.gnome.org/sources/gnome-js-common/0.1/gnome-js-common-0.1.2.tar.bz2
+	sha256sums = 1765be99f3d83cc57e1ec13a2bb963469b8e91b60239eeaab61d66d7744496e6
+
+pkgname = mingw-w64-x86_64-gnome-js-common
+
+pkgbase = mingw-w64-gnome-js-common
+	pkgdesc = GNOME JavaScript common modules (mingw-w64)
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://wiki.gnome.org/action/show/Projects/Seed
+	arch = any
+	license = GPL3
+	makedepends = intltool
+	source = https://download.gnome.org/sources/gnome-js-common/0.1/gnome-js-common-0.1.2.tar.bz2
+	sha256sums = 1765be99f3d83cc57e1ec13a2bb963469b8e91b60239eeaab61d66d7744496e6
+
+pkgname = mingw-w64-i686-gnome-js-common
+

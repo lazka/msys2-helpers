@@ -1,0 +1,68 @@
+pkgbase = aspell
+	pkgdesc = a Free and Open Source spell checker (libraries)
+	pkgver = 0.60.6.1
+	pkgrel = 1
+	url = http://aspell.net/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = LGPL
+	makedepends = gcc
+	makedepends = gettext-devel
+	makedepends = libiconv-devel
+	makedepends = ncurses-devel
+	source = https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+	source = https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz.sig
+	source = msys-platform.patch
+	sha256sums = f52583a83a63633701c5f71db3dc40aab87b7f76b29723aeb27941eff42df6e1
+	sha256sums = SKIP
+	sha256sums = ed9a09ee29c031b979b76a9146c60fadd8c591b072f09c1a29fd640be0bbca8a
+
+pkgname = aspell
+	depends = gcc-libs
+	depends = gettext
+	depends = libiconv
+	depends = ncurses
+
+pkgname = aspell-devel
+	pkgdesc = Aspell headers and libraries (development)
+	groups = development
+	depends = aspell=0.60.6.1
+	depends = gettext-devel
+	depends = libiconv-devel
+	depends = ncurses-devel
+
+pkgbase = aspell
+	pkgdesc = a Free and Open Source spell checker (libraries)
+	pkgver = 0.60.6.1
+	pkgrel = 1
+	url = http://aspell.net/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = LGPL
+	makedepends = gcc
+	makedepends = gettext-devel
+	makedepends = libiconv-devel
+	makedepends = ncurses-devel
+	source = https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz
+	source = https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz.sig
+	source = msys-platform.patch
+	sha256sums = f52583a83a63633701c5f71db3dc40aab87b7f76b29723aeb27941eff42df6e1
+	sha256sums = SKIP
+	sha256sums = ed9a09ee29c031b979b76a9146c60fadd8c591b072f09c1a29fd640be0bbca8a
+
+pkgname = aspell
+	depends = gcc-libs
+	depends = gettext
+	depends = libiconv
+	depends = ncurses
+
+pkgname = aspell-devel
+	pkgdesc = Aspell headers and libraries (development)
+	groups = development
+	depends = aspell=0.60.6.1
+	depends = gettext-devel
+	depends = libiconv-devel
+	depends = ncurses-devel
+

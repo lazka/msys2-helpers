@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-libxml++
+	pkgdesc = C++ wrapper for the libxml2 XML parser library (mingw-w64)
+	pkgver = 3.0.0
+	pkgrel = 2
+	url = https://libxmlplusplus.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-glibmm
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/libxml++/3.0/libxml++-3.0.0.tar.xz
+	sha256sums = 2ff3640417729d357bada2e3049061642e0b078c323a8e0d37ae68df96547952
+
+pkgname = mingw-w64-x86_64-libxml++
+
+pkgbase = mingw-w64-libxml++
+	pkgdesc = C++ wrapper for the libxml2 XML parser library (mingw-w64)
+	pkgver = 3.0.0
+	pkgrel = 2
+	url = https://libxmlplusplus.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-glibmm
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/libxml++/3.0/libxml++-3.0.0.tar.xz
+	sha256sums = 2ff3640417729d357bada2e3049061642e0b078c323a8e0d37ae68df96547952
+
+pkgname = mingw-w64-i686-libxml++
+

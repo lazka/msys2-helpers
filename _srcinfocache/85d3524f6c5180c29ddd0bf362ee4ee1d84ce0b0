@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-gst-plugins-base-git
+	pkgdesc = GStreamer Multimedia Framework Base Plugins (mingw-w64)
+	pkgver = r15566.a1a2a33
+	pkgrel = 1
+	url = https://gstreamer.freedesktop.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	depends = mingw-w64-x86_64-freetype
+	depends = mingw-w64-x86_64-libvorbis
+	depends = mingw-w64-x86_64-libtheora
+	depends = mingw-w64-x86_64-libvorbisidec
+	depends = mingw-w64-x86_64-pango
+	depends = mingw-w64-x86_64-gstreamer-git
+	depends = mingw-w64-x86_64-orc
+	provides = mingw-w64-x86_64-gst-plugins-base
+	conflicts = mingw-w64-x86_64-gst-plugins-base
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = gst-plugins-base::git+git://anongit.freedesktop.org/gstreamer/gst-plugins-base
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-gst-plugins-base-git
+
+pkgbase = mingw-w64-gst-plugins-base-git
+	pkgdesc = GStreamer Multimedia Framework Base Plugins (mingw-w64)
+	pkgver = r15566.a1a2a33
+	pkgrel = 1
+	url = https://gstreamer.freedesktop.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-gobject-introspection
+	depends = mingw-w64-i686-freetype
+	depends = mingw-w64-i686-libvorbis
+	depends = mingw-w64-i686-libtheora
+	depends = mingw-w64-i686-libvorbisidec
+	depends = mingw-w64-i686-pango
+	depends = mingw-w64-i686-gstreamer-git
+	depends = mingw-w64-i686-orc
+	provides = mingw-w64-i686-gst-plugins-base
+	conflicts = mingw-w64-i686-gst-plugins-base
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = gst-plugins-base::git+git://anongit.freedesktop.org/gstreamer/gst-plugins-base
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-gst-plugins-base-git
+

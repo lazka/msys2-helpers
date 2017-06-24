@@ -1,0 +1,38 @@
+pkgbase = cygrunsrv
+	pkgdesc = cygrunsrv is a windows services tool
+	pkgver = 1.62
+	pkgrel = 1
+	url = https://cygwin.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	depends = python2
+	source = cygrunsrv-1.62::git://sourceware.org/git/cygwin-apps/cygrunsrv.git#tag=rel1-62
+	source = msysize.patch
+	sha256sums = SKIP
+	sha256sums = d3c9f9dcc081d40d7624deed53ad29d0b4d90eb0d873f92a5519b5a0bef90ee6
+
+pkgname = cygrunsrv
+
+pkgbase = cygrunsrv
+	pkgdesc = cygrunsrv is a windows services tool
+	pkgver = 1.62
+	pkgrel = 1
+	url = https://cygwin.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	depends = python2
+	source = cygrunsrv-1.62::git://sourceware.org/git/cygwin-apps/cygrunsrv.git#tag=rel1-62
+	source = msysize.patch
+	sha256sums = SKIP
+	sha256sums = d3c9f9dcc081d40d7624deed53ad29d0b4d90eb0d873f92a5519b5a0bef90ee6
+
+pkgname = cygrunsrv
+

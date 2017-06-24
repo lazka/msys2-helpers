@@ -1,0 +1,66 @@
+pkgbase = bzip2
+	pkgdesc = A high-quality data compression program
+	pkgver = 1.0.6
+	pkgrel = 2
+	url = http://www.bzip.org
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = compression
+	license = custom
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	source = http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+	source = bzip2-1.0.6-msys-dll.patch
+	source = bzip2-1.0.6-msys2.patch
+	sha256sums = a2848f34fcd5d6cf47def00461fcb528a0484d8edef8208d6d2e2909dc61d9cd
+	sha256sums = 8af25c0df4a063b19855f7468b1c10b4c58159d317be67fe63013b6bed42fec0
+	sha256sums = faca1f994390b287b28a804ee4d8912759a67107227ab3bda320c6daf54cb944
+
+pkgname = bzip2
+	depends = libbz2
+
+pkgname = libbz2
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libbz2-devel
+	pkgdesc = Libbz2 headers and libraries
+	groups = development
+	depends = libbz2=1.0.6
+	options = staticlibs
+
+pkgbase = bzip2
+	pkgdesc = A high-quality data compression program
+	pkgver = 1.0.6
+	pkgrel = 2
+	url = http://www.bzip.org
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = compression
+	license = custom
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	source = http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+	source = bzip2-1.0.6-msys-dll.patch
+	source = bzip2-1.0.6-msys2.patch
+	sha256sums = a2848f34fcd5d6cf47def00461fcb528a0484d8edef8208d6d2e2909dc61d9cd
+	sha256sums = 8af25c0df4a063b19855f7468b1c10b4c58159d317be67fe63013b6bed42fec0
+	sha256sums = faca1f994390b287b28a804ee4d8912759a67107227ab3bda320c6daf54cb944
+
+pkgname = bzip2
+	depends = libbz2
+
+pkgname = libbz2
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libbz2-devel
+	pkgdesc = Libbz2 headers and libraries
+	groups = development
+	depends = libbz2=1.0.6
+	options = staticlibs
+

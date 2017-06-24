@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-cross-zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+	pkgver = 1.2.11
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	groups = mingw-w64-cross-toolchain
+	groups = mingw-w64-cross
+	license = custom
+	makedepends = mingw-w64-cross-gcc
+	options = staticlibs
+	options = !strip
+	options = !libtool
+	options = !emptydirs
+	options = !buildflags
+	source = http://zlib.net/current/zlib-1.2.11.tar.gz
+	source = 01-zlib-1.2.11-1-buildsys.mingw.patch
+	source = 02-no-undefined.mingw.patch
+	source = 03-dont-put-sodir-into-L.mingw.patch
+	sha256sums = c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1
+	sha256sums = ac91f905b695d71f6c9c471ac98c14a3ed989a1e2b2a3b1171b3f6dc6bfc31b4
+	sha256sums = 44e23000cc4cb7502f303aa252be17ffee66384fe76a66607dc1f4df0a815030
+	sha256sums = 3d039f42194aade91dadf4174f55fd6db349fd8044db93875bed1042dcfe1f31
+
+pkgname = mingw-w64-cross-zlib
+
+pkgbase = mingw-w64-cross-zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+	pkgver = 1.2.11
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	groups = mingw-w64-cross-toolchain
+	groups = mingw-w64-cross
+	license = custom
+	makedepends = mingw-w64-cross-gcc
+	options = staticlibs
+	options = !strip
+	options = !libtool
+	options = !emptydirs
+	options = !buildflags
+	source = http://zlib.net/current/zlib-1.2.11.tar.gz
+	source = 01-zlib-1.2.11-1-buildsys.mingw.patch
+	source = 02-no-undefined.mingw.patch
+	source = 03-dont-put-sodir-into-L.mingw.patch
+	sha256sums = c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1
+	sha256sums = ac91f905b695d71f6c9c471ac98c14a3ed989a1e2b2a3b1171b3f6dc6bfc31b4
+	sha256sums = 44e23000cc4cb7502f303aa252be17ffee66384fe76a66607dc1f4df0a815030
+	sha256sums = 3d039f42194aade91dadf4174f55fd6db349fd8044db93875bed1042dcfe1f31
+
+pkgname = mingw-w64-cross-zlib
+

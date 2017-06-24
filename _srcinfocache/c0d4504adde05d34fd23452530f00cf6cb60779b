@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-libmangle-git
+	pkgdesc = MinGW-w64 libmangle
+	pkgver = 5.0.0.4760.d3089b5
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = any
+	groups = mingw-w64-x86_64-toolchain
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-binutils
+	makedepends = mingw-w64-x86_64-crt-git
+	makedepends = mingw-w64-x86_64-headers-git
+	provides = mingw-w64-x86_64-libmangle
+	conflicts = mingw-w64-x86_64-libmangle
+	replaces = mingw-w64-x86_64-libmangle-svn
+	options = strip
+	options = staticlibs
+	options = !emptydirs
+	source = mingw-w64::git+https://git.code.sf.net/p/mingw-w64/mingw-w64
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libmangle-git
+
+pkgbase = mingw-w64-libmangle-git
+	pkgdesc = MinGW-w64 libmangle
+	pkgver = 5.0.0.4760.d3089b5
+	pkgrel = 1
+	url = https://mingw-w64.sourceforge.io/
+	arch = any
+	groups = mingw-w64-i686-toolchain
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-binutils
+	makedepends = mingw-w64-i686-crt-git
+	makedepends = mingw-w64-i686-headers-git
+	provides = mingw-w64-i686-libmangle
+	conflicts = mingw-w64-i686-libmangle
+	replaces = mingw-w64-i686-libmangle-svn
+	options = strip
+	options = staticlibs
+	options = !emptydirs
+	source = mingw-w64::git+https://git.code.sf.net/p/mingw-w64/mingw-w64
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libmangle-git
+

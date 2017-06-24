@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-hicolor-icon-theme
+	pkgdesc = Freedesktop.org Hicolor icon theme (mingw-w64)
+	pkgver = 0.15
+	pkgrel = 2
+	url = https://wiki.freedesktop.org/www/Software/icon-theme/
+	install = hicolor-icon-theme-x86_64.install
+	arch = any
+	license = GPL2
+	makedepends = mingw-w64-x86_64-gcc
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.15.tar.xz
+	sha256sums = 9cc45ac3318c31212ea2d8cb99e64020732393ee7630fa6c1810af5f987033cc
+
+pkgname = mingw-w64-x86_64-hicolor-icon-theme
+
+pkgbase = mingw-w64-hicolor-icon-theme
+	pkgdesc = Freedesktop.org Hicolor icon theme (mingw-w64)
+	pkgver = 0.15
+	pkgrel = 2
+	url = https://wiki.freedesktop.org/www/Software/icon-theme/
+	install = hicolor-icon-theme-i686.install
+	arch = any
+	license = GPL2
+	makedepends = mingw-w64-i686-gcc
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.15.tar.xz
+	sha256sums = 9cc45ac3318c31212ea2d8cb99e64020732393ee7630fa6c1810af5f987033cc
+
+pkgname = mingw-w64-i686-hicolor-icon-theme
+

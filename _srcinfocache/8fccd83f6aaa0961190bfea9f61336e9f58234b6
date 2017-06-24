@@ -1,0 +1,60 @@
+pkgbase = libiconv
+	pkgdesc = Libiconv is a conversion library
+	pkgver = 1.14
+	pkgrel = 2
+	url = https://www.gnu.org/software/libiconv/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = LGPL
+	options = !libtool
+	source = https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz
+	source = 1.14-cross-install.patch
+	source = libiconv-1.14-reloc.patch
+	source = libiconv-1.14-wchar.patch
+	source = msys2-libiconv-1.14.patch
+	sha256sums = 72b24ded17d687193c3366d0ebe7cde1e6b18f0df8c55438ac95be39e8a30613
+	sha256sums = 0891f33528131003939c5e7fa610384834d580e80396f411de0b9f26ec1c520f
+	sha256sums = ed5d4365512781b9b23473cc375a4a2c1491eae31b13b76cda2d55751bff5cdf
+	sha256sums = d2a57c55683361e49e30ed0de10942e7fe4f4392dc47fe8a24c7b67b21ce9dd7
+	sha256sums = 2ec4b97974e60681d843fbd766e18df6df2a7c90a3ff8ccb709ad65edd649689
+
+pkgname = libiconv
+	depends = gcc-libs
+
+pkgname = libiconv-devel
+	pkgdesc = libiconv headers and libraries
+	groups = development
+	depends = libiconv=1.14
+	options = staticlibs
+
+pkgbase = libiconv
+	pkgdesc = Libiconv is a conversion library
+	pkgver = 1.14
+	pkgrel = 2
+	url = https://www.gnu.org/software/libiconv/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = LGPL
+	options = !libtool
+	source = https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz
+	source = 1.14-cross-install.patch
+	source = libiconv-1.14-reloc.patch
+	source = libiconv-1.14-wchar.patch
+	source = msys2-libiconv-1.14.patch
+	sha256sums = 72b24ded17d687193c3366d0ebe7cde1e6b18f0df8c55438ac95be39e8a30613
+	sha256sums = 0891f33528131003939c5e7fa610384834d580e80396f411de0b9f26ec1c520f
+	sha256sums = ed5d4365512781b9b23473cc375a4a2c1491eae31b13b76cda2d55751bff5cdf
+	sha256sums = d2a57c55683361e49e30ed0de10942e7fe4f4392dc47fe8a24c7b67b21ce9dd7
+	sha256sums = 2ec4b97974e60681d843fbd766e18df6df2a7c90a3ff8ccb709ad65edd649689
+
+pkgname = libiconv
+	depends = gcc-libs
+
+pkgname = libiconv-devel
+	pkgdesc = libiconv headers and libraries
+	groups = development
+	depends = libiconv=1.14
+	options = staticlibs
+

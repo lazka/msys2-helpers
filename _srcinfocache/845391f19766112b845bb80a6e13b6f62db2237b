@@ -1,0 +1,54 @@
+pkgbase = automake1.12
+	pkgdesc = A GNU tool for automatically creating Makefiles
+	pkgver = 1.12.6
+	pkgrel = 3
+	url = https://www.gnu.org/software/automake
+	install = automake.install
+	arch = any
+	groups = base-devel
+	license = GPL
+	checkdepends = dejagnu
+	checkdepends = python2
+	makedepends = autoconf
+	depends = perl
+	depends = bash
+	source = https://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.xz
+	source = https://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.xz.sig
+	source = automake-1.14-msys2.patch
+	source = automake1.12-documentation.patch
+	source = automake-1.12-perl-escape-curly-bracket.patch
+	sha256sums = f834ab2145b1ee24bd85387950044f5cb418dd0af2b84c52e60c2bf29162dbfa
+	sha256sums = SKIP
+	sha256sums = 76ac48cce5b6d48dfbd2659e3aeb10144acc932269c94fbed8d6335da773090b
+	sha256sums = 0f0df05d1e9ba59362e6a9484db117e922d0c531836eccf434c5569edb68bf38
+	sha256sums = dc3566c450efe446799800b88185101f625ef4091d7f39bcb05325eaf4604f5c
+
+pkgname = automake1.12
+
+pkgbase = automake1.12
+	pkgdesc = A GNU tool for automatically creating Makefiles
+	pkgver = 1.12.6
+	pkgrel = 3
+	url = https://www.gnu.org/software/automake
+	install = automake.install
+	arch = any
+	groups = base-devel
+	license = GPL
+	checkdepends = dejagnu
+	checkdepends = python2
+	makedepends = autoconf
+	depends = perl
+	depends = bash
+	source = https://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.xz
+	source = https://ftp.gnu.org/gnu/automake/automake-1.12.6.tar.xz.sig
+	source = automake-1.14-msys2.patch
+	source = automake1.12-documentation.patch
+	source = automake-1.12-perl-escape-curly-bracket.patch
+	sha256sums = f834ab2145b1ee24bd85387950044f5cb418dd0af2b84c52e60c2bf29162dbfa
+	sha256sums = SKIP
+	sha256sums = 76ac48cce5b6d48dfbd2659e3aeb10144acc932269c94fbed8d6335da773090b
+	sha256sums = 0f0df05d1e9ba59362e6a9484db117e922d0c531836eccf434c5569edb68bf38
+	sha256sums = dc3566c450efe446799800b88185101f625ef4091d7f39bcb05325eaf4604f5c
+
+pkgname = automake1.12
+

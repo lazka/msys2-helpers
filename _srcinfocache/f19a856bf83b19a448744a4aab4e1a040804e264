@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-enchant
+	pkgdesc = Enchanting Spell Checking Library (mingw-w64)
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://abiword.github.io/enchant/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-aspell
+	depends = mingw-w64-x86_64-hunspell
+	options = !libtool
+	options = strip
+	options = !debug
+	options = !makeflags
+	source = https://github.com/AbiWord/enchant/releases/download/enchant-1-6-1/enchant-1.6.1.tar.gz
+	source = 01-relocate.patch
+	source = 01-not-use-hardcoded-paths.patch
+	source = 02-build-fixes.patch
+	sha256sums = bef0d9c0fef2e4e8746956b68e4d6c6641f6b85bd2908d91731efb68eba9e3f5
+	sha256sums = b245913e77b77352d3015b938fb213bef9422152a1466b290804a86bdc2aee1c
+	sha256sums = 131c9f90f6a77c5e9117ebd141e9a36cae0d964463557b94524c7f1ce892dd71
+	sha256sums = 1d73dc36d49bd6bf3996ae0315039ff2af0454f80118c973c9ace99deb98f5d4
+
+pkgname = mingw-w64-x86_64-enchant
+
+pkgbase = mingw-w64-enchant
+	pkgdesc = Enchanting Spell Checking Library (mingw-w64)
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = https://abiword.github.io/enchant/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-aspell
+	depends = mingw-w64-i686-hunspell
+	options = !libtool
+	options = strip
+	options = !debug
+	options = !makeflags
+	source = https://github.com/AbiWord/enchant/releases/download/enchant-1-6-1/enchant-1.6.1.tar.gz
+	source = 01-relocate.patch
+	source = 01-not-use-hardcoded-paths.patch
+	source = 02-build-fixes.patch
+	sha256sums = bef0d9c0fef2e4e8746956b68e4d6c6641f6b85bd2908d91731efb68eba9e3f5
+	sha256sums = b245913e77b77352d3015b938fb213bef9422152a1466b290804a86bdc2aee1c
+	sha256sums = 131c9f90f6a77c5e9117ebd141e9a36cae0d964463557b94524c7f1ce892dd71
+	sha256sums = 1d73dc36d49bd6bf3996ae0315039ff2af0454f80118c973c9ace99deb98f5d4
+
+pkgname = mingw-w64-i686-enchant
+

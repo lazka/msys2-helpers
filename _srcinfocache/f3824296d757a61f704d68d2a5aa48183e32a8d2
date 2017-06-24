@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-libsodium
+	pkgdesc = P(ortable|ackageable) NaCl-based crypto library (mingw-w64)
+	pkgver = 1.0.12
+	pkgrel = 1
+	url = https://github.com/jedisct1/libsodium
+	arch = any
+	license = custom:ISC
+	depends = mingw-w64-x86_64-gcc-libs
+	source = https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz
+	source = https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz.sig
+	validpgpkeys = 54A2B8892CC3D6A597B92B6C210627AABA709FE1
+	sha256sums = b8648f1bb3a54b0251cf4ffa4f0d76ded13977d4fa7517d988f4c902dd8e2f95
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libsodium
+
+pkgbase = mingw-w64-libsodium
+	pkgdesc = P(ortable|ackageable) NaCl-based crypto library (mingw-w64)
+	pkgver = 1.0.12
+	pkgrel = 1
+	url = https://github.com/jedisct1/libsodium
+	arch = any
+	license = custom:ISC
+	depends = mingw-w64-i686-gcc-libs
+	source = https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz
+	source = https://download.libsodium.org/libsodium/releases/libsodium-1.0.12.tar.gz.sig
+	validpgpkeys = 54A2B8892CC3D6A597B92B6C210627AABA709FE1
+	sha256sums = b8648f1bb3a54b0251cf4ffa4f0d76ded13977d4fa7517d988f4c902dd8e2f95
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libsodium
+

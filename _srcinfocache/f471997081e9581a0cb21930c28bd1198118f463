@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-desktop-file-utils
+	pkgdesc = Utilities for .desktop files (mingw-w64)
+	pkgver = 0.23
+	pkgrel = 1
+	url = http://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = gtk-doc
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-libxml2
+	options = !strip
+	options = debug
+	options = staticlibs
+	source = http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz
+	source = 001-win.patch
+	sha256sums = 6c094031bdec46c9f621708f919084e1cb5294e2c5b1e4c883b3e70cb8903385
+	sha256sums = 477686cf08eaf80f5ee7f474cd6fb67361539f625c88fb9483ce600c5c8a73df
+
+pkgname = mingw-w64-x86_64-desktop-file-utils
+
+pkgbase = mingw-w64-desktop-file-utils
+	pkgdesc = Utilities for .desktop files (mingw-w64)
+	pkgver = 0.23
+	pkgrel = 1
+	url = http://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = gtk-doc
+	makedepends = mingw-w64-i686-vala
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-libxml2
+	options = !strip
+	options = debug
+	options = staticlibs
+	source = http://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz
+	source = 001-win.patch
+	sha256sums = 6c094031bdec46c9f621708f919084e1cb5294e2c5b1e4c883b3e70cb8903385
+	sha256sums = 477686cf08eaf80f5ee7f474cd6fb67361539f625c88fb9483ce600c5c8a73df
+
+pkgname = mingw-w64-i686-desktop-file-utils
+

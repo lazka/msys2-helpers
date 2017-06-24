@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-qt-solutions-git
+	pkgdesc = Qt5 various components (mingw-w64)
+	pkgver = r47.ad9bc46
+	pkgrel = 1
+	url = https://qt.gitorious.org/qt-solutions
+	arch = any
+	license = bsd
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = git
+	depends = mingw-w64-x86_64-qt5
+	options = docs
+	options = staticlibs
+	options = !strip
+	source = qt-solutions::git+https://github.com/qtproject/qt-solutions.git
+	source = 0001-Don-t-install-the-libraries-in-win32.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-qt-solutions-git
+
+pkgbase = mingw-w64-qt-solutions-git
+	pkgdesc = Qt5 various components (mingw-w64)
+	pkgver = r47.ad9bc46
+	pkgrel = 1
+	url = https://qt.gitorious.org/qt-solutions
+	arch = any
+	license = bsd
+	makedepends = mingw-w64-i686-gcc
+	makedepends = git
+	depends = mingw-w64-i686-qt5
+	options = docs
+	options = staticlibs
+	options = !strip
+	source = qt-solutions::git+https://github.com/qtproject/qt-solutions.git
+	source = 0001-Don-t-install-the-libraries-in-win32.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-qt-solutions-git
+

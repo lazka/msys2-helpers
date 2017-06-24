@@ -1,0 +1,70 @@
+pkgbase = mingw-w64-gobject-introspection
+	pkgver = 1.52.1
+	pkgrel = 0
+	url = https://live.gnome.org/GObjectIntrospection
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cairo
+	makedepends = mingw-w64-x86_64-glib2
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python2-mako
+	source = https://download.gnome.org/sources/gobject-introspection/1.52/gobject-introspection-1.52.1.tar.xz
+	source = 0001-Revert-Windows-port-Work-arount-MSYS-weirdness-where.patch
+	source = 0021-tests-no-undefined.patch
+	source = 0022-change-pkg-config-invocations.mingw.patch
+	source = 0024-Support-passing-arguments-to-g-ir-scanner-through-a-.all.patch
+	source = 0025-more-tolerant-rmtreeing.patch
+	source = 0026-giscanner-assertions-and-waits.patch
+	source = 0027-wait-for-xml-parse-too.patch
+	source = 0055-fix-python-detection.patch
+	sha256sums = 2ed0c38d52fe1aa6fc4def0c868fe481cb87b532fc694756b26d6cfab29faff4
+	sha256sums = f84df99e1ce5a3a0b640ef172de068958eb0b3d0be43a454dd86e6ccb8cfc386
+	sha256sums = 663bb39764058b1de1591765f9f465dd69eeae16fcf56b82a3692560849dacae
+	sha256sums = bb5f48047613216a6c3c652e0ef65c099475ffdddbea4a835b5a51279d7755ac
+	sha256sums = f4c2c87edf6ac4c993361fa8c5cb95f52fed5a21723148a1bc099e29702fe901
+	sha256sums = f7fa69b6af7571371b1e162cacac05fc2a2877d057dd61649948d973b74a9e8d
+	sha256sums = 19ca830262339c4ac9f21bfb8d669ee8e126a949a4237d55656e00c5ae81c451
+	sha256sums = 3f38bdd0dd43d9cf626cbca7c2abd22a7ed0213e6756252c6d467d470d9c5948
+	sha256sums = f61d099aa7cd37c437f01d98bb95c57c66f07c78028675ae19fac87f943d189d
+
+pkgname = mingw-w64-x86_64-gobject-introspection
+
+pkgname = mingw-w64-x86_64-gobject-introspection-runtime
+
+pkgbase = mingw-w64-gobject-introspection
+	pkgver = 1.52.1
+	pkgrel = 0
+	url = https://live.gnome.org/GObjectIntrospection
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cairo
+	makedepends = mingw-w64-i686-glib2
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python2-mako
+	source = https://download.gnome.org/sources/gobject-introspection/1.52/gobject-introspection-1.52.1.tar.xz
+	source = 0001-Revert-Windows-port-Work-arount-MSYS-weirdness-where.patch
+	source = 0021-tests-no-undefined.patch
+	source = 0022-change-pkg-config-invocations.mingw.patch
+	source = 0024-Support-passing-arguments-to-g-ir-scanner-through-a-.all.patch
+	source = 0025-more-tolerant-rmtreeing.patch
+	source = 0026-giscanner-assertions-and-waits.patch
+	source = 0027-wait-for-xml-parse-too.patch
+	source = 0055-fix-python-detection.patch
+	sha256sums = 2ed0c38d52fe1aa6fc4def0c868fe481cb87b532fc694756b26d6cfab29faff4
+	sha256sums = f84df99e1ce5a3a0b640ef172de068958eb0b3d0be43a454dd86e6ccb8cfc386
+	sha256sums = 663bb39764058b1de1591765f9f465dd69eeae16fcf56b82a3692560849dacae
+	sha256sums = bb5f48047613216a6c3c652e0ef65c099475ffdddbea4a835b5a51279d7755ac
+	sha256sums = f4c2c87edf6ac4c993361fa8c5cb95f52fed5a21723148a1bc099e29702fe901
+	sha256sums = f7fa69b6af7571371b1e162cacac05fc2a2877d057dd61649948d973b74a9e8d
+	sha256sums = 19ca830262339c4ac9f21bfb8d669ee8e126a949a4237d55656e00c5ae81c451
+	sha256sums = 3f38bdd0dd43d9cf626cbca7c2abd22a7ed0213e6756252c6d467d470d9c5948
+	sha256sums = f61d099aa7cd37c437f01d98bb95c57c66f07c78028675ae19fac87f943d189d
+
+pkgname = mingw-w64-i686-gobject-introspection
+
+pkgname = mingw-w64-i686-gobject-introspection-runtime
+

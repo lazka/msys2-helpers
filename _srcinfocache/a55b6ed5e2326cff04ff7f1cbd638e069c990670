@@ -1,0 +1,32 @@
+pkgbase = tree
+	pkgdesc = A directory listing program displaying a depth indented list of files
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = http://mama.indstate.edu/users/ice/tree/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = msys2-runtime
+	source = http://mama.indstate.edu/users/ice/tree/src/tree-1.7.0.tgz
+	source = Makefile-Uncomment-for-Cygwin.patch
+	sha256sums = 6957c20e82561ac4231638996e74f4cfa4e6faabc5a2f511f0b4e3940e8f7b12
+	sha256sums = 4e3b7f5448aa1d80ad7c449a1294b0a54836446ef1c5e76e83e78aba12526eb3
+
+pkgname = tree
+
+pkgbase = tree
+	pkgdesc = A directory listing program displaying a depth indented list of files
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = http://mama.indstate.edu/users/ice/tree/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = msys2-runtime
+	source = http://mama.indstate.edu/users/ice/tree/src/tree-1.7.0.tgz
+	source = Makefile-Uncomment-for-Cygwin.patch
+	sha256sums = 6957c20e82561ac4231638996e74f4cfa4e6faabc5a2f511f0b4e3940e8f7b12
+	sha256sums = 4e3b7f5448aa1d80ad7c449a1294b0a54836446ef1c5e76e83e78aba12526eb3
+
+pkgname = tree
+

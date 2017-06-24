@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-libc++
+	pkgdesc = A new implementation of the C++ standard library, targeting C++11.
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = http://libcxx.llvm.org
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = mingw-w64-x86_64-clang
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gcc-libs
+	source = http://www.llvm.org/releases/3.5.0/libcxx-3.5.0.src.tar.xz
+	source = http://www.llvm.org/releases/3.5.0/libcxx-3.5.0.src.tar.xz.sig
+	sha256sums = 8045da845a63e50c201939eda8290d45e5752a9385d4d626214300d4a4d0b1c0
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libc++
+
+pkgbase = mingw-w64-libc++
+	pkgdesc = A new implementation of the C++ standard library, targeting C++11.
+	pkgver = 3.5.0
+	pkgrel = 1
+	url = http://libcxx.llvm.org
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = mingw-w64-i686-clang
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gcc-libs
+	source = http://www.llvm.org/releases/3.5.0/libcxx-3.5.0.src.tar.xz
+	source = http://www.llvm.org/releases/3.5.0/libcxx-3.5.0.src.tar.xz.sig
+	sha256sums = 8045da845a63e50c201939eda8290d45e5752a9385d4d626214300d4a4d0b1c0
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libc++
+

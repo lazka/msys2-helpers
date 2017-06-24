@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-yaml-cpp0.3
+	pkgdesc = A YAML parser and emitter in C++ matching the YAML 1.2 spec (mingw-w64) - old version
+	pkgver = 0.3.0
+	pkgrel = 2
+	url = https://github.com/jbeder/yaml-cpp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-pkg-config
+	provides = mingw-w64-x86_64-yaml-cpp
+	conflicts = mingw-w64-x86_64-yaml-cpp
+	options = staticlibs
+	options = strip
+	source = yaml-cpp-0.3.0.tar.gz::https://github.com/jbeder/yaml-cpp/archive/release-0.3.0.tar.gz
+	source = mingw-install-pkgconfig.patch
+	sha256sums = ab8d0e07aa14f10224ed6682065569761f363ec44bc36fcdb2946f6d38fe5a89
+	sha256sums = 858915b03a300145a466bd68d3f95ff80738f0821f9bba5563b4fadb2dc4fffb
+
+pkgname = mingw-w64-x86_64-yaml-cpp0.3
+
+pkgbase = mingw-w64-yaml-cpp0.3
+	pkgdesc = A YAML parser and emitter in C++ matching the YAML 1.2 spec (mingw-w64) - old version
+	pkgver = 0.3.0
+	pkgrel = 2
+	url = https://github.com/jbeder/yaml-cpp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-pkg-config
+	provides = mingw-w64-i686-yaml-cpp
+	conflicts = mingw-w64-i686-yaml-cpp
+	options = staticlibs
+	options = strip
+	source = yaml-cpp-0.3.0.tar.gz::https://github.com/jbeder/yaml-cpp/archive/release-0.3.0.tar.gz
+	source = mingw-install-pkgconfig.patch
+	sha256sums = ab8d0e07aa14f10224ed6682065569761f363ec44bc36fcdb2946f6d38fe5a89
+	sha256sums = 858915b03a300145a466bd68d3f95ff80738f0821f9bba5563b4fadb2dc4fffb
+
+pkgname = mingw-w64-i686-yaml-cpp0.3
+

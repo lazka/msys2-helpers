@@ -1,0 +1,34 @@
+pkgbase = pacman-mirrors
+	pkgdesc = MSYS2 mirror list for use by pacman
+	pkgver = 20160323
+	pkgrel = 1
+	url = https://msys2.sourceforge.io/
+	arch = any
+	groups = base
+	license = GPL
+	source = mirrorlist.msys
+	source = mirrorlist.mingw32
+	source = mirrorlist.mingw64
+	sha256sums = 4fe493b79545cc2f9889723b0a04884e775f13f4ab381eb835d14965faca2c6f
+	sha256sums = 143e250eeee2e0511e439fe9762b2ceb5791e3b42508d46fb937117906c51d83
+	sha256sums = 84253e7e820e726ae9933b24754169920d9ed0eac5cf78cd0be8543891e7fc30
+
+pkgname = pacman-mirrors
+
+pkgbase = pacman-mirrors
+	pkgdesc = MSYS2 mirror list for use by pacman
+	pkgver = 20160323
+	pkgrel = 1
+	url = https://msys2.sourceforge.io/
+	arch = any
+	groups = base
+	license = GPL
+	source = mirrorlist.msys
+	source = mirrorlist.mingw32
+	source = mirrorlist.mingw64
+	sha256sums = 4fe493b79545cc2f9889723b0a04884e775f13f4ab381eb835d14965faca2c6f
+	sha256sums = 143e250eeee2e0511e439fe9762b2ceb5791e3b42508d46fb937117906c51d83
+	sha256sums = 84253e7e820e726ae9933b24754169920d9ed0eac5cf78cd0be8543891e7fc30
+
+pkgname = pacman-mirrors
+

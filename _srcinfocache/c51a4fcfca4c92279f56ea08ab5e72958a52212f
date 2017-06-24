@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-nim
+	pkgdesc = Imperative, multi-paradigm, compiled programming language (mingw-w64)
+	pkgver = 0.11.2
+	pkgrel = 1
+	url = http://nim-lang.org/
+	arch = any
+	license = MIT
+	makedepends = git
+	options = !emptydirs
+	source = nim::git+https://github.com/Araq/Nim.git#tag=v0.11.2
+	source = nim-build::git+https://github.com/nim-lang/csources
+	source = 0001-Use-unixy-filenames-even-on-Windows.patch
+	source = 0002-Recognize-mingw-in-build.sh.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 3010acbe7769ea214dd51f5889e3a26b44925001905deb04b060beaede2578f4
+	sha256sums = e53a63a6dc17de6fedebe994c6ae1ac4ea862b10952bf5ffdb690e580a3e69ba
+
+pkgname = mingw-w64-x86_64-nim
+
+pkgbase = mingw-w64-nim
+	pkgdesc = Imperative, multi-paradigm, compiled programming language (mingw-w64)
+	pkgver = 0.11.2
+	pkgrel = 1
+	url = http://nim-lang.org/
+	arch = any
+	license = MIT
+	makedepends = git
+	options = !emptydirs
+	source = nim::git+https://github.com/Araq/Nim.git#tag=v0.11.2
+	source = nim-build::git+https://github.com/nim-lang/csources
+	source = 0001-Use-unixy-filenames-even-on-Windows.patch
+	source = 0002-Recognize-mingw-in-build.sh.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 3010acbe7769ea214dd51f5889e3a26b44925001905deb04b060beaede2578f4
+	sha256sums = e53a63a6dc17de6fedebe994c6ae1ac4ea862b10952bf5ffdb690e580a3e69ba
+
+pkgname = mingw-w64-i686-nim
+

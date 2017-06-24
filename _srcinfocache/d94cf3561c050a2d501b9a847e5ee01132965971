@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-dnscrypt-proxy
+	pkgdesc = A tool for securing communications between a client and a DNS resolver (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 2
+	url = https://dnscrypt.org
+	arch = any
+	license = custom:ISC
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-libsodium
+	depends = mingw-w64-x86_64-ldns
+	source = https://download.dnscrypt.org/dnscrypt-proxy/dnscrypt-proxy-1.6.0.tar.bz2
+	source = 001-outside-source-build.patch
+	sha256sums = e0cce91dc6ab4ed76478579a899b2abb888b1d7ed133cb55294c2f9ce24edc7d
+	sha256sums = 43603ce61b663e17823e529e528a351d31e3665f262e7c749f5a0508fda1fc08
+
+pkgname = mingw-w64-x86_64-dnscrypt-proxy
+
+pkgbase = mingw-w64-dnscrypt-proxy
+	pkgdesc = A tool for securing communications between a client and a DNS resolver (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 2
+	url = https://dnscrypt.org
+	arch = any
+	license = custom:ISC
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-libsodium
+	depends = mingw-w64-i686-ldns
+	source = https://download.dnscrypt.org/dnscrypt-proxy/dnscrypt-proxy-1.6.0.tar.bz2
+	source = 001-outside-source-build.patch
+	sha256sums = e0cce91dc6ab4ed76478579a899b2abb888b1d7ed133cb55294c2f9ce24edc7d
+	sha256sums = 43603ce61b663e17823e529e528a351d31e3665f262e7c749f5a0508fda1fc08
+
+pkgname = mingw-w64-i686-dnscrypt-proxy
+

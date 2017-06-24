@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-glslang
+	pkgdesc = An OpenGL and OpenGL ES shader front end and validator (mingw-w64)
+	pkgver = 3.0.git2.eee9d53
+	pkgrel = 1
+	url = https://github.com/KhronosGroup/glslang
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = git
+	depends = mingw-w64-x86_64-gcc-libs
+	source = git://github.com/KhronosGroup/glslang.git#commit=eee9d53
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-glslang
+
+pkgbase = mingw-w64-glslang
+	pkgdesc = An OpenGL and OpenGL ES shader front end and validator (mingw-w64)
+	pkgver = 3.0.git2.eee9d53
+	pkgrel = 1
+	url = https://github.com/KhronosGroup/glslang
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-cmake
+	makedepends = git
+	depends = mingw-w64-i686-gcc-libs
+	source = git://github.com/KhronosGroup/glslang.git#commit=eee9d53
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-glslang
+

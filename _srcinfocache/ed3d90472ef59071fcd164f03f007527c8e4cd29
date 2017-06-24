@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-make
+	pkgdesc = GNU make utility to maintain groups of programs (mingw-w64)
+	pkgver = 4.2.1
+	pkgrel = 1
+	url = https://www.gnu.org/software/make
+	arch = any
+	groups = mingw-w64-x86_64-toolchain
+	license = GPL3
+	makedepends = wget
+	source = https://ftp.gnu.org/gnu/make/make-4.2.1.tar.bz2
+	source = make-getopt.patch
+	source = make-linebuf-mingw.patch
+	sha256sums = d6e262bf3601b42d2b1e4ef8310029e1dcf20083c5446b4b7aa67081fdffc589
+	sha256sums = 15a86d5143c9ec6337bdd69fecb7c33c36e4fd925528dc1498b0bc4fbd31b0bb
+	sha256sums = cbb8c0a1bdd6e8174febce01946bd42da26dfcb73a7338c0a1df89ac6b8e157b
+
+pkgname = mingw-w64-x86_64-make
+
+pkgbase = mingw-w64-make
+	pkgdesc = GNU make utility to maintain groups of programs (mingw-w64)
+	pkgver = 4.2.1
+	pkgrel = 1
+	url = https://www.gnu.org/software/make
+	arch = any
+	groups = mingw-w64-i686-toolchain
+	license = GPL3
+	makedepends = wget
+	source = https://ftp.gnu.org/gnu/make/make-4.2.1.tar.bz2
+	source = make-getopt.patch
+	source = make-linebuf-mingw.patch
+	sha256sums = d6e262bf3601b42d2b1e4ef8310029e1dcf20083c5446b4b7aa67081fdffc589
+	sha256sums = 15a86d5143c9ec6337bdd69fecb7c33c36e4fd925528dc1498b0bc4fbd31b0bb
+	sha256sums = cbb8c0a1bdd6e8174febce01946bd42da26dfcb73a7338c0a1df89ac6b8e157b
+
+pkgname = mingw-w64-i686-make
+

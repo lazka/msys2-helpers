@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-flatbuffers
+	pkgdesc = Memory Efficient Serialization Library (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://google.github.io/flatbuffers/
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-libsystre
+	noextract = flatbuffers-1.6.0.tar.gz
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = flatbuffers-1.6.0.tar.gz::https://github.com/google/flatbuffers/archive/v1.6.0.tar.gz
+	source = flatbuffers-1.6.0.patch
+	sha256sums = 768c50ebf5823f8cde81a9e38ffff115c8f5a5d031a37520d0024e7b9c6cd22e
+	sha256sums = 161decf2841de95bf91c69226e25b0ab4ee882d019d25c0276039575ce707993
+
+pkgname = mingw-w64-x86_64-flatbuffers
+
+pkgbase = mingw-w64-flatbuffers
+	pkgdesc = Memory Efficient Serialization Library (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://google.github.io/flatbuffers/
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-libsystre
+	noextract = flatbuffers-1.6.0.tar.gz
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = flatbuffers-1.6.0.tar.gz::https://github.com/google/flatbuffers/archive/v1.6.0.tar.gz
+	source = flatbuffers-1.6.0.patch
+	sha256sums = 768c50ebf5823f8cde81a9e38ffff115c8f5a5d031a37520d0024e7b9c6cd22e
+	sha256sums = 161decf2841de95bf91c69226e25b0ab4ee882d019d25c0276039575ce707993
+
+pkgname = mingw-w64-i686-flatbuffers
+

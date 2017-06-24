@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-snappy
+	pkgdesc = A fast C++ compressor/decompressor library (mingw-w64)
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = hhttps://github.com/google/snappy
+	arch = any
+	license = New BSD License
+	checkdepends = mingw-w64-x86_64-lzo2
+	checkdepends = mingw-w64-x86_64-zlib
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = make
+	depends = mingw-w64-x86_64-gcc-libs
+	source = https://github.com/google/snappy/releases/download/1.1.4/snappy-1.1.4.tar.gz
+	source = 001-no-undefined.patch
+	source = 002-am_prog-ar.patch
+	sha256sums = 134bfe122fd25599bb807bb8130e7ba6d9bdb851e0b16efcb83ac4f5d0b70057
+	sha256sums = 3163a8cde8a0aef67498bb70975ff8f2f9b3dd075060c13472ef9b818e771faa
+	sha256sums = 88144991583e9b6cca6f00cfc4926305491601496a952e99e788898553debcc5
+
+pkgname = mingw-w64-x86_64-snappy
+
+pkgbase = mingw-w64-snappy
+	pkgdesc = A fast C++ compressor/decompressor library (mingw-w64)
+	pkgver = 1.1.4
+	pkgrel = 1
+	url = hhttps://github.com/google/snappy
+	arch = any
+	license = New BSD License
+	checkdepends = mingw-w64-i686-lzo2
+	checkdepends = mingw-w64-i686-zlib
+	makedepends = mingw-w64-i686-gcc
+	makedepends = make
+	depends = mingw-w64-i686-gcc-libs
+	source = https://github.com/google/snappy/releases/download/1.1.4/snappy-1.1.4.tar.gz
+	source = 001-no-undefined.patch
+	source = 002-am_prog-ar.patch
+	sha256sums = 134bfe122fd25599bb807bb8130e7ba6d9bdb851e0b16efcb83ac4f5d0b70057
+	sha256sums = 3163a8cde8a0aef67498bb70975ff8f2f9b3dd075060c13472ef9b818e771faa
+	sha256sums = 88144991583e9b6cca6f00cfc4926305491601496a952e99e788898553debcc5
+
+pkgname = mingw-w64-i686-snappy
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-gsettings-desktop-schemas
+	pkgdesc = Shared GSettings schemas for the desktop (mingw-w64)
+	pkgver = 3.24.0
+	pkgrel = 1
+	url = https://wiki.gnome.org/
+	install = schemas-x86_64.install
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = intltool
+	depends = mingw-w64-x86_64-glib2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gsettings-desktop-schemas/3.24/gsettings-desktop-schemas-3.24.0.tar.xz
+	sha256sums = f6573a3f661d22ff8a001cc2421d8647717f1c0e697e342d03c6102f29bbbb90
+
+pkgname = mingw-w64-x86_64-gsettings-desktop-schemas
+
+pkgbase = mingw-w64-gsettings-desktop-schemas
+	pkgdesc = Shared GSettings schemas for the desktop (mingw-w64)
+	pkgver = 3.24.0
+	pkgrel = 1
+	url = https://wiki.gnome.org/
+	install = schemas-i686.install
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = intltool
+	depends = mingw-w64-i686-glib2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gsettings-desktop-schemas/3.24/gsettings-desktop-schemas-3.24.0.tar.xz
+	sha256sums = f6573a3f661d22ff8a001cc2421d8647717f1c0e697e342d03c6102f29bbbb90
+
+pkgname = mingw-w64-i686-gsettings-desktop-schemas
+

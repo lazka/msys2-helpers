@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-x86_64-sgml-common
+	pkgdesc = Tools for maintaining centralized SGML catalogs. (mingw-w64)
+	pkgver = 0.6.3
+	pkgrel = 1
+	url = http://www.docbook.org/xml/
+	install = sgml-common-x86_64.install
+	arch = any
+	license = GPL
+	depends = sh
+	noextract = sgml-common-0.6.3.tgz
+	source = ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz
+	source = sgml-common-0.6.3-manpage-1.patch
+	source = sgml-common-0.6.3-sysconfdir.patch
+	sha512sums = 3c4a55f555596b2a6bf6af66c497679226e7b40625ac16832150488311cba7f9fc523435eea5837262a5517f5c09c4c0e07fe4a2cf02184d4027609c26e4bc0c
+	sha512sums = c584ff6e66e1d58456c07849bf96fedd3f1df0b93430f6301c4d4ab9906821dea0cbac82eada19197540b5e31f13febd04fadda5b6e2ba4b0b6ee8f0328292f7
+	sha512sums = 3385de6890d7370a8fa575e13aead270bd2b19687f40305867c3b208d671d3582f063109b11b0b39783a3b0e010f48e49e739cd44d11c1d5245fa6046271492a
+
+pkgname = mingw-w64-x86_64-sgml-common
+
+pkgbase = mingw-w64-i686-sgml-common
+	pkgdesc = Tools for maintaining centralized SGML catalogs. (mingw-w64)
+	pkgver = 0.6.3
+	pkgrel = 1
+	url = http://www.docbook.org/xml/
+	install = sgml-common-i686.install
+	arch = any
+	license = GPL
+	depends = sh
+	noextract = sgml-common-0.6.3.tgz
+	source = ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz
+	source = sgml-common-0.6.3-manpage-1.patch
+	source = sgml-common-0.6.3-sysconfdir.patch
+	sha512sums = 3c4a55f555596b2a6bf6af66c497679226e7b40625ac16832150488311cba7f9fc523435eea5837262a5517f5c09c4c0e07fe4a2cf02184d4027609c26e4bc0c
+	sha512sums = c584ff6e66e1d58456c07849bf96fedd3f1df0b93430f6301c4d4ab9906821dea0cbac82eada19197540b5e31f13febd04fadda5b6e2ba4b0b6ee8f0328292f7
+	sha512sums = 3385de6890d7370a8fa575e13aead270bd2b19687f40305867c3b208d671d3582f063109b11b0b39783a3b0e010f48e49e739cd44d11c1d5245fa6046271492a
+
+pkgname = mingw-w64-i686-sgml-common
+

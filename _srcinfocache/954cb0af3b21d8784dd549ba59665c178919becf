@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-dlfcn
+	pkgdesc = A wrapper for dlfcn to the Win32 API (mingw-w64)
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/dlfcn-win32/dlfcn-win32
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = dlfcn-1.1.1.tar.gz::https://github.com/dlfcn-win32/dlfcn-win32/archive/v1.1.1.tar.gz
+	source = unify-makefile.patch
+	sha256sums = 31434f96abc6978b80a437f072eebc6255d4f4c66fbd18aa073f3866a02b38a9
+	sha256sums = e1668cf99f3e41b51be6ff75f48350d761f19d501f7c70a5322b72b7e746bfea
+
+pkgname = mingw-w64-x86_64-dlfcn
+
+pkgbase = mingw-w64-dlfcn
+	pkgdesc = A wrapper for dlfcn to the Win32 API (mingw-w64)
+	pkgver = 1.1.1
+	pkgrel = 1
+	url = https://github.com/dlfcn-win32/dlfcn-win32
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = dlfcn-1.1.1.tar.gz::https://github.com/dlfcn-win32/dlfcn-win32/archive/v1.1.1.tar.gz
+	source = unify-makefile.patch
+	sha256sums = 31434f96abc6978b80a437f072eebc6255d4f4c66fbd18aa073f3866a02b38a9
+	sha256sums = e1668cf99f3e41b51be6ff75f48350d761f19d501f7c70a5322b72b7e746bfea
+
+pkgname = mingw-w64-i686-dlfcn
+

@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-python-pip
+	pkgdesc = An easy_install replacement for installing pypi python packages (mingw-w64)
+	pkgver = 9.0.1
+	pkgrel = 3
+	url = http://www.pip-installer.org/
+	arch = any
+	license = MIT
+	depends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-python2-setuptools
+	depends = mingw-w64-x86_64-python3
+	depends = mingw-w64-x86_64-python3-setuptools
+	noextract = pip-9.0.1.tar.gz
+	source = pip-9.0.1.tar.gz::https://github.com/pypa/pip/archive/9.0.1.tar.gz
+	sha256sums = d03fabbc4fbf2fbfc2f97307960aef2b3ca4c880ecda993dcc35957e33d7cd76
+
+pkgname = mingw-w64-x86_64-python2-pip
+	install = pip2-x86_64.install
+
+pkgname = mingw-w64-x86_64-python3-pip
+	install = pip3-x86_64.install
+
+pkgbase = mingw-w64-python-pip
+	pkgdesc = An easy_install replacement for installing pypi python packages (mingw-w64)
+	pkgver = 9.0.1
+	pkgrel = 3
+	url = http://www.pip-installer.org/
+	arch = any
+	license = MIT
+	depends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-python2-setuptools
+	depends = mingw-w64-i686-python3
+	depends = mingw-w64-i686-python3-setuptools
+	noextract = pip-9.0.1.tar.gz
+	source = pip-9.0.1.tar.gz::https://github.com/pypa/pip/archive/9.0.1.tar.gz
+	sha256sums = d03fabbc4fbf2fbfc2f97307960aef2b3ca4c880ecda993dcc35957e33d7cd76
+
+pkgname = mingw-w64-i686-python2-pip
+	install = pip2-i686.install
+
+pkgname = mingw-w64-i686-python3-pip
+	install = pip3-i686.install
+

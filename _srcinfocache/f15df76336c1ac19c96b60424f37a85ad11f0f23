@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-python-dateutil
+	pkgdesc = Provides powerful extensions to the standard datetime module (mingw-w64)
+	pkgver = 2.6.0
+	pkgrel = 3
+	url = http://labix.org/python-dateutil
+	arch = any
+	license = custom:PYTHON
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-six
+	makedepends = mingw-w64-x86_64-python3-six
+	source = https://github.com/dateutil/dateutil/releases/download/2.6.0/python-dateutil-2.6.0.tar.gz
+	source = https://github.com/dateutil/dateutil/releases/download/2.6.0/python-dateutil-2.6.0.tar.gz.asc
+	validpgpkeys = 6B49ACBADCF6BD1CA20667ABCD54FCE3D964BEFB
+	sha256sums = 62a2f8df3d66f878373fd0072eacf4ee52194ba302e00082828e0d263b0418d2
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-python2-dateutil
+
+pkgname = mingw-w64-x86_64-python3-dateutil
+
+pkgbase = mingw-w64-python-dateutil
+	pkgdesc = Provides powerful extensions to the standard datetime module (mingw-w64)
+	pkgver = 2.6.0
+	pkgrel = 3
+	url = http://labix.org/python-dateutil
+	arch = any
+	license = custom:PYTHON
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-six
+	makedepends = mingw-w64-i686-python3-six
+	source = https://github.com/dateutil/dateutil/releases/download/2.6.0/python-dateutil-2.6.0.tar.gz
+	source = https://github.com/dateutil/dateutil/releases/download/2.6.0/python-dateutil-2.6.0.tar.gz.asc
+	validpgpkeys = 6B49ACBADCF6BD1CA20667ABCD54FCE3D964BEFB
+	sha256sums = 62a2f8df3d66f878373fd0072eacf4ee52194ba302e00082828e0d263b0418d2
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-python2-dateutil
+
+pkgname = mingw-w64-i686-python3-dateutil
+

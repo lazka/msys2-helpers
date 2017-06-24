@@ -1,0 +1,48 @@
+pkgbase = unrar
+	pkgver = 5.3.7
+	pkgrel = 1
+	url = http://www.rarlab.com/rar_add.htm
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = custom
+	depends = gcc-libs
+	options = staticlibs
+	options = !makeflags
+	source = http://www.rarlab.com/rar/unrarsrc-5.3.7.tar.gz
+	source = build-dll.patch
+	sha256sums = 10b49c416df3ef38ad1d289b06d642c76f7cc44902adfc5bbed76096ef70d154
+	sha256sums = ab57259011a9b93f389fd646155b9ffb35f9290ee6ba2ffa5eef4d06bb061d45
+
+pkgname = unrar
+	pkgdesc = The RAR uncompression program
+	depends = gcc-libs
+
+pkgname = libunrar
+	pkgdesc = Library and header file for applications that use libunrar
+	depends = gcc-libs
+
+pkgbase = unrar
+	pkgver = 5.3.7
+	pkgrel = 1
+	url = http://www.rarlab.com/rar_add.htm
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = custom
+	depends = gcc-libs
+	options = staticlibs
+	options = !makeflags
+	source = http://www.rarlab.com/rar/unrarsrc-5.3.7.tar.gz
+	source = build-dll.patch
+	sha256sums = 10b49c416df3ef38ad1d289b06d642c76f7cc44902adfc5bbed76096ef70d154
+	sha256sums = ab57259011a9b93f389fd646155b9ffb35f9290ee6ba2ffa5eef4d06bb061d45
+
+pkgname = unrar
+	pkgdesc = The RAR uncompression program
+	depends = gcc-libs
+
+pkgname = libunrar
+	pkgdesc = Library and header file for applications that use libunrar
+	depends = gcc-libs
+

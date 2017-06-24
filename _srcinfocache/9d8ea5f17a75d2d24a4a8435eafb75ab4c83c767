@@ -1,0 +1,58 @@
+pkgbase = libgcrypt
+	pkgdesc = General purpose cryptographic library based on the code from GnuPG
+	pkgver = 1.6.4
+	pkgrel = 1
+	url = https://gnupg.org
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = libgpg-error-devel
+	depends = libgpg-error
+	options = !emptydirs
+	source = https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.6.4.tar.bz2
+	source = 1.5.0-win64.patch
+	source = libgcrypt-1.6.1-msys2.patch
+	sha256sums = c9bc2c7fe2e5f4ea13b0c74f9d24bcbb1ad889bb39297d8082aebf23f4336026
+	sha256sums = 88bd093a3caaac23d5dafda80851df83ee8e3057e98507e8063960e73e669418
+	sha256sums = b55ef89d5735bc929f9260d51e717da76cc62bfa8dac8e44826b6a676e8d922f
+
+pkgname = libgcrypt
+	install = libgcrypt.install
+	groups = libraries
+
+pkgname = libgcrypt-devel
+	pkgdesc = Libgcrypt headers and libraries
+	groups = development
+	depends = libgcrypt=1.6.4
+	depends = libgpg-error-devel
+	options = staticlibs
+
+pkgbase = libgcrypt
+	pkgdesc = General purpose cryptographic library based on the code from GnuPG
+	pkgver = 1.6.4
+	pkgrel = 1
+	url = https://gnupg.org
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = libgpg-error-devel
+	depends = libgpg-error
+	options = !emptydirs
+	source = https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.6.4.tar.bz2
+	source = 1.5.0-win64.patch
+	source = libgcrypt-1.6.1-msys2.patch
+	sha256sums = c9bc2c7fe2e5f4ea13b0c74f9d24bcbb1ad889bb39297d8082aebf23f4336026
+	sha256sums = 88bd093a3caaac23d5dafda80851df83ee8e3057e98507e8063960e73e669418
+	sha256sums = b55ef89d5735bc929f9260d51e717da76cc62bfa8dac8e44826b6a676e8d922f
+
+pkgname = libgcrypt
+	install = libgcrypt.install
+	groups = libraries
+
+pkgname = libgcrypt-devel
+	pkgdesc = Libgcrypt headers and libraries
+	groups = development
+	depends = libgcrypt=1.6.4
+	depends = libgpg-error-devel
+	options = staticlibs
+

@@ -1,0 +1,42 @@
+pkgbase = help2man
+	pkgdesc = Conversion tool to create man files
+	pkgver = 1.47.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/help2man/
+	install = help2man.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	depends = perl-Locale-Gettext
+	depends = libintl
+	source = https://ftp.gnu.org/gnu/help2man/help2man-1.47.3.tar.xz
+	source = https://ftp.gnu.org/gnu/help2man/help2man-1.47.3.tar.xz.sig
+	source = 1.40.4-cygwin-nls.patch
+	sha256sums = c232af6475ef65bee02770862a362f4c4c2e6c9967d39e987eb94cadcfc13856
+	sha256sums = SKIP
+	sha256sums = 6cf5541d6233b6c0ce0248ecb6376682646ee56f795b19906f0acc63d83de482
+
+pkgname = help2man
+
+pkgbase = help2man
+	pkgdesc = Conversion tool to create man files
+	pkgver = 1.47.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/help2man/
+	install = help2man.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	depends = perl-Locale-Gettext
+	depends = libintl
+	source = https://ftp.gnu.org/gnu/help2man/help2man-1.47.3.tar.xz
+	source = https://ftp.gnu.org/gnu/help2man/help2man-1.47.3.tar.xz.sig
+	source = 1.40.4-cygwin-nls.patch
+	sha256sums = c232af6475ef65bee02770862a362f4c4c2e6c9967d39e987eb94cadcfc13856
+	sha256sums = SKIP
+	sha256sums = 6cf5541d6233b6c0ce0248ecb6376682646ee56f795b19906f0acc63d83de482
+
+pkgname = help2man
+

@@ -1,0 +1,34 @@
+pkgbase = txt2tags
+	pkgdesc = A text formatting and conversion tool.
+	pkgver = 2.6
+	pkgrel = 4
+	url = http://www.txt2tags.org
+	arch = any
+	license = GPL
+	makedepends = gettext
+	depends = python2
+	optdepends = ruby: for running t2tmake.rb
+	optdepends = sh: for running html-update.sh
+	optdepends = vim: for using the vim-files
+	source = http://txt2tags.googlecode.com/files/txt2tags-2.6.tgz
+	md5sums = ac09fd624f1e3a553d5f0e01271cc0ee
+
+pkgname = txt2tags
+
+pkgbase = txt2tags
+	pkgdesc = A text formatting and conversion tool.
+	pkgver = 2.6
+	pkgrel = 4
+	url = http://www.txt2tags.org
+	arch = any
+	license = GPL
+	makedepends = gettext
+	depends = python2
+	optdepends = ruby: for running t2tmake.rb
+	optdepends = sh: for running html-update.sh
+	optdepends = vim: for using the vim-files
+	source = http://txt2tags.googlecode.com/files/txt2tags-2.6.tgz
+	md5sums = ac09fd624f1e3a553d5f0e01271cc0ee
+
+pkgname = txt2tags
+

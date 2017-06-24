@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-pluggy
+	pkgdesc = Plugin and hook calling mechanisms for python (mingw-w64)
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/pytest-dev/pluggy
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = https://pypi.org/packages/source/p/pluggy/pluggy-0.4.0.zip
+	sha256sums = dd841b5d290b252cf645f75f3bd37ceecfa0f36394ab313e4f785fe68a4081a4
+
+pkgname = mingw-w64-x86_64-python2-pluggy
+
+pkgname = mingw-w64-x86_64-python3-pluggy
+
+pkgbase = mingw-w64-python-pluggy
+	pkgdesc = Plugin and hook calling mechanisms for python (mingw-w64)
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/pytest-dev/pluggy
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = https://pypi.org/packages/source/p/pluggy/pluggy-0.4.0.zip
+	sha256sums = dd841b5d290b252cf645f75f3bd37ceecfa0f36394ab313e4f785fe68a4081a4
+
+pkgname = mingw-w64-i686-python2-pluggy
+
+pkgname = mingw-w64-i686-python3-pluggy
+

@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-msmtp
+	pkgdesc = An SMTP client (mingw-w64)
+	pkgver = 1.6.2
+	pkgrel = 1
+	url = https://msmtp.sourceforge.io/
+	arch = any
+	license = GPL2+
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gettext
+	depends = mingw-w64-x86_64-gnutls
+	depends = mingw-w64-x86_64-gsasl
+	depends = mingw-w64-x86_64-libffi
+	depends = mingw-w64-x86_64-libidn
+	depends = mingw-w64-x86_64-libwinpthread
+	options = strip
+	source = msmtp::git+https://git.code.sf.net/p/msmtp/code#tag=msmtp-1.6.2
+	source = 0001-include-winsock2.patch
+	source = 0002-dont-redefine-winver-constant.patch
+	sha256sums = SKIP
+	sha256sums = 3729fc8d9a11370324561a76cafe09035391e48c9a55876d1aaa5077944ebf8d
+	sha256sums = 0e8cf6e1b8975f2379437c416eff506dde69b26feaf41f91cf3eede32489b067
+
+pkgname = mingw-w64-x86_64-msmtp
+
+pkgbase = mingw-w64-msmtp
+	pkgdesc = An SMTP client (mingw-w64)
+	pkgver = 1.6.2
+	pkgrel = 1
+	url = https://msmtp.sourceforge.io/
+	arch = any
+	license = GPL2+
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gettext
+	depends = mingw-w64-i686-gnutls
+	depends = mingw-w64-i686-gsasl
+	depends = mingw-w64-i686-libffi
+	depends = mingw-w64-i686-libidn
+	depends = mingw-w64-i686-libwinpthread
+	options = strip
+	source = msmtp::git+https://git.code.sf.net/p/msmtp/code#tag=msmtp-1.6.2
+	source = 0001-include-winsock2.patch
+	source = 0002-dont-redefine-winver-constant.patch
+	sha256sums = SKIP
+	sha256sums = 3729fc8d9a11370324561a76cafe09035391e48c9a55876d1aaa5077944ebf8d
+	sha256sums = 0e8cf6e1b8975f2379437c416eff506dde69b26feaf41f91cf3eede32489b067
+
+pkgname = mingw-w64-i686-msmtp
+

@@ -1,0 +1,40 @@
+pkgbase = getent
+	pkgdesc = Get entries from Name Service Switch libraries
+	pkgver = 2.18.90
+	pkgrel = 2
+	url = https://www.gnu.org/software/libc/libc.html
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = LGPL
+	makedepends = libargp-devel
+	depends = libargp
+	source = getent-2.18.90.tar.gz
+	source = cygwin-getent.patch
+	source = msysize.patch
+	sha256sums = 290440924c7e1ba9cdb2b2a2629899bfc497024fb393de77907c6f8394e0259c
+	sha256sums = 260efd98496dc54537d133daa903ed3f329b833e9726ea3f2533c1710ce65b9e
+	sha256sums = ae576366f80d9beafe4863f23065a466efa1f5aa6c99493fd52ba2ee8d79566e
+
+pkgname = getent
+
+pkgbase = getent
+	pkgdesc = Get entries from Name Service Switch libraries
+	pkgver = 2.18.90
+	pkgrel = 2
+	url = https://www.gnu.org/software/libc/libc.html
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = LGPL
+	makedepends = libargp-devel
+	depends = libargp
+	source = getent-2.18.90.tar.gz
+	source = cygwin-getent.patch
+	source = msysize.patch
+	sha256sums = 290440924c7e1ba9cdb2b2a2629899bfc497024fb393de77907c6f8394e0259c
+	sha256sums = 260efd98496dc54537d133daa903ed3f329b833e9726ea3f2533c1710ce65b9e
+	sha256sums = ae576366f80d9beafe4863f23065a466efa1f5aa6c99493fd52ba2ee8d79566e
+
+pkgname = getent
+

@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-libspiro
+	pkgdesc = Simplifies the drawing of beautiful curves (mingw-w64)
+	pkgver = 0.5.20150702
+	pkgrel = 1
+	epoch = 1
+	url = https://libspiro.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	options = staticlibs
+	options = strip
+	source = libspiro-0.5.20150702.tar.gz::https://github.com/fontforge/libspiro/archive/0.5.20150702.tar.gz
+	sha256sums = 14f761d83c7fa6be31c4e0317251ed1201b367dc5b2a8678e2da179d74938fc7
+
+pkgname = mingw-w64-x86_64-libspiro
+
+pkgbase = mingw-w64-libspiro
+	pkgdesc = Simplifies the drawing of beautiful curves (mingw-w64)
+	pkgver = 0.5.20150702
+	pkgrel = 1
+	epoch = 1
+	url = https://libspiro.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	options = staticlibs
+	options = strip
+	source = libspiro-0.5.20150702.tar.gz::https://github.com/fontforge/libspiro/archive/0.5.20150702.tar.gz
+	sha256sums = 14f761d83c7fa6be31c4e0317251ed1201b367dc5b2a8678e2da179d74938fc7
+
+pkgname = mingw-w64-i686-libspiro
+

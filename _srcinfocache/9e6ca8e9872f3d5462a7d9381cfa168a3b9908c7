@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-asn1crypto
+	pkgdesc = Python ASN.1 library with a focus on performance and a pythonic API (mingw-w64)
+	pkgver = 0.22.0
+	pkgrel = 1
+	url = https://github.com/wbond/asn1crypto
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = asn1crypto-0.22.0.tar.gz::https://github.com/wbond/asn1crypto/archive/0.22.0.tar.gz
+	sha256sums = e0b36be480a1aef9290250053e880e2860203c4d2c284a63b57350931008c9ce
+
+pkgname = mingw-w64-x86_64-python2-asn1crypto
+
+pkgname = mingw-w64-x86_64-python3-asn1crypto
+
+pkgbase = mingw-w64-python-asn1crypto
+	pkgdesc = Python ASN.1 library with a focus on performance and a pythonic API (mingw-w64)
+	pkgver = 0.22.0
+	pkgrel = 1
+	url = https://github.com/wbond/asn1crypto
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = asn1crypto-0.22.0.tar.gz::https://github.com/wbond/asn1crypto/archive/0.22.0.tar.gz
+	sha256sums = e0b36be480a1aef9290250053e880e2860203c4d2c284a63b57350931008c9ce
+
+pkgname = mingw-w64-i686-python2-asn1crypto
+
+pkgname = mingw-w64-i686-python3-asn1crypto
+

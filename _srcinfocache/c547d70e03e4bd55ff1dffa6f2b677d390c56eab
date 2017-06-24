@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-osslsigncode
+	pkgdesc = Tool for Authenticode signing of PE, CAB and MSI files (mingw-w64)
+	pkgver = 1.7.1
+	pkgrel = 3
+	url = https://sourceforge.net/projects/osslsigncode/
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-curl
+	depends = mingw-w64-x86_64-libgsf
+	depends = mingw-w64-x86_64-openssl
+	source = https://downloads.sourceforge.net/osslsigncode/osslsigncode-1.7.1.tar.gz
+	sha256sums = f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9
+
+pkgname = mingw-w64-x86_64-osslsigncode
+
+pkgbase = mingw-w64-osslsigncode
+	pkgdesc = Tool for Authenticode signing of PE, CAB and MSI files (mingw-w64)
+	pkgver = 1.7.1
+	pkgrel = 3
+	url = https://sourceforge.net/projects/osslsigncode/
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-curl
+	depends = mingw-w64-i686-libgsf
+	depends = mingw-w64-i686-openssl
+	source = https://downloads.sourceforge.net/osslsigncode/osslsigncode-1.7.1.tar.gz
+	sha256sums = f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9
+
+pkgname = mingw-w64-i686-osslsigncode
+

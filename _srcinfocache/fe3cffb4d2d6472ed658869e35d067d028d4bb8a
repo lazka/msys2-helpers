@@ -1,0 +1,46 @@
+pkgbase = midipix-cross-psxstub
+	pkgdesc = Stub for the midipix system call layer
+	pkgver = 0.0.7.92a6ceb
+	pkgrel = 1
+	url = http://midipix.org
+	arch = i686
+	arch = x86_64
+	groups = midipix-cross-toolchain
+	groups = midipix-cross
+	makedepends = midipix-cross-gcc
+	makedepends = make
+	depends = zlib
+	provides = midipix-cross-psxscl
+	conflicts = midipix-cross-psxscl
+	options = !strip
+	options = staticlibs
+	options = !emptydirs
+	options = !buildflags
+	source = psxstub::git+git://midipix.org/psxstub
+	sha256sums = SKIP
+
+pkgname = midipix-cross-psxstub
+
+pkgbase = midipix-cross-psxstub
+	pkgdesc = Stub for the midipix system call layer
+	pkgver = 0.0.7.92a6ceb
+	pkgrel = 1
+	url = http://midipix.org
+	arch = i686
+	arch = x86_64
+	groups = midipix-cross-toolchain
+	groups = midipix-cross
+	makedepends = midipix-cross-gcc
+	makedepends = make
+	depends = zlib
+	provides = midipix-cross-psxscl
+	conflicts = midipix-cross-psxscl
+	options = !strip
+	options = staticlibs
+	options = !emptydirs
+	options = !buildflags
+	source = psxstub::git+git://midipix.org/psxstub
+	sha256sums = SKIP
+
+pkgname = midipix-cross-psxstub
+

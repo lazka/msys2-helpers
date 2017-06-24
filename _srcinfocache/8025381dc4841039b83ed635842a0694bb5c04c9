@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-python-yaml
+	pkgdesc = Python bindings for YAML, using fast libYAML library (mingw-w64)
+	pkgver = 3.12
+	pkgrel = 2
+	url = https://pyyaml.org/
+	install = python-yaml.install
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-libyaml
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = http://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
+	sha256sums = 592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab
+
+pkgname = mingw-w64-x86_64-python2-yaml
+
+pkgname = mingw-w64-x86_64-python3-yaml
+
+pkgbase = mingw-w64-python-yaml
+	pkgdesc = Python bindings for YAML, using fast libYAML library (mingw-w64)
+	pkgver = 3.12
+	pkgrel = 2
+	url = https://pyyaml.org/
+	install = python-yaml.install
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-libyaml
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = http://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
+	sha256sums = 592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab
+
+pkgname = mingw-w64-i686-python2-yaml
+
+pkgname = mingw-w64-i686-python3-yaml
+

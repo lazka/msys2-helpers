@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-fmt
+	pkgdesc = Small, safe and fast formatting library (mingw-w64)
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = http://fmtlib.net
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	source = fmt-3.0.1.tar.gz::https://github.com/fmtlib/fmt/archive/3.0.1.tar.gz
+	sha256sums = dce62ab75a161dd4353a98364feb166d35e7eea382169d59d9ce842c49c55bad
+
+pkgname = mingw-w64-x86_64-fmt
+
+pkgbase = mingw-w64-fmt
+	pkgdesc = Small, safe and fast formatting library (mingw-w64)
+	pkgver = 3.0.1
+	pkgrel = 1
+	url = http://fmtlib.net
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	source = fmt-3.0.1.tar.gz::https://github.com/fmtlib/fmt/archive/3.0.1.tar.gz
+	sha256sums = dce62ab75a161dd4353a98364feb166d35e7eea382169d59d9ce842c49c55bad
+
+pkgname = mingw-w64-i686-fmt
+

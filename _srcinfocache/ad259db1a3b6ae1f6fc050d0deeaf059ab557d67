@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-librsync
+	pkgdesc = remote delta-compression library. (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://librsync.sourcefrog.net
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-perl
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-popt
+	options = strip
+	options = staticlibs
+	options = docs
+	source = librsync-2.0.0.tar.gz::https://github.com/librsync/librsync/archive/v2.0.0.tar.gz
+	source = library-location.patch
+	sha256sums = b5c4dd114289832039397789e42d4ff0d1108ada89ce74f1999398593fae2169
+	sha256sums = 97407258a422d30042b81edc3c9200019001684b9b20dae028b046ddda49ee76
+
+pkgname = mingw-w64-x86_64-librsync
+
+pkgbase = mingw-w64-librsync
+	pkgdesc = remote delta-compression library. (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://librsync.sourcefrog.net
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-perl
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-popt
+	options = strip
+	options = staticlibs
+	options = docs
+	source = librsync-2.0.0.tar.gz::https://github.com/librsync/librsync/archive/v2.0.0.tar.gz
+	source = library-location.patch
+	sha256sums = b5c4dd114289832039397789e42d4ff0d1108ada89ce74f1999398593fae2169
+	sha256sums = 97407258a422d30042b81edc3c9200019001684b9b20dae028b046ddda49ee76
+
+pkgname = mingw-w64-i686-librsync
+

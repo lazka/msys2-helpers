@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-zopfli
+	pkgdesc = A compression library programmed in C to perform very good, but slow, deflate or zlib compression (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/google/zopfli
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-x86_64-gcc
+	source = https://github.com/google/zopfli/archive/zopfli-1.0.1.tar.gz
+	sha256sums = 29743d727a4e0ecd1b93e0bf89476ceeb662e809ab2e6ab007a0b0344800e9b4
+
+pkgname = mingw-w64-x86_64-zopfli
+
+pkgbase = mingw-w64-zopfli
+	pkgdesc = A compression library programmed in C to perform very good, but slow, deflate or zlib compression (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/google/zopfli
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-i686-gcc
+	source = https://github.com/google/zopfli/archive/zopfli-1.0.1.tar.gz
+	sha256sums = 29743d727a4e0ecd1b93e0bf89476ceeb662e809ab2e6ab007a0b0344800e9b4
+
+pkgname = mingw-w64-i686-zopfli
+

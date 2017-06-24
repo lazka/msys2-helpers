@@ -1,0 +1,40 @@
+pkgbase = asciidoc
+	pkgdesc = Text document format for short documents, articles, books and UNIX man pages.
+	pkgver = 8.6.9
+	pkgrel = 4
+	url = http://www.methods.co.nz/asciidoc/
+	arch = any
+	groups = base-devel
+	license = GPL
+	makedepends = tar
+	depends = python2
+	depends = libxslt
+	depends = docbook-xsl
+	noextract = asciidoc-8.6.9.tar.gz
+	source = https://downloads.sourceforge.net/asciidoc/asciidoc-8.6.9.tar.gz
+	source = 0001-W32-confdir.msys2.patch
+	sha256sums = 78db9d0567c8ab6570a6eff7ffdf84eadd91f2dfc0a92a2d0105d323cab4e1f0
+	sha256sums = 71f44b513f627b133afead38576fcb8a5460d0514174a4ce219c6ea761d8b40c
+
+pkgname = asciidoc
+
+pkgbase = asciidoc
+	pkgdesc = Text document format for short documents, articles, books and UNIX man pages.
+	pkgver = 8.6.9
+	pkgrel = 4
+	url = http://www.methods.co.nz/asciidoc/
+	arch = any
+	groups = base-devel
+	license = GPL
+	makedepends = tar
+	depends = python2
+	depends = libxslt
+	depends = docbook-xsl
+	noextract = asciidoc-8.6.9.tar.gz
+	source = https://downloads.sourceforge.net/asciidoc/asciidoc-8.6.9.tar.gz
+	source = 0001-W32-confdir.msys2.patch
+	sha256sums = 78db9d0567c8ab6570a6eff7ffdf84eadd91f2dfc0a92a2d0105d323cab4e1f0
+	sha256sums = 71f44b513f627b133afead38576fcb8a5460d0514174a4ce219c6ea761d8b40c
+
+pkgname = asciidoc
+

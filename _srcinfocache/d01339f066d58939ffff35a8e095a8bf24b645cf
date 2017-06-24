@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-gtksourceviewmm2
+	pkgdesc = A text widget adding syntax highlighting and more to GNOME (mingw-w64)
+	pkgver = 2.10.3
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = intltool
+	depends = mingw-w64-x86_64-gtk2>=2.22.0
+	depends = mingw-w64-x86_64-libxml2>=2.7.7
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gtksourceviewmm/2.10/gtksourceviewmm-2.10.3.tar.xz
+	source = 000-C11.patch
+	sha256sums = 0000df1b582d7be2e412020c5d748f21c0e6e5074c6b2ca8529985e70479375b
+	sha256sums = 5311dccfc287947e4cd708823f82a8b185953495dfab8d32fcba2441d9f9037a
+
+pkgname = mingw-w64-x86_64-gtksourceviewmm2
+
+pkgbase = mingw-w64-gtksourceviewmm2
+	pkgdesc = A text widget adding syntax highlighting and more to GNOME (mingw-w64)
+	pkgver = 2.10.3
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = intltool
+	depends = mingw-w64-i686-gtk2>=2.22.0
+	depends = mingw-w64-i686-libxml2>=2.7.7
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gtksourceviewmm/2.10/gtksourceviewmm-2.10.3.tar.xz
+	source = 000-C11.patch
+	sha256sums = 0000df1b582d7be2e412020c5d748f21c0e6e5074c6b2ca8529985e70479375b
+	sha256sums = 5311dccfc287947e4cd708823f82a8b185953495dfab8d32fcba2441d9f9037a
+
+pkgname = mingw-w64-i686-gtksourceviewmm2
+

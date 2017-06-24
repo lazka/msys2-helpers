@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-gperf
+	pkgdesc = Perfect hash function generator (mingw-w64)
+	pkgver = 3.0.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/gperf/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.0.4.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.0.4.tar.gz.sig
+	sha256sums = 767112a204407e62dbc3106647cf839ed544f3cf5d0f0523aaa2508623aad63e
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-gperf
+
+pkgbase = mingw-w64-gperf
+	pkgdesc = Perfect hash function generator (mingw-w64)
+	pkgver = 3.0.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/gperf/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.0.4.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.0.4.tar.gz.sig
+	sha256sums = 767112a204407e62dbc3106647cf839ed544f3cf5d0f0523aaa2508623aad63e
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-gperf
+

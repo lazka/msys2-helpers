@@ -1,0 +1,68 @@
+pkgbase = gpgme
+	pkgdesc = A C wrapper library for GnuPG
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://gnupg.org/related_software/gpgme/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = libassuan-devel
+	makedepends = libgpg-error-devel
+	depends = libassuan
+	depends = libgpg-error
+	depends = gnupg
+	options = !libtool
+	options = !emptydirs
+	source = https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.6.0.tar.bz2
+	source = https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.6.0.tar.bz2.sig
+	source = gpgme-1.4.2-msys2.patch
+	sha256sums = b09de4197ac280b102080e09eaec6211d081efff1963bf7821cf8f4f9916099d
+	sha256sums = SKIP
+	sha256sums = 7e9157aaebdc04fbf02d2470fc25d730fc873ec402bfb9f7be18501264d076f7
+
+pkgname = libgpgme
+	install = libgpgme.install
+	groups = libraries
+
+pkgname = libgpgme-devel
+	pkgdesc = Libgpgme headers and libraries
+	groups = development
+	depends = libgpgme=1.6.0
+	depends = libassuan-devel
+	depends = libgpg-error-devel
+	options = staticlibs
+
+pkgbase = gpgme
+	pkgdesc = A C wrapper library for GnuPG
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://gnupg.org/related_software/gpgme/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = libassuan-devel
+	makedepends = libgpg-error-devel
+	depends = libassuan
+	depends = libgpg-error
+	depends = gnupg
+	options = !libtool
+	options = !emptydirs
+	source = https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.6.0.tar.bz2
+	source = https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.6.0.tar.bz2.sig
+	source = gpgme-1.4.2-msys2.patch
+	sha256sums = b09de4197ac280b102080e09eaec6211d081efff1963bf7821cf8f4f9916099d
+	sha256sums = SKIP
+	sha256sums = 7e9157aaebdc04fbf02d2470fc25d730fc873ec402bfb9f7be18501264d076f7
+
+pkgname = libgpgme
+	install = libgpgme.install
+	groups = libraries
+
+pkgname = libgpgme-devel
+	pkgdesc = Libgpgme headers and libraries
+	groups = development
+	depends = libgpgme=1.6.0
+	depends = libassuan-devel
+	depends = libgpg-error-devel
+	options = staticlibs
+

@@ -1,0 +1,34 @@
+pkgbase = vimpager-git
+	pkgdesc = Use ViM as PAGER
+	pkgver = r280.0ff1428
+	pkgrel = 1
+	url = http://www.vim.org/scripts/script.php?script_id=1723
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = vim
+	depends = sharutils
+	provides = vimpager
+	conflicts = vimpager
+	source = git+https://github.com/rkitover/vimpager
+	sha256sums = SKIP
+
+pkgname = vimpager-git
+
+pkgbase = vimpager-git
+	pkgdesc = Use ViM as PAGER
+	pkgver = r280.0ff1428
+	pkgrel = 1
+	url = http://www.vim.org/scripts/script.php?script_id=1723
+	arch = any
+	license = BSD
+	makedepends = git
+	depends = vim
+	depends = sharutils
+	provides = vimpager
+	conflicts = vimpager
+	source = git+https://github.com/rkitover/vimpager
+	sha256sums = SKIP
+
+pkgname = vimpager-git
+

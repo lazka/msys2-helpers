@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-physfs-hg
+	pkgdesc = A library to provide abstract access to various archives (development version)
+	pkgver = r1363.a3dabf75a0d0
+	pkgrel = 1
+	url = https://icculus.org/physfs/
+	arch = any
+	license = zlib
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mercurial
+	depends = mingw-w64-x86_64-zlib
+	provides = mingw-w64-x86_64-physfs
+	conflicts = mingw-w64-x86_64-physfs
+	options = staticlibs
+	options = strip
+	source = hg+https://hg.icculus.org/icculus/physfs
+	source = 0000_pkgconfig.patch
+	sha256sums = SKIP
+	sha256sums = b6f7657315cea4f183941efc7a537c8bc410ab7892ae5818786272e66e90a6b1
+
+pkgname = mingw-w64-x86_64-physfs-hg
+
+pkgbase = mingw-w64-physfs-hg
+	pkgdesc = A library to provide abstract access to various archives (development version)
+	pkgver = r1363.a3dabf75a0d0
+	pkgrel = 1
+	url = https://icculus.org/physfs/
+	arch = any
+	license = zlib
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mercurial
+	depends = mingw-w64-i686-zlib
+	provides = mingw-w64-i686-physfs
+	conflicts = mingw-w64-i686-physfs
+	options = staticlibs
+	options = strip
+	source = hg+https://hg.icculus.org/icculus/physfs
+	source = 0000_pkgconfig.patch
+	sha256sums = SKIP
+	sha256sums = b6f7657315cea4f183941efc7a537c8bc410ab7892ae5818786272e66e90a6b1
+
+pkgname = mingw-w64-i686-physfs-hg
+

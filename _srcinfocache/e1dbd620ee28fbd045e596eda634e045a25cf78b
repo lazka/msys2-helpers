@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-openmdao
+	pkgdesc = An open-source MDAO framework written in Python. (mingw-w64)
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = http://openmdao.org/
+	arch = any
+	license = apache
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = OpenMDAO-1.7.3.tar.gz::https://github.com/OpenMDAO/OpenMDAO/archive/1.7.3.tar.gz
+	sha256sums = 5425184fcb08d685997cfffbb12bb369e306dec3a45e66df76925de10f426b18
+
+pkgname = mingw-w64-x86_64-python3-openmdao
+
+pkgname = mingw-w64-x86_64-python2-openmdao
+
+pkgbase = mingw-w64-python-openmdao
+	pkgdesc = An open-source MDAO framework written in Python. (mingw-w64)
+	pkgver = 1.7.3
+	pkgrel = 1
+	url = http://openmdao.org/
+	arch = any
+	license = apache
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = OpenMDAO-1.7.3.tar.gz::https://github.com/OpenMDAO/OpenMDAO/archive/1.7.3.tar.gz
+	sha256sums = 5425184fcb08d685997cfffbb12bb369e306dec3a45e66df76925de10f426b18
+
+pkgname = mingw-w64-i686-python3-openmdao
+
+pkgname = mingw-w64-i686-python2-openmdao
+

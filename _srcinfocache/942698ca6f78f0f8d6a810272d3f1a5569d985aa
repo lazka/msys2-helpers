@@ -1,0 +1,38 @@
+pkgbase = tcl
+	pkgdesc = The Tcl scripting language
+	pkgver = 8.5.18
+	pkgrel = 1
+	url = https://tcl.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = zlib
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/tcl/tcl8.5.18-src.tar.gz
+	source = 8.5.18-cygwin-unix.patch
+	source = tcl-8.5.18-msysize.patch
+	sha256sums = 032be57a607bdf252135b52fac9e3a7016e526242374ac7637b083ecc4c5d3c9
+	sha256sums = 5326d5fbc668f40a7ad99fa2c08afab2f7e33c5fa2eb3c5cba4a17328bb57310
+	sha256sums = c690f41ae5a16ce62ade62d46016387b2d326c5ad4a3888e02f94f1aaf78083d
+
+pkgname = tcl
+
+pkgbase = tcl
+	pkgdesc = The Tcl scripting language
+	pkgver = 8.5.18
+	pkgrel = 1
+	url = https://tcl.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = zlib
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/tcl/tcl8.5.18-src.tar.gz
+	source = 8.5.18-cygwin-unix.patch
+	source = tcl-8.5.18-msysize.patch
+	sha256sums = 032be57a607bdf252135b52fac9e3a7016e526242374ac7637b083ecc4c5d3c9
+	sha256sums = 5326d5fbc668f40a7ad99fa2c08afab2f7e33c5fa2eb3c5cba4a17328bb57310
+	sha256sums = c690f41ae5a16ce62ade62d46016387b2d326c5ad4a3888e02f94f1aaf78083d
+
+pkgname = tcl
+

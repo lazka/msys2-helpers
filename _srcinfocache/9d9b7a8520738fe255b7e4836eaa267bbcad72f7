@@ -1,0 +1,38 @@
+pkgbase = markupsafe
+	pkgdesc = Implements a XML/HTML/XHTML Markup safe string for Python
+	pkgver = 0.23
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/MarkupSafe
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = python2-setuptools
+	makedepends = python3-setuptools
+	source = https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz
+	sha256sums = a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3
+
+pkgname = python3-markupsafe
+	depends = python3
+
+pkgname = python2-markupsafe
+	depends = python2
+
+pkgbase = markupsafe
+	pkgdesc = Implements a XML/HTML/XHTML Markup safe string for Python
+	pkgver = 0.23
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/MarkupSafe
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = python2-setuptools
+	makedepends = python3-setuptools
+	source = https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz
+	sha256sums = a4ec1aff59b95a14b45eb2e23761a0179e98319da5a7eb76b56ea8cdc7b871c3
+
+pkgname = python3-markupsafe
+	depends = python3
+
+pkgname = python2-markupsafe
+	depends = python2
+

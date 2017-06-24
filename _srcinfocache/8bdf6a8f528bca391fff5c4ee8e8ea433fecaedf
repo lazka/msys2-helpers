@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-sfml
+	pkgdesc = A simple, fast, cross-platform, and object-oriented multimedia API (mingw-w64)
+	pkgver = 2.4.2
+	pkgrel = 1
+	url = http://www.sfml-dev.org/
+	arch = any
+	license = zlib
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = unzip
+	depends = mingw-w64-x86_64-flac
+	depends = mingw-w64-x86_64-freetype
+	depends = mingw-w64-x86_64-libjpeg
+	depends = mingw-w64-x86_64-libvorbis
+	depends = mingw-w64-x86_64-openal
+	replaces = mingw-w64-x86_64-sfml-git
+	noextract = SFML-2.4.2-sources.zip
+	source = http://www.sfml-dev.org/files/SFML-2.4.2-sources.zip
+	source = mingw-w64-msys2.patch
+	sha256sums = 8ba04f6fde6a7b42527d69742c49da2ac529354f71f553409f9f821d618de4b6
+	sha256sums = d7cf7f13f76f7e77bc759616d73fc81b97552132da99005b45ef538bcfdcc338
+
+pkgname = mingw-w64-x86_64-sfml
+
+pkgbase = mingw-w64-sfml
+	pkgdesc = A simple, fast, cross-platform, and object-oriented multimedia API (mingw-w64)
+	pkgver = 2.4.2
+	pkgrel = 1
+	url = http://www.sfml-dev.org/
+	arch = any
+	license = zlib
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = unzip
+	depends = mingw-w64-i686-flac
+	depends = mingw-w64-i686-freetype
+	depends = mingw-w64-i686-libjpeg
+	depends = mingw-w64-i686-libvorbis
+	depends = mingw-w64-i686-openal
+	replaces = mingw-w64-i686-sfml-git
+	noextract = SFML-2.4.2-sources.zip
+	source = http://www.sfml-dev.org/files/SFML-2.4.2-sources.zip
+	source = mingw-w64-msys2.patch
+	sha256sums = 8ba04f6fde6a7b42527d69742c49da2ac529354f71f553409f9f821d618de4b6
+	sha256sums = d7cf7f13f76f7e77bc759616d73fc81b97552132da99005b45ef538bcfdcc338
+
+pkgname = mingw-w64-i686-sfml
+

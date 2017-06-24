@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-libgnurx
+	pkgdesc = libgnurx (mingw-w64)
+	pkgver = 2.5.1
+	pkgrel = 2
+	url = https://mingw.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	options = staticlibs
+	source = https://downloads.sourceforge.net/mingw/Other/UserContributed/regex/mingw-regex-2.5.1/mingw-libgnurx-2.5.1-src.tar.gz
+	source = mingw-w64-libgnurx-honor-destdir.patch
+	source = mingw32-libgnurx-Makefile.am
+	source = mingw32-libgnurx-configure.ac
+	sha256sums = 7147b7f806ec3d007843b38e19f42a5b7c65894a57ffc297a76b0dcd5f675d76
+	sha256sums = 7db74e71a2612e1720f68acea7c9bc24873be1d533c1eed4db58c4fd923e1ec1
+	sha256sums = 4215ca6e8c7a88484fcf90437958359e916be5a59c36147ac34cd20892a91512
+	sha256sums = fdc7b7ccb0ca8ad87822e64c144b74fe8f289edf2a8406700ba85cf26725e260
+
+pkgname = mingw-w64-x86_64-libgnurx
+
+pkgbase = mingw-w64-libgnurx
+	pkgdesc = libgnurx (mingw-w64)
+	pkgver = 2.5.1
+	pkgrel = 2
+	url = https://mingw.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	options = staticlibs
+	source = https://downloads.sourceforge.net/mingw/Other/UserContributed/regex/mingw-regex-2.5.1/mingw-libgnurx-2.5.1-src.tar.gz
+	source = mingw-w64-libgnurx-honor-destdir.patch
+	source = mingw32-libgnurx-Makefile.am
+	source = mingw32-libgnurx-configure.ac
+	sha256sums = 7147b7f806ec3d007843b38e19f42a5b7c65894a57ffc297a76b0dcd5f675d76
+	sha256sums = 7db74e71a2612e1720f68acea7c9bc24873be1d533c1eed4db58c4fd923e1ec1
+	sha256sums = 4215ca6e8c7a88484fcf90437958359e916be5a59c36147ac34cd20892a91512
+	sha256sums = fdc7b7ccb0ca8ad87822e64c144b74fe8f289edf2a8406700ba85cf26725e260
+
+pkgname = mingw-w64-i686-libgnurx
+

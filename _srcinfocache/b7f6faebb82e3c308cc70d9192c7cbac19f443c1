@@ -1,0 +1,36 @@
+pkgbase = perl-File-Listing
+	pkgdesc = parse directory listing
+	pkgver = 6.04
+	pkgrel = 2
+	url = http://search.cpan.org/dist/File-Listing
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=5.8.8
+	depends = perl-HTTP-Date>=6
+	conflicts = perl-libwww<6
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+	sha256sums = 1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5
+
+pkgname = perl-File-Listing
+
+pkgbase = perl-File-Listing
+	pkgdesc = parse directory listing
+	pkgver = 6.04
+	pkgrel = 2
+	url = http://search.cpan.org/dist/File-Listing
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=5.8.8
+	depends = perl-HTTP-Date>=6
+	conflicts = perl-libwww<6
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz
+	sha256sums = 1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5
+
+pkgname = perl-File-Listing
+

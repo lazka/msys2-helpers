@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-udis86
+	pkgdesc = A minimalistic disassembler library (mingw-w64)
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = https://udis86.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-python2
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/udis86/udis86-1.7.2.tar.gz
+	sha256sums = 9c52ac626ac6f531e1d6828feaad7e797d0f3cce1e9f34ad4e84627022b3c2f4
+
+pkgname = mingw-w64-x86_64-udis86
+
+pkgbase = mingw-w64-udis86
+	pkgdesc = A minimalistic disassembler library (mingw-w64)
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = https://udis86.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-python2
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/udis86/udis86-1.7.2.tar.gz
+	sha256sums = 9c52ac626ac6f531e1d6828feaad7e797d0f3cce1e9f34ad4e84627022b3c2f4
+
+pkgname = mingw-w64-i686-udis86
+

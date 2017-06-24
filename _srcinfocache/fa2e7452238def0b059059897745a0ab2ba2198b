@@ -1,0 +1,40 @@
+pkgbase = less
+	pkgdesc = A terminal based program for viewing text files
+	pkgver = 481
+	pkgrel = 1
+	url = http://www.greenwoodsoftware.com/less
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = GPL3
+	makedepends = ncurses-devel
+	makedepends = pcre-devel
+	depends = ncurses
+	depends = libpcre
+	source = http://www.greenwoodsoftware.com/less/less-481.tar.gz
+	source = http://www.greenwoodsoftware.com/less/less-481.tar.gz.sig
+	sha256sums = 3fa38f2cf5e9e040bb44fffaa6c76a84506e379e47f5a04686ab78102090dda5
+	sha256sums = SKIP
+
+pkgname = less
+
+pkgbase = less
+	pkgdesc = A terminal based program for viewing text files
+	pkgver = 481
+	pkgrel = 1
+	url = http://www.greenwoodsoftware.com/less
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = GPL3
+	makedepends = ncurses-devel
+	makedepends = pcre-devel
+	depends = ncurses
+	depends = libpcre
+	source = http://www.greenwoodsoftware.com/less/less-481.tar.gz
+	source = http://www.greenwoodsoftware.com/less/less-481.tar.gz.sig
+	sha256sums = 3fa38f2cf5e9e040bb44fffaa6c76a84506e379e47f5a04686ab78102090dda5
+	sha256sums = SKIP
+
+pkgname = less
+

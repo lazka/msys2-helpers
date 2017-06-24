@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-osgQtQuick
+	pkgdesc = OpenSceneGraph QML Modules (mingw-w64)
+	pkgver = 2.0.0.8
+	pkgrel = 1
+	url = https://github.com/podsvirov/osgqtquick
+	arch = any
+	license = LGPL
+	makedepends = make
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-osgQt-debug
+	depends = mingw-w64-x86_64-osgQt
+	depends = mingw-w64-x86_64-qt5
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = osgQtQuick-2.0.0.8.zip::https://github.com/podsvirov/osgqtquick/archive/v2.0.0.8.zip
+	sha256sums = b56b2cd8749a806763896d898f86de4ef594dbc68fbe487f96eb0c7c868fb2fe
+
+pkgname = mingw-w64-x86_64-osgQtQuick
+
+pkgname = mingw-w64-x86_64-osgQtQuick-debug
+
+pkgbase = mingw-w64-osgQtQuick
+	pkgdesc = OpenSceneGraph QML Modules (mingw-w64)
+	pkgver = 2.0.0.8
+	pkgrel = 1
+	url = https://github.com/podsvirov/osgqtquick
+	arch = any
+	license = LGPL
+	makedepends = make
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-osgQt-debug
+	depends = mingw-w64-i686-osgQt
+	depends = mingw-w64-i686-qt5
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = osgQtQuick-2.0.0.8.zip::https://github.com/podsvirov/osgqtquick/archive/v2.0.0.8.zip
+	sha256sums = b56b2cd8749a806763896d898f86de4ef594dbc68fbe487f96eb0c7c868fb2fe
+
+pkgname = mingw-w64-i686-osgQtQuick
+
+pkgname = mingw-w64-i686-osgQtQuick-debug
+

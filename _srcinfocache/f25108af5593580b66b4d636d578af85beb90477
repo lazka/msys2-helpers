@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-clucene
+	pkgdesc = CLucene - a C++ search engine (mingw-w64)
+	pkgver = 2.3.3.4
+	pkgrel = 1
+	url = https://clucene.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-boost
+	depends = mingw-w64-x86_64-zlib
+	source = http://liquidtelecom.dl.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
+	source = clucene-core-2.3.3.4.patch
+	sha256sums = ddfdc433dd8ad31b5c5819cc4404a8d2127472a3b720d3e744e8c51d79732eab
+	sha256sums = a3b0bb664231ed5e66384dd606422d7f6d9f0e6181f295056acfbe0b0d4d7c9c
+
+pkgname = mingw-w64-x86_64-clucene
+
+pkgbase = mingw-w64-clucene
+	pkgdesc = CLucene - a C++ search engine (mingw-w64)
+	pkgver = 2.3.3.4
+	pkgrel = 1
+	url = https://clucene.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-boost
+	depends = mingw-w64-i686-zlib
+	source = http://liquidtelecom.dl.sourceforge.net/project/clucene/clucene-core-unstable/2.3/clucene-core-2.3.3.4.tar.gz
+	source = clucene-core-2.3.3.4.patch
+	sha256sums = ddfdc433dd8ad31b5c5819cc4404a8d2127472a3b720d3e744e8c51d79732eab
+	sha256sums = a3b0bb664231ed5e66384dd606422d7f6d9f0e6181f295056acfbe0b0d4d7c9c
+
+pkgname = mingw-w64-i686-clucene
+

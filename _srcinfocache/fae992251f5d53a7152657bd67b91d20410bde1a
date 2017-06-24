@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-libvirt-glib
+	pkgdesc = libvirt GLib and GObject mapping library (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = http://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = gtk-doc
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-libvirt
+	options = !strip
+	options = debug
+	options = staticlibs
+	source = http://libvirt.org/sources/glib/libvirt-glib-1.0.0.tar.gz
+	source = 001-win.patch
+	sha256sums = ca9158d01cc4d9e0218f94f8c9ee04ae367d8c3b4396daaebca2c4b89a2e8a47
+	sha256sums = 8f787245ffc5d91f628c1965a45baf0af61eb3afcf4da8642b763e578275c6c9
+
+pkgname = mingw-w64-x86_64-libvirt-glib
+
+pkgbase = mingw-w64-libvirt-glib
+	pkgdesc = libvirt GLib and GObject mapping library (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = http://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = gtk-doc
+	makedepends = mingw-w64-i686-vala
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-libvirt
+	options = !strip
+	options = debug
+	options = staticlibs
+	source = http://libvirt.org/sources/glib/libvirt-glib-1.0.0.tar.gz
+	source = 001-win.patch
+	sha256sums = ca9158d01cc4d9e0218f94f8c9ee04ae367d8c3b4396daaebca2c4b89a2e8a47
+	sha256sums = 8f787245ffc5d91f628c1965a45baf0af61eb3afcf4da8642b763e578275c6c9
+
+pkgname = mingw-w64-i686-libvirt-glib
+

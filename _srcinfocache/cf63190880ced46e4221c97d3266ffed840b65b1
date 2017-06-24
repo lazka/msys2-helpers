@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-dbus
+	pkgdesc = Freedesktop.org message bus system (mingw-w64)
+	pkgver = 1.10.18
+	pkgrel = 1
+	url = https://www.freedesktop.org/wiki/Software/dbus
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = xmlto
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-expat
+	options = strip
+	options = staticlibs
+	source = https://dbus.freedesktop.org/releases/dbus/dbus-1.10.18.tar.gz
+	source = https://dbus.freedesktop.org/releases/dbus/dbus-1.10.18.tar.gz.asc
+	sha256sums = 6049ddd5f3f3e2618f615f1faeda0a115104423a7996b7aa73e2f36e38cc514a
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-dbus
+
+pkgbase = mingw-w64-dbus
+	pkgdesc = Freedesktop.org message bus system (mingw-w64)
+	pkgver = 1.10.18
+	pkgrel = 1
+	url = https://www.freedesktop.org/wiki/Software/dbus
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python2
+	makedepends = xmlto
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-expat
+	options = strip
+	options = staticlibs
+	source = https://dbus.freedesktop.org/releases/dbus/dbus-1.10.18.tar.gz
+	source = https://dbus.freedesktop.org/releases/dbus/dbus-1.10.18.tar.gz.asc
+	sha256sums = 6049ddd5f3f3e2618f615f1faeda0a115104423a7996b7aa73e2f36e38cc514a
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-dbus
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-ctags
+	pkgdesc = A multilanguage implementation of Ctags (mingw-w64)
+	pkgver = 5.8
+	pkgrel = 4
+	url = https://ctags.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz
+	source = 001-fix-unused-attribute.patch
+	sha256sums = 0e44b45dcabe969e0bbbb11e30c246f81abe5d32012db37395eb57d66e9e99c7
+	sha256sums = 3bf68f062ba72cdfe11e9b5fd823af036f91c63dc05902875f86b8e422f6147f
+
+pkgname = mingw-w64-x86_64-ctags
+
+pkgbase = mingw-w64-ctags
+	pkgdesc = A multilanguage implementation of Ctags (mingw-w64)
+	pkgver = 5.8
+	pkgrel = 4
+	url = https://ctags.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://prdownloads.sourceforge.net/ctags/ctags-5.8.tar.gz
+	source = 001-fix-unused-attribute.patch
+	sha256sums = 0e44b45dcabe969e0bbbb11e30c246f81abe5d32012db37395eb57d66e9e99c7
+	sha256sums = 3bf68f062ba72cdfe11e9b5fd823af036f91c63dc05902875f86b8e422f6147f
+
+pkgname = mingw-w64-i686-ctags
+

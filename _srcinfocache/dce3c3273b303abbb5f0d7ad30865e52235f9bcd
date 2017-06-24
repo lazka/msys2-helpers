@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-assimp
+	pkgdesc = Portable Open Source library to import various well-known 3D model formats in an uniform manner (mingw-w64)
+	pkgver = 3.3.1
+	pkgrel = 1
+	url = https://assimp.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-zziplib
+	depends = mingw-w64-x86_64-zlib
+	options = !strip
+	options = staticlibs
+	source = assimp-3.3.1.tar.gz::https://github.com/assimp/assimp/archive/v3.3.1.tar.gz
+	source = build-fixes.patch
+	sha256sums = d385c3f90876241343f09e45f4e5033a6a05861b971c63d1f6d512371ffdc7bf
+	sha256sums = f4ab7687338a5bb5b711fd00fc170b1a86e778fec6dac1402762059ab3428e65
+
+pkgname = mingw-w64-x86_64-assimp
+
+pkgbase = mingw-w64-assimp
+	pkgdesc = Portable Open Source library to import various well-known 3D model formats in an uniform manner (mingw-w64)
+	pkgver = 3.3.1
+	pkgrel = 1
+	url = https://assimp.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-zziplib
+	depends = mingw-w64-i686-zlib
+	options = !strip
+	options = staticlibs
+	source = assimp-3.3.1.tar.gz::https://github.com/assimp/assimp/archive/v3.3.1.tar.gz
+	source = build-fixes.patch
+	sha256sums = d385c3f90876241343f09e45f4e5033a6a05861b971c63d1f6d512371ffdc7bf
+	sha256sums = f4ab7687338a5bb5b711fd00fc170b1a86e778fec6dac1402762059ab3428e65
+
+pkgname = mingw-w64-i686-assimp
+

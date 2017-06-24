@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-pngnq
+	pkgdesc = Pngnq is a tool for quantizing PNG images in RGBA format (mingw-w64)
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://pngnq.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-zlib
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/pngnq/pngnq-1.1.tar.gz
+	source = no-syslog.patch
+	source = configure-mistake.patch
+	sha256sums = c147fe0a94b32d323ef60be9fdcc9b683d1a82cd7513786229ef294310b5b6e2
+	sha256sums = 1bc7a7d87630a721def43876f9235bc72b58846553b85019e9d19e01c1cf26cd
+	sha256sums = 340d08b3e21515f9e3dcc6ba8282d69ac6057bcec60b23ffe7146a6c3fcb760e
+
+pkgname = mingw-w64-x86_64-pngnq
+
+pkgbase = mingw-w64-pngnq
+	pkgdesc = Pngnq is a tool for quantizing PNG images in RGBA format (mingw-w64)
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://pngnq.sourceforge.io/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-zlib
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/pngnq/pngnq-1.1.tar.gz
+	source = no-syslog.patch
+	source = configure-mistake.patch
+	sha256sums = c147fe0a94b32d323ef60be9fdcc9b683d1a82cd7513786229ef294310b5b6e2
+	sha256sums = 1bc7a7d87630a721def43876f9235bc72b58846553b85019e9d19e01c1cf26cd
+	sha256sums = 340d08b3e21515f9e3dcc6ba8282d69ac6057bcec60b23ffe7146a6c3fcb760e
+
+pkgname = mingw-w64-i686-pngnq
+

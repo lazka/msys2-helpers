@@ -1,0 +1,30 @@
+pkgbase = windows-default-manifest
+	pkgdesc = Default Windows application manifest
+	pkgver = 6.4
+	pkgrel = 1
+	url = https://cygwin.com/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = cvs
+	makedepends = gcc
+	source = 001-msysize.patch
+	sha256sums = 0baef1e5f9b980cdf730386a652b6b02ba6b675cc120ad67c7c15e6a88050e0f
+
+pkgname = windows-default-manifest
+
+pkgbase = windows-default-manifest
+	pkgdesc = Default Windows application manifest
+	pkgver = 6.4
+	pkgrel = 1
+	url = https://cygwin.com/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = cvs
+	makedepends = gcc
+	source = 001-msysize.patch
+	sha256sums = 0baef1e5f9b980cdf730386a652b6b02ba6b675cc120ad67c7c15e6a88050e0f
+
+pkgname = windows-default-manifest
+

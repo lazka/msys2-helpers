@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-gss
+	pkgdesc = GNU Generic Security Service (mingw-w64)
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/gss/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = git
+	makedepends = wget
+	makedepends = texinfo
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-shishi
+	replaces = mingw-w64-x86_64-gss-git
+	options = strip
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/gss/gss-1.0.3.tar.gz
+	source = https://ftp.gnu.org/gnu/gss/gss-1.0.3.tar.gz.sig
+	source = 001-autoconf.patch
+	source = 002-gnulib.patch
+	sha256sums = ff919ddc731531d65e27d7ababdc361aae05ada5f1a6dd60703d153307dcdeeb
+	sha256sums = SKIP
+	sha256sums = eb2bfe34d3ad1cc1292f087b527be4402e471ad881a73ea18de3579f4ce85a3c
+	sha256sums = 3fc80ab5f4836ce2ca3ac8311e62d51e33c43adfeec7d69120a999076ccf7b81
+
+pkgname = mingw-w64-x86_64-gss
+
+pkgbase = mingw-w64-gss
+	pkgdesc = GNU Generic Security Service (mingw-w64)
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/gss/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = git
+	makedepends = wget
+	makedepends = texinfo
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-shishi
+	replaces = mingw-w64-i686-gss-git
+	options = strip
+	options = staticlibs
+	source = https://ftp.gnu.org/gnu/gss/gss-1.0.3.tar.gz
+	source = https://ftp.gnu.org/gnu/gss/gss-1.0.3.tar.gz.sig
+	source = 001-autoconf.patch
+	source = 002-gnulib.patch
+	sha256sums = ff919ddc731531d65e27d7ababdc361aae05ada5f1a6dd60703d153307dcdeeb
+	sha256sums = SKIP
+	sha256sums = eb2bfe34d3ad1cc1292f087b527be4402e471ad881a73ea18de3579f4ce85a3c
+	sha256sums = 3fc80ab5f4836ce2ca3ac8311e62d51e33c43adfeec7d69120a999076ccf7b81
+
+pkgname = mingw-w64-i686-gss
+

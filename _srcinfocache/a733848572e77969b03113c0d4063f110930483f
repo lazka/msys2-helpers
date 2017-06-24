@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-harfbuzz
+	pkgdesc = OpenType text shaping engine (mingw-w64)
+	pkgver = 1.4.6
+	pkgrel = 2
+	url = https://www.freedesktop.org/wiki/Software/HarfBuzz
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-icu
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-cairo
+	depends = mingw-w64-x86_64-freetype
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-graphite2
+	optdepends = mingw-w64-x86_64-icu: harfbuzz-icu support
+	options = strip
+	options = staticlibs
+	source = https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.6.tar.bz2
+	sha256sums = 21a78b81cd20cbffdb04b59ac7edfb410e42141869f637ae1d6778e74928d293
+
+pkgname = mingw-w64-x86_64-harfbuzz
+
+pkgbase = mingw-w64-harfbuzz
+	pkgdesc = OpenType text shaping engine (mingw-w64)
+	pkgver = 1.4.6
+	pkgrel = 2
+	url = https://www.freedesktop.org/wiki/Software/HarfBuzz
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-icu
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-cairo
+	depends = mingw-w64-i686-freetype
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-graphite2
+	optdepends = mingw-w64-i686-icu: harfbuzz-icu support
+	options = strip
+	options = staticlibs
+	source = https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.6.tar.bz2
+	sha256sums = 21a78b81cd20cbffdb04b59ac7edfb410e42141869f637ae1d6778e74928d293
+
+pkgname = mingw-w64-i686-harfbuzz
+

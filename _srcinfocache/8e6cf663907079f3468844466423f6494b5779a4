@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-lz4
+	pkgdesc = Very fast lossless compression algorithm (mingw-w64)
+	pkgver = 1.7.5
+	pkgrel = 1
+	url = http://cyan4973.github.io/lz4/
+	arch = any
+	license = BSD
+	license = GPL2
+	checkdepends = diffutils
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	options = strip
+	source = lz4-1.7.5.tar.gz::https://github.com/lz4/lz4/archive/v1.7.5.tar.gz
+	source = 001-mingw-install-over-msys.patch
+	sha256sums = 0190cacd63022ccb86f44fa5041dc6c3804407ad61550ca21c382827319e7e7e
+	sha256sums = b0ab00fc803b75530f2c0df7c85d8fca5c6213ca3124e58c52de1c6480552fed
+
+pkgname = mingw-w64-x86_64-lz4
+
+pkgbase = mingw-w64-lz4
+	pkgdesc = Very fast lossless compression algorithm (mingw-w64)
+	pkgver = 1.7.5
+	pkgrel = 1
+	url = http://cyan4973.github.io/lz4/
+	arch = any
+	license = BSD
+	license = GPL2
+	checkdepends = diffutils
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	options = strip
+	source = lz4-1.7.5.tar.gz::https://github.com/lz4/lz4/archive/v1.7.5.tar.gz
+	source = 001-mingw-install-over-msys.patch
+	sha256sums = 0190cacd63022ccb86f44fa5041dc6c3804407ad61550ca21c382827319e7e7e
+	sha256sums = b0ab00fc803b75530f2c0df7c85d8fca5c6213ca3124e58c52de1c6480552fed
+
+pkgname = mingw-w64-i686-lz4
+

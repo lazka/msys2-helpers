@@ -1,0 +1,62 @@
+pkgbase = crypt
+	pkgdesc = Encryption/Decryption utility and library
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://cygwin.com/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	source = crypt-1.4::git://sourceware.org/git/cygwin-apps/crypt.git#tag=crypt-1_4-release
+	source = msysize.patch
+	sha256sums = SKIP
+	sha256sums = 13746ef5eb4d37e74b4a8ae85430e5f80836e3f1fae72cb0b5f5bd7c5c398240
+
+pkgname = crypt
+	pkgdesc = Encryption/Decryption utility
+	depends = libcrypt
+
+pkgname = libcrypt
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libcrypt-devel
+	pkgdesc = Libcrypt headers and libraries
+	groups = development
+	depends = libcrypt=1.4
+	options = staticlibs
+
+pkgbase = crypt
+	pkgdesc = Encryption/Decryption utility and library
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://cygwin.com/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = gcc
+	makedepends = git
+	makedepends = make
+	source = crypt-1.4::git://sourceware.org/git/cygwin-apps/crypt.git#tag=crypt-1_4-release
+	source = msysize.patch
+	sha256sums = SKIP
+	sha256sums = 13746ef5eb4d37e74b4a8ae85430e5f80836e3f1fae72cb0b5f5bd7c5c398240
+
+pkgname = crypt
+	pkgdesc = Encryption/Decryption utility
+	depends = libcrypt
+
+pkgname = libcrypt
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libcrypt-devel
+	pkgdesc = Libcrypt headers and libraries
+	groups = development
+	depends = libcrypt=1.4
+	options = staticlibs
+

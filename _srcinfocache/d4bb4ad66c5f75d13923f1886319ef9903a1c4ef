@@ -1,0 +1,62 @@
+pkgbase = znc-git
+	pkgdesc = An IRC bouncer with modules & scripts support
+	pkgver = r4470.9b31a07
+	pkgrel = 1
+	url = http://znc.in/
+	arch = i686
+	arch = x86_64
+	license = Apache 2.0
+	makedepends = cyrus-sasl
+	makedepends = gettext-devel
+	makedepends = git
+	makedepends = icu-devel
+	makedepends = libsasl-devel
+	makedepends = perl
+	makedepends = python
+	makedepends = swig
+	makedepends = tcl
+	depends = openssl
+	optdepends = tcl: modtcl module
+	optdepends = python: modpython module
+	optdepends = perl: modperl module
+	optdepends = cyrus-sasl: cyrusauth module
+	provides = znc
+	conflicts = znc
+	source = znc::git+https://github.com/znc/znc#branch=master
+	source = znc-configure-msys2.patch
+	sha256sums = SKIP
+	sha256sums = 8371060182875ee36ac82c86a398ed8b1283c4e4b872bee4994d004fa8a808c3
+
+pkgname = znc-git
+
+pkgbase = znc-git
+	pkgdesc = An IRC bouncer with modules & scripts support
+	pkgver = r4470.9b31a07
+	pkgrel = 1
+	url = http://znc.in/
+	arch = i686
+	arch = x86_64
+	license = Apache 2.0
+	makedepends = cyrus-sasl
+	makedepends = gettext-devel
+	makedepends = git
+	makedepends = icu-devel
+	makedepends = libsasl-devel
+	makedepends = perl
+	makedepends = python
+	makedepends = swig
+	makedepends = tcl
+	depends = openssl
+	optdepends = tcl: modtcl module
+	optdepends = python: modpython module
+	optdepends = perl: modperl module
+	optdepends = cyrus-sasl: cyrusauth module
+	provides = znc
+	conflicts = znc
+	source = znc::git+https://github.com/znc/znc#branch=master
+	source = znc-configure-msys2.patch
+	sha256sums = SKIP
+	sha256sums = 8371060182875ee36ac82c86a398ed8b1283c4e4b872bee4994d004fa8a808c3
+
+pkgname = znc-git
+

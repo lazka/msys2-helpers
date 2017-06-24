@@ -1,0 +1,32 @@
+pkgbase = perl-TermReadKey
+	pkgdesc = Provides simple control over terminal driver modes
+	pkgver = 2.37
+	pkgrel = 1
+	url = http://search.cpan.org/~jstowe/TermReadKey/
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = custom
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-2.37.tar.gz
+	sha256sums = 4a9383cf2e0e0194668fe2bd546e894ffad41d556b41d2f2f577c8db682db241
+
+pkgname = perl-TermReadKey
+
+pkgbase = perl-TermReadKey
+	pkgdesc = Provides simple control over terminal driver modes
+	pkgver = 2.37
+	pkgrel = 1
+	url = http://search.cpan.org/~jstowe/TermReadKey/
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = custom
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/J/JS/JSTOWE/TermReadKey-2.37.tar.gz
+	sha256sums = 4a9383cf2e0e0194668fe2bd546e894ffad41d556b41d2f2f577c8db682db241
+
+pkgname = perl-TermReadKey
+

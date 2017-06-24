@@ -1,0 +1,30 @@
+pkgbase = msys2-keyring
+	pkgdesc = MSYS2 PGP keyring
+	pkgver = r9.397a52e
+	pkgrel = 1
+	url = https://github.com/Alexpux/MSYS2-keyring
+	install = msys2-keyring.install
+	arch = any
+	groups = base
+	license = GPL
+	makedepends = git
+	source = msys2-keyring::git+https://github.com/Alexpux/MSYS2-keyring.git
+	sha256sums = SKIP
+
+pkgname = msys2-keyring
+
+pkgbase = msys2-keyring
+	pkgdesc = MSYS2 PGP keyring
+	pkgver = r9.397a52e
+	pkgrel = 1
+	url = https://github.com/Alexpux/MSYS2-keyring
+	install = msys2-keyring.install
+	arch = any
+	groups = base
+	license = GPL
+	makedepends = git
+	source = msys2-keyring::git+https://github.com/Alexpux/MSYS2-keyring.git
+	sha256sums = SKIP
+
+pkgname = msys2-keyring
+

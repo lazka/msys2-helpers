@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-python-cx_Freeze
+	pkgdesc = Python package for freezing scripts into executables (mingw-w64)
+	pkgver = 5.0.2
+	pkgrel = 1
+	url = https://cx-freeze.sourceforge.io/
+	arch = any
+	license = PSF
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = cx_Freeze-5.0.2.tar.gz::https://github.com/anthony-tuininga/cx_Freeze/archive/5.0.2.tar.gz
+	source = 0001-fix-build.patch
+	sha256sums = dce19345fe640ba4f067573b48bb9ce243d37f0406a46827cca82a205532a841
+	sha256sums = 9e59ad4303ef90b6e65f116befa28d5ef5542f4668de6289abb5638a50e9db9e
+
+pkgname = mingw-w64-x86_64-python2-cx_Freeze
+
+pkgname = mingw-w64-x86_64-python3-cx_Freeze
+
+pkgbase = mingw-w64-python-cx_Freeze
+	pkgdesc = Python package for freezing scripts into executables (mingw-w64)
+	pkgver = 5.0.2
+	pkgrel = 1
+	url = https://cx-freeze.sourceforge.io/
+	arch = any
+	license = PSF
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = cx_Freeze-5.0.2.tar.gz::https://github.com/anthony-tuininga/cx_Freeze/archive/5.0.2.tar.gz
+	source = 0001-fix-build.patch
+	sha256sums = dce19345fe640ba4f067573b48bb9ce243d37f0406a46827cca82a205532a841
+	sha256sums = 9e59ad4303ef90b6e65f116befa28d5ef5542f4668de6289abb5638a50e9db9e
+
+pkgname = mingw-w64-i686-python2-cx_Freeze
+
+pkgname = mingw-w64-i686-python3-cx_Freeze
+

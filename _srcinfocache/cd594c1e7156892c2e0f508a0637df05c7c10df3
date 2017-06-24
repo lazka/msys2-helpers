@@ -1,0 +1,58 @@
+pkgbase = libmetalink
+	pkgdesc = Metalink XML parser library.
+	pkgver = 0.1.2
+	pkgrel = 2
+	url = https://launchpad.net/libmetalink
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = MIT
+	makedepends = libexpat-devel
+	makedepends = pkg-config
+	depends = msys2-runtime
+	depends = libexpat
+	depends = sh
+	source = https://launchpad.net/libmetalink/trunk/packagingfix/+download/libmetalink-0.1.2.tar.bz2
+	source = libmetalink-0.1.2-msys2.patch
+	sha256sums = cbed9121bf550ef14a434d6ed3d8806ded7a339db16b698cfa2f39fdc3d48bf6
+	sha256sums = b69e0aa0de75888653a71fcc52767cda295443943e6712c720b82877f7cb25a6
+
+pkgname = libmetalink
+	groups = libraries
+
+pkgname = libmetalink-devel
+	pkgdesc = libmetalink headers and libraries
+	groups = development
+	depends = libmetalink=0.1.2
+	depends = libexpat-devel
+	options = staticlibs
+
+pkgbase = libmetalink
+	pkgdesc = Metalink XML parser library.
+	pkgver = 0.1.2
+	pkgrel = 2
+	url = https://launchpad.net/libmetalink
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = MIT
+	makedepends = libexpat-devel
+	makedepends = pkg-config
+	depends = msys2-runtime
+	depends = libexpat
+	depends = sh
+	source = https://launchpad.net/libmetalink/trunk/packagingfix/+download/libmetalink-0.1.2.tar.bz2
+	source = libmetalink-0.1.2-msys2.patch
+	sha256sums = cbed9121bf550ef14a434d6ed3d8806ded7a339db16b698cfa2f39fdc3d48bf6
+	sha256sums = b69e0aa0de75888653a71fcc52767cda295443943e6712c720b82877f7cb25a6
+
+pkgname = libmetalink
+	groups = libraries
+
+pkgname = libmetalink-devel
+	pkgdesc = libmetalink headers and libraries
+	groups = development
+	depends = libmetalink=0.1.2
+	depends = libexpat-devel
+	options = staticlibs
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-go
+	pkgdesc = Go Lang (mingw-w64)
+	pkgver = 1.8
+	pkgrel = 1
+	url = https://www.golang.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-go
+	options = !strip
+	source = https://storage.googleapis.com/golang/go1.8.src.tar.gz
+	source = 0010-go1.7-proper-go-binary-path.patch
+	source = 0011-add-GO_BUILD_VERBOSE.patch
+	sha256sums = 406865f587b44be7092f206d73fc1de252600b79b3cacc587b74b5ef5c623596
+	sha256sums = 41ff1f94ab4e1b254884d3674cc6729e9b11de0c689c56d1ad3ac1223855d1f3
+	sha256sums = c7f9a39a4b29668276d5836d2c1e1d5c8017c6dd66b976f519e9f5e85383ab85
+
+pkgname = mingw-w64-x86_64-go
+
+pkgbase = mingw-w64-go
+	pkgdesc = Go Lang (mingw-w64)
+	pkgver = 1.8
+	pkgrel = 1
+	url = https://www.golang.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-go
+	options = !strip
+	source = https://storage.googleapis.com/golang/go1.8.src.tar.gz
+	source = 0010-go1.7-proper-go-binary-path.patch
+	source = 0011-add-GO_BUILD_VERBOSE.patch
+	sha256sums = 406865f587b44be7092f206d73fc1de252600b79b3cacc587b74b5ef5c623596
+	sha256sums = 41ff1f94ab4e1b254884d3674cc6729e9b11de0c689c56d1ad3ac1223855d1f3
+	sha256sums = c7f9a39a4b29668276d5836d2c1e1d5c8017c6dd66b976f519e9f5e85383ab85
+
+pkgname = mingw-w64-i686-go
+

@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-netcdf
+	pkgdesc = Interface for scientific data access to large binary data (mingw-w64)
+	pkgver = 4.4.1.1
+	pkgrel = 1
+	url = http://www.unidata.ucar.edu/software/netcdf/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-hdf5
+	source = ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.4.1.1.zip
+	source = 0001-mingw-cmake.patch
+	sha256sums = 0cb66e0ecdaef40693f21ad46d4b3ff538a4016e34ea43bc940a9a7454e90f5d
+	sha256sums = 7aa8c851925b680fabf9a78950cab4a3e315728b1a16937719bb0b9a76a67cde
+
+pkgname = mingw-w64-x86_64-netcdf
+
+pkgbase = mingw-w64-netcdf
+	pkgdesc = Interface for scientific data access to large binary data (mingw-w64)
+	pkgver = 4.4.1.1
+	pkgrel = 1
+	url = http://www.unidata.ucar.edu/software/netcdf/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-hdf5
+	source = ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.4.1.1.zip
+	source = 0001-mingw-cmake.patch
+	sha256sums = 0cb66e0ecdaef40693f21ad46d4b3ff538a4016e34ea43bc940a9a7454e90f5d
+	sha256sums = 7aa8c851925b680fabf9a78950cab4a3e315728b1a16937719bb0b9a76a67cde
+
+pkgname = mingw-w64-i686-netcdf
+

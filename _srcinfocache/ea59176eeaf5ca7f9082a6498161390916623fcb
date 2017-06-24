@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-pdfium-git
+	pkgdesc = Chrome’s PDF rendering engine (mingw-w64)
+	pkgver = 2729.r2908.696fc8b
+	pkgrel = 1
+	url = https://pdfium.googlesource.com/pdfium/
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = gyp-git
+	makedepends = python2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	source = pdfium::git+https://pdfium.googlesource.com/pdfium.git#branch=chromium/2729
+	source = googletest-release-1.7.0.tar.gz::https://codeload.github.com/google/googletest/tar.gz/release-1.7.0
+	source = googlemock-release-1.7.0.tar.gz::https://codeload.github.com/google/googlemock/tar.gz/release-1.7.0
+	source = pdfium-2729.patch
+	sha256sums = SKIP
+	sha256sums = f73a6546fdf9fce9ff93a5015e0333a8af3062a152a9ad6bcb772c96687016cc
+	sha256sums = 3f20b6acb37e5a98e8c4518165711e3e35d47deb6cdb5a4dd4566563b5efd232
+	sha256sums = 743ea5997d9956ed63b0c391aabf1751e7e6c7186432bd21c0e1fe1e4111cd36
+
+pkgname = mingw-w64-x86_64-pdfium-git
+
+pkgbase = mingw-w64-pdfium-git
+	pkgdesc = Chrome’s PDF rendering engine (mingw-w64)
+	pkgver = 2729.r2908.696fc8b
+	pkgrel = 1
+	url = https://pdfium.googlesource.com/pdfium/
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = gyp-git
+	makedepends = python2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	source = pdfium::git+https://pdfium.googlesource.com/pdfium.git#branch=chromium/2729
+	source = googletest-release-1.7.0.tar.gz::https://codeload.github.com/google/googletest/tar.gz/release-1.7.0
+	source = googlemock-release-1.7.0.tar.gz::https://codeload.github.com/google/googlemock/tar.gz/release-1.7.0
+	source = pdfium-2729.patch
+	sha256sums = SKIP
+	sha256sums = f73a6546fdf9fce9ff93a5015e0333a8af3062a152a9ad6bcb772c96687016cc
+	sha256sums = 3f20b6acb37e5a98e8c4518165711e3e35d47deb6cdb5a4dd4566563b5efd232
+	sha256sums = 743ea5997d9956ed63b0c391aabf1751e7e6c7186432bd21c0e1fe1e4111cd36
+
+pkgname = mingw-w64-i686-pdfium-git
+

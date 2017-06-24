@@ -1,0 +1,40 @@
+pkgbase = swig
+	pkgdesc = Generate scripting interfaces to C/C++ code
+	pkgver = 3.0.10
+	pkgrel = 1
+	url = http://www.swig.org/
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = custom
+	makedepends = zlib-devel
+	makedepends = pcre-devel
+	depends = zlib
+	depends = libpcre
+	source = https://downloads.sourceforge.net/swig/swig-3.0.10.tar.gz
+	source = swig-3.0.10-msys2.patch
+	sha256sums = 2939aae39dec06095462f1b95ce1c958ac80d07b926e48871046d17c0094f44c
+	sha256sums = 85306d097e856797bf10fbc6ef8fec8ae5517876ba15edad035b1e4b251bb931
+
+pkgname = swig
+
+pkgbase = swig
+	pkgdesc = Generate scripting interfaces to C/C++ code
+	pkgver = 3.0.10
+	pkgrel = 1
+	url = http://www.swig.org/
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = custom
+	makedepends = zlib-devel
+	makedepends = pcre-devel
+	depends = zlib
+	depends = libpcre
+	source = https://downloads.sourceforge.net/swig/swig-3.0.10.tar.gz
+	source = swig-3.0.10-msys2.patch
+	sha256sums = 2939aae39dec06095462f1b95ce1c958ac80d07b926e48871046d17c0094f44c
+	sha256sums = 85306d097e856797bf10fbc6ef8fec8ae5517876ba15edad035b1e4b251bb931
+
+pkgname = swig
+

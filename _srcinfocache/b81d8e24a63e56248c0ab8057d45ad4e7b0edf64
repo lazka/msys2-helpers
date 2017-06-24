@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-orc
+	pkgdesc = The Oild Runtime Compiler (mingw-w64)
+	pkgver = 0.4.26
+	pkgrel = 1
+	url = http://code.entropywave.com/projects/orc/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	options = strip
+	options = staticlibs
+	source = https://gstreamer.freedesktop.org/src/orc/orc-0.4.26.tar.xz
+	sha256sums = 7d52fa80ef84988359c3434e1eea302d077a08987abdde6905678ebcad4fa649
+
+pkgname = mingw-w64-x86_64-orc
+
+pkgbase = mingw-w64-orc
+	pkgdesc = The Oild Runtime Compiler (mingw-w64)
+	pkgver = 0.4.26
+	pkgrel = 1
+	url = http://code.entropywave.com/projects/orc/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	options = strip
+	options = staticlibs
+	source = https://gstreamer.freedesktop.org/src/orc/orc-0.4.26.tar.xz
+	sha256sums = 7d52fa80ef84988359c3434e1eea302d077a08987abdde6905678ebcad4fa649
+
+pkgname = mingw-w64-i686-orc
+

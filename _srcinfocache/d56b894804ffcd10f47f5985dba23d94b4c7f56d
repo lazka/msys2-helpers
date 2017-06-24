@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-gnu-cobol-svn
+	pkgdesc = GNU Cobol is a free, modern COBOL compiler (mingw-w64)
+	pkgver = 2.0.r1454
+	pkgrel = 1
+	url = https://sourceforge.net/projects/open-cobol/
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = subversion
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libiconv
+	depends = mingw-w64-x86_64-db
+	depends = mingw-w64-x86_64-gmp
+	depends = mingw-w64-x86_64-ncurses
+	provides = mingw-w64-x86_64-gnu-cobol
+	conflicts = mingw-w64-x86_64-gnu-cobol
+	options = strip
+	source = gnu-cobol::svn+https://svn.code.sf.net/p/open-cobol/code/branches/gnu-cobol-2.0
+	source = 001-fix-typo.patch
+	sha256sums = SKIP
+	sha256sums = 791061da46371ed5465d8bd35b74cc695c113c8a10116772ac8cbd7c2911e05e
+
+pkgname = mingw-w64-x86_64-gnu-cobol-svn
+
+pkgbase = mingw-w64-gnu-cobol-svn
+	pkgdesc = GNU Cobol is a free, modern COBOL compiler (mingw-w64)
+	pkgver = 2.0.r1454
+	pkgrel = 1
+	url = https://sourceforge.net/projects/open-cobol/
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = subversion
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libiconv
+	depends = mingw-w64-i686-db
+	depends = mingw-w64-i686-gmp
+	depends = mingw-w64-i686-ncurses
+	provides = mingw-w64-i686-gnu-cobol
+	conflicts = mingw-w64-i686-gnu-cobol
+	options = strip
+	source = gnu-cobol::svn+https://svn.code.sf.net/p/open-cobol/code/branches/gnu-cobol-2.0
+	source = 001-fix-typo.patch
+	sha256sums = SKIP
+	sha256sums = 791061da46371ed5465d8bd35b74cc695c113c8a10116772ac8cbd7c2911e05e
+
+pkgname = mingw-w64-i686-gnu-cobol-svn
+

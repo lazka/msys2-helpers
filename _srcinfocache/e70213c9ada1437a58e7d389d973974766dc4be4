@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-icoutils
+	pkgdesc = Create and extract MS Windows icons and cursors (mingw-w64)
+	pkgver = 0.31.3
+	pkgrel = 1
+	url = http://www.nongnu.org/icoutils/
+	arch = any
+	license = GPL 2
+	depends = mingw-w64-x86_64-libpng
+	options = strip
+	options = staticlibs
+	source = https://savannah.nongnu.org/download/icoutils/icoutils-0.31.3.tar.bz2
+	sha256sums = d4651de8e3f9e28d24b5343a2b7564f49754e5fe7d211c5d4dd60dcd65c8a152
+
+pkgname = mingw-w64-x86_64-icoutils
+
+pkgbase = mingw-w64-icoutils
+	pkgdesc = Create and extract MS Windows icons and cursors (mingw-w64)
+	pkgver = 0.31.3
+	pkgrel = 1
+	url = http://www.nongnu.org/icoutils/
+	arch = any
+	license = GPL 2
+	depends = mingw-w64-i686-libpng
+	options = strip
+	options = staticlibs
+	source = https://savannah.nongnu.org/download/icoutils/icoutils-0.31.3.tar.bz2
+	sha256sums = d4651de8e3f9e28d24b5343a2b7564f49754e5fe7d211c5d4dd60dcd65c8a152
+
+pkgname = mingw-w64-i686-icoutils
+

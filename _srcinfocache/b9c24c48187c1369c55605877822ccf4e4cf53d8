@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-openocd-git
+	pkgdesc = OpenOCD - Open On-Chip Debugger (mingw-w64)
+	pkgver = 0.10.0.rc1.r1.gc404ff5
+	pkgrel = 1
+	url = http://openocd.org/
+	arch = any
+	license = GPLv2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = pkg-config
+	makedepends = git
+	depends = mingw-w64-x86_64-hidapi
+	depends = mingw-w64-x86_64-libusb
+	depends = mingw-w64-x86_64-libusb-compat
+	depends = mingw-w64-x86_64-libftdi
+	provides = mingw-w64-x86_64-openocd
+	conflicts = mingw-w64-x86_64-openocd
+	options = !ccache
+	source = openocd::git+https://git.code.sf.net/p/openocd/code
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-openocd-git
+
+pkgbase = mingw-w64-openocd-git
+	pkgdesc = OpenOCD - Open On-Chip Debugger (mingw-w64)
+	pkgver = 0.10.0.rc1.r1.gc404ff5
+	pkgrel = 1
+	url = http://openocd.org/
+	arch = any
+	license = GPLv2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = pkg-config
+	makedepends = git
+	depends = mingw-w64-i686-hidapi
+	depends = mingw-w64-i686-libusb
+	depends = mingw-w64-i686-libusb-compat
+	depends = mingw-w64-i686-libftdi
+	provides = mingw-w64-i686-openocd
+	conflicts = mingw-w64-i686-openocd
+	options = !ccache
+	source = openocd::git+https://git.code.sf.net/p/openocd/code
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-openocd-git
+

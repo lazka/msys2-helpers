@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-pathlib2
+	pkgdesc = This module offers a set of classes featuring all the common operations on paths in an easy, object-oriented way (mingw-w64)
+	pkgver = 2.3.0
+	pkgrel = 2
+	url = http://pathlib.readthedocs.org/en/2.3.0/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = https://pypi.python.org/packages/a1/14/df0deb867c2733f7d857523c10942b3d6612a1b222502fdffa9439943dfb/pathlib2-2.3.0.tar.gz
+	sha256sums = d32550b75a818b289bd4c1f96b60c89957811da205afcceab75bc8b4857ea5b3
+
+pkgname = mingw-w64-x86_64-python3-pathlib2
+
+pkgname = mingw-w64-x86_64-python2-pathlib2
+
+pkgbase = mingw-w64-python-pathlib2
+	pkgdesc = This module offers a set of classes featuring all the common operations on paths in an easy, object-oriented way (mingw-w64)
+	pkgver = 2.3.0
+	pkgrel = 2
+	url = http://pathlib.readthedocs.org/en/2.3.0/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = https://pypi.python.org/packages/a1/14/df0deb867c2733f7d857523c10942b3d6612a1b222502fdffa9439943dfb/pathlib2-2.3.0.tar.gz
+	sha256sums = d32550b75a818b289bd4c1f96b60c89957811da205afcceab75bc8b4857ea5b3
+
+pkgname = mingw-w64-i686-python3-pathlib2
+
+pkgname = mingw-w64-i686-python2-pathlib2
+

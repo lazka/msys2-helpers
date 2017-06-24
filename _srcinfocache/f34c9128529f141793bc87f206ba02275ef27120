@@ -1,0 +1,40 @@
+pkgbase = tig
+	pkgdesc = Text-mode interface for Git
+	pkgver = 2.2
+	pkgrel = 1
+	url = http://jonas.nitro.dk/tig/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = asciidoc
+	makedepends = xmlto
+	makedepends = libreadline-devel
+	makedepends = ncurses-devel
+	depends = git
+	depends = libreadline
+	depends = ncurses
+	source = http://jonas.nitro.dk/tig/releases/tig-2.2.tar.gz
+	sha256sums = 8f5213d3abb45ca9a79810b8d2a2a12d941112bc4682bcfa91f34db74942754c
+
+pkgname = tig
+
+pkgbase = tig
+	pkgdesc = Text-mode interface for Git
+	pkgver = 2.2
+	pkgrel = 1
+	url = http://jonas.nitro.dk/tig/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = asciidoc
+	makedepends = xmlto
+	makedepends = libreadline-devel
+	makedepends = ncurses-devel
+	depends = git
+	depends = libreadline
+	depends = ncurses
+	source = http://jonas.nitro.dk/tig/releases/tig-2.2.tar.gz
+	sha256sums = 8f5213d3abb45ca9a79810b8d2a2a12d941112bc4682bcfa91f34db74942754c
+
+pkgname = tig
+

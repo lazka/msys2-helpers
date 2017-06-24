@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-swig
+	pkgdesc = Generate scripting interfaces to C/C++ code (mingw-w64)
+	pkgver = 3.0.12
+	pkgrel = 1
+	url = http://www.swig.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-lua
+	makedepends = mingw-w64-x86_64-ruby
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-pcre
+	source = https://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz
+	source = 001-relocate.patch
+	source = 002-fix-python-find.patch
+	sha256sums = 7cf9f447ae7ed1c51722efc45e7f14418d15d7a1e143ac9f09a668999f4fc94d
+	sha256sums = b620efcd725546ed74ade96c26b56c4709fc34af3394d8419159ef2cdcc39036
+	sha256sums = 360df7813522ab9f3a56588032b8e33b6396a9f3e61a3d08909bd42bb63dd5fe
+
+pkgname = mingw-w64-x86_64-swig
+
+pkgbase = mingw-w64-swig
+	pkgdesc = Generate scripting interfaces to C/C++ code (mingw-w64)
+	pkgver = 3.0.12
+	pkgrel = 1
+	url = http://www.swig.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-lua
+	makedepends = mingw-w64-i686-ruby
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-pcre
+	source = https://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz
+	source = 001-relocate.patch
+	source = 002-fix-python-find.patch
+	sha256sums = 7cf9f447ae7ed1c51722efc45e7f14418d15d7a1e143ac9f09a668999f4fc94d
+	sha256sums = b620efcd725546ed74ade96c26b56c4709fc34af3394d8419159ef2cdcc39036
+	sha256sums = 360df7813522ab9f3a56588032b8e33b6396a9f3e61a3d08909bd42bb63dd5fe
+
+pkgname = mingw-w64-i686-swig
+

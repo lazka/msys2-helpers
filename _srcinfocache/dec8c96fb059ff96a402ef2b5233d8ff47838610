@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-devhelp
+	pkgdesc = Remote desktop client for the GNOME Desktop (mingw-w64)
+	pkgver = 3.8.2
+	pkgrel = 2
+	url = https://www.gnome.org
+	install = devhelp-x86_64.install
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-vala
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-gsettings-desktop-schemas
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	depends = mingw-w64-x86_64-webkitgtk3
+	depends = mingw-w64-x86_64-png2ico
+	depends = mingw-w64-x86_64-python2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/devhelp/3.8/devhelp-3.8.2.tar.xz
+	source = 001-win.patch
+	source = 002-prefs-ui.patch
+	sha256sums = a245b53824c6f2ff89245ff807bb2140bde74951ea6f1d759a0fd0c6959ca9f7
+	sha256sums = 0ed77884d958aa94af910591a61f33895a5f6d9b4f7e4852de6ab543d4487b50
+	sha256sums = 8f29ff161403a6e55583f3f4a5d1b97dcc86b84d115d4a86f90bf0627f9eab44
+
+pkgname = mingw-w64-x86_64-devhelp
+
+pkgbase = mingw-w64-devhelp
+	pkgdesc = Remote desktop client for the GNOME Desktop (mingw-w64)
+	pkgver = 3.8.2
+	pkgrel = 2
+	url = https://www.gnome.org
+	install = devhelp-i686.install
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-vala
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-gsettings-desktop-schemas
+	depends = mingw-w64-i686-adwaita-icon-theme
+	depends = mingw-w64-i686-webkitgtk3
+	depends = mingw-w64-i686-png2ico
+	depends = mingw-w64-i686-python2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/devhelp/3.8/devhelp-3.8.2.tar.xz
+	source = 001-win.patch
+	source = 002-prefs-ui.patch
+	sha256sums = a245b53824c6f2ff89245ff807bb2140bde74951ea6f1d759a0fd0c6959ca9f7
+	sha256sums = 0ed77884d958aa94af910591a61f33895a5f6d9b4f7e4852de6ab543d4487b50
+	sha256sums = 8f29ff161403a6e55583f3f4a5d1b97dcc86b84d115d4a86f90bf0627f9eab44
+
+pkgname = mingw-w64-i686-devhelp
+

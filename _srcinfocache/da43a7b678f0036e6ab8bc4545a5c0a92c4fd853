@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-matio
+	pkgdesc = matio is a C library for reading and writing MATLAB MAT files.
+	pkgver = 1.5.10
+	pkgrel = 1
+	url = https://sourceforge.net/projects/matio/
+	arch = any
+	license = Simplified BSD
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-zlib
+	depends = mingw-w64-x86_64-hdf5
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/matio/matio/1.5.10/matio-1.5.10.7z
+	sha256sums = ee612a40b4d86fbd44a23436bd6373989c0f71f32931a278086fb5452bf4d1a6
+
+pkgname = mingw-w64-x86_64-matio
+
+pkgbase = mingw-w64-matio
+	pkgdesc = matio is a C library for reading and writing MATLAB MAT files.
+	pkgver = 1.5.10
+	pkgrel = 1
+	url = https://sourceforge.net/projects/matio/
+	arch = any
+	license = Simplified BSD
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-zlib
+	depends = mingw-w64-i686-hdf5
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/matio/matio/1.5.10/matio-1.5.10.7z
+	sha256sums = ee612a40b4d86fbd44a23436bd6373989c0f71f32931a278086fb5452bf4d1a6
+
+pkgname = mingw-w64-i686-matio
+

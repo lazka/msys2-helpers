@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-opus-tools
+	pkgdesc = Collection of tools for Opus audio codec (mingw-w64)
+	pkgver = 0.1.9
+	pkgrel = 2
+	url = https://www.opus-codec.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-flac
+	depends = mingw-w64-x86_64-libogg
+	depends = mingw-w64-x86_64-opus
+	options = strip
+	options = staticlibs
+	source = http://downloads.xiph.org/releases/opus/opus-tools-0.1.9.tar.gz
+	sha256sums = b1873dd78c7fbc98cf65d6e10cfddb5c2c03b3af93f922139a2104baedb4643a
+
+pkgname = mingw-w64-x86_64-opus-tools
+
+pkgbase = mingw-w64-opus-tools
+	pkgdesc = Collection of tools for Opus audio codec (mingw-w64)
+	pkgver = 0.1.9
+	pkgrel = 2
+	url = https://www.opus-codec.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-flac
+	depends = mingw-w64-i686-libogg
+	depends = mingw-w64-i686-opus
+	options = strip
+	options = staticlibs
+	source = http://downloads.xiph.org/releases/opus/opus-tools-0.1.9.tar.gz
+	sha256sums = b1873dd78c7fbc98cf65d6e10cfddb5c2c03b3af93f922139a2104baedb4643a
+
+pkgname = mingw-w64-i686-opus-tools
+

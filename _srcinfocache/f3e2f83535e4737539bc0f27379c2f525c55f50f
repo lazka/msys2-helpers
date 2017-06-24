@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-gtk-doc
+	pkgdesc = Documentation tool for public library API (mingw-w64)
+	pkgver = 1.21
+	pkgrel = 1
+	url = http://www.gtk.org/gtk-doc/
+	arch = any
+	license = GPL
+	license = FDL
+	makedepends = mingw-w64-x86_64-libxml2
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = itstool
+	depends = mingw-w64-x86_64-docbook-xsl
+	depends = mingw-w64-x86_64-gnome-doc-utils
+	depends = perl
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/gtk-doc/1.21/gtk-doc-1.21.tar.xz
+	sha256sums = 5d934d012ee08edd1585544792efa80da271652587ba5b843d2cea8e8b80ee3e
+
+pkgname = mingw-w64-x86_64-gtk-doc
+
+pkgbase = mingw-w64-gtk-doc
+	pkgdesc = Documentation tool for public library API (mingw-w64)
+	pkgver = 1.21
+	pkgrel = 1
+	url = http://www.gtk.org/gtk-doc/
+	arch = any
+	license = GPL
+	license = FDL
+	makedepends = mingw-w64-i686-libxml2
+	makedepends = mingw-w64-i686-python2
+	makedepends = itstool
+	depends = mingw-w64-i686-docbook-xsl
+	depends = mingw-w64-i686-gnome-doc-utils
+	depends = perl
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/gtk-doc/1.21/gtk-doc-1.21.tar.xz
+	sha256sums = 5d934d012ee08edd1585544792efa80da271652587ba5b843d2cea8e8b80ee3e
+
+pkgname = mingw-w64-i686-gtk-doc
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-nghttp2
+	pkgdesc = Framing layer of HTTP/2 is implemented as a reusable C library (mingw-w64)
+	pkgver = 1.23.1
+	pkgrel = 1
+	url = http://nghttp2.org/
+	arch = any
+	license = MIT
+	checkdepends = mingw-w64-x86_64-cunit
+	makedepends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-jansson
+	depends = mingw-w64-x86_64-openssl
+	depends = mingw-w64-x86_64-spdylay
+	depends = mingw-w64-x86_64-c-ares
+	source = https://github.com/nghttp2/nghttp2/releases/download/v1.23.1/nghttp2-1.23.1.tar.xz
+	sha256sums = fb75e8c0d6cf9c4381fff242d2dc04cdcc2691af8dc125c6ca349efecf5ccc21
+
+pkgname = mingw-w64-x86_64-nghttp2
+
+pkgbase = mingw-w64-nghttp2
+	pkgdesc = Framing layer of HTTP/2 is implemented as a reusable C library (mingw-w64)
+	pkgver = 1.23.1
+	pkgrel = 1
+	url = http://nghttp2.org/
+	arch = any
+	license = MIT
+	checkdepends = mingw-w64-i686-cunit
+	makedepends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-jansson
+	depends = mingw-w64-i686-openssl
+	depends = mingw-w64-i686-spdylay
+	depends = mingw-w64-i686-c-ares
+	source = https://github.com/nghttp2/nghttp2/releases/download/v1.23.1/nghttp2-1.23.1.tar.xz
+	sha256sums = fb75e8c0d6cf9c4381fff242d2dc04cdcc2691af8dc125c6ca349efecf5ccc21
+
+pkgname = mingw-w64-i686-nghttp2
+

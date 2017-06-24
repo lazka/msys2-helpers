@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-python-reportlab
+	pkgdesc = A proven industry-strength PDF generating solution (mingw-w64)
+	pkgver = 3.4.0
+	pkgrel = 1
+	url = https://www.reportlab.org/rl_toolkit.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2-pip
+	makedepends = mingw-w64-x86_64-python3-pip
+	makedepends = mingw-w64-x86_64-python2-Pillow
+	makedepends = mingw-w64-x86_64-python3-Pillow
+	depends = mingw-w64-x86_64-freetype
+	source = https://pypi.python.org/packages/87/f9/53b34c58d3735a6df7d5c542bf4de60d699cfa6035e113ca08b3ecdcca3f/reportlab-3.4.0.tar.gz
+	source = 0001-Do-not-specialcase-quote-LIBART_VERSION-on-Windows.patch
+	sha256sums = 5beaf35e59dfd5ebd814fdefd76908292e818c982bd7332b5d347dfd2f01c343
+	sha256sums = 084b3574f7cb83dc7c9412b9976d672fda0f5f20cef6c6f6b66a6cefc31220ef
+
+pkgname = mingw-w64-x86_64-python2-reportlab
+
+pkgname = mingw-w64-x86_64-python3-reportlab
+
+pkgbase = mingw-w64-python-reportlab
+	pkgdesc = A proven industry-strength PDF generating solution (mingw-w64)
+	pkgver = 3.4.0
+	pkgrel = 1
+	url = https://www.reportlab.org/rl_toolkit.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2-pip
+	makedepends = mingw-w64-i686-python3-pip
+	makedepends = mingw-w64-i686-python2-Pillow
+	makedepends = mingw-w64-i686-python3-Pillow
+	depends = mingw-w64-i686-freetype
+	source = https://pypi.python.org/packages/87/f9/53b34c58d3735a6df7d5c542bf4de60d699cfa6035e113ca08b3ecdcca3f/reportlab-3.4.0.tar.gz
+	source = 0001-Do-not-specialcase-quote-LIBART_VERSION-on-Windows.patch
+	sha256sums = 5beaf35e59dfd5ebd814fdefd76908292e818c982bd7332b5d347dfd2f01c343
+	sha256sums = 084b3574f7cb83dc7c9412b9976d672fda0f5f20cef6c6f6b66a6cefc31220ef
+
+pkgname = mingw-w64-i686-python2-reportlab
+
+pkgname = mingw-w64-i686-python3-reportlab
+

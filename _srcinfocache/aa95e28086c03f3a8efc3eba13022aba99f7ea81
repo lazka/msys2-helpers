@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-check
+	pkgdesc = A unit testing framework for C (mingw-w64)
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://check.sourceforge.io/
+	arch = any
+	license = LGPL
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/check/check-0.10.0.tar.gz
+	sha256sums = f5f50766aa6f8fe5a2df752666ca01a950add45079aa06416b83765b1cf71052
+
+pkgname = mingw-w64-x86_64-check
+
+pkgbase = mingw-w64-check
+	pkgdesc = A unit testing framework for C (mingw-w64)
+	pkgver = 0.10.0
+	pkgrel = 1
+	url = https://check.sourceforge.io/
+	arch = any
+	license = LGPL
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/check/check-0.10.0.tar.gz
+	sha256sums = f5f50766aa6f8fe5a2df752666ca01a950add45079aa06416b83765b1cf71052
+
+pkgname = mingw-w64-i686-check
+

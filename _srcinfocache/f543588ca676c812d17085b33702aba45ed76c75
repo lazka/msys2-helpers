@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-scite-hg
+	pkgver = r4649+.a9f6d5a13b70+
+	pkgrel = 1
+	url = http://www.scintilla.org/SciTE.html
+	arch = any
+	license = custom:scite
+	makedepends = mercurial
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gtk3
+	makedepends = mingw-w64-x86_64-pkg-config
+	source = scintilla::hg+http://hg.code.sf.net/p/scintilla/code
+	source = scite::hg+http://hg.code.sf.net/p/scintilla/scite
+	source = 0001-Use-POSIX-tools-in-makefiles.patch
+	source = 0002-Prefix-library-names.patch
+	source = 0003-Use-FHS.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = b963a93ed497a599f3a54f07a71148282302f008310824c9a44edc6cb2c33d39
+	sha256sums = 30f3617eaa405a4015b2896301dc3b6ddb8cdf22399045cc4a1736cae43104eb
+	sha256sums = 40289f6b194ee032fc11c321a4256c45d9243a108f38a232944f57a5db1e5e07
+
+pkgname = mingw-w64-x86_64-scite-hg
+
+pkgname = mingw-w64-x86_64-scite-defaults-hg
+
+pkgbase = mingw-w64-scite-hg
+	pkgver = r4649+.a9f6d5a13b70+
+	pkgrel = 1
+	url = http://www.scintilla.org/SciTE.html
+	arch = any
+	license = custom:scite
+	makedepends = mercurial
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gtk3
+	makedepends = mingw-w64-i686-pkg-config
+	source = scintilla::hg+http://hg.code.sf.net/p/scintilla/code
+	source = scite::hg+http://hg.code.sf.net/p/scintilla/scite
+	source = 0001-Use-POSIX-tools-in-makefiles.patch
+	source = 0002-Prefix-library-names.patch
+	source = 0003-Use-FHS.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = b963a93ed497a599f3a54f07a71148282302f008310824c9a44edc6cb2c33d39
+	sha256sums = 30f3617eaa405a4015b2896301dc3b6ddb8cdf22399045cc4a1736cae43104eb
+	sha256sums = 40289f6b194ee032fc11c321a4256c45d9243a108f38a232944f57a5db1e5e07
+
+pkgname = mingw-w64-i686-scite-hg
+
+pkgname = mingw-w64-i686-scite-defaults-hg
+

@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-nsis-nsisunz
+	pkgdesc = NSIS plugin which allows you to extract files from ZIP archives (mingw-w64)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://nsis.sourceforge.io/Nsisunz_plug-in
+	arch = any
+	license = custom:ZLIB-like
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-zlib
+	depends = mingw-w64-x86_64-nsis
+	source = https://nsis.sourceforge.io/mediawiki/images/5/5a/NSISunzU.zip
+	source = 001-use-system-libraries.patch
+	source = LICENSE
+	sha256sums = 8c2b7ad6984e3137e4c51c763ec64cbd36364e72838b85e14fa287dac976c46b
+	sha256sums = 491a4ae7dad9230b68f2365cac0ce21a8df2f1185b4b60ad50b20da9abd9d1a7
+	sha256sums = 29c0b103390cb4798ccdad9afdd1a3f5d5cf0bf025dd8a6307d252fc9ca0bdaa
+
+pkgname = mingw-w64-x86_64-nsis-nsisunz
+
+pkgbase = mingw-w64-nsis-nsisunz
+	pkgdesc = NSIS plugin which allows you to extract files from ZIP archives (mingw-w64)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://nsis.sourceforge.io/Nsisunz_plug-in
+	arch = any
+	license = custom:ZLIB-like
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-zlib
+	depends = mingw-w64-i686-nsis
+	source = https://nsis.sourceforge.io/mediawiki/images/5/5a/NSISunzU.zip
+	source = 001-use-system-libraries.patch
+	source = LICENSE
+	sha256sums = 8c2b7ad6984e3137e4c51c763ec64cbd36364e72838b85e14fa287dac976c46b
+	sha256sums = 491a4ae7dad9230b68f2365cac0ce21a8df2f1185b4b60ad50b20da9abd9d1a7
+	sha256sums = 29c0b103390cb4798ccdad9afdd1a3f5d5cf0bf025dd8a6307d252fc9ca0bdaa
+
+pkgname = mingw-w64-i686-nsis-nsisunz
+

@@ -1,0 +1,82 @@
+pkgbase = apr
+	pkgdesc = The Apache Portable Runtime
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = https://apr.apache.org/
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	makedepends = libcrypt-devel
+	makedepends = libuuid-devel
+	options = !libtool
+	source = https://archive.apache.org/dist/apr/apr-1.5.2.tar.bz2
+	source = apr-1.5.0-msys2.patch
+	source = binary-copy.patch
+	source = no-undefined.patch
+	source = tests-disable_testproc.patch
+	source = tests-fix_paths.patch
+	source = tests.patch
+	source = fix-debian-layout.patch
+	sha256sums = 7d03ed29c22a7152be45b8e50431063736df9e1daa1ddf93f6a547ba7a28f67a
+	sha256sums = 7b5d67e690860c8a575aa0b42629e6c4122d897199a403d716695774d08c7bb7
+	sha256sums = 746861efed2c2e064b6acfef6ab2ee3f343ad411528a48a63dc4a3028a7aa333
+	sha256sums = 94657ee8603f12cc4a767f819cc52c4fef6721c98c5c94d9a5e0b8c87cdd5c72
+	sha256sums = e4b823a600bc3efa948229ad12d157e8038fd570f95ca7f2f260c431eeef1a09
+	sha256sums = 4c90def2d0fed5abcff1752c3ba8cba5bc6a1a628904df9c7f7d6a72207f7f53
+	sha256sums = 969057ad2cf9253eca2eb86675d8793ac3e28a4edc3b0fb3fc54cbe3086c2a89
+	sha256sums = edcb695fc87ced48cdeeb747d9b47e8cdd28ad7fcf29fa597c608fcac39621b9
+
+pkgname = apr
+	groups = libraries
+	depends = libcrypt
+	depends = libuuid
+
+pkgname = apr-devel
+	pkgdesc = Libapr headers and libraries
+	groups = development
+	depends = apr=1.5.2
+	depends = libcrypt-devel
+	depends = libuuid-devel
+	options = staticlibs
+
+pkgbase = apr
+	pkgdesc = The Apache Portable Runtime
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = https://apr.apache.org/
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	makedepends = libcrypt-devel
+	makedepends = libuuid-devel
+	options = !libtool
+	source = https://archive.apache.org/dist/apr/apr-1.5.2.tar.bz2
+	source = apr-1.5.0-msys2.patch
+	source = binary-copy.patch
+	source = no-undefined.patch
+	source = tests-disable_testproc.patch
+	source = tests-fix_paths.patch
+	source = tests.patch
+	source = fix-debian-layout.patch
+	sha256sums = 7d03ed29c22a7152be45b8e50431063736df9e1daa1ddf93f6a547ba7a28f67a
+	sha256sums = 7b5d67e690860c8a575aa0b42629e6c4122d897199a403d716695774d08c7bb7
+	sha256sums = 746861efed2c2e064b6acfef6ab2ee3f343ad411528a48a63dc4a3028a7aa333
+	sha256sums = 94657ee8603f12cc4a767f819cc52c4fef6721c98c5c94d9a5e0b8c87cdd5c72
+	sha256sums = e4b823a600bc3efa948229ad12d157e8038fd570f95ca7f2f260c431eeef1a09
+	sha256sums = 4c90def2d0fed5abcff1752c3ba8cba5bc6a1a628904df9c7f7d6a72207f7f53
+	sha256sums = 969057ad2cf9253eca2eb86675d8793ac3e28a4edc3b0fb3fc54cbe3086c2a89
+	sha256sums = edcb695fc87ced48cdeeb747d9b47e8cdd28ad7fcf29fa597c608fcac39621b9
+
+pkgname = apr
+	groups = libraries
+	depends = libcrypt
+	depends = libuuid
+
+pkgname = apr-devel
+	pkgdesc = Libapr headers and libraries
+	groups = development
+	depends = apr=1.5.2
+	depends = libcrypt-devel
+	depends = libuuid-devel
+	options = staticlibs
+

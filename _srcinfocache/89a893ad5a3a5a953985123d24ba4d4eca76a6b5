@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-simplegeneric
+	pkgdesc = File system based database that uses python pickles (mingw-w64)
+	pkgver = 0.8.1
+	pkgrel = 2
+	url = https://github.com/jaraco/simplegeneric.py
+	arch = any
+	license = Zope Public License
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = https://pypi.python.org/packages/source/s/simplegeneric/simplegeneric-0.8.1.zip
+	sha256sums = dc972e06094b9af5b855b3df4a646395e43d1c9d0d39ed345b7393560d0b9173
+
+pkgname = mingw-w64-x86_64-python3-simplegeneric
+
+pkgname = mingw-w64-x86_64-python2-simplegeneric
+
+pkgbase = mingw-w64-python-simplegeneric
+	pkgdesc = File system based database that uses python pickles (mingw-w64)
+	pkgver = 0.8.1
+	pkgrel = 2
+	url = https://github.com/jaraco/simplegeneric.py
+	arch = any
+	license = Zope Public License
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = https://pypi.python.org/packages/source/s/simplegeneric/simplegeneric-0.8.1.zip
+	sha256sums = dc972e06094b9af5b855b3df4a646395e43d1c9d0d39ed345b7393560d0b9173
+
+pkgname = mingw-w64-i686-python3-simplegeneric
+
+pkgname = mingw-w64-i686-python2-simplegeneric
+

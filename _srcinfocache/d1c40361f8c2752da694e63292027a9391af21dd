@@ -1,0 +1,74 @@
+pkgbase = mingw-w64-gtk3-git
+	pkgdesc = GObject-based multi-platform GUI toolkit (git gtk-3-22) (mingw-w64)
+	pkgver = 3.22.3.21.gd3bdd38
+	pkgrel = 1
+	url = http://www.gtk.org
+	install = gtk3-x86_64.install
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = libtool
+	makedepends = gtk-doc
+	makedepends = git
+	makedepends = autoconf-archive
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	depends = mingw-w64-x86_64-atk
+	depends = mingw-w64-x86_64-cairo
+	depends = mingw-w64-x86_64-gdk-pixbuf2
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-json-glib
+	depends = mingw-w64-x86_64-libepoxy
+	depends = mingw-w64-x86_64-pango
+	depends = mingw-w64-x86_64-shared-mime-info
+	provides = mingw-w64-x86_64-gtk3
+	conflicts = mingw-w64-x86_64-gtk3
+	options = !strip
+	options = debug
+	source = gtk3::git+https://git.gnome.org/browse/gtk+#branch=gtk-3-22
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-gtk3-git
+
+pkgbase = mingw-w64-gtk3-git
+	pkgdesc = GObject-based multi-platform GUI toolkit (git gtk-3-22) (mingw-w64)
+	pkgver = 3.22.3.21.gd3bdd38
+	pkgrel = 1
+	url = http://www.gtk.org
+	install = gtk3-i686.install
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = libtool
+	makedepends = gtk-doc
+	makedepends = git
+	makedepends = autoconf-archive
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-adwaita-icon-theme
+	depends = mingw-w64-i686-atk
+	depends = mingw-w64-i686-cairo
+	depends = mingw-w64-i686-gdk-pixbuf2
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-json-glib
+	depends = mingw-w64-i686-libepoxy
+	depends = mingw-w64-i686-pango
+	depends = mingw-w64-i686-shared-mime-info
+	provides = mingw-w64-i686-gtk3
+	conflicts = mingw-w64-i686-gtk3
+	options = !strip
+	options = debug
+	source = gtk3::git+https://git.gnome.org/browse/gtk+#branch=gtk-3-22
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-gtk3-git
+

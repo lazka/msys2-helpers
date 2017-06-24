@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-traitlets
+	pkgdesc = A lightweight Traits like module (mingw-w64)
+	pkgver = 4.3.2
+	pkgrel = 2
+	url = https://github.com/ipython/traitlets
+	arch = any
+	license = Modified BSD
+	checkdepends = mingw-w64-x86_64-python3-nose
+	checkdepends = mingw-w64-x86_64-python2-nose
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = traitlets-4.3.2.tar.gz::https://github.com/ipython/traitlets/archive/4.3.2.tar.gz
+	sha256sums = 370f938ad730d52272ef74f96f831cb21138f6168e46fe582fe256c35cc656ce
+
+pkgname = mingw-w64-x86_64-python3-traitlets
+
+pkgname = mingw-w64-x86_64-python2-traitlets
+
+pkgbase = mingw-w64-python-traitlets
+	pkgdesc = A lightweight Traits like module (mingw-w64)
+	pkgver = 4.3.2
+	pkgrel = 2
+	url = https://github.com/ipython/traitlets
+	arch = any
+	license = Modified BSD
+	checkdepends = mingw-w64-i686-python3-nose
+	checkdepends = mingw-w64-i686-python2-nose
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = traitlets-4.3.2.tar.gz::https://github.com/ipython/traitlets/archive/4.3.2.tar.gz
+	sha256sums = 370f938ad730d52272ef74f96f831cb21138f6168e46fe582fe256c35cc656ce
+
+pkgname = mingw-w64-i686-python3-traitlets
+
+pkgname = mingw-w64-i686-python2-traitlets
+

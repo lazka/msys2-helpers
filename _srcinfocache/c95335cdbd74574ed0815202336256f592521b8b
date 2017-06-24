@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-cotire
+	pkgdesc = CMake module to speed up builds (automated PCH, unity builds) (mingw-w64)
+	pkgver = 1.7.10_3.8
+	pkgrel = 1
+	url = https://github.com/sakra/cotire
+	arch = any
+	license = custom
+	conflicts = mingw-w64-x86_64-cmake<3.8
+	conflicts = mingw-w64-x86_64-cmake>=3.9
+	source = https://github.com/sakra/cotire/archive/cotire-1.7.10.tar.gz
+	sha256sums = 59bed89c7b1e5a9ace39aac49b8c8a2928e0758ef6f9c205a775ee1eedbc722f
+
+pkgname = mingw-w64-x86_64-cotire
+
+pkgbase = mingw-w64-cotire
+	pkgdesc = CMake module to speed up builds (automated PCH, unity builds) (mingw-w64)
+	pkgver = 1.7.10_3.8
+	pkgrel = 1
+	url = https://github.com/sakra/cotire
+	arch = any
+	license = custom
+	conflicts = mingw-w64-i686-cmake<3.8
+	conflicts = mingw-w64-i686-cmake>=3.9
+	source = https://github.com/sakra/cotire/archive/cotire-1.7.10.tar.gz
+	sha256sums = 59bed89c7b1e5a9ace39aac49b8c8a2928e0758ef6f9c205a775ee1eedbc722f
+
+pkgname = mingw-w64-i686-cotire
+

@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-jupyter_core
+	pkgdesc = Core common functionality of Jupyter projects. (mingw-w64)
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://jupyter.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = jupyter_core-4.3.0.tar.gz::https://github.com/jupyter/jupyter_core/archive/4.3.0.tar.gz
+	sha256sums = 9fdca98cc6d2f2c7faac8be53d35d5cbb4891fe3822aa678b7e84a2514d135bb
+
+pkgname = mingw-w64-x86_64-python2-jupyter_core
+
+pkgname = mingw-w64-x86_64-python3-jupyter_core
+
+pkgbase = mingw-w64-python-jupyter_core
+	pkgdesc = Core common functionality of Jupyter projects. (mingw-w64)
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://jupyter.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = jupyter_core-4.3.0.tar.gz::https://github.com/jupyter/jupyter_core/archive/4.3.0.tar.gz
+	sha256sums = 9fdca98cc6d2f2c7faac8be53d35d5cbb4891fe3822aa678b7e84a2514d135bb
+
+pkgname = mingw-w64-i686-python2-jupyter_core
+
+pkgname = mingw-w64-i686-python3-jupyter_core
+

@@ -1,0 +1,52 @@
+pkgbase = gperf
+	pkgdesc = Perfect hash function generator
+	pkgver = 3.1
+	pkgrel = 1
+	url = https://www.gnu.org/software/gperf/
+	install = gperf.install
+	arch = x86_64
+	arch = i686
+	groups = base-devel
+	license = GPL3
+	makedepends = gcc
+	makedepends = texinfo
+	depends = gcc-libs
+	depends = info
+	options = !makeflags
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.1.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.1.tar.gz.sig
+	source = gperf-3.1-tests-cygwin-setmode.patch
+	validpgpkeys = 93C08C88471097CD
+	validpgpkeys = EDEB87A500CC0A211677FBFD93C08C88471097CD
+	sha256sums = 588546b945bba4b70b6a3a616e80b4ab466e3f33024a352fc2198112cdbb3ae2
+	sha256sums = SKIP
+	sha256sums = b51082f190162237a106b191644968f789ba91368beac1296c8acb77ed9e4d78
+
+pkgname = gperf
+
+pkgbase = gperf
+	pkgdesc = Perfect hash function generator
+	pkgver = 3.1
+	pkgrel = 1
+	url = https://www.gnu.org/software/gperf/
+	install = gperf.install
+	arch = x86_64
+	arch = i686
+	groups = base-devel
+	license = GPL3
+	makedepends = gcc
+	makedepends = texinfo
+	depends = gcc-libs
+	depends = info
+	options = !makeflags
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.1.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gperf/gperf-3.1.tar.gz.sig
+	source = gperf-3.1-tests-cygwin-setmode.patch
+	validpgpkeys = 93C08C88471097CD
+	validpgpkeys = EDEB87A500CC0A211677FBFD93C08C88471097CD
+	sha256sums = 588546b945bba4b70b6a3a616e80b4ab466e3f33024a352fc2198112cdbb3ae2
+	sha256sums = SKIP
+	sha256sums = b51082f190162237a106b191644968f789ba91368beac1296c8acb77ed9e4d78
+
+pkgname = gperf
+

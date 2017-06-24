@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-libmaxminddb
+	pkgdesc = C library for reading MaxMind DB files, including the GeoIP2 databases from MaxMind (mingw-w64)
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://dev.maxmind.com/geoip/
+	arch = any
+	license = Apache-2.0
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libtool
+	makedepends = autoconf
+	makedepends = git
+	makedepends = patch
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-geoip2-database
+	options = !emptydirs
+	source = libmaxminddb-1.2.0.tar.gz::https://github.com/maxmind/libmaxminddb/archive/1.2.0.tar.gz
+	source = MaxMind-DB::git+https://github.com/maxmind/MaxMind-DB.git
+	source = libtap::git+https://github.com/zorgnax/libtap.git
+	source = 0001-libmaxminddb-1.2.0-mingw-no-undefined.patch
+	sha256sums = 4147241d4e3103bd843167ae5a0d5cf176632b6898cb1cca6223d2d58cc53ef5
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = d8215ab43c8abea0017b64cd407e831816c527927fa943a4c817d0c07420f997
+
+pkgname = mingw-w64-x86_64-libmaxminddb
+
+pkgbase = mingw-w64-libmaxminddb
+	pkgdesc = C library for reading MaxMind DB files, including the GeoIP2 databases from MaxMind (mingw-w64)
+	pkgver = 1.2.0
+	pkgrel = 1
+	url = https://dev.maxmind.com/geoip/
+	arch = any
+	license = Apache-2.0
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libtool
+	makedepends = autoconf
+	makedepends = git
+	makedepends = patch
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-geoip2-database
+	options = !emptydirs
+	source = libmaxminddb-1.2.0.tar.gz::https://github.com/maxmind/libmaxminddb/archive/1.2.0.tar.gz
+	source = MaxMind-DB::git+https://github.com/maxmind/MaxMind-DB.git
+	source = libtap::git+https://github.com/zorgnax/libtap.git
+	source = 0001-libmaxminddb-1.2.0-mingw-no-undefined.patch
+	sha256sums = 4147241d4e3103bd843167ae5a0d5cf176632b6898cb1cca6223d2d58cc53ef5
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = d8215ab43c8abea0017b64cd407e831816c527927fa943a4c817d0c07420f997
+
+pkgname = mingw-w64-i686-libmaxminddb
+

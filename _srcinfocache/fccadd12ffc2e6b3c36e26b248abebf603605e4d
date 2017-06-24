@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-libspectre
+	pkgdesc = libspectre is a small library for rendering PostScript documents. It provides a convenient easy to use API for handling and rendering PostScript documents (mingw-w64)
+	pkgver = 0.2.8
+	pkgrel = 1
+	url = https://www.freedesktop.org/wiki/Software/libspectre/
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libidn
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = libtool
+	makedepends = automake-wrapper
+	makedepends = autoconf
+	makedepends = make
+	depends = mingw-w64-x86_64-ghostscript
+	depends = mingw-w64-x86_64-cairo
+	options = strip
+	options = staticlibs
+	source = https://libspectre.freedesktop.org/releases/libspectre-0.2.8.tar.gz
+	source = gs-error-codes.patch
+	sha256sums = 65256af389823bbc4ee4d25bfd1cc19023ffc29ae9f9677f2d200fa6e98bc7a8
+	sha256sums = 4be333af80378aba74c7bc3804727e3a3b49ccfaee0a8f9173094607e01b9b17
+
+pkgname = mingw-w64-x86_64-libspectre
+
+pkgbase = mingw-w64-libspectre
+	pkgdesc = libspectre is a small library for rendering PostScript documents. It provides a convenient easy to use API for handling and rendering PostScript documents (mingw-w64)
+	pkgver = 0.2.8
+	pkgrel = 1
+	url = https://www.freedesktop.org/wiki/Software/libspectre/
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libidn
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = libtool
+	makedepends = automake-wrapper
+	makedepends = autoconf
+	makedepends = make
+	depends = mingw-w64-i686-ghostscript
+	depends = mingw-w64-i686-cairo
+	options = strip
+	options = staticlibs
+	source = https://libspectre.freedesktop.org/releases/libspectre-0.2.8.tar.gz
+	source = gs-error-codes.patch
+	sha256sums = 65256af389823bbc4ee4d25bfd1cc19023ffc29ae9f9677f2d200fa6e98bc7a8
+	sha256sums = 4be333af80378aba74c7bc3804727e3a3b49ccfaee0a8f9173094607e01b9b17
+
+pkgname = mingw-w64-i686-libspectre
+

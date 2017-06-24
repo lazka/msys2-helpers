@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-jdcal
+	pkgdesc = Julian dates, from proleptic Gregorian and Julian calendars (mingw-w64)
+	pkgver = 1.2
+	pkgrel = 2
+	url = https://github.com/phn/jdcal
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = http://pypi.python.org/packages/source/j/jdcal/jdcal-1.2.tar.gz
+	sha256sums = 5ebedb58b95ebabd30f56abef65139c6f69ec1687cf1d2f3a7c503f9a2cdfa4d
+
+pkgname = mingw-w64-x86_64-python3-jdcal
+
+pkgname = mingw-w64-x86_64-python2-jdcal
+
+pkgbase = mingw-w64-python-jdcal
+	pkgdesc = Julian dates, from proleptic Gregorian and Julian calendars (mingw-w64)
+	pkgver = 1.2
+	pkgrel = 2
+	url = https://github.com/phn/jdcal
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = http://pypi.python.org/packages/source/j/jdcal/jdcal-1.2.tar.gz
+	sha256sums = 5ebedb58b95ebabd30f56abef65139c6f69ec1687cf1d2f3a7c503f9a2cdfa4d
+
+pkgname = mingw-w64-i686-python3-jdcal
+
+pkgname = mingw-w64-i686-python2-jdcal
+

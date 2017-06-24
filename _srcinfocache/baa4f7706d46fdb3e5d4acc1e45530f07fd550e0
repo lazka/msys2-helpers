@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-six
+	pkgdesc = Python 2 and 3 compatibility utilities (mingw-w64)
+	pkgver = 1.10.0
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/six/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	source = https://pypi.python.org/packages/source/s/six/six-1.10.0.tar.gz
+	sha256sums = 105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a
+
+pkgname = mingw-w64-x86_64-python2-six
+
+pkgname = mingw-w64-x86_64-python3-six
+
+pkgbase = mingw-w64-python-six
+	pkgdesc = Python 2 and 3 compatibility utilities (mingw-w64)
+	pkgver = 1.10.0
+	pkgrel = 2
+	url = https://pypi.python.org/pypi/six/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	source = https://pypi.python.org/packages/source/s/six/six-1.10.0.tar.gz
+	sha256sums = 105f8d68616f8248e24bf0e9372ef04d3cc10104f1980f54d57b2ce73a5ad56a
+
+pkgname = mingw-w64-i686-python2-six
+
+pkgname = mingw-w64-i686-python3-six
+

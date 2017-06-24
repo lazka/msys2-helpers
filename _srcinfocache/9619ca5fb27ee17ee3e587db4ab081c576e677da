@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-nasm
+	pkgdesc = An 80x86 assembler designed for portability and modularity (mingw-w64)
+	pkgver = 2.13.01
+	pkgrel = 1
+	url = http://www.nasm.us
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = !libtool
+	options = staticlibs
+	options = !makeflags
+	source = http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.xz
+	sha256sums = aa0213008f0433ecbe07bb628506a5c4be8079be20fc3532a5031fd639db9a5e
+
+pkgname = mingw-w64-x86_64-nasm
+
+pkgbase = mingw-w64-nasm
+	pkgdesc = An 80x86 assembler designed for portability and modularity (mingw-w64)
+	pkgver = 2.13.01
+	pkgrel = 1
+	url = http://www.nasm.us
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = !libtool
+	options = staticlibs
+	options = !makeflags
+	source = http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.xz
+	sha256sums = aa0213008f0433ecbe07bb628506a5c4be8079be20fc3532a5031fd639db9a5e
+
+pkgname = mingw-w64-i686-nasm
+

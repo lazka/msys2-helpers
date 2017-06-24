@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-beaker
+	pkgdesc = Caching and sessions WSGI middleware for use with web applications and stand-alone Python scripts and applications (mingw-w64)
+	pkgver = 1.8.1
+	pkgrel = 2
+	url = http://beaker.groovie.org/
+	arch = any
+	license = custom
+	depends = mingw-w64-x86_64-python2-setuptools
+	depends = mingw-w64-x86_64-python3-setuptools
+	source = beaker-1.8.1.tar.gz::https://github.com/bbangert/beaker/archive/1.8.1.tar.gz
+	sha256sums = 1b72df92918be4a72c732ed9a28f0d77fb46f4449bd8bf58eaf394ecbf0aab6f
+
+pkgname = mingw-w64-x86_64-python2-beaker
+
+pkgname = mingw-w64-x86_64-python3-beaker
+
+pkgbase = mingw-w64-python-beaker
+	pkgdesc = Caching and sessions WSGI middleware for use with web applications and stand-alone Python scripts and applications (mingw-w64)
+	pkgver = 1.8.1
+	pkgrel = 2
+	url = http://beaker.groovie.org/
+	arch = any
+	license = custom
+	depends = mingw-w64-i686-python2-setuptools
+	depends = mingw-w64-i686-python3-setuptools
+	source = beaker-1.8.1.tar.gz::https://github.com/bbangert/beaker/archive/1.8.1.tar.gz
+	sha256sums = 1b72df92918be4a72c732ed9a28f0d77fb46f4449bd8bf58eaf394ecbf0aab6f
+
+pkgname = mingw-w64-i686-python2-beaker
+
+pkgname = mingw-w64-i686-python3-beaker
+

@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-gtk-engine-unico
+	pkgdesc = Unico GTK3 theme engine
+	pkgver = 1.0.2
+	pkgrel = 2
+	url = https://launchpad.net/unico
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gnome-common
+	depends = mingw-w64-x86_64-gtk3
+	source = gtk-engine-unico-139.tar.gz::https://bazaar.launchpad.net/~unico-team/unico/trunk/tarball/139
+	sha256sums = 9ef0ef5dfbbb5f352a864a3d91f13872d05361343e5d4cc3be48d1f061189251
+
+pkgname = mingw-w64-x86_64-gtk-engine-unico
+
+pkgbase = mingw-w64-gtk-engine-unico
+	pkgdesc = Unico GTK3 theme engine
+	pkgver = 1.0.2
+	pkgrel = 2
+	url = https://launchpad.net/unico
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gnome-common
+	depends = mingw-w64-i686-gtk3
+	source = gtk-engine-unico-139.tar.gz::https://bazaar.launchpad.net/~unico-team/unico/trunk/tarball/139
+	sha256sums = 9ef0ef5dfbbb5f352a864a3d91f13872d05361343e5d4cc3be48d1f061189251
+
+pkgname = mingw-w64-i686-gtk-engine-unico
+

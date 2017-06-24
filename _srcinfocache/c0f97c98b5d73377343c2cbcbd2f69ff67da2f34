@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-libotr
+	pkgdesc = Off-the-Record Messaging Library and Toolkit (mingw-w64)
+	pkgver = 4.1.1
+	pkgrel = 1
+	url = http://www.cypherpunks.ca/otr/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-libgcrypt
+	options = staticlibs
+	options = strip
+	source = https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz
+	source = https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz.asc
+	source = 002-libotr-no-undefined.patch
+	source = 003-fix-symlinks.patch
+	sha256sums = 8b3b182424251067a952fb4e6c7b95a21e644fbb27fbd5f8af2b2ed87ca419f5
+	sha256sums = SKIP
+	sha256sums = 4e7f9cc91ec623687d26d26e2f5e735df0de6bd0ab429f30d55f35a54be628e6
+	sha256sums = f91be0fea077a562d39e50bb53d9b7dcca87bdb9303ee4fe63dc4be047947c9b
+
+pkgname = mingw-w64-x86_64-libotr
+
+pkgbase = mingw-w64-libotr
+	pkgdesc = Off-the-Record Messaging Library and Toolkit (mingw-w64)
+	pkgver = 4.1.1
+	pkgrel = 1
+	url = http://www.cypherpunks.ca/otr/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-libgcrypt
+	options = staticlibs
+	options = strip
+	source = https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz
+	source = https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz.asc
+	source = 002-libotr-no-undefined.patch
+	source = 003-fix-symlinks.patch
+	sha256sums = 8b3b182424251067a952fb4e6c7b95a21e644fbb27fbd5f8af2b2ed87ca419f5
+	sha256sums = SKIP
+	sha256sums = 4e7f9cc91ec623687d26d26e2f5e735df0de6bd0ab429f30d55f35a54be628e6
+	sha256sums = f91be0fea077a562d39e50bb53d9b7dcca87bdb9303ee4fe63dc4be047947c9b
+
+pkgname = mingw-w64-i686-libotr
+

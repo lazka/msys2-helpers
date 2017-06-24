@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-libtommath
+	pkgdesc = Highly optimized and portable routines for integer based number theoretic applications (mingw-w64)
+	pkgver = 0.42.0
+	pkgrel = 2
+	url = http://www.libtom.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	options = staticlibs
+	options = strip
+	source = libtommath-0.42.0.tar.gz::https://github.com/libtom/libtommath/archive/v0.42.0.tar.gz
+	source = 002-libtommath-0.42.0-makefile.patch
+	sha256sums = 5246356ba18c1b6edf4a7bc836a3d223842b86914cdba6dd8c112bfc59e227c8
+	sha256sums = 0502aa8fd39bca38bf361006a7b958dcc730578ac576ac3b67db19595bdada9e
+
+pkgname = mingw-w64-x86_64-libtommath
+
+pkgbase = mingw-w64-libtommath
+	pkgdesc = Highly optimized and portable routines for integer based number theoretic applications (mingw-w64)
+	pkgver = 0.42.0
+	pkgrel = 2
+	url = http://www.libtom.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	options = staticlibs
+	options = strip
+	source = libtommath-0.42.0.tar.gz::https://github.com/libtom/libtommath/archive/v0.42.0.tar.gz
+	source = 002-libtommath-0.42.0-makefile.patch
+	sha256sums = 5246356ba18c1b6edf4a7bc836a3d223842b86914cdba6dd8c112bfc59e227c8
+	sha256sums = 0502aa8fd39bca38bf361006a7b958dcc730578ac576ac3b67db19595bdada9e
+
+pkgname = mingw-w64-i686-libtommath
+

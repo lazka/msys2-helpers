@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-taglib
+	pkgdesc = A Library for reading and editing the meta-data of several popular audio formats (mingw-w64)
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://taglib.github.com
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-cppunit
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-zlib
+	options = strip
+	options = staticlibs
+	source = https://taglib.github.io/releases/taglib-1.11.1.tar.gz
+	source = fix-finding-cppunit.patch
+	sha256sums = b6d1a5a610aae6ff39d93de5efd0fdc787aa9e9dc1e7026fa4c961b26563526b
+	sha256sums = 460e2dd83e6233145e4980a4c63a400e9e8297980e3cfae910dadefa2475e7d0
+
+pkgname = mingw-w64-x86_64-taglib
+
+pkgbase = mingw-w64-taglib
+	pkgdesc = A Library for reading and editing the meta-data of several popular audio formats (mingw-w64)
+	pkgver = 1.11.1
+	pkgrel = 1
+	url = https://taglib.github.com
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-cppunit
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-zlib
+	options = strip
+	options = staticlibs
+	source = https://taglib.github.io/releases/taglib-1.11.1.tar.gz
+	source = fix-finding-cppunit.patch
+	sha256sums = b6d1a5a610aae6ff39d93de5efd0fdc787aa9e9dc1e7026fa4c961b26563526b
+	sha256sums = 460e2dd83e6233145e4980a4c63a400e9e8297980e3cfae910dadefa2475e7d0
+
+pkgname = mingw-w64-i686-taglib
+

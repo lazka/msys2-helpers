@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-gtkwave
+	pkgdesc = GTKWaveGTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX
+	pkgver = 3.3.79
+	pkgrel = 1
+	url = https://gtkwave.sourceforge.io/
+	install = gtkwave-x86_64.install
+	arch = any
+	license = GPL
+	makedepends = perlxml
+	makedepends = intltool
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gtk2
+	depends = mingw-w64-x86_64-tk
+	depends = mingw-w64-x86_64-tklib
+	depends = mingw-w64-x86_64-tcl
+	depends = mingw-w64-x86_64-tcllib
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	optdepends = mingw-w64-x86_64-python2
+	source = https://gtkwave.sourceforge.io/gtkwave-3.3.79.tar.gz
+	sha256sums = 796538e92fd33ee65f315c314e33efb71abd4fe90d7cb1dd5e60382474a79de2
+
+pkgname = mingw-w64-x86_64-gtkwave
+
+pkgbase = mingw-w64-gtkwave
+	pkgdesc = GTKWaveGTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX
+	pkgver = 3.3.79
+	pkgrel = 1
+	url = https://gtkwave.sourceforge.io/
+	install = gtkwave-i686.install
+	arch = any
+	license = GPL
+	makedepends = perlxml
+	makedepends = intltool
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gtk2
+	depends = mingw-w64-i686-tk
+	depends = mingw-w64-i686-tklib
+	depends = mingw-w64-i686-tcl
+	depends = mingw-w64-i686-tcllib
+	depends = mingw-w64-i686-adwaita-icon-theme
+	optdepends = mingw-w64-i686-python2
+	source = https://gtkwave.sourceforge.io/gtkwave-3.3.79.tar.gz
+	sha256sums = 796538e92fd33ee65f315c314e33efb71abd4fe90d7cb1dd5e60382474a79de2
+
+pkgname = mingw-w64-i686-gtkwave
+

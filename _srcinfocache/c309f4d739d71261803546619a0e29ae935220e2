@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-quassel
+	pkgdesc = Next-generation distributed IRC client (mingw-w64)
+	pkgver = 0.12.4
+	pkgrel = 1
+	url = http://quassel-irc.org/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-qt5
+	depends = mingw-w64-x86_64-qca-qt5-git
+	depends = mingw-w64-x86_64-Snorenotify
+	source = http://quassel-irc.org/pub/quassel-0.12.4.tar.bz2
+	source = 0001-MinGW-w64-Adopt-FHS-Layout.patch
+	source = 0004-use-pkg-config-mingw.patch
+	sha256sums = 93e4e54cb3743cbe2e5684c2fcba94fd2bc2cd739f7672dee14341b49c29444d
+	sha256sums = 12b82e72c2d3a42872104906bad73f48c9b944506d086c0bcd710af904c9fcd8
+	sha256sums = 0e5d8f78d4f3009b88f536040b659436d67a94975718c1cf973530b79993ab70
+
+pkgname = mingw-w64-x86_64-quassel
+
+pkgbase = mingw-w64-quassel
+	pkgdesc = Next-generation distributed IRC client (mingw-w64)
+	pkgver = 0.12.4
+	pkgrel = 1
+	url = http://quassel-irc.org/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-qt5
+	depends = mingw-w64-i686-qca-qt5-git
+	depends = mingw-w64-i686-Snorenotify
+	source = http://quassel-irc.org/pub/quassel-0.12.4.tar.bz2
+	source = 0001-MinGW-w64-Adopt-FHS-Layout.patch
+	source = 0004-use-pkg-config-mingw.patch
+	sha256sums = 93e4e54cb3743cbe2e5684c2fcba94fd2bc2cd739f7672dee14341b49c29444d
+	sha256sums = 12b82e72c2d3a42872104906bad73f48c9b944506d086c0bcd710af904c9fcd8
+	sha256sums = 0e5d8f78d4f3009b88f536040b659436d67a94975718c1cf973530b79993ab70
+
+pkgname = mingw-w64-i686-quassel
+

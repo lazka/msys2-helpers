@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-bullet
+	pkgdesc = A 3D Collision Detection and Rigid Body Dynamics Library for games and animation (mingw-w64)
+	pkgver = 2.86
+	pkgrel = 1
+	url = http://www.bulletphysics.com/Bullet/
+	arch = any
+	license = custom:zlib
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-freeglut
+	options = !strip
+	options = staticlibs
+	source = bullet-2.86.tar.gz::https://github.com/bulletphysics/bullet3/archive/2.86.tar.gz
+	source = mingw-fixes.patch
+	source = promit-bulletcollisions.patch
+	source = mingw-strlen-missing-include.patch
+	source = workaround-mingw-gcc6-bug.patch
+	sha256sums = e6e8b755280ce2c1a8218529eae5dd78e184f7036854229cea611374ad5a671f
+	sha256sums = b99a45c76dabae09b65291ffe4afc63aaab31c4667c091b8a319ca7b0e97f9e8
+	sha256sums = a91c28949d0e1535caa4feb05973e67213bf055887f6e465a54c8b0b1fcb11cd
+	sha256sums = 5ff773be3814aaaf7776da5787a702188d7009fec2ca2434d6cf139f2b5a5177
+	sha256sums = 15050e81caf2ebf406d7cc6b78758b2d59ee786b79718a94c45352ca1d538338
+
+pkgname = mingw-w64-x86_64-bullet
+
+pkgname = mingw-w64-x86_64-bullet-debug
+
+pkgbase = mingw-w64-bullet
+	pkgdesc = A 3D Collision Detection and Rigid Body Dynamics Library for games and animation (mingw-w64)
+	pkgver = 2.86
+	pkgrel = 1
+	url = http://www.bulletphysics.com/Bullet/
+	arch = any
+	license = custom:zlib
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-freeglut
+	options = !strip
+	options = staticlibs
+	source = bullet-2.86.tar.gz::https://github.com/bulletphysics/bullet3/archive/2.86.tar.gz
+	source = mingw-fixes.patch
+	source = promit-bulletcollisions.patch
+	source = mingw-strlen-missing-include.patch
+	source = workaround-mingw-gcc6-bug.patch
+	sha256sums = e6e8b755280ce2c1a8218529eae5dd78e184f7036854229cea611374ad5a671f
+	sha256sums = b99a45c76dabae09b65291ffe4afc63aaab31c4667c091b8a319ca7b0e97f9e8
+	sha256sums = a91c28949d0e1535caa4feb05973e67213bf055887f6e465a54c8b0b1fcb11cd
+	sha256sums = 5ff773be3814aaaf7776da5787a702188d7009fec2ca2434d6cf139f2b5a5177
+	sha256sums = 15050e81caf2ebf406d7cc6b78758b2d59ee786b79718a94c45352ca1d538338
+
+pkgname = mingw-w64-i686-bullet
+
+pkgname = mingw-w64-i686-bullet-debug
+

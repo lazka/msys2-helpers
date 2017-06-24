@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-tcl-nsf
+	pkgdesc = Next Scripting Language (mingw-w64)
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://next-scripting.org
+	arch = any
+	license = MIT
+	depends = mingw-w64-x86_64-tcl
+	source = https://downloads.sourceforge.net/project/next-scripting/2.1.0/nsf2.1.0.tar.gz
+	sha256sums = be4d7ed30bc366ca9c264626d55d5dd029eec6bf51d2a8a5e26803d64684b020
+
+pkgname = mingw-w64-x86_64-tcl-nsf
+
+pkgbase = mingw-w64-tcl-nsf
+	pkgdesc = Next Scripting Language (mingw-w64)
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://next-scripting.org
+	arch = any
+	license = MIT
+	depends = mingw-w64-i686-tcl
+	source = https://downloads.sourceforge.net/project/next-scripting/2.1.0/nsf2.1.0.tar.gz
+	sha256sums = be4d7ed30bc366ca9c264626d55d5dd029eec6bf51d2a8a5e26803d64684b020
+
+pkgname = mingw-w64-i686-tcl-nsf
+

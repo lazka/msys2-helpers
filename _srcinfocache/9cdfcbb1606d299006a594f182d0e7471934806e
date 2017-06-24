@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-ocaml-lablgtk
+	pkgdesc = An Ocaml interface to the GIMP Tool Kit (mingw-w64)
+	pkgver = 2.18.3
+	pkgrel = 2
+	url = http://lablgtk.forge.ocamlcore.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-flexdll
+	makedepends = mingw-w64-x86_64-ocaml-camlp4
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gtk2
+	depends = mingw-w64-x86_64-gtksourceview2
+	depends = mingw-w64-x86_64-gtkspell
+	depends = mingw-w64-x86_64-libglade
+	depends = mingw-w64-x86_64-libgnomecanvas
+	depends = mingw-w64-x86_64-libglade
+	depends = mingw-w64-x86_64-ocaml
+	depends = mingw-w64-x86_64-ocaml-findlib
+	source = https://forge.ocamlcore.org/frs/download.php/1479/lablgtk-2.18.3.tar.gz
+	source = 0001-Fix-a-path-issue-during-installation.patch
+	sha256sums = 975bebf2f9ca74dc3bf7431ebb640ff6a924bb80c8ee5f4467c475a7e4b0cbaf
+	sha256sums = b96ad79d62bd227e57a63101fedd8ac1e30965c4981fda4d1dcbff89438b53f7
+
+pkgname = mingw-w64-x86_64-ocaml-lablgtk
+
+pkgbase = mingw-w64-ocaml-lablgtk
+	pkgdesc = An Ocaml interface to the GIMP Tool Kit (mingw-w64)
+	pkgver = 2.18.3
+	pkgrel = 2
+	url = http://lablgtk.forge.ocamlcore.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-flexdll
+	makedepends = mingw-w64-i686-ocaml-camlp4
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gtk2
+	depends = mingw-w64-i686-gtksourceview2
+	depends = mingw-w64-i686-gtkspell
+	depends = mingw-w64-i686-libglade
+	depends = mingw-w64-i686-libgnomecanvas
+	depends = mingw-w64-i686-libglade
+	depends = mingw-w64-i686-ocaml
+	depends = mingw-w64-i686-ocaml-findlib
+	source = https://forge.ocamlcore.org/frs/download.php/1479/lablgtk-2.18.3.tar.gz
+	source = 0001-Fix-a-path-issue-during-installation.patch
+	sha256sums = 975bebf2f9ca74dc3bf7431ebb640ff6a924bb80c8ee5f4467c475a7e4b0cbaf
+	sha256sums = b96ad79d62bd227e57a63101fedd8ac1e30965c4981fda4d1dcbff89438b53f7
+
+pkgname = mingw-w64-i686-ocaml-lablgtk
+

@@ -1,0 +1,38 @@
+pkgbase = perl-Digest-MD4
+	pkgdesc = Perl Module: Perl interface to the MD4 Algorithm.
+	pkgver = 1.9
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Digest-MD4/
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	makedepends = libcrypt-devel
+	depends = perl>=5.10.0
+	depends = libcrypt
+	provides = Digest-MD4
+	replaces = Digest-MD4
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MI/MIKEM/DigestMD4/Digest-MD4-1.9.tar.gz
+	sha256sums = 665110bba32470f398f311cd6462fd8975d7c83675ff674bc2f6c7b72b0caaa6
+
+pkgname = perl-Digest-MD4
+
+pkgbase = perl-Digest-MD4
+	pkgdesc = Perl Module: Perl interface to the MD4 Algorithm.
+	pkgver = 1.9
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Digest-MD4/
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	makedepends = libcrypt-devel
+	depends = perl>=5.10.0
+	depends = libcrypt
+	provides = Digest-MD4
+	replaces = Digest-MD4
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MI/MIKEM/DigestMD4/Digest-MD4-1.9.tar.gz
+	sha256sums = 665110bba32470f398f311cd6462fd8975d7c83675ff674bc2f6c7b72b0caaa6
+
+pkgname = perl-Digest-MD4
+

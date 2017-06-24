@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-gtkglext
+	pkgdesc = opengl extensions for gtk2 (mingw-w64)
+	pkgver = 1.2.0
+	pkgrel = 3
+	url = https://gtkglext.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-gtk2
+	depends = mingw-w64-x86_64-gdk-pixbuf2
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/sourceforge/gtkglext/gtkglext-1.2.0.tar.bz2
+	source = gtk2.20.patch
+	source = gtkglext-1.0.6-pangox.patch
+	sha256sums = 16bd736074f6b14180f206b7e91263fc721b49912ea3258ab5f094cfa5497f51
+	sha256sums = 864c6963c4a2f4f69f1f028ecee6c821a4f4d5aba142f2e07898aede825ce9ea
+	sha256sums = 064f61783e86c622f6f725b0586d5d75b5b8b67d20cc606fb4234a6df8da97ad
+
+pkgname = mingw-w64-x86_64-gtkglext
+
+pkgbase = mingw-w64-gtkglext
+	pkgdesc = opengl extensions for gtk2 (mingw-w64)
+	pkgver = 1.2.0
+	pkgrel = 3
+	url = https://gtkglext.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-gtk2
+	depends = mingw-w64-i686-gdk-pixbuf2
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/sourceforge/gtkglext/gtkglext-1.2.0.tar.bz2
+	source = gtk2.20.patch
+	source = gtkglext-1.0.6-pangox.patch
+	sha256sums = 16bd736074f6b14180f206b7e91263fc721b49912ea3258ab5f094cfa5497f51
+	sha256sums = 864c6963c4a2f4f69f1f028ecee6c821a4f4d5aba142f2e07898aede825ce9ea
+	sha256sums = 064f61783e86c622f6f725b0586d5d75b5b8b67d20cc606fb4234a6df8da97ad
+
+pkgname = mingw-w64-i686-gtkglext
+

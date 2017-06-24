@@ -1,0 +1,24 @@
+pkgbase = mingw-w64-tinyformat
+	pkgdesc = A minimal type safe printf() replacement (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/c42f/tinyformat
+	arch = any
+	license = boost
+	source = tinyformat-2.0.1.tar.gz::https://github.com/c42f/tinyformat/archive/Release-2.0.1.tar.gz
+	sha256sums = 5f69675ea24657cb9898940be38712564f90c2d388014bc6bbb75fda1e556dbc
+
+pkgname = mingw-w64-x86_64-tinyformat
+
+pkgbase = mingw-w64-tinyformat
+	pkgdesc = A minimal type safe printf() replacement (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/c42f/tinyformat
+	arch = any
+	license = boost
+	source = tinyformat-2.0.1.tar.gz::https://github.com/c42f/tinyformat/archive/Release-2.0.1.tar.gz
+	sha256sums = 5f69675ea24657cb9898940be38712564f90c2d388014bc6bbb75fda1e556dbc
+
+pkgname = mingw-w64-i686-tinyformat
+

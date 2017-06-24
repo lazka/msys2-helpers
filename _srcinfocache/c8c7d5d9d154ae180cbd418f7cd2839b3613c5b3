@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-ceres-solver
+	pkgdesc = A large scale non-linear optimization library (mingw-w64)
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = http://ceres-solver.org/
+	arch = any
+	license = New BSD license
+	checkdepends = mingw-w64-x86_64-gflags
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-eigen3
+	depends = mingw-w64-x86_64-glog
+	depends = mingw-w64-x86_64-suitesparse
+	source = http://ceres-solver.org/ceres-solver-1.12.0.tar.gz
+	source = ceres-solver-1.12.0.patch
+	sha256sums = 745bfed55111e086954126b748eb9efe20e30be5b825c6dec3c525cf20afc895
+	sha256sums = 96ced94af2eb0137ce628c568cef32e03db6b30c5668162e64c7046470203ae1
+
+pkgname = mingw-w64-x86_64-ceres-solver
+
+pkgbase = mingw-w64-ceres-solver
+	pkgdesc = A large scale non-linear optimization library (mingw-w64)
+	pkgver = 1.12.0
+	pkgrel = 1
+	url = http://ceres-solver.org/
+	arch = any
+	license = New BSD license
+	checkdepends = mingw-w64-i686-gflags
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-eigen3
+	depends = mingw-w64-i686-glog
+	depends = mingw-w64-i686-suitesparse
+	source = http://ceres-solver.org/ceres-solver-1.12.0.tar.gz
+	source = ceres-solver-1.12.0.patch
+	sha256sums = 745bfed55111e086954126b748eb9efe20e30be5b825c6dec3c525cf20afc895
+	sha256sums = 96ced94af2eb0137ce628c568cef32e03db6b30c5668162e64c7046470203ae1
+
+pkgname = mingw-w64-i686-ceres-solver
+

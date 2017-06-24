@@ -1,0 +1,98 @@
+pkgbase = openssl
+	pkgdesc = The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+	pkgver = 1.0.2.k
+	pkgrel = 1
+	url = https://www.openssl.org
+	arch = i686
+	arch = x86_64
+	license = custom:BSD
+	makedepends = gcc
+	makedepends = tar
+	makedepends = perl
+	makedepends = zlib-devel
+	makedepends = diffutils
+	depends = zlib
+	noextract = openssl-1.0.2k.tar.gz
+	options = !makeflags
+	options = staticlibs
+	source = https://www.openssl.org/source/openssl-1.0.2k.tar.gz
+	source = https://www.openssl.org/source/openssl-1.0.2k.tar.gz.asc
+	source = no-rpath.patch
+	source = ca-dir.patch
+	source = openssl-1.0.1e-cygwin64.patch
+	source = openssl-1.0.1e-msys2.patch
+	source = openssl-1.0.0-beta5-enginesdir.patch
+	validpgpkeys = 8657ABB260F056B1E5190839D9C4D26D0E604491
+	sha256sums = 6b3977c61f2aedf0f96367dcfb5c6e578cf37e7b8d913b4ecb6643c3cb88d8c0
+	sha256sums = SKIP
+	sha256sums = 754d6107a306311e15a1db6a1cc031b81691c8b9865e8809ac60ca6f184c957c
+	sha256sums = 01b7d475d1aeeecdae1ca8ff90483c11f34991348418d9e98c655e1579764bb1
+	sha256sums = e82f015bd01f73bb3840eaf6ad5e00b62399ea38f924372471d00a9782d56b1a
+	sha256sums = 7ddfe47d4b582cf5085ae20f2a2db0f2b87e0cd1a91885cf1f76ff1a2219bf40
+	sha256sums = 1ce6d3d795124f4a0206790f21d178049fb6d56945820582779a0d0e14dbf230
+
+pkgname = openssl
+	depends = libopenssl
+	depends = zlib
+	optdepends = ca-certificates
+	optdepends = perl
+
+pkgname = libopenssl
+	groups = libraries
+	depends = zlib
+
+pkgname = openssl-devel
+	pkgdesc = Openssl headers and libraries
+	groups = development
+	depends = libopenssl=1.0.2.k
+	depends = zlib-devel
+
+pkgbase = openssl
+	pkgdesc = The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+	pkgver = 1.0.2.k
+	pkgrel = 1
+	url = https://www.openssl.org
+	arch = i686
+	arch = x86_64
+	license = custom:BSD
+	makedepends = gcc
+	makedepends = tar
+	makedepends = perl
+	makedepends = zlib-devel
+	makedepends = diffutils
+	depends = zlib
+	noextract = openssl-1.0.2k.tar.gz
+	options = !makeflags
+	options = staticlibs
+	source = https://www.openssl.org/source/openssl-1.0.2k.tar.gz
+	source = https://www.openssl.org/source/openssl-1.0.2k.tar.gz.asc
+	source = no-rpath.patch
+	source = ca-dir.patch
+	source = openssl-1.0.1e-cygwin64.patch
+	source = openssl-1.0.1e-msys2.patch
+	source = openssl-1.0.0-beta5-enginesdir.patch
+	validpgpkeys = 8657ABB260F056B1E5190839D9C4D26D0E604491
+	sha256sums = 6b3977c61f2aedf0f96367dcfb5c6e578cf37e7b8d913b4ecb6643c3cb88d8c0
+	sha256sums = SKIP
+	sha256sums = 754d6107a306311e15a1db6a1cc031b81691c8b9865e8809ac60ca6f184c957c
+	sha256sums = 01b7d475d1aeeecdae1ca8ff90483c11f34991348418d9e98c655e1579764bb1
+	sha256sums = e82f015bd01f73bb3840eaf6ad5e00b62399ea38f924372471d00a9782d56b1a
+	sha256sums = 7ddfe47d4b582cf5085ae20f2a2db0f2b87e0cd1a91885cf1f76ff1a2219bf40
+	sha256sums = 1ce6d3d795124f4a0206790f21d178049fb6d56945820582779a0d0e14dbf230
+
+pkgname = openssl
+	depends = libopenssl
+	depends = zlib
+	optdepends = ca-certificates
+	optdepends = perl
+
+pkgname = libopenssl
+	groups = libraries
+	depends = zlib
+
+pkgname = openssl-devel
+	pkgdesc = Openssl headers and libraries
+	groups = development
+	depends = libopenssl=1.0.2.k
+	depends = zlib-devel
+

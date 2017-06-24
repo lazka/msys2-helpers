@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-windows-default-manifest
+	pkgdesc = Default Windows application manifest (mingw-w64)
+	pkgver = 6.4
+	pkgrel = 3
+	url = https://cygwin.com/
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = mingw-w64-x86_64-gcc
+	source = git://sourceware.org/git/cygwin-apps/windows-default-manifest.git#tag=release-6_4
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-windows-default-manifest
+
+pkgbase = mingw-w64-windows-default-manifest
+	pkgdesc = Default Windows application manifest (mingw-w64)
+	pkgver = 6.4
+	pkgrel = 3
+	url = https://cygwin.com/
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = mingw-w64-i686-gcc
+	source = git://sourceware.org/git/cygwin-apps/windows-default-manifest.git#tag=release-6_4
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-windows-default-manifest
+

@@ -1,0 +1,34 @@
+pkgbase = perl-TAP-Harness-Archive
+	pkgdesc = Create an archive of TAP test results
+	pkgver = 0.17
+	pkgrel = 1
+	url = http://search.cpan.org/dist/TAP-Harness-Archive/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl-YAML-Tiny
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/SC/SCHWIGON/TAP-Harness-Archive-0.17.tar.gz
+	sha256sums = ebe98b90330a80977930e4d168fed2e4c728a67d1c60ee778de71d2a1ebf7cde
+
+pkgname = perl-TAP-Harness-Archive
+
+pkgbase = perl-TAP-Harness-Archive
+	pkgdesc = Create an archive of TAP test results
+	pkgver = 0.17
+	pkgrel = 1
+	url = http://search.cpan.org/dist/TAP-Harness-Archive/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl-YAML-Tiny
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/SC/SCHWIGON/TAP-Harness-Archive-0.17.tar.gz
+	sha256sums = ebe98b90330a80977930e4d168fed2e4c728a67d1c60ee778de71d2a1ebf7cde
+
+pkgname = perl-TAP-Harness-Archive
+

@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-python-packaging
+	pkgdesc = Core utilities for Python packages (mingw-w64)
+	pkgver = 16.8
+	pkgrel = 2
+	url = https://github.com/pypa/packaging
+	arch = any
+	license = Apache
+	checkdepends = mingw-w64-x86_64-python3-pytest-runner
+	checkdepends = mingw-w64-x86_64-python2-pytest-runner
+	checkdepends = mingw-w64-x86_64-python3-pretend
+	checkdepends = mingw-w64-x86_64-python2-pretend
+	checkdepends = mingw-w64-x86_64-python3-coverage
+	checkdepends = mingw-w64-x86_64-python2-coverage
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-pyparsing
+	makedepends = mingw-w64-x86_64-python2-pyparsing
+	source = packaging-16.8.tar.gz::https://github.com/pypa/packaging/archive/16.8.tar.gz
+	sha256sums = a48230c947869b53a452bde06889de6ffeeabd252f1426564aaddca3e692f3f6
+
+pkgname = mingw-w64-x86_64-python2-packaging
+
+pkgname = mingw-w64-x86_64-python3-packaging
+
+pkgbase = mingw-w64-python-packaging
+	pkgdesc = Core utilities for Python packages (mingw-w64)
+	pkgver = 16.8
+	pkgrel = 2
+	url = https://github.com/pypa/packaging
+	arch = any
+	license = Apache
+	checkdepends = mingw-w64-i686-python3-pytest-runner
+	checkdepends = mingw-w64-i686-python2-pytest-runner
+	checkdepends = mingw-w64-i686-python3-pretend
+	checkdepends = mingw-w64-i686-python2-pretend
+	checkdepends = mingw-w64-i686-python3-coverage
+	checkdepends = mingw-w64-i686-python2-coverage
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-pyparsing
+	makedepends = mingw-w64-i686-python2-pyparsing
+	source = packaging-16.8.tar.gz::https://github.com/pypa/packaging/archive/16.8.tar.gz
+	sha256sums = a48230c947869b53a452bde06889de6ffeeabd252f1426564aaddca3e692f3f6
+
+pkgname = mingw-w64-i686-python2-packaging
+
+pkgname = mingw-w64-i686-python3-packaging
+

@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-kitemviews-qt5
+	pkgdesc = Plugins to allow QImage to support extra file formats (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kitemviews
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kitemviews-5.12.0.tar.xz
+	sha256sums = c220e481834cb231de23ea293e2bee98b39cb2808bac542b02876beb67ba946b
+
+pkgname = mingw-w64-x86_64-kitemviews-qt5
+
+pkgbase = mingw-w64-kitemviews-qt5
+	pkgdesc = Plugins to allow QImage to support extra file formats (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kitemviews
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kitemviews-5.12.0.tar.xz
+	sha256sums = c220e481834cb231de23ea293e2bee98b39cb2808bac542b02876beb67ba946b
+
+pkgname = mingw-w64-i686-kitemviews-qt5
+

@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-pretend
+	pkgdesc = A library for stubbing in Python (mingw-w64)
+	pkgver = 1.0.8
+	pkgrel = 2
+	url = https://github.com/alex/pretend
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = http://pypi.python.org/packages/source/p/pretend/pretend-1.0.8.tar.gz
+	sha256sums = 930f2c1e18503e8f8c403abe2e02166c4a881941745147e712cdd4f49f3fb964
+
+pkgname = mingw-w64-x86_64-python2-pretend
+
+pkgname = mingw-w64-x86_64-python3-pretend
+
+pkgbase = mingw-w64-python-pretend
+	pkgdesc = A library for stubbing in Python (mingw-w64)
+	pkgver = 1.0.8
+	pkgrel = 2
+	url = https://github.com/alex/pretend
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = http://pypi.python.org/packages/source/p/pretend/pretend-1.0.8.tar.gz
+	sha256sums = 930f2c1e18503e8f8c403abe2e02166c4a881941745147e712cdd4f49f3fb964
+
+pkgname = mingw-w64-i686-python2-pretend
+
+pkgname = mingw-w64-i686-python3-pretend
+

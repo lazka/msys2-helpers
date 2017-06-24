@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-memphis
+	pkgdesc = A map-rendering library for OpenStreetMap (mingw-w64)
+	pkgver = 0.2.3
+	pkgrel = 3
+	url = https://github.com/jiuka/
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = gtk-doc
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-cairo
+	depends = mingw-w64-x86_64-expat
+	options = strip
+	options = staticlibs
+	source = memphis-0.2.3.tar.gz::https://github.com/jiuka/memphis/archive/0.2.3.tar.gz
+	source = 001-win.patch
+	sha256sums = 10b43b2325ce9937ce33a7afdc247e926cc515ac612b50eb0520e1ac1455e1ab
+	sha256sums = 47dc1f857ff09647429e89fdb4dc8ae451e39afa7e3bf960d8bda63bb193fde5
+
+pkgname = mingw-w64-x86_64-memphis
+
+pkgbase = mingw-w64-memphis
+	pkgdesc = A map-rendering library for OpenStreetMap (mingw-w64)
+	pkgver = 0.2.3
+	pkgrel = 3
+	url = https://github.com/jiuka/
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-vala
+	makedepends = gtk-doc
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-cairo
+	depends = mingw-w64-i686-expat
+	options = strip
+	options = staticlibs
+	source = memphis-0.2.3.tar.gz::https://github.com/jiuka/memphis/archive/0.2.3.tar.gz
+	source = 001-win.patch
+	sha256sums = 10b43b2325ce9937ce33a7afdc247e926cc515ac612b50eb0520e1ac1455e1ab
+	sha256sums = 47dc1f857ff09647429e89fdb4dc8ae451e39afa7e3bf960d8bda63bb193fde5
+
+pkgname = mingw-w64-i686-memphis
+

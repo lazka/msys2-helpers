@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-gtef
+	pkgdesc = GTK+ Text Editor Framework (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = make
+	makedepends = intltool
+	makedepends = gettext-devel
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-gtksourceview3
+	depends = mingw-w64-x86_64-uchardet
+	depends = mingw-w64-x86_64-libxml2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gtef/2.0/gtef-2.0.1.tar.xz
+	sha256sums = 8432f0f404b93e5a2702978b5f121b8f9ae2167c906e9f2ed7b5165142e27a4f
+
+pkgname = mingw-w64-x86_64-gtef
+
+pkgbase = mingw-w64-gtef
+	pkgdesc = GTK+ Text Editor Framework (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = make
+	makedepends = intltool
+	makedepends = gettext-devel
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-gtksourceview3
+	depends = mingw-w64-i686-uchardet
+	depends = mingw-w64-i686-libxml2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gtef/2.0/gtef-2.0.1.tar.xz
+	sha256sums = 8432f0f404b93e5a2702978b5f121b8f9ae2167c906e9f2ed7b5165142e27a4f
+
+pkgname = mingw-w64-i686-gtef
+

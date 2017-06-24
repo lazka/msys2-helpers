@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-cfitsio
+	pkgdesc = A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format (mingw-w64)
+	pkgver = 3.380
+	pkgrel = 1
+	url = https://heasarc.gsfc.nasa.gov/fitsio/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio3380.tar.gz
+	source = mingw-shared.patch
+	sha256sums = 0ff4b43365ea995274696e75c8bad4e58c7a077cdc253d235f2bc93b3715b197
+	sha256sums = 6c9bc7db7a3f3a356daa19f796fb639c33e6075174ed5537fe7ff12c14333312
+
+pkgname = mingw-w64-x86_64-cfitsio
+
+pkgbase = mingw-w64-cfitsio
+	pkgdesc = A library of C and Fortran subroutines for reading and writing data files in FITS (Flexible Image Transport System) data format (mingw-w64)
+	pkgver = 3.380
+	pkgrel = 1
+	url = https://heasarc.gsfc.nasa.gov/fitsio/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio3380.tar.gz
+	source = mingw-shared.patch
+	sha256sums = 0ff4b43365ea995274696e75c8bad4e58c7a077cdc253d235f2bc93b3715b197
+	sha256sums = 6c9bc7db7a3f3a356daa19f796fb639c33e6075174ed5537fe7ff12c14333312
+
+pkgname = mingw-w64-i686-cfitsio
+

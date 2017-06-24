@@ -1,0 +1,34 @@
+pkgbase = perl-WWW-RobotRules
+	pkgdesc = Database of robots.txt-derived permissions
+	pkgver = 6.02
+	pkgrel = 2
+	url = https://metacpan.org/release/WWW-RobotRules
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	depends = perl-URI
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+	sha256sums = 46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e
+
+pkgname = perl-WWW-RobotRules
+
+pkgbase = perl-WWW-RobotRules
+	pkgdesc = Database of robots.txt-derived permissions
+	pkgver = 6.02
+	pkgrel = 2
+	url = https://metacpan.org/release/WWW-RobotRules
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	depends = perl-URI
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+	sha256sums = 46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e
+
+pkgname = perl-WWW-RobotRules
+

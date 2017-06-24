@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-raptor2
+	pkgdesc = RDF Parser Toolkit (mingw-w64)
+	pkgver = 2.0.15
+	pkgrel = 1
+	url = http://librdf.org/raptor/
+	arch = any
+	license = LICENSE
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-curl
+	source = http://download.librdf.org/source/raptor2-2.0.15.tar.gz
+	source = no-undefined.patch
+	sha256sums = ada7f0ba54787b33485d090d3d2680533520cd4426d2f7fb4782dd4a6a1480ed
+	sha256sums = f2e8e607f0b735255c0ba61346ad978ff934dc726c25b62942afe5c6decded13
+
+pkgname = mingw-w64-x86_64-raptor2
+
+pkgbase = mingw-w64-raptor2
+	pkgdesc = RDF Parser Toolkit (mingw-w64)
+	pkgver = 2.0.15
+	pkgrel = 1
+	url = http://librdf.org/raptor/
+	arch = any
+	license = LICENSE
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-curl
+	source = http://download.librdf.org/source/raptor2-2.0.15.tar.gz
+	source = no-undefined.patch
+	sha256sums = ada7f0ba54787b33485d090d3d2680533520cd4426d2f7fb4782dd4a6a1480ed
+	sha256sums = f2e8e607f0b735255c0ba61346ad978ff934dc726c25b62942afe5c6decded13
+
+pkgname = mingw-w64-i686-raptor2
+

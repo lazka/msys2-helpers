@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-gdcm
+	pkgdesc = The Grassroots DICOM library (mingw-w64)
+	pkgver = 2.6.8
+	pkgrel = 1
+	url = https://gdcm.sourceforge.io/wiki/index.php
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-lcms2
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-expat
+	depends = mingw-w64-x86_64-json-c
+	depends = mingw-w64-x86_64-openssl
+	depends = mingw-w64-x86_64-poppler
+	depends = mingw-w64-x86_64-zlib
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/gdcm/gdcm%202.x/GDCM%202.6.8/gdcm-2.6.8.tar.bz2
+	sha256sums = c9b0773313d57871a81277cd3c2fd00f4dd58f9482e165797808c07345fd2a54
+
+pkgname = mingw-w64-x86_64-gdcm
+
+pkgbase = mingw-w64-gdcm
+	pkgdesc = The Grassroots DICOM library (mingw-w64)
+	pkgver = 2.6.8
+	pkgrel = 1
+	url = https://gdcm.sourceforge.io/wiki/index.php
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-lcms2
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-expat
+	depends = mingw-w64-i686-json-c
+	depends = mingw-w64-i686-openssl
+	depends = mingw-w64-i686-poppler
+	depends = mingw-w64-i686-zlib
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/gdcm/gdcm%202.x/GDCM%202.6.8/gdcm-2.6.8.tar.bz2
+	sha256sums = c9b0773313d57871a81277cd3c2fd00f4dd58f9482e165797808c07345fd2a54
+
+pkgname = mingw-w64-i686-gdcm
+

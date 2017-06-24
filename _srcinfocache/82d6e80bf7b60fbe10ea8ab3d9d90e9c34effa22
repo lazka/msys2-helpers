@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-uriparser
+	pkgdesc = RFC 3986 URI parsing and processing libary (mingw-w64)
+	pkgver = 0.8.4
+	pkgrel = 1
+	url = https://uriparser.sourceforge.io/
+	arch = any
+	license = New BSD License
+	checkdepends = mingw-w64-x86_64-cpptest
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = automake
+	makedepends = autoconf
+	source = https://downloads.sourceforge.net/project/uriparser/Sources/0.8.4/uriparser-0.8.4.tar.bz2
+	source = uriparser-0.8.4.patch
+	sha256sums = ce7ccda4136974889231e8426a785e7578e66a6283009cfd13f1b24a5e657b23
+	sha256sums = f1f542c77e0f27a34ce990ea1c8bd2bba0094a6d553fca06ceb1a8db81f672fe
+
+pkgname = mingw-w64-x86_64-uriparser
+
+pkgbase = mingw-w64-uriparser
+	pkgdesc = RFC 3986 URI parsing and processing libary (mingw-w64)
+	pkgver = 0.8.4
+	pkgrel = 1
+	url = https://uriparser.sourceforge.io/
+	arch = any
+	license = New BSD License
+	checkdepends = mingw-w64-i686-cpptest
+	makedepends = mingw-w64-i686-gcc
+	makedepends = automake
+	makedepends = autoconf
+	source = https://downloads.sourceforge.net/project/uriparser/Sources/0.8.4/uriparser-0.8.4.tar.bz2
+	source = uriparser-0.8.4.patch
+	sha256sums = ce7ccda4136974889231e8426a785e7578e66a6283009cfd13f1b24a5e657b23
+	sha256sums = f1f542c77e0f27a34ce990ea1c8bd2bba0094a6d553fca06ceb1a8db81f672fe
+
+pkgname = mingw-w64-i686-uriparser
+

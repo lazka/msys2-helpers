@@ -1,0 +1,66 @@
+pkgbase = mingw-w64-python-urllib3
+	pkgdesc = HTTP library with thread-safe connection pooling and file post support (mingw-w64)
+	pkgver = 1.21.1
+	pkgrel = 1
+	url = https://github.com/shazow/urllib3
+	arch = any
+	license = MIT
+	checkdepends = mingw-w64-x86_64-python2-nose
+	checkdepends = mingw-w64-x86_64-python3-nose
+	checkdepends = mingw-w64-x86_64-python2-tornado
+	checkdepends = mingw-w64-x86_64-python3-tornado
+	checkdepends = mingw-w64-x86_64-python2-coverage
+	checkdepends = mingw-w64-x86_64-python3-coverage
+	checkdepends = mingw-w64-x86_64-python2-psutil
+	checkdepends = mingw-w64-x86_64-python3-psutil
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-sphinx
+	makedepends = mingw-w64-x86_64-python3-ndg-httpsclient
+	makedepends = mingw-w64-x86_64-python2-ndg-httpsclient
+	makedepends = mingw-w64-x86_64-python3-pyasn1
+	makedepends = mingw-w64-x86_64-python2-pyasn1
+	makedepends = mingw-w64-x86_64-python3-pyopenssl
+	makedepends = mingw-w64-x86_64-python2-pyopenssl
+	makedepends = mingw-w64-x86_64-python3-mock
+	makedepends = mingw-w64-x86_64-python2-mock
+	source = urllib3-1.21.1.tar.gz::https://github.com/shazow/urllib3/archive/1.21.1.tar.gz
+	sha256sums = 8142be8de7e92e51cfafc55642be36e9612a62e6957d41c8e73da3921412b8a7
+
+pkgname = mingw-w64-x86_64-python2-urllib3
+
+pkgname = mingw-w64-x86_64-python3-urllib3
+
+pkgbase = mingw-w64-python-urllib3
+	pkgdesc = HTTP library with thread-safe connection pooling and file post support (mingw-w64)
+	pkgver = 1.21.1
+	pkgrel = 1
+	url = https://github.com/shazow/urllib3
+	arch = any
+	license = MIT
+	checkdepends = mingw-w64-i686-python2-nose
+	checkdepends = mingw-w64-i686-python3-nose
+	checkdepends = mingw-w64-i686-python2-tornado
+	checkdepends = mingw-w64-i686-python3-tornado
+	checkdepends = mingw-w64-i686-python2-coverage
+	checkdepends = mingw-w64-i686-python3-coverage
+	checkdepends = mingw-w64-i686-python2-psutil
+	checkdepends = mingw-w64-i686-python3-psutil
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-sphinx
+	makedepends = mingw-w64-i686-python3-ndg-httpsclient
+	makedepends = mingw-w64-i686-python2-ndg-httpsclient
+	makedepends = mingw-w64-i686-python3-pyasn1
+	makedepends = mingw-w64-i686-python2-pyasn1
+	makedepends = mingw-w64-i686-python3-pyopenssl
+	makedepends = mingw-w64-i686-python2-pyopenssl
+	makedepends = mingw-w64-i686-python3-mock
+	makedepends = mingw-w64-i686-python2-mock
+	source = urllib3-1.21.1.tar.gz::https://github.com/shazow/urllib3/archive/1.21.1.tar.gz
+	sha256sums = 8142be8de7e92e51cfafc55642be36e9612a62e6957d41c8e73da3921412b8a7
+
+pkgname = mingw-w64-i686-python2-urllib3
+
+pkgname = mingw-w64-i686-python3-urllib3
+

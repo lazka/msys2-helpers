@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-gmime
+	pkgdesc = Glorious MIME Utility Library (mingw-w64)
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = gtk-doc
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-libiconv
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gmime/3.0/gmime-3.0.0.tar.xz
+	sha256sums = 9d4874fb66d8b09d79ba144d2fbcab6157cf5986268fc4fdc9d98daa12c1a791
+
+pkgname = mingw-w64-x86_64-gmime
+
+pkgbase = mingw-w64-gmime
+	pkgdesc = Glorious MIME Utility Library (mingw-w64)
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-vala
+	makedepends = gtk-doc
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-libiconv
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gmime/3.0/gmime-3.0.0.tar.xz
+	sha256sums = 9d4874fb66d8b09d79ba144d2fbcab6157cf5986268fc4fdc9d98daa12c1a791
+
+pkgname = mingw-w64-i686-gmime
+

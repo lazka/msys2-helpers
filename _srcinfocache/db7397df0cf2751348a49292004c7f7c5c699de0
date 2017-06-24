@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-wintab-sdk
+	pkgdesc = Wintab Interface Specification (mingw-w64)
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://www.wacomeng.com/windows/docs/Wintab_v140.htm
+	arch = any
+	license = custom
+	options = strip
+	options = staticlibs
+	source = pktdef.h
+	source = wintab.h
+	sha256sums = 29c76a15b8f5d47f4154a6a0fc3dffd286c3d957d40bcfc0bc4ef3cba2ad8169
+	sha256sums = fe089e2fb8257f3fc902d84867a293f6f716b5c8a9b5cadcf9484b3ec07809d1
+
+pkgname = mingw-w64-x86_64-wintab-sdk
+
+pkgbase = mingw-w64-wintab-sdk
+	pkgdesc = Wintab Interface Specification (mingw-w64)
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://www.wacomeng.com/windows/docs/Wintab_v140.htm
+	arch = any
+	license = custom
+	options = strip
+	options = staticlibs
+	source = pktdef.h
+	source = wintab.h
+	sha256sums = 29c76a15b8f5d47f4154a6a0fc3dffd286c3d957d40bcfc0bc4ef3cba2ad8169
+	sha256sums = fe089e2fb8257f3fc902d84867a293f6f716b5c8a9b5cadcf9484b3ec07809d1
+
+pkgname = mingw-w64-i686-wintab-sdk
+

@@ -1,0 +1,84 @@
+pkgbase = p11-kit
+	pkgdesc = Library to work with PKCS#11 modules
+	pkgver = 0.23.2
+	pkgrel = 1
+	url = https://p11-glue.freedesktop.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = gettext-devel
+	makedepends = libiconv-devel
+	makedepends = libtasn1-devel
+	makedepends = libffi-devel
+	source = https://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz
+	source = https://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz.sig
+	source = 0.19.1-trust-shrext.patch
+	source = p11-kit-fix-readlink.patch
+	source = 0.18.7-win8-x64.patch
+	source = 0.18.7-parallel-make.patch
+	source = p11-kit-0.20.3-msysize.patch
+	sha256sums = ba726ea8303c97467a33fca50ee79b7b35212964be808ecf9b145e9042fdfaf0
+	sha256sums = SKIP
+	sha256sums = e07f5f4d447390fe4ec35c42d438392b57b8a937f1af36265303d11a9417fda0
+	sha256sums = c46f9bcd83fe28f07a1e692ad6963e6fd37d2b2217472ba7c907185f51fc2fea
+	sha256sums = e6895738ceca282b7379caad65668ca1e63b4626ccca5695128c383351ae2e36
+	sha256sums = 99a442bc0c025446d9bcd1d2632c6d637b90e2be45d8d8b54b65ceacd4b43596
+	sha256sums = 599c7327eb056511ebc26bb96c4992f4ba149dc4e5da7aa6e2f458112b6313c7
+
+pkgname = p11-kit
+	depends = libffi
+	depends = libp11-kit
+	depends = libtasn1
+
+pkgname = libp11-kit
+	groups = libraries
+	depends = libintl
+	depends = libtasn1
+
+pkgname = libp11-kit-devel
+	pkgdesc = Libp11-kit headers and libraries
+	groups = development
+	depends = libp11-kit=0.23.2
+
+pkgbase = p11-kit
+	pkgdesc = Library to work with PKCS#11 modules
+	pkgver = 0.23.2
+	pkgrel = 1
+	url = https://p11-glue.freedesktop.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = gettext-devel
+	makedepends = libiconv-devel
+	makedepends = libtasn1-devel
+	makedepends = libffi-devel
+	source = https://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz
+	source = https://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz.sig
+	source = 0.19.1-trust-shrext.patch
+	source = p11-kit-fix-readlink.patch
+	source = 0.18.7-win8-x64.patch
+	source = 0.18.7-parallel-make.patch
+	source = p11-kit-0.20.3-msysize.patch
+	sha256sums = ba726ea8303c97467a33fca50ee79b7b35212964be808ecf9b145e9042fdfaf0
+	sha256sums = SKIP
+	sha256sums = e07f5f4d447390fe4ec35c42d438392b57b8a937f1af36265303d11a9417fda0
+	sha256sums = c46f9bcd83fe28f07a1e692ad6963e6fd37d2b2217472ba7c907185f51fc2fea
+	sha256sums = e6895738ceca282b7379caad65668ca1e63b4626ccca5695128c383351ae2e36
+	sha256sums = 99a442bc0c025446d9bcd1d2632c6d637b90e2be45d8d8b54b65ceacd4b43596
+	sha256sums = 599c7327eb056511ebc26bb96c4992f4ba149dc4e5da7aa6e2f458112b6313c7
+
+pkgname = p11-kit
+	depends = libffi
+	depends = libp11-kit
+	depends = libtasn1
+
+pkgname = libp11-kit
+	groups = libraries
+	depends = libintl
+	depends = libtasn1
+
+pkgname = libp11-kit-devel
+	pkgdesc = Libp11-kit headers and libraries
+	groups = development
+	depends = libp11-kit=0.23.2
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-badvpn
+	pkgdesc = NCD scripting language, tun2socks proxifier, P2P VPN (mingw-w64)
+	pkgver = 1.999.130
+	pkgrel = 2
+	url = https://github.com/ambrop72/badvpn
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-nspr
+	depends = mingw-w64-x86_64-nss
+	depends = mingw-w64-x86_64-openssl
+	source = badvpn-1.999.130.tar.gz::https://github.com/ambrop72/badvpn/archive/1.999.130.tar.gz
+	sha256sums = bfd4bbfebd7274bcec792558c9a2fd60e39cd92e04673825ade5d04154766109
+
+pkgname = mingw-w64-x86_64-badvpn
+
+pkgbase = mingw-w64-badvpn
+	pkgdesc = NCD scripting language, tun2socks proxifier, P2P VPN (mingw-w64)
+	pkgver = 1.999.130
+	pkgrel = 2
+	url = https://github.com/ambrop72/badvpn
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-nspr
+	depends = mingw-w64-i686-nss
+	depends = mingw-w64-i686-openssl
+	source = badvpn-1.999.130.tar.gz::https://github.com/ambrop72/badvpn/archive/1.999.130.tar.gz
+	sha256sums = bfd4bbfebd7274bcec792558c9a2fd60e39cd92e04673825ade5d04154766109
+
+pkgname = mingw-w64-i686-badvpn
+

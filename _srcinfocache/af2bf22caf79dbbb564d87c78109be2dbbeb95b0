@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-docbook-sgml
+	pkgdesc = Document type definitions for verification of SGML data files against the DocBook rule set. (mingw-w64)
+	pkgver = 4.5
+	pkgrel = 1
+	url = http://www.docbook.org/sgml/
+	install = docbook-sgml-x86_64.install
+	arch = any
+	license = MIT
+	depends = mingw-w64-x86_64-sgml-common
+	source = http://www.docbook.org/sgml/4.5/docbook-4.5.zip
+	sha256sums = 8043e514e80c6c19cb146b5d37937d1305bf3abf9b0097c36df7f70f611cdf43
+
+pkgname = mingw-w64-x86_64-docbook-sgml
+
+pkgbase = mingw-w64-docbook-sgml
+	pkgdesc = Document type definitions for verification of SGML data files against the DocBook rule set. (mingw-w64)
+	pkgver = 4.5
+	pkgrel = 1
+	url = http://www.docbook.org/sgml/
+	install = docbook-sgml-i686.install
+	arch = any
+	license = MIT
+	depends = mingw-w64-i686-sgml-common
+	source = http://www.docbook.org/sgml/4.5/docbook-4.5.zip
+	sha256sums = 8043e514e80c6c19cb146b5d37937d1305bf3abf9b0097c36df7f70f611cdf43
+
+pkgname = mingw-w64-i686-docbook-sgml
+

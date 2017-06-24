@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-libdvdread
+	pkgdesc = Provides a simple foundation for reading DVD video disks (mingw-w64)
+	pkgver = 5.0.4
+	pkgrel = 1
+	url = https://dvdnav.mplayerhq.hu
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = git
+	depends = mingw-w64-x86_64-libdvdcss
+	options = staticlibs
+	options = strip
+	source = libdvdread-5.0.4::git+https://git.videolan.org/git/libdvdread.git#tag=5.0.4
+	source = 0001-no-undefined-on.all.patch
+	sha256sums = SKIP
+	sha256sums = 0a9664cce3a2e001445d150edfe5d8f06f3ca0d1affb91b50b1b5bde90c2713e
+
+pkgname = mingw-w64-x86_64-libdvdread
+
+pkgbase = mingw-w64-libdvdread
+	pkgdesc = Provides a simple foundation for reading DVD video disks (mingw-w64)
+	pkgver = 5.0.4
+	pkgrel = 1
+	url = https://dvdnav.mplayerhq.hu
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = git
+	depends = mingw-w64-i686-libdvdcss
+	options = staticlibs
+	options = strip
+	source = libdvdread-5.0.4::git+https://git.videolan.org/git/libdvdread.git#tag=5.0.4
+	source = 0001-no-undefined-on.all.patch
+	sha256sums = SKIP
+	sha256sums = 0a9664cce3a2e001445d150edfe5d8f06f3ca0d1affb91b50b1b5bde90c2713e
+
+pkgname = mingw-w64-i686-libdvdread
+

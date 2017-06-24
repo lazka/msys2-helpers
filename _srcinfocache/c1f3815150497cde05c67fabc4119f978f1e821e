@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-python-pyzmq
+	pkgdesc = Python bindings for zeromq, written in Cython (mingw-w64)
+	pkgver = 16.0.2
+	pkgrel = 1
+	url = http://www.zeromq.org/bindings:python
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-zeromq
+	source = https://pypi.python.org/packages/af/37/8e0bf3800823bc247c36715a52e924e8f8fd5d1432f04b44b8cd7a5d7e55/pyzmq-16.0.2.tar.gz
+	source = 001-mingw-python.patch
+	sha256sums = 0322543fff5ab6f87d11a8a099c4c07dd8a1719040084b6ce9162bcdf5c45c9d
+	sha256sums = 6f2f5f0a0e3e04052f9069e32f5a4459dccfafd5a1347cc90e7157784dabf109
+
+pkgname = mingw-w64-x86_64-python2-pyzmq
+
+pkgname = mingw-w64-x86_64-python3-pyzmq
+
+pkgbase = mingw-w64-python-pyzmq
+	pkgdesc = Python bindings for zeromq, written in Cython (mingw-w64)
+	pkgver = 16.0.2
+	pkgrel = 1
+	url = http://www.zeromq.org/bindings:python
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-zeromq
+	source = https://pypi.python.org/packages/af/37/8e0bf3800823bc247c36715a52e924e8f8fd5d1432f04b44b8cd7a5d7e55/pyzmq-16.0.2.tar.gz
+	source = 001-mingw-python.patch
+	sha256sums = 0322543fff5ab6f87d11a8a099c4c07dd8a1719040084b6ce9162bcdf5c45c9d
+	sha256sums = 6f2f5f0a0e3e04052f9069e32f5a4459dccfafd5a1347cc90e7157784dabf109
+
+pkgname = mingw-w64-i686-python2-pyzmq
+
+pkgname = mingw-w64-i686-python3-pyzmq
+

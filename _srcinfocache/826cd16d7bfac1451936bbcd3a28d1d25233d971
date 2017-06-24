@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-xlnt
+	pkgdesc = User-friendly xlsx library for C++14 (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/tfussell/xlnt
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = unzip
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-zlib
+	depends = mingw-w64-x86_64-expat
+	depends = mingw-w64-x86_64-crypto++
+	noextract = xlnt-1.0.0.zip
+	source = xlnt-1.0.0.zip::https://github.com/tfussell/xlnt/archive/v1.0.0.zip
+	sha256sums = b41403eeb4ef016e4d44285b4c6f2c7f5154d5fd0271be684e85979927892e16
+
+pkgname = mingw-w64-x86_64-xlnt
+
+pkgbase = mingw-w64-xlnt
+	pkgdesc = User-friendly xlsx library for C++14 (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/tfussell/xlnt
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = unzip
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-zlib
+	depends = mingw-w64-i686-expat
+	depends = mingw-w64-i686-crypto++
+	noextract = xlnt-1.0.0.zip
+	source = xlnt-1.0.0.zip::https://github.com/tfussell/xlnt/archive/v1.0.0.zip
+	sha256sums = b41403eeb4ef016e4d44285b4c6f2c7f5154d5fd0271be684e85979927892e16
+
+pkgname = mingw-w64-i686-xlnt
+

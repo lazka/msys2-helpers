@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-kplotting-qt5
+	pkgdesc = Plugins to allow QImage to support extra file formats (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kplotting
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kplotting-5.12.0.tar.xz
+	sha256sums = 5445f5b8de641242ce29454e43c1758816d46acac21c2fe41b5f7777e2a200f6
+
+pkgname = mingw-w64-x86_64-kplotting-qt5
+
+pkgbase = mingw-w64-kplotting-qt5
+	pkgdesc = Plugins to allow QImage to support extra file formats (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kplotting
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kplotting-5.12.0.tar.xz
+	sha256sums = 5445f5b8de641242ce29454e43c1758816d46acac21c2fe41b5f7777e2a200f6
+
+pkgname = mingw-w64-i686-kplotting-qt5
+

@@ -1,0 +1,48 @@
+pkgbase = bzr
+	pkgdesc = Bazaar is a version control system that helps you track project history over time and to collaborate easily with others.
+	pkgver = 2.7.0
+	pkgrel = 2
+	url = http://bazaar.canonical.com/en/
+	arch = i686
+	arch = x86_64
+	groups = VCS
+	license = GPL
+	depends = python2
+	source = https://launchpad.net/bzr/2.7/2.7.0/+download/bzr-2.7.0.tar.gz
+	source = https://launchpad.net/bzr/2.7/2.7.0/+download/bzr-2.7.0.tar.gz.sig
+	source = 0001-setup.py-man-install.patch
+	source = 0002-add-msys2-certs-location.patch
+	source = 0003-bzr-lazy-regex.patch
+	validpgpkeys = 84736900600FF95EF23513F52975A150DEF6218F
+	sha256sums = 0d451227b705a0dd21d8408353fe7e44d3a5069e6c4c26e5f146f1314b8fdab3
+	sha256sums = SKIP
+	sha256sums = f8b22c317e0b47b4cae024533b00ee3c682275963041b3cc7d8067ee6ca0cda3
+	sha256sums = 9fa03bd856a290b3d90eb83e6f5238aed3da475aec263e83a2da54197aa09f53
+	sha256sums = b53c3dc8cba6f2c9758b61f0e9f40fc8452304e1fec15345e282dcd9d5657542
+
+pkgname = bzr
+
+pkgbase = bzr
+	pkgdesc = Bazaar is a version control system that helps you track project history over time and to collaborate easily with others.
+	pkgver = 2.7.0
+	pkgrel = 2
+	url = http://bazaar.canonical.com/en/
+	arch = i686
+	arch = x86_64
+	groups = VCS
+	license = GPL
+	depends = python2
+	source = https://launchpad.net/bzr/2.7/2.7.0/+download/bzr-2.7.0.tar.gz
+	source = https://launchpad.net/bzr/2.7/2.7.0/+download/bzr-2.7.0.tar.gz.sig
+	source = 0001-setup.py-man-install.patch
+	source = 0002-add-msys2-certs-location.patch
+	source = 0003-bzr-lazy-regex.patch
+	validpgpkeys = 84736900600FF95EF23513F52975A150DEF6218F
+	sha256sums = 0d451227b705a0dd21d8408353fe7e44d3a5069e6c4c26e5f146f1314b8fdab3
+	sha256sums = SKIP
+	sha256sums = f8b22c317e0b47b4cae024533b00ee3c682275963041b3cc7d8067ee6ca0cda3
+	sha256sums = 9fa03bd856a290b3d90eb83e6f5238aed3da475aec263e83a2da54197aa09f53
+	sha256sums = b53c3dc8cba6f2c9758b61f0e9f40fc8452304e1fec15345e282dcd9d5657542
+
+pkgname = bzr
+

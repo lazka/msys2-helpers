@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-attica-qt5
+	pkgdesc = A Qt5 library that implements the Open Collaboration Services API (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/attica
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/attica-5.12.0.tar.xz
+	sha256sums = 873d406c50a5abfed196a087281bdc7a6683e713ef255306fedce97f720e6114
+
+pkgname = mingw-w64-x86_64-attica-qt5
+
+pkgbase = mingw-w64-attica-qt5
+	pkgdesc = A Qt5 library that implements the Open Collaboration Services API (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/attica
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/attica-5.12.0.tar.xz
+	sha256sums = 873d406c50a5abfed196a087281bdc7a6683e713ef255306fedce97f720e6114
+
+pkgname = mingw-w64-i686-attica-qt5
+

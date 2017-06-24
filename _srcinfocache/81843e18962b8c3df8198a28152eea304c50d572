@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-gplugin
+	pkgdesc = A GObject based library that implements a reusable plugin system (mingw-w64)
+	pkgver = 0.0.21
+	pkgrel = 3
+	url = https://bitbucket.org/rw_grim/gplugin
+	arch = any
+	license = LGPL 2
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = gettext
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-libxslt
+	options = strip
+	options = !debug
+	options = staticlibs
+	source = gplugin-0.0.21.tar.bz2::https://bitbucket.org/rw_grim/gplugin/get/v0.0.21.tar.bz2
+	source = 001-win.patch
+	sha256sums = df6c0cb47605c5f38fed6aad216fbaa97bb47378de70103884eaa43252af0314
+	sha256sums = 3b5ef908992fe9073a0c14de9b58e81a0a11969f50e28fbd1a34fd7f3bbd13ce
+
+pkgname = mingw-w64-x86_64-gplugin
+
+pkgbase = mingw-w64-gplugin
+	pkgdesc = A GObject based library that implements a reusable plugin system (mingw-w64)
+	pkgver = 0.0.21
+	pkgrel = 3
+	url = https://bitbucket.org/rw_grim/gplugin
+	arch = any
+	license = LGPL 2
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = gettext
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-libxslt
+	options = strip
+	options = !debug
+	options = staticlibs
+	source = gplugin-0.0.21.tar.bz2::https://bitbucket.org/rw_grim/gplugin/get/v0.0.21.tar.bz2
+	source = 001-win.patch
+	sha256sums = df6c0cb47605c5f38fed6aad216fbaa97bb47378de70103884eaa43252af0314
+	sha256sums = 3b5ef908992fe9073a0c14de9b58e81a0a11969f50e28fbd1a34fd7f3bbd13ce
+
+pkgname = mingw-w64-i686-gplugin
+

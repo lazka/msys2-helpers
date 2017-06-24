@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-rest
+	pkgdesc = Helper library for RESTful services (mingw-w64)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-libsoup
+	depends = mingw-w64-x86_64-libxml2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/rest/0.8/rest-0.8.0.tar.xz
+	source = 001-win.patch
+	sha256sums = e7b89b200c1417073aef739e8a27ff2ab578056c27796ec74f5886a5e0dff647
+	sha256sums = c7b1ebbc45071b08493758b6953e19cec4d7eac1b8e95fdb67011797b4a26a93
+
+pkgname = mingw-w64-x86_64-librest
+
+pkgbase = mingw-w64-rest
+	pkgdesc = Helper library for RESTful services (mingw-w64)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-vala
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-libsoup
+	depends = mingw-w64-i686-libxml2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/rest/0.8/rest-0.8.0.tar.xz
+	source = 001-win.patch
+	sha256sums = e7b89b200c1417073aef739e8a27ff2ab578056c27796ec74f5886a5e0dff647
+	sha256sums = c7b1ebbc45071b08493758b6953e19cec4d7eac1b8e95fdb67011797b4a26a93
+
+pkgname = mingw-w64-i686-librest
+

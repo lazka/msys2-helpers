@@ -1,0 +1,26 @@
+pkgbase = util-macros
+	pkgdesc = X.Org Autotools macros
+	pkgver = 1.19.0
+	pkgrel = 1
+	url = http://xorg.freedesktop.org/
+	arch = any
+	groups = development
+	license = custom
+	source = http://xorg.freedesktop.org//releases/individual/util/util-macros-1.19.0.tar.bz2
+	sha256sums = 2835b11829ee634e19fa56517b4cfc52ef39acea0cd82e15f68096e27cbed0ba
+
+pkgname = util-macros
+
+pkgbase = util-macros
+	pkgdesc = X.Org Autotools macros
+	pkgver = 1.19.0
+	pkgrel = 1
+	url = http://xorg.freedesktop.org/
+	arch = any
+	groups = development
+	license = custom
+	source = http://xorg.freedesktop.org//releases/individual/util/util-macros-1.19.0.tar.bz2
+	sha256sums = 2835b11829ee634e19fa56517b4cfc52ef39acea0cd82e15f68096e27cbed0ba
+
+pkgname = util-macros
+

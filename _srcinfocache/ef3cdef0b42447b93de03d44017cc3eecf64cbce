@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-soci
+	pkgdesc = SOCI - The C++ Database Access Library (mingw-w64)
+	pkgver = 3.2.3
+	pkgrel = 1
+	url = https://soci.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-firebird2-git
+	makedepends = mingw-w64-x86_64-postgresql
+	makedepends = mingw-w64-x86_64-sqlite3
+	depends = mingw-w64-x86_64-boost
+	optdepends = mingw-w64-x86_64-firebird2-git
+	optdepends = mingw-w64-x86_64-postgresql
+	optdepends = mingw-w64-x86_64-sqlite3
+	source = soci-3.2.3.tar.gz::https://codeload.github.com/SOCI/soci/tar.gz/3.2.3
+	source = soci-3.2.3.patch
+	sha256sums = 1166664d5d7c4552c4c2abf173f98fa4427fbb454930fd04de3a39782553199e
+	sha256sums = d1fcdb5650cca8d947ee01af0cb65a72035bd5a8ea5bdb4669e45f52807ff6b1
+
+pkgname = mingw-w64-x86_64-soci
+
+pkgbase = mingw-w64-soci
+	pkgdesc = SOCI - The C++ Database Access Library (mingw-w64)
+	pkgver = 3.2.3
+	pkgrel = 1
+	url = https://soci.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-firebird2-git
+	makedepends = mingw-w64-i686-postgresql
+	makedepends = mingw-w64-i686-sqlite3
+	depends = mingw-w64-i686-boost
+	optdepends = mingw-w64-i686-firebird2-git
+	optdepends = mingw-w64-i686-postgresql
+	optdepends = mingw-w64-i686-sqlite3
+	source = soci-3.2.3.tar.gz::https://codeload.github.com/SOCI/soci/tar.gz/3.2.3
+	source = soci-3.2.3.patch
+	sha256sums = 1166664d5d7c4552c4c2abf173f98fa4427fbb454930fd04de3a39782553199e
+	sha256sums = d1fcdb5650cca8d947ee01af0cb65a72035bd5a8ea5bdb4669e45f52807ff6b1
+
+pkgname = mingw-w64-i686-soci
+

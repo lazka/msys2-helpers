@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-glog
+	pkgdesc = C++ implementation of the Google logging module (mingw-w64)
+	pkgver = 0.3.4.4d391fe
+	pkgrel = 3
+	url = https://github.com/google/glog
+	arch = any
+	license = New BSD License
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gflags
+	source = glog-4d391fe692ae6b9e0105f473945c415a3ce5a401.zip::https://codeload.github.com/google/glog/zip/4d391fe692ae6b9e0105f473945c415a3ce5a401
+	source = glog-0.3.4.4d391fe.patch
+	sha256sums = aef60d6c6a6e334defcb56cbe5f007786a7fb6a7beb3da79ac02e6dfafa2807e
+	sha256sums = 154dafa6663b68a979c56ae4fae2a4f12513613ae0a84947a7a73565735d5691
+
+pkgname = mingw-w64-x86_64-glog
+
+pkgbase = mingw-w64-glog
+	pkgdesc = C++ implementation of the Google logging module (mingw-w64)
+	pkgver = 0.3.4.4d391fe
+	pkgrel = 3
+	url = https://github.com/google/glog
+	arch = any
+	license = New BSD License
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gflags
+	source = glog-4d391fe692ae6b9e0105f473945c415a3ce5a401.zip::https://codeload.github.com/google/glog/zip/4d391fe692ae6b9e0105f473945c415a3ce5a401
+	source = glog-0.3.4.4d391fe.patch
+	sha256sums = aef60d6c6a6e334defcb56cbe5f007786a7fb6a7beb3da79ac02e6dfafa2807e
+	sha256sums = 154dafa6663b68a979c56ae4fae2a4f12513613ae0a84947a7a73565735d5691
+
+pkgname = mingw-w64-i686-glog
+

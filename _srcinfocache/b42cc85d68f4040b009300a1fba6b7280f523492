@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-ngraph-gtk
+	pkgdesc = create scientific 2-dimensional graphs (mingw-w64)
+	pkgver = 6.07.03
+	pkgrel = 1
+	url = http://htrb.github.io/ngraph-gtk/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	depends = mingw-w64-x86_64-gsettings-desktop-schemas
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-readline
+	depends = mingw-w64-x86_64-gsl
+	depends = mingw-w64-x86_64-ruby
+	options = strip
+	options = staticlibs
+	source = https://github.com/htrb/ngraph-gtk/releases/download/v6.07.03/ngraph-gtk-6.07.03.tar.gz
+	sha256sums = 702be5d4e10b24bfab5971c176ddb088256c2672441c3b48cb0e6bee2a1d1eda
+
+pkgname = mingw-w64-x86_64-ngraph-gtk
+
+pkgbase = mingw-w64-ngraph-gtk
+	pkgdesc = create scientific 2-dimensional graphs (mingw-w64)
+	pkgver = 6.07.03
+	pkgrel = 1
+	url = http://htrb.github.io/ngraph-gtk/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-adwaita-icon-theme
+	depends = mingw-w64-i686-gsettings-desktop-schemas
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-readline
+	depends = mingw-w64-i686-gsl
+	depends = mingw-w64-i686-ruby
+	options = strip
+	options = staticlibs
+	source = https://github.com/htrb/ngraph-gtk/releases/download/v6.07.03/ngraph-gtk-6.07.03.tar.gz
+	sha256sums = 702be5d4e10b24bfab5971c176ddb088256c2672441c3b48cb0e6bee2a1d1eda
+
+pkgname = mingw-w64-i686-ngraph-gtk
+

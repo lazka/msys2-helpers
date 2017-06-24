@@ -1,0 +1,42 @@
+pkgbase = elfutils
+	pkgdesc = Libraries and utilities to handle ELF object files and DWARF debugging information
+	pkgver = 0.160
+	pkgrel = 1
+	url = https://fedorahosted.org/elfutils/
+	arch = i686
+	arch = x86_64
+	license = LGPL3
+	license = GPL
+	license = GPL3
+	depends = gcc-libs
+	depends = bzip2
+	provides = libelf
+	conflicts = libelf
+	replaces = libelf
+	options = staticlibs
+	source = https://fedorahosted.org/releases/e/l/elfutils/0.160/elfutils-0.160.tar.bz2
+	sha256sums = SKIP
+
+pkgname = elfutils
+
+pkgbase = elfutils
+	pkgdesc = Libraries and utilities to handle ELF object files and DWARF debugging information
+	pkgver = 0.160
+	pkgrel = 1
+	url = https://fedorahosted.org/elfutils/
+	arch = i686
+	arch = x86_64
+	license = LGPL3
+	license = GPL
+	license = GPL3
+	depends = gcc-libs
+	depends = bzip2
+	provides = libelf
+	conflicts = libelf
+	replaces = libelf
+	options = staticlibs
+	source = https://fedorahosted.org/releases/e/l/elfutils/0.160/elfutils-0.160.tar.bz2
+	sha256sums = SKIP
+
+pkgname = elfutils
+

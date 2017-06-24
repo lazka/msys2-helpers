@@ -1,0 +1,60 @@
+pkgbase = mingw-w64-gxml
+	pkgdesc = GObject Libxml2 wrapper and Serializer Framework (mingw-w64)
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://wiki.gnome.org/GXml
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-libtool
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = make
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = intltool
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-gettext
+	depends = mingw-w64-x86_64-glib2>=2.34.0
+	depends = mingw-w64-x86_64-libgee
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-xz
+	depends = mingw-w64-x86_64-zlib
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gxml/0.12/gxml-0.12.0.tar.xz
+	sha256sums = f9310d81078df031c8a5defc90be814a4666e641fb242cd3f4b6f3b6706fb44d
+
+pkgname = mingw-w64-x86_64-gxml
+
+pkgbase = mingw-w64-gxml
+	pkgdesc = GObject Libxml2 wrapper and Serializer Framework (mingw-w64)
+	pkgver = 0.12.0
+	pkgrel = 1
+	url = https://wiki.gnome.org/GXml
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-libtool
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-vala
+	makedepends = make
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = intltool
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-gettext
+	depends = mingw-w64-i686-glib2>=2.34.0
+	depends = mingw-w64-i686-libgee
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-xz
+	depends = mingw-w64-i686-zlib
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/gxml/0.12/gxml-0.12.0.tar.xz
+	sha256sums = f9310d81078df031c8a5defc90be814a4666e641fb242cd3f4b6f3b6706fb44d
+
+pkgname = mingw-w64-i686-gxml
+

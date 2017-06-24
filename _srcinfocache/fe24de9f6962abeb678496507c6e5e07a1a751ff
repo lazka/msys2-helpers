@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-enet
+	pkgdesc = Reliable UDP networking library (mingw-w64)
+	pkgver = 1.3.13
+	pkgrel = 1
+	url = http://enet.bespin.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	options = staticlibs
+	options = strip
+	source = http://enet.bespin.org/download/enet-1.3.13.tar.gz
+	source = 001-no-undefined.patch
+	source = 002-win-libs.patch
+	sha256sums = e36072021faa28731b08c15b1c3b5b91b911baf5f6abcc7fe4a6d425abada35c
+	sha256sums = 804393e6274187861c5837fba57451d45fa1c12b815e1b3ff8e5d3830082b254
+	sha256sums = 2a9129b4cc9f53917382c48d0f4bc83c54d9d0f43e30fd71c8d4d60d3f351a7e
+
+pkgname = mingw-w64-x86_64-enet
+
+pkgbase = mingw-w64-enet
+	pkgdesc = Reliable UDP networking library (mingw-w64)
+	pkgver = 1.3.13
+	pkgrel = 1
+	url = http://enet.bespin.org/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	options = staticlibs
+	options = strip
+	source = http://enet.bespin.org/download/enet-1.3.13.tar.gz
+	source = 001-no-undefined.patch
+	source = 002-win-libs.patch
+	sha256sums = e36072021faa28731b08c15b1c3b5b91b911baf5f6abcc7fe4a6d425abada35c
+	sha256sums = 804393e6274187861c5837fba57451d45fa1c12b815e1b3ff8e5d3830082b254
+	sha256sums = 2a9129b4cc9f53917382c48d0f4bc83c54d9d0f43e30fd71c8d4d60d3f351a7e
+
+pkgname = mingw-w64-i686-enet
+

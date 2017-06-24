@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-bsdfprocessor
+	pkgdesc = Application for displaying and editing of BSDF files (mingw-w64)
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://github.com/KimuraRyo/BSDFProcessor
+	arch = any
+	license = MPL2
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-eigen3
+	makedepends = mingw-w64-x86_64-libbsdf
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-OpenSceneGraph
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-qt5
+	depends = mingw-w64-x86_64-OpenSceneGraph
+	source = bsdfprocessor-1.1.6.tar.gz::https://github.com/KimuraRyo/bsdfprocessor/archive/v1.1.6.tar.gz
+	source = optimisations-CMakeLists.txt.patch
+	sha256sums = 3676fda71531dc1df1162b16c2928554115b7ddf61866f31dcff501848b8d36c
+	sha256sums = 55c03bbbf2b790c0aaa71f1b8638de1145c709b2ec251398acc4aef1d28121bc
+
+pkgname = mingw-w64-x86_64-bsdfprocessor
+
+pkgbase = mingw-w64-bsdfprocessor
+	pkgdesc = Application for displaying and editing of BSDF files (mingw-w64)
+	pkgver = 1.1.6
+	pkgrel = 1
+	url = https://github.com/KimuraRyo/BSDFProcessor
+	arch = any
+	license = MPL2
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-eigen3
+	makedepends = mingw-w64-i686-libbsdf
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-OpenSceneGraph
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-qt5
+	depends = mingw-w64-i686-OpenSceneGraph
+	source = bsdfprocessor-1.1.6.tar.gz::https://github.com/KimuraRyo/bsdfprocessor/archive/v1.1.6.tar.gz
+	source = optimisations-CMakeLists.txt.patch
+	sha256sums = 3676fda71531dc1df1162b16c2928554115b7ddf61866f31dcff501848b8d36c
+	sha256sums = 55c03bbbf2b790c0aaa71f1b8638de1145c709b2ec251398acc4aef1d28121bc
+
+pkgname = mingw-w64-i686-bsdfprocessor
+

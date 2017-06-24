@@ -1,0 +1,32 @@
+pkgbase = perl-Exporter-Tiny
+	pkgdesc = List::MoreUtils provides some trivial but commonly needed functionality on lists which is not going to go into List::Util
+	pkgver = 0.042
+	pkgrel = 1
+	url = http://search.cpan.org/~tobyink/Exporter-Tiny-0.042/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz
+	sha256sums = 8f1622c5ebbfbcd519ead81df7917e48cb16cc527b1c46737b0459c3908a023f
+
+pkgname = perl-Exporter-Tiny
+
+pkgbase = perl-Exporter-Tiny
+	pkgdesc = List::MoreUtils provides some trivial but commonly needed functionality on lists which is not going to go into List::Util
+	pkgver = 0.042
+	pkgrel = 1
+	url = http://search.cpan.org/~tobyink/Exporter-Tiny-0.042/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Exporter-Tiny-0.042.tar.gz
+	sha256sums = 8f1622c5ebbfbcd519ead81df7917e48cb16cc527b1c46737b0459c3908a023f
+
+pkgname = perl-Exporter-Tiny
+

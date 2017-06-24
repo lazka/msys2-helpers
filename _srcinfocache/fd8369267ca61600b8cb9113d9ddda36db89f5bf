@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-python-typing
+	pkgdesc = Backport of the standard library typing module to Python versions older than 3.6 (mingw-w64)
+	pkgver = 3.6.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/typing
+	arch = any
+	license = FSF
+	makedepends = mingw-w64-x86_64-python2
+	source = https://pypi.python.org/packages/17/75/3698d7992a828ad6d7be99c0a888b75ed173a9280e53dbae67326029b60e/typing-3.6.1.tar.gz
+	sha256sums = c36dec260238e7464213dcd50d4b5ef63a507972f5780652e835d0228d0edace
+
+pkgname = mingw-w64-x86_64-python2-typing
+
+pkgbase = mingw-w64-python-typing
+	pkgdesc = Backport of the standard library typing module to Python versions older than 3.6 (mingw-w64)
+	pkgver = 3.6.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/typing
+	arch = any
+	license = FSF
+	makedepends = mingw-w64-i686-python2
+	source = https://pypi.python.org/packages/17/75/3698d7992a828ad6d7be99c0a888b75ed173a9280e53dbae67326029b60e/typing-3.6.1.tar.gz
+	sha256sums = c36dec260238e7464213dcd50d4b5ef63a507972f5780652e835d0228d0edace
+
+pkgname = mingw-w64-i686-python2-typing
+

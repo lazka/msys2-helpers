@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-jsonschema
+	pkgdesc = An implementation of JSON Schema validation for Python (mingw-w64)
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/jsonschema
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = https://pypi.python.org/packages/58/b9/171dbb07e18c6346090a37f03c7e74410a1a56123f847efed59af260a298/jsonschema-2.6.0.tar.gz
+	sha256sums = 6ff5f3180870836cae40f06fa10419f557208175f13ad7bc26caa77beb1f6e02
+
+pkgname = mingw-w64-x86_64-python2-jsonschema
+
+pkgname = mingw-w64-x86_64-python3-jsonschema
+
+pkgbase = mingw-w64-python-jsonschema
+	pkgdesc = An implementation of JSON Schema validation for Python (mingw-w64)
+	pkgver = 2.6.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/jsonschema
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = https://pypi.python.org/packages/58/b9/171dbb07e18c6346090a37f03c7e74410a1a56123f847efed59af260a298/jsonschema-2.6.0.tar.gz
+	sha256sums = 6ff5f3180870836cae40f06fa10419f557208175f13ad7bc26caa77beb1f6e02
+
+pkgname = mingw-w64-i686-python2-jsonschema
+
+pkgname = mingw-w64-i686-python3-jsonschema
+

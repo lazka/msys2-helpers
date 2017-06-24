@@ -1,0 +1,54 @@
+pkgbase = groff
+	pkgdesc = GNU troff text-formatting system
+	pkgver = 1.22.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/groff/groff.html
+	install = groff.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	depends = perl
+	depends = gcc-libs
+	options = !docs
+	options = !emptydirs
+	source = https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz
+	source = https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz.sig
+	source = site.tmac
+	source = groff-1.22.2-msys2.patch
+	source = 0001-fix-mom-pdf-symlink.patch
+	sha256sums = 3a48a9d6c97750bfbd535feeb5be0111db6406ddb7bb79fc680809cda6d828a5
+	sha256sums = SKIP
+	sha256sums = af59ecde597ce9f8189368a7739279a5f8a391139fe048ef6b4e493ed46e5f5f
+	sha256sums = 10efa126651f4408ec391061b15a8810cc21dbb75449f7b7802400d8e6a2d26f
+	sha256sums = d8d7d7a7146b1a83387213c552207c91d6c9aceb51943b99b19fb6125f8e171a
+
+pkgname = groff
+
+pkgbase = groff
+	pkgdesc = GNU troff text-formatting system
+	pkgver = 1.22.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/groff/groff.html
+	install = groff.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	depends = perl
+	depends = gcc-libs
+	options = !docs
+	options = !emptydirs
+	source = https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz
+	source = https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz.sig
+	source = site.tmac
+	source = groff-1.22.2-msys2.patch
+	source = 0001-fix-mom-pdf-symlink.patch
+	sha256sums = 3a48a9d6c97750bfbd535feeb5be0111db6406ddb7bb79fc680809cda6d828a5
+	sha256sums = SKIP
+	sha256sums = af59ecde597ce9f8189368a7739279a5f8a391139fe048ef6b4e493ed46e5f5f
+	sha256sums = 10efa126651f4408ec391061b15a8810cc21dbb75449f7b7802400d8e6a2d26f
+	sha256sums = d8d7d7a7146b1a83387213c552207c91d6c9aceb51943b99b19fb6125f8e171a
+
+pkgname = groff
+

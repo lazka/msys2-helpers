@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-vulkan
+	pkgver = 1.0.38
+	pkgrel = 1
+	epoch = 1
+	url = https://www.khronos.org/vulkan/
+	arch = any
+	groups = mingw-w64-x86_64-vulkan-devel
+	license = custom
+	makedepends = asciidoc
+	makedepends = git
+	makedepends = python3
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-tinyxml2
+	source = https://github.com/KhronosGroup/Vulkan-Docs/archive/v1.0.38-core.tar.gz
+	source = git+https://github.com/leethomason/tinyxml2.git#commit=c8dad95
+	source = git+https://github.com/KhronosGroup/Vulkan-Hpp.git#commit=09e169c
+	sha256sums = 65c7673ae10e4b96dabe77edb65fe4fbb4b0d98db79c9d21e0d7187bf325cf02
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-vulkan-headers
+
+pkgname = mingw-w64-x86_64-vulkan-man-pages
+
+pkgname = mingw-w64-x86_64-vulkan-html-docs
+
+pkgbase = mingw-w64-vulkan
+	pkgver = 1.0.38
+	pkgrel = 1
+	epoch = 1
+	url = https://www.khronos.org/vulkan/
+	arch = any
+	groups = mingw-w64-i686-vulkan-devel
+	license = custom
+	makedepends = asciidoc
+	makedepends = git
+	makedepends = python3
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-tinyxml2
+	source = https://github.com/KhronosGroup/Vulkan-Docs/archive/v1.0.38-core.tar.gz
+	source = git+https://github.com/leethomason/tinyxml2.git#commit=c8dad95
+	source = git+https://github.com/KhronosGroup/Vulkan-Hpp.git#commit=09e169c
+	sha256sums = 65c7673ae10e4b96dabe77edb65fe4fbb4b0d98db79c9d21e0d7187bf325cf02
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-vulkan-headers
+
+pkgname = mingw-w64-i686-vulkan-man-pages
+
+pkgname = mingw-w64-i686-vulkan-html-docs
+

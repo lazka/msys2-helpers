@@ -1,0 +1,32 @@
+pkgbase = perl-Test-Harness
+	pkgdesc = Test::Harness - Run Perl standard test scripts with statistics
+	pkgver = 3.36
+	pkgrel = 1
+	url = http://search.cpan.org/~leont/Test-Harness-3.36/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/Test-Harness-3.36.tar.gz
+	sha256sums = e7566f13b041d028b56f184b77ec2545ec6f0bb5a0f8f5368f7e4a08b496b63e
+
+pkgname = perl-Test-Harness
+
+pkgbase = perl-Test-Harness
+	pkgdesc = Test::Harness - Run Perl standard test scripts with statistics
+	pkgver = 3.36
+	pkgrel = 1
+	url = http://search.cpan.org/~leont/Test-Harness-3.36/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/Test-Harness-3.36.tar.gz
+	sha256sums = e7566f13b041d028b56f184b77ec2545ec6f0bb5a0f8f5368f7e4a08b496b63e
+
+pkgname = perl-Test-Harness
+

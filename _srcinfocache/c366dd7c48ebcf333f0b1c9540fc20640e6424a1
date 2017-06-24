@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-kcrash-qt5
+	pkgdesc = Support for application crash analysis and bug report from apps (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kcrash
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kcrash-5.12.0.tar.xz
+	sha256sums = ef16a2c37ac2582df8961ee546610199c099a7e7d769e5236c79facc814ba602
+
+pkgname = mingw-w64-x86_64-kcrash-qt5
+
+pkgbase = mingw-w64-kcrash-qt5
+	pkgdesc = Support for application crash analysis and bug report from apps (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kcrash
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kcrash-5.12.0.tar.xz
+	sha256sums = ef16a2c37ac2582df8961ee546610199c099a7e7d769e5236c79facc814ba602
+
+pkgname = mingw-w64-i686-kcrash-qt5
+

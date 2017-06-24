@@ -1,0 +1,38 @@
+pkgbase = rsync
+	pkgdesc = A file transfer program to keep remote files in sync
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = https://rsync.samba.org
+	arch = i686
+	arch = x86_64
+	groups = net-utils
+	license = GPL3
+	depends = perl
+	source = https://rsync.samba.org/ftp/rsync/rsync-3.1.2.tar.gz
+	source = rsync-3.1.0-msys2.patch
+	source = ssh-6-option.patch
+	sha256sums = ecfa62a7fa3c4c18b9eccd8c16eaddee4bd308a76ea50b5c02a5840f09c0a1c2
+	sha256sums = 4fee5ba148b2fb4cd910f75e0271f5d66854954cbfaa34a6d9b814de9af2fb05
+	sha256sums = ea88046d8935e7a597cca7379d21edffefa520792d896bd7ce663b4cdc0f2069
+
+pkgname = rsync
+
+pkgbase = rsync
+	pkgdesc = A file transfer program to keep remote files in sync
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = https://rsync.samba.org
+	arch = i686
+	arch = x86_64
+	groups = net-utils
+	license = GPL3
+	depends = perl
+	source = https://rsync.samba.org/ftp/rsync/rsync-3.1.2.tar.gz
+	source = rsync-3.1.0-msys2.patch
+	source = ssh-6-option.patch
+	sha256sums = ecfa62a7fa3c4c18b9eccd8c16eaddee4bd308a76ea50b5c02a5840f09c0a1c2
+	sha256sums = 4fee5ba148b2fb4cd910f75e0271f5d66854954cbfaa34a6d9b814de9af2fb05
+	sha256sums = ea88046d8935e7a597cca7379d21edffefa520792d896bd7ce663b4cdc0f2069
+
+pkgname = rsync
+

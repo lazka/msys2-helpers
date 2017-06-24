@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-leptonica
+	pkgdesc = Leptonica library (mingw-w64)
+	pkgver = 1.74.4
+	pkgrel = 1
+	url = http://www.leptonica.org
+	arch = any
+	license = Leptonica
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-giflib
+	depends = mingw-w64-x86_64-libtiff
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-libwebp
+	depends = mingw-w64-x86_64-openjpeg2
+	depends = mingw-w64-x86_64-zlib
+	options = !libtool
+	options = strip
+	source = https://github.com/DanBloomberg/leptonica/releases/download/1.74.4/leptonica-1.74.4.tar.gz
+	sha256sums = 29c35426a416bf454413c6fec24c24a0b633e26144a17e98351b6dffaa4a833b
+
+pkgname = mingw-w64-x86_64-leptonica
+
+pkgbase = mingw-w64-leptonica
+	pkgdesc = Leptonica library (mingw-w64)
+	pkgver = 1.74.4
+	pkgrel = 1
+	url = http://www.leptonica.org
+	arch = any
+	license = Leptonica
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-giflib
+	depends = mingw-w64-i686-libtiff
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-libwebp
+	depends = mingw-w64-i686-openjpeg2
+	depends = mingw-w64-i686-zlib
+	options = !libtool
+	options = strip
+	source = https://github.com/DanBloomberg/leptonica/releases/download/1.74.4/leptonica-1.74.4.tar.gz
+	sha256sums = 29c35426a416bf454413c6fec24c24a0b633e26144a17e98351b6dffaa4a833b
+
+pkgname = mingw-w64-i686-leptonica
+

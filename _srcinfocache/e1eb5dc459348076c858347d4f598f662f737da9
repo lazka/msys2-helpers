@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-python-nuitka
+	pkgdesc = Python to native compiler (mingw-w64)
+	pkgver = 0.5.26
+	pkgrel = 1
+	url = http://www.nuitka.net/
+	arch = any
+	license = APACHE
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	noextract = Nuitka-0.5.26.tar.gz
+	source = http://nuitka.net/releases/Nuitka-0.5.26.tar.gz
+	sha256sums = 512d940cdc5909cbeebf6f75b4b057df548448c0c03251cdfdc4f406faf7f66e
+
+pkgname = mingw-w64-x86_64-python2-nuitka
+
+pkgname = mingw-w64-x86_64-python3-nuitka
+
+pkgbase = mingw-w64-python-nuitka
+	pkgdesc = Python to native compiler (mingw-w64)
+	pkgver = 0.5.26
+	pkgrel = 1
+	url = http://www.nuitka.net/
+	arch = any
+	license = APACHE
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	noextract = Nuitka-0.5.26.tar.gz
+	source = http://nuitka.net/releases/Nuitka-0.5.26.tar.gz
+	sha256sums = 512d940cdc5909cbeebf6f75b4b057df548448c0c03251cdfdc4f406faf7f66e
+
+pkgname = mingw-w64-i686-python2-nuitka
+
+pkgname = mingw-w64-i686-python3-nuitka
+

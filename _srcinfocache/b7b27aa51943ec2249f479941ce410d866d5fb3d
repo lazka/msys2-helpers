@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-totem-pl-parser
+	pkgdesc = Simple GObject-based library to parse and save a host of playlist formats (mingw-w64)
+	pkgver = 3.10.7
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = gtk-doc
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-gmime
+	depends = mingw-w64-x86_64-libsoup
+	depends = mingw-w64-x86_64-libarchive
+	depends = mingw-w64-x86_64-libgcrypt
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/totem-pl-parser/3.10/totem-pl-parser-3.10.7.tar.xz
+	source = 001-win.patch
+	sha256sums = 9c8285bc3131faa309d5cba5a919d5166abc2b8cc5a0c850fe861be8b14e089c
+	sha256sums = f7aa9fec9fdeb8671bcd145b5900e1beb9b8615cb42354b91efe54fef01a247e
+
+pkgname = mingw-w64-x86_64-totem-pl-parser
+
+pkgbase = mingw-w64-totem-pl-parser
+	pkgdesc = Simple GObject-based library to parse and save a host of playlist formats (mingw-w64)
+	pkgver = 3.10.7
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = LGPL 2
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-vala
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = gtk-doc
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-gmime
+	depends = mingw-w64-i686-libsoup
+	depends = mingw-w64-i686-libarchive
+	depends = mingw-w64-i686-libgcrypt
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/totem-pl-parser/3.10/totem-pl-parser-3.10.7.tar.xz
+	source = 001-win.patch
+	sha256sums = 9c8285bc3131faa309d5cba5a919d5166abc2b8cc5a0c850fe861be8b14e089c
+	sha256sums = f7aa9fec9fdeb8671bcd145b5900e1beb9b8615cb42354b91efe54fef01a247e
+
+pkgname = mingw-w64-i686-totem-pl-parser
+

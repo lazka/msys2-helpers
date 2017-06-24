@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-webencodings
+	pkgdesc = This is a Python implementation of the WHATWG Encoding standard. (mingw-w64)
+	pkgver = 0.5.1
+	pkgrel = 2
+	url = https://github.com/gsnedders/python-webencodings
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = webencodings-0.5.1.tar.gz::https://github.com/gsnedders/python-webencodings/archive/v0.5.1.tar.gz
+	sha256sums = 082367f568a7812aa5f6922ffe3d9d027cd83829dc32bcaac4c874eeed618000
+
+pkgname = mingw-w64-x86_64-python2-webencodings
+
+pkgname = mingw-w64-x86_64-python3-webencodings
+
+pkgbase = mingw-w64-python-webencodings
+	pkgdesc = This is a Python implementation of the WHATWG Encoding standard. (mingw-w64)
+	pkgver = 0.5.1
+	pkgrel = 2
+	url = https://github.com/gsnedders/python-webencodings
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = webencodings-0.5.1.tar.gz::https://github.com/gsnedders/python-webencodings/archive/v0.5.1.tar.gz
+	sha256sums = 082367f568a7812aa5f6922ffe3d9d027cd83829dc32bcaac4c874eeed618000
+
+pkgname = mingw-w64-i686-python2-webencodings
+
+pkgname = mingw-w64-i686-python3-webencodings
+

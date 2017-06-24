@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-unbound
+	pkgdesc = Validating, recursive, and caching DNS resolver (mingw-w64)
+	pkgver = 1.5.10
+	pkgrel = 1
+	url = https://unbound.net/
+	arch = any
+	license = custom:BSD
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-openssl
+	depends = mingw-w64-x86_64-expat
+	depends = mingw-w64-x86_64-ldns
+	options = strip
+	options = staticlibs
+	source = https://unbound.net/downloads/unbound-1.5.10.tar.gz
+	source = manifest
+	sha256sums = a39b8b4fcca2a2b35a2daa53fe35150cc3f09038dc9acede09c912fc248a9486
+	sha256sums = 838098b25a8044176b3139b4003594570c62a8d64f5470fbbd769f3bf44e0855
+
+pkgname = mingw-w64-x86_64-unbound
+
+pkgbase = mingw-w64-unbound
+	pkgdesc = Validating, recursive, and caching DNS resolver (mingw-w64)
+	pkgver = 1.5.10
+	pkgrel = 1
+	url = https://unbound.net/
+	arch = any
+	license = custom:BSD
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-openssl
+	depends = mingw-w64-i686-expat
+	depends = mingw-w64-i686-ldns
+	options = strip
+	options = staticlibs
+	source = https://unbound.net/downloads/unbound-1.5.10.tar.gz
+	source = manifest
+	sha256sums = a39b8b4fcca2a2b35a2daa53fe35150cc3f09038dc9acede09c912fc248a9486
+	sha256sums = 838098b25a8044176b3139b4003594570c62a8d64f5470fbbd769f3bf44e0855
+
+pkgname = mingw-w64-i686-unbound
+

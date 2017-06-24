@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-SDL_gfx
+	pkgdesc = SDL Graphic Primitives (mingw-w64)
+	pkgver = 2.0.25
+	pkgrel = 3
+	url = http://www.ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-SDL
+	source = http://www.ferzkopp.net/Software/SDL_gfx-2.0/SDL_gfx-2.0.25.tar.gz
+	sha256sums = 556eedc06b6cf29eb495b6d27f2dcc51bf909ad82389ba2fa7bdc4dec89059c0
+
+pkgname = mingw-w64-x86_64-SDL_gfx
+
+pkgbase = mingw-w64-SDL_gfx
+	pkgdesc = SDL Graphic Primitives (mingw-w64)
+	pkgver = 2.0.25
+	pkgrel = 3
+	url = http://www.ferzkopp.net/joomla/software-mainmenu-14/4-ferzkopps-linux-software/19-sdlgfx
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-SDL
+	source = http://www.ferzkopp.net/Software/SDL_gfx-2.0/SDL_gfx-2.0.25.tar.gz
+	sha256sums = 556eedc06b6cf29eb495b6d27f2dcc51bf909ad82389ba2fa7bdc4dec89059c0
+
+pkgname = mingw-w64-i686-SDL_gfx
+

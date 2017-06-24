@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-openscad
+	pkgdesc = The programmers solid 3D CAD modeller (mingw-w64)
+	pkgver = 2015.03
+	pkgrel = 2
+	url = http://openscad.org/
+	arch = any
+	license = GPL2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-eigen3
+	makedepends = mingw-w64-x86_64-imagemagick
+	depends = mingw-w64-x86_64-qt5
+	depends = mingw-w64-x86_64-boost
+	depends = mingw-w64-x86_64-cgal
+	depends = mingw-w64-x86_64-opencsg
+	depends = mingw-w64-x86_64-qscintilla
+	depends = mingw-w64-x86_64-shared-mime-info
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = http://files.openscad.org/openscad-2015.03.src.tar.gz
+	sha256sums = 68ce08adc9e90c606ad948fe0f3405ce62b03b6bf34c45dd3dfc6b20c1846182
+
+pkgname = mingw-w64-x86_64-openscad
+
+pkgbase = mingw-w64-openscad
+	pkgdesc = The programmers solid 3D CAD modeller (mingw-w64)
+	pkgver = 2015.03
+	pkgrel = 2
+	url = http://openscad.org/
+	arch = any
+	license = GPL2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-eigen3
+	makedepends = mingw-w64-i686-imagemagick
+	depends = mingw-w64-i686-qt5
+	depends = mingw-w64-i686-boost
+	depends = mingw-w64-i686-cgal
+	depends = mingw-w64-i686-opencsg
+	depends = mingw-w64-i686-qscintilla
+	depends = mingw-w64-i686-shared-mime-info
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = http://files.openscad.org/openscad-2015.03.src.tar.gz
+	sha256sums = 68ce08adc9e90c606ad948fe0f3405ce62b03b6bf34c45dd3dfc6b20c1846182
+
+pkgname = mingw-w64-i686-openscad
+
