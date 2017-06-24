@@ -55,7 +55,8 @@ def _load_cache():
 def _save_cache():
     with CACHE_LOCK:
         with open(os.path.join(DIR, "_srcinfocache.json"), "wb") as h:
-            h.write(json.dumps(CACHE, indent=2).encode("utf-8"))
+            cache = OrderedDict(sorted(CACHE.items()))
+            h.write(json.dumps(cache, indent=2).encode("utf-8"))
 
 
 def _get_cached(pkgbuild_path):
@@ -159,6 +160,7 @@ def main(argv):
     args = parser.parse_args(argv[1:])
 
     _load_cache()
+    _save_cache()
 
     pkgbuilds_in_repo = {}
     text = subprocess.check_output(["pacman", "-Sl"]).decode("utf-8")
