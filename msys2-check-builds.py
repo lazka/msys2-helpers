@@ -34,18 +34,6 @@ from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
 
-def green(text):
-    return "\033[32m" + text + "\033[39m"
-
-
-def red(text):
-    return "\033[31m" + text + "\033[39m"
-
-
-def cyan(text):
-    return "\033[36m" + text + "\033[39m"
-
-
 DIR = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -70,7 +58,7 @@ def _get_cached(pkgbuild_path):
                 stderr=subprocess.STDOUT)
         except subprocess.CalledProcessError as e:
             print(
-                red("ERROR: %s %s" % (pkgbuild_path, e.output.splitlines())),
+                "ERROR: %s %s" % (pkgbuild_path, e.output.splitlines()),
                 file=sys.stderr)
             return
 
@@ -159,12 +147,12 @@ def main(argv):
     repo_path = os.path.abspath(args.path)
     for path, name, version in iter_all_pkgbuilds(repo_path):
         if name not in pkgbuilds_in_repo:
-            print(green("NOT IN REPO: %s (%s)" % (name, path)))
+            print("NOT IN REPO: %s (%s)" % (name, path))
         else:
             repo_version = pkgbuilds_in_repo[name]
             if version != repo_version:
-                print(cyan("DIFFERENTE VERSION: %s local=%s repo=%s (%s)" % (
-                    name, version, repo_version, path)))
+                print("DIFFERENTE VERSION: %s local=%s repo=%s (%s)" % (
+                    name, version, repo_version, path))
 
 
 if __name__ == "__main__":
