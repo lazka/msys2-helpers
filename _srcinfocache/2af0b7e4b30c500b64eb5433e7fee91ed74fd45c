@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-quazip
+	pkgdesc = C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package (mingw-w64)
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://sourceforge.net/projects/quazip/
+	arch = any
+	license = LGPL
+	makedepends = dos2unix
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-qt5
+	depends = mingw-w64-x86_64-zlib
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/quazip/quazip-0.7.1.tar.gz
+	source = mingw-build.patch
+	sha256sums = 78c984103555c51e6f7ef52e3a2128e2beb9896871b2cc4d4dbd4d64bff132de
+	sha256sums = b0df3db13e5317f8d88b2cf4f772926201d0719b331e2504f87bfeacd5c2af8e
+
+pkgname = mingw-w64-x86_64-quazip
+
+pkgbase = mingw-w64-quazip
+	pkgdesc = C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package (mingw-w64)
+	pkgver = 0.7.1
+	pkgrel = 1
+	url = https://sourceforge.net/projects/quazip/
+	arch = any
+	license = LGPL
+	makedepends = dos2unix
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-qt5
+	depends = mingw-w64-i686-zlib
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/quazip/quazip-0.7.1.tar.gz
+	source = mingw-build.patch
+	sha256sums = 78c984103555c51e6f7ef52e3a2128e2beb9896871b2cc4d4dbd4d64bff132de
+	sha256sums = b0df3db13e5317f8d88b2cf4f772926201d0719b331e2504f87bfeacd5c2af8e
+
+pkgname = mingw-w64-i686-quazip
+

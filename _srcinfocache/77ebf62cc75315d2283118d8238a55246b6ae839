@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-python-ipaddress
+	pkgdesc = Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2 (mingw-w64)
+	pkgver = 1.0.18
+	pkgrel = 1
+	url = https://github.com/phihag/ipaddress
+	arch = any
+	license = Python Software Foundation License
+	makedepends = mingw-w64-x86_64-python2
+	source = https://pypi.python.org/packages/4e/13/774faf38b445d0b3a844b65747175b2e0500164b7c28d78e34987a5bfe06/ipaddress-1.0.18.tar.gz
+	sha256sums = 5d8534c8e185f2d8a1fda1ef73f2c8f4b23264e8e30063feeb9511d492a413e1
+
+pkgname = mingw-w64-x86_64-python2-ipaddress
+
+pkgbase = mingw-w64-python-ipaddress
+	pkgdesc = Port of the 3.3+ ipaddress module to 2.6, 2.7, 3.2 (mingw-w64)
+	pkgver = 1.0.18
+	pkgrel = 1
+	url = https://github.com/phihag/ipaddress
+	arch = any
+	license = Python Software Foundation License
+	makedepends = mingw-w64-i686-python2
+	source = https://pypi.python.org/packages/4e/13/774faf38b445d0b3a844b65747175b2e0500164b7c28d78e34987a5bfe06/ipaddress-1.0.18.tar.gz
+	sha256sums = 5d8534c8e185f2d8a1fda1ef73f2c8f4b23264e8e30063feeb9511d492a413e1
+
+pkgname = mingw-w64-i686-python2-ipaddress
+

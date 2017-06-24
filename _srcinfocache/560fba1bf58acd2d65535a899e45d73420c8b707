@@ -1,0 +1,46 @@
+pkgbase = rarian
+	pkgdesc = Documentation meta-data library, designed as a replacement for Scrollkeeper.
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://rarian.freedesktop.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = libxslt-python
+	depends = gcc-libs
+	source = https://download.gnome.org/sources/rarian/0.8/rarian-0.8.1.tar.bz2
+	source = user-segfault.patch
+	source = msysize.patch
+	source = 0.8-no-undefined.patch
+	source = 0.8.1-file-uri.patch
+	sha256sums = aafe886d46e467eb3414e91fa9e42955bd4b618c3e19c42c773026b205a84577
+	sha256sums = 518b1834d4f44e92161f0cf2f72a6474f0ec687ea53562c64109df90d343fe71
+	sha256sums = eb52d89126cb55a10441ec60b03ed12f5e1c20eb1daaee90eef94e07577416b0
+	sha256sums = de0cddcf34294f6a8cf14c38c196462de75840b5cfdf6445804100398bb2daa4
+	sha256sums = c3a447c98280653474112a9f4e740325f11947a2e4a4dc6b9afc8fb5e64e98d3
+
+pkgname = rarian
+
+pkgbase = rarian
+	pkgdesc = Documentation meta-data library, designed as a replacement for Scrollkeeper.
+	pkgver = 0.8.1
+	pkgrel = 1
+	url = https://rarian.freedesktop.org/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = libxslt-python
+	depends = gcc-libs
+	source = https://download.gnome.org/sources/rarian/0.8/rarian-0.8.1.tar.bz2
+	source = user-segfault.patch
+	source = msysize.patch
+	source = 0.8-no-undefined.patch
+	source = 0.8.1-file-uri.patch
+	sha256sums = aafe886d46e467eb3414e91fa9e42955bd4b618c3e19c42c773026b205a84577
+	sha256sums = 518b1834d4f44e92161f0cf2f72a6474f0ec687ea53562c64109df90d343fe71
+	sha256sums = eb52d89126cb55a10441ec60b03ed12f5e1c20eb1daaee90eef94e07577416b0
+	sha256sums = de0cddcf34294f6a8cf14c38c196462de75840b5cfdf6445804100398bb2daa4
+	sha256sums = c3a447c98280653474112a9f4e740325f11947a2e4a4dc6b9afc8fb5e64e98d3
+
+pkgname = rarian
+

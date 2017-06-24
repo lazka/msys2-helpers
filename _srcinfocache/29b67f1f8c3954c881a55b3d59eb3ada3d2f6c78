@@ -1,0 +1,48 @@
+pkgbase = file
+	pkgdesc = File type identification utility
+	pkgver = 5.30
+	pkgrel = 1
+	url = https://www.darwinsys.com/file/
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = custom
+	makedepends = python2
+	makedepends = python3
+	makedepends = zlib-devel
+	depends = gcc-libs
+	depends = msys2-runtime
+	depends = zlib
+	options = !libtool
+	source = ftp://ftp.astron.com/pub/file/file-5.30.tar.gz
+	source = file-5.17-msys2.patch
+	sha256sums = 694c2432e5240187524c9e7cf1ec6acc77b47a0e19554d34c14773e43dbbf214
+	sha256sums = fa8a8581df5535981cbfb9e9f3e64edf34085f959cec42f88e0a13b8aa0e919b
+
+pkgname = file
+
+pkgbase = file
+	pkgdesc = File type identification utility
+	pkgver = 5.30
+	pkgrel = 1
+	url = https://www.darwinsys.com/file/
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = custom
+	makedepends = python2
+	makedepends = python3
+	makedepends = zlib-devel
+	depends = gcc-libs
+	depends = msys2-runtime
+	depends = zlib
+	options = !libtool
+	source = ftp://ftp.astron.com/pub/file/file-5.30.tar.gz
+	source = file-5.17-msys2.patch
+	sha256sums = 694c2432e5240187524c9e7cf1ec6acc77b47a0e19554d34c14773e43dbbf214
+	sha256sums = fa8a8581df5535981cbfb9e9f3e64edf34085f959cec42f88e0a13b8aa0e919b
+
+pkgname = file
+

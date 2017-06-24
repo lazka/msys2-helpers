@@ -1,0 +1,108 @@
+pkgbase = libarchive
+	pkgdesc = library that can create and read several streaming archive formats
+	pkgver = 3.2.2
+	pkgrel = 2
+	url = http://libarchive.org/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = BSD
+	makedepends = libbz2-devel
+	makedepends = libiconv-devel
+	makedepends = liblzma-devel
+	makedepends = liblzo2-devel
+	makedepends = libnettle-devel
+	makedepends = libxml2-devel
+	makedepends = zlib-devel
+	depends = gcc-libs
+	depends = libbz2
+	depends = libiconv
+	depends = liblzma
+	depends = liblzo2
+	depends = libnettle
+	depends = libxml2
+	depends = zlib
+	options = !strip
+	options = debug
+	options = libtool
+	source = http://libarchive.org/downloads/libarchive-3.2.2.tar.gz
+	source = libarchive-3.2.0-msys2.patch
+	source = libarchive-3.2.2-path_fix.patch
+	sha256sums = 691c194ee132d1f0f7a42541f091db811bc2e56f7107e9121be2bc8c04f1060f
+	sha256sums = 639f316243509470c6f8132e59104a49bfb8df61be9722887d145a1b7262286c
+	sha256sums = 5c80ad55e47decd47330af6fb6e4237ef024b9053582b4ac9c6dcd2b4b341a43
+
+pkgname = libarchive
+
+pkgname = libarchive-devel
+	groups = development
+	depends = libarchive=3.2.2
+	depends = libbz2-devel
+	depends = libiconv-devel
+	depends = liblzma-devel
+	depends = liblzo2-devel
+	depends = libnettle-devel
+	depends = libxml2-devel
+	depends = zlib-devel
+	options = staticlibs
+
+pkgname = bsdcpio
+	groups = base
+
+pkgname = bsdtar
+	groups = base
+
+pkgbase = libarchive
+	pkgdesc = library that can create and read several streaming archive formats
+	pkgver = 3.2.2
+	pkgrel = 2
+	url = http://libarchive.org/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = BSD
+	makedepends = libbz2-devel
+	makedepends = libiconv-devel
+	makedepends = liblzma-devel
+	makedepends = liblzo2-devel
+	makedepends = libnettle-devel
+	makedepends = libxml2-devel
+	makedepends = zlib-devel
+	depends = gcc-libs
+	depends = libbz2
+	depends = libiconv
+	depends = liblzma
+	depends = liblzo2
+	depends = libnettle
+	depends = libxml2
+	depends = zlib
+	options = !strip
+	options = debug
+	options = libtool
+	source = http://libarchive.org/downloads/libarchive-3.2.2.tar.gz
+	source = libarchive-3.2.0-msys2.patch
+	source = libarchive-3.2.2-path_fix.patch
+	sha256sums = 691c194ee132d1f0f7a42541f091db811bc2e56f7107e9121be2bc8c04f1060f
+	sha256sums = 639f316243509470c6f8132e59104a49bfb8df61be9722887d145a1b7262286c
+	sha256sums = 5c80ad55e47decd47330af6fb6e4237ef024b9053582b4ac9c6dcd2b4b341a43
+
+pkgname = libarchive
+
+pkgname = libarchive-devel
+	groups = development
+	depends = libarchive=3.2.2
+	depends = libbz2-devel
+	depends = libiconv-devel
+	depends = liblzma-devel
+	depends = liblzo2-devel
+	depends = libnettle-devel
+	depends = libxml2-devel
+	depends = zlib-devel
+	options = staticlibs
+
+pkgname = bsdcpio
+	groups = base
+
+pkgname = bsdtar
+	groups = base
+

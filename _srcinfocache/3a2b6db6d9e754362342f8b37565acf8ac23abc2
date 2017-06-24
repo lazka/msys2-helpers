@@ -1,0 +1,62 @@
+pkgbase = zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+	pkgver = 1.2.11
+	pkgrel = 1
+	url = http://www.zlib.net/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = custom
+	makedepends = gcc
+	makedepends = make
+	source = https://sourceforge.net/projects/libpng/files/zlib/1.2.11/zlib-1.2.11.tar.gz
+	source = 1.2.7-minizip-cygwin.patch
+	source = 1.2.7-zlib-symbols.patch
+	source = 1.2.11-cygwin-no-widechar.patch
+	source = zlib-1.2.11-msys2.patch
+	sha256sums = c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1
+	sha256sums = 425e2e36e8c788f0fa725c9b713642d5ae2f6629eab8613a2c2886eed2de5c21
+	sha256sums = 16e9ce18df14a700dda0572843cdb42b5cb3d398c64706af0acc7cd77c181b7e
+	sha256sums = ba195803acf87b49b2f007bc83015c138a19e666e1e935b8116b4928b88d72eb
+	sha256sums = 31d675180f528af0b172bbf09f1e9b2014acc1a0a8a23e0cc172a88eb3eb675f
+
+pkgname = zlib
+	depends = gcc-libs
+
+pkgname = zlib-devel
+	pkgdesc = zlib headers and libraries
+	groups = development
+	depends = zlib=1.2.11
+	options = staticlibs
+
+pkgbase = zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+	pkgver = 1.2.11
+	pkgrel = 1
+	url = http://www.zlib.net/
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	license = custom
+	makedepends = gcc
+	makedepends = make
+	source = https://sourceforge.net/projects/libpng/files/zlib/1.2.11/zlib-1.2.11.tar.gz
+	source = 1.2.7-minizip-cygwin.patch
+	source = 1.2.7-zlib-symbols.patch
+	source = 1.2.11-cygwin-no-widechar.patch
+	source = zlib-1.2.11-msys2.patch
+	sha256sums = c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1
+	sha256sums = 425e2e36e8c788f0fa725c9b713642d5ae2f6629eab8613a2c2886eed2de5c21
+	sha256sums = 16e9ce18df14a700dda0572843cdb42b5cb3d398c64706af0acc7cd77c181b7e
+	sha256sums = ba195803acf87b49b2f007bc83015c138a19e666e1e935b8116b4928b88d72eb
+	sha256sums = 31d675180f528af0b172bbf09f1e9b2014acc1a0a8a23e0cc172a88eb3eb675f
+
+pkgname = zlib
+	depends = gcc-libs
+
+pkgname = zlib-devel
+	pkgdesc = zlib headers and libraries
+	groups = development
+	depends = zlib=1.2.11
+	options = staticlibs
+

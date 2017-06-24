@@ -1,0 +1,56 @@
+pkgbase = man
+	pkgdesc = Man, apropos, and whatis commands
+	pkgver = 1.6.g
+	pkgrel = 1
+	url = http://primates.ximian.com/~flucifredi/man/
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	license = LGPL
+	depends = bzip2
+	depends = coreutils
+	depends = gawk
+	depends = groff
+	depends = gzip
+	depends = less
+	depends = libcatgets
+	depends = xz
+	options = !libtool
+	options = emptydirs
+	backup = etc/man.conf
+	source = https://fossies.org/linux/misc/old/man-1.6g.tar.gz
+	source = man-1.6g-2.src.patch
+	sha256sums = ccdcb8c3f4e0080923d7e818f0e4a202db26c46415eaef361387c20995b8959f
+	sha256sums = 1fddd70f756abfdfeb70f74f44c5243748f4f58ced2d240d10a24d230504b802
+
+pkgname = man
+
+pkgbase = man
+	pkgdesc = Man, apropos, and whatis commands
+	pkgver = 1.6.g
+	pkgrel = 1
+	url = http://primates.ximian.com/~flucifredi/man/
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	license = LGPL
+	depends = bzip2
+	depends = coreutils
+	depends = gawk
+	depends = groff
+	depends = gzip
+	depends = less
+	depends = libcatgets
+	depends = xz
+	options = !libtool
+	options = emptydirs
+	backup = etc/man.conf
+	source = https://fossies.org/linux/misc/old/man-1.6g.tar.gz
+	source = man-1.6g-2.src.patch
+	sha256sums = ccdcb8c3f4e0080923d7e818f0e4a202db26c46415eaef361387c20995b8959f
+	sha256sums = 1fddd70f756abfdfeb70f74f44c5243748f4f58ced2d240d10a24d230504b802
+
+pkgname = man
+

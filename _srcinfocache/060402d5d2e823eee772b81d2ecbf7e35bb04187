@@ -1,0 +1,38 @@
+pkgbase = yelp-xsl
+	pkgdesc = Stylesheets for Yelp
+	pkgver = 3.20.0
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	makedepends = libxml2-python
+	makedepends = libxslt-python
+	makedepends = intltool
+	makedepends = itstool
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://download.gnome.org/sources/yelp-xsl/3.20/yelp-xsl-3.20.0.tar.xz
+	sha256sums = 9f327887853c40d7332dde8789ee58c0cf678186719cb905e57ae175b8434848
+
+pkgname = yelp-xsl
+
+pkgbase = yelp-xsl
+	pkgdesc = Stylesheets for Yelp
+	pkgver = 3.20.0
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	makedepends = libxml2-python
+	makedepends = libxslt-python
+	makedepends = intltool
+	makedepends = itstool
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://download.gnome.org/sources/yelp-xsl/3.20/yelp-xsl-3.20.0.tar.xz
+	sha256sums = 9f327887853c40d7332dde8789ee58c0cf678186719cb905e57ae175b8434848
+
+pkgname = yelp-xsl
+

@@ -1,0 +1,30 @@
+pkgbase = git-flow
+	pkgdesc = Git extensions to provide high-level repository operations for Vincent Driessen's branching model (AVH edition)
+	pkgver = 1.10.1
+	pkgrel = 1
+	url = https://github.com/petervanderdoes/gitflow-avh
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = git
+	depends = util-linux
+	source = git-flow::git+https://github.com/petervanderdoes/gitflow-avh.git#branch=master
+	sha256sums = SKIP
+
+pkgname = git-flow
+
+pkgbase = git-flow
+	pkgdesc = Git extensions to provide high-level repository operations for Vincent Driessen's branching model (AVH edition)
+	pkgver = 1.10.1
+	pkgrel = 1
+	url = https://github.com/petervanderdoes/gitflow-avh
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = git
+	depends = util-linux
+	source = git-flow::git+https://github.com/petervanderdoes/gitflow-avh.git#branch=master
+	sha256sums = SKIP
+
+pkgname = git-flow
+

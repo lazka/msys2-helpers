@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-libsoup
+	pkgdesc = HTTP client/server library (mingw-w64)
+	pkgver = 2.58.1
+	pkgrel = 1
+	url = https://download.gnome.org/sources/libsoup
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = intltool
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-glib-networking
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-sqlite3
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/libsoup/2.58/libsoup-2.58.1.tar.xz
+	source = 0006-change-pkg-config-invocations.mingw.patch
+	sha256sums = 62c669f557de745b7b20ba9d5b74d839c95e4c9cea1a5ab7f3da5531a1aeefb9
+	sha256sums = 270c8115992d4ddce526da67bbadea49ad1710f83b7a78db128dfd433372f285
+
+pkgname = mingw-w64-x86_64-libsoup
+
+pkgbase = mingw-w64-libsoup
+	pkgdesc = HTTP client/server library (mingw-w64)
+	pkgver = 2.58.1
+	pkgrel = 1
+	url = https://download.gnome.org/sources/libsoup
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-vala
+	makedepends = intltool
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-glib-networking
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-sqlite3
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/libsoup/2.58/libsoup-2.58.1.tar.xz
+	source = 0006-change-pkg-config-invocations.mingw.patch
+	sha256sums = 62c669f557de745b7b20ba9d5b74d839c95e4c9cea1a5ab7f3da5531a1aeefb9
+	sha256sums = 270c8115992d4ddce526da67bbadea49ad1710f83b7a78db128dfd433372f285
+
+pkgname = mingw-w64-i686-libsoup
+

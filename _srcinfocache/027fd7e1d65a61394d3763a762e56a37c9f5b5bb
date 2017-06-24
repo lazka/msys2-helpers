@@ -1,0 +1,58 @@
+pkgbase = mingw-w64-python2-rst2pdf
+	pkgdesc = Create PDFs from simple text markup, no LaTeX required (mingw-w64)
+	pkgver = 0.93
+	pkgrel = 3
+	url = https://github.com/ralsina/rst2pdf
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python2-docutils
+	makedepends = mingw-w64-x86_64-python2-pdfrw
+	makedepends = mingw-w64-x86_64-python2-pygments
+	makedepends = mingw-w64-x86_64-python2-reportlab>=2.4
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-docutils
+	makedepends = mingw-w64-x86_64-python3-pdfrw
+	makedepends = mingw-w64-x86_64-python3-pygments
+	makedepends = mingw-w64-x86_64-python3-reportlab>=2.4
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = rst2pdf-0.93.tar.gz::https://github.com/rst2pdf/rst2pdf/archive/0.93.tar.gz
+	sha256sums = 37e99ea103790321b29b6f6b0192821ba9c2990a6aec57295585ca6919932a97
+
+pkgname = mingw-w64-x86_64-python2-rst2pdf
+
+pkgname = mingw-w64-x86_64-python3-rst2pdf
+
+pkgbase = mingw-w64-python2-rst2pdf
+	pkgdesc = Create PDFs from simple text markup, no LaTeX required (mingw-w64)
+	pkgver = 0.93
+	pkgrel = 3
+	url = https://github.com/ralsina/rst2pdf
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python2-docutils
+	makedepends = mingw-w64-i686-python2-pdfrw
+	makedepends = mingw-w64-i686-python2-pygments
+	makedepends = mingw-w64-i686-python2-reportlab>=2.4
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-docutils
+	makedepends = mingw-w64-i686-python3-pdfrw
+	makedepends = mingw-w64-i686-python3-pygments
+	makedepends = mingw-w64-i686-python3-reportlab>=2.4
+	makedepends = mingw-w64-i686-python3-setuptools
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = rst2pdf-0.93.tar.gz::https://github.com/rst2pdf/rst2pdf/archive/0.93.tar.gz
+	sha256sums = 37e99ea103790321b29b6f6b0192821ba9c2990a6aec57295585ca6919932a97
+
+pkgname = mingw-w64-i686-python2-rst2pdf
+
+pkgname = mingw-w64-i686-python3-rst2pdf
+

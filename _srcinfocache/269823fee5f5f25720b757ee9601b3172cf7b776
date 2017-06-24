@@ -1,0 +1,84 @@
+pkgbase = libtirpc
+	pkgdesc = A port of Sun's Transport-Independent RPC library
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://libtirpc.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	source = https://downloads.sourceforge.net/libtirpc/libtirpc-0.2.5.tar.bz2
+	source = 0.2.4-cygwin-bindresvport.patch
+	source = 0.2.4-cygwin-ipv6.patch
+	source = 0.2.4-cygwin-no-nis.patch
+	source = 0.2.4-cygwin-poll.patch
+	source = 0.2.4-cygwin-pthread.patch
+	source = 0.2.4-cygwin-rpc-types.patch
+	source = 0.2.4-getrpcbynumber.patch
+	source = 0.2.4-no-undefined.patch
+	source = msys2-autotools.patch
+	sha256sums = 62f9de7c2c8686c568757730e1fef66502a0e00d6cacf33546d0267984e002db
+	sha256sums = 779e523ce028fa5015225c805bb66982e33f4395c14147a0e23726e4c6a3b8f1
+	sha256sums = 24d8f179812434e3be91800eb4387fec38d9050f3d1902ee1e66246c776fac11
+	sha256sums = e030b86eccdc9bbbcde5f745af260afc8a872056fd2a5154dbe4b30e297685d0
+	sha256sums = 90cedf3f930bf44dbbed2e520305df1a53daddac464d1d68edf501466578ac0c
+	sha256sums = d45ae803c401ca5a37e5084da822ff7f448241be38d457ef981692322e7fd057
+	sha256sums = c247c94a431c0548610c6e97b620a3f81767a31f894b14027737b8afbade95f8
+	sha256sums = 0f6352d65c2708b51425af25702385a3da69955061b736b94955d028ef766c42
+	sha256sums = 67950f25c0451975e4554ecc04088bb2e2bfc895d2e48cb30fa5cd7ffef269b3
+	sha256sums = 4ab58d9b37794fa574f970b6b94eb1818d94f93a909ffd090ab6c83fd6ba4dae
+
+pkgname = libtirpc
+	groups = libraries
+	depends = msys2-runtime
+	depends = gcc-libs
+
+pkgname = libtirpc-devel
+	pkgdesc = Libtirpc headers and libraries
+	groups = development
+	depends = libtirpc=0.2.5
+
+pkgbase = libtirpc
+	pkgdesc = A port of Sun's Transport-Independent RPC library
+	pkgver = 0.2.5
+	pkgrel = 1
+	url = https://libtirpc.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	source = https://downloads.sourceforge.net/libtirpc/libtirpc-0.2.5.tar.bz2
+	source = 0.2.4-cygwin-bindresvport.patch
+	source = 0.2.4-cygwin-ipv6.patch
+	source = 0.2.4-cygwin-no-nis.patch
+	source = 0.2.4-cygwin-poll.patch
+	source = 0.2.4-cygwin-pthread.patch
+	source = 0.2.4-cygwin-rpc-types.patch
+	source = 0.2.4-getrpcbynumber.patch
+	source = 0.2.4-no-undefined.patch
+	source = msys2-autotools.patch
+	sha256sums = 62f9de7c2c8686c568757730e1fef66502a0e00d6cacf33546d0267984e002db
+	sha256sums = 779e523ce028fa5015225c805bb66982e33f4395c14147a0e23726e4c6a3b8f1
+	sha256sums = 24d8f179812434e3be91800eb4387fec38d9050f3d1902ee1e66246c776fac11
+	sha256sums = e030b86eccdc9bbbcde5f745af260afc8a872056fd2a5154dbe4b30e297685d0
+	sha256sums = 90cedf3f930bf44dbbed2e520305df1a53daddac464d1d68edf501466578ac0c
+	sha256sums = d45ae803c401ca5a37e5084da822ff7f448241be38d457ef981692322e7fd057
+	sha256sums = c247c94a431c0548610c6e97b620a3f81767a31f894b14027737b8afbade95f8
+	sha256sums = 0f6352d65c2708b51425af25702385a3da69955061b736b94955d028ef766c42
+	sha256sums = 67950f25c0451975e4554ecc04088bb2e2bfc895d2e48cb30fa5cd7ffef269b3
+	sha256sums = 4ab58d9b37794fa574f970b6b94eb1818d94f93a909ffd090ab6c83fd6ba4dae
+
+pkgname = libtirpc
+	groups = libraries
+	depends = msys2-runtime
+	depends = gcc-libs
+
+pkgname = libtirpc-devel
+	pkgdesc = Libtirpc headers and libraries
+	groups = development
+	depends = libtirpc=0.2.5
+

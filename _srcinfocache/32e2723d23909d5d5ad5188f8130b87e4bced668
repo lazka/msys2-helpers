@@ -1,0 +1,30 @@
+pkgbase = perl-Getopt-Tabular
+	pkgdesc = table-driven argument parsing for Perl 5
+	pkgver = 0.3
+	pkgrel = 1
+	url = http://search.cpan.org/~gward/Getopt-Tabular-0.3
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	source = http://search.cpan.org/CPAN/authors/id/G/GW/GWARD/Getopt-Tabular-0.3.tar.gz
+	sha256sums = 9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377
+
+pkgname = perl-Getopt-Tabular
+
+pkgbase = perl-Getopt-Tabular
+	pkgdesc = table-driven argument parsing for Perl 5
+	pkgver = 0.3
+	pkgrel = 1
+	url = http://search.cpan.org/~gward/Getopt-Tabular-0.3
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	source = http://search.cpan.org/CPAN/authors/id/G/GW/GWARD/Getopt-Tabular-0.3.tar.gz
+	sha256sums = 9bdf067633b5913127820f4e8035edc53d08372faace56ba6bfa00c968a25377
+
+pkgname = perl-Getopt-Tabular
+

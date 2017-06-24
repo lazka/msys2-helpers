@@ -1,0 +1,44 @@
+pkgbase = libevent
+	pkgdesc = An event notification library
+	pkgver = 2.1.4
+	pkgrel = 1
+	url = http://libevent.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = openssl-devel
+	source = libevent-2.1.4-alpha.tar.gz::https://github.com/lasote/libevent/archive/release-2.1.4-alpha.tar.gz
+	sha256sums = 332bdd13ad7479ac65c5b694ac227c99b5e3bfe94a412afa44a4450d59fc85e4
+
+pkgname = libevent
+	depends = openssl
+	optdepends = python2: to use event_rpcgen.py
+
+pkgname = libevent-devel
+	pkgdesc = Libevent headers and libraries
+	groups = development
+	depends = libevent=2.1.4
+	depends = openssl-devel
+
+pkgbase = libevent
+	pkgdesc = An event notification library
+	pkgver = 2.1.4
+	pkgrel = 1
+	url = http://libevent.org
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = openssl-devel
+	source = libevent-2.1.4-alpha.tar.gz::https://github.com/lasote/libevent/archive/release-2.1.4-alpha.tar.gz
+	sha256sums = 332bdd13ad7479ac65c5b694ac227c99b5e3bfe94a412afa44a4450d59fc85e4
+
+pkgname = libevent
+	depends = openssl
+	optdepends = python2: to use event_rpcgen.py
+
+pkgname = libevent-devel
+	pkgdesc = Libevent headers and libraries
+	groups = development
+	depends = libevent=2.1.4
+	depends = openssl-devel
+

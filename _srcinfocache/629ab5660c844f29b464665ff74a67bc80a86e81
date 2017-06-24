@@ -1,0 +1,38 @@
+pkgbase = beaker
+	pkgdesc = Caching and sessions WSGI middleware for use with web applications and stand-alone Python scripts and applications
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = http://beaker.groovie.org/
+	arch = i686
+	arch = x86_64
+	license = PSF
+	depends = python2-setuptools
+	depends = python3-setuptools
+	source = beaker-1.7.0.tar.gz::https://github.com/bbangert/beaker/archive/1.7.0.tar.gz
+	sha256sums = dad9a94e694f4a08fcf298c7c12c07942585a2de076a860d86f4e5ca9603e336
+
+pkgname = python3-beaker
+	depends = python>=3.3
+
+pkgname = python2-beaker
+	depends = python2>=2.7
+
+pkgbase = beaker
+	pkgdesc = Caching and sessions WSGI middleware for use with web applications and stand-alone Python scripts and applications
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = http://beaker.groovie.org/
+	arch = i686
+	arch = x86_64
+	license = PSF
+	depends = python2-setuptools
+	depends = python3-setuptools
+	source = beaker-1.7.0.tar.gz::https://github.com/bbangert/beaker/archive/1.7.0.tar.gz
+	sha256sums = dad9a94e694f4a08fcf298c7c12c07942585a2de076a860d86f4e5ca9603e336
+
+pkgname = python3-beaker
+	depends = python>=3.3
+
+pkgname = python2-beaker
+	depends = python2>=2.7
+

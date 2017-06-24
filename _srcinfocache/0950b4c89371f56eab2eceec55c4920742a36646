@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-ffms2
+	pkgdesc = A cross-platform wrapper library around libav/FFmpeg (mingw-w64)
+	pkgver = 2.20
+	pkgrel = 1
+	url = https://github.com/FFMS/ffms2/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-ffmpeg
+	options = staticlibs
+	options = strip
+	source = ffms2-2.20.tar.gz::https://github.com/FFMS/ffms2/archive/2.20.tar.gz
+	sha256sums = c7d880172756c253f2c5673044dabf03c19890dcfe64da5104ee9f42a1a573a0
+
+pkgname = mingw-w64-x86_64-ffms2
+
+pkgbase = mingw-w64-ffms2
+	pkgdesc = A cross-platform wrapper library around libav/FFmpeg (mingw-w64)
+	pkgver = 2.20
+	pkgrel = 1
+	url = https://github.com/FFMS/ffms2/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-ffmpeg
+	options = staticlibs
+	options = strip
+	source = ffms2-2.20.tar.gz::https://github.com/FFMS/ffms2/archive/2.20.tar.gz
+	sha256sums = c7d880172756c253f2c5673044dabf03c19890dcfe64da5104ee9f42a1a573a0
+
+pkgname = mingw-w64-i686-ffms2
+

@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-python-pytest
+	pkgdesc = simple powerful testing with Python (mingw-w64)
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = http://pytest.org
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-py
+	makedepends = mingw-w64-x86_64-python3-py
+	makedepends = mingw-w64-x86_64-python2-colorama
+	makedepends = mingw-w64-x86_64-python3-colorama
+	source = pytest-3.1.2.tar.gz::https://github.com/pytest-dev/pytest/archive/3.1.2.tar.gz
+	sha256sums = 15bf1455f6d519bbba630cd1d2255d7dd93b9cf4e109ed7deac114b5d4f6b91b
+
+pkgname = mingw-w64-x86_64-python2-pytest
+
+pkgname = mingw-w64-x86_64-python3-pytest
+
+pkgbase = mingw-w64-python-pytest
+	pkgdesc = simple powerful testing with Python (mingw-w64)
+	pkgver = 3.1.2
+	pkgrel = 2
+	url = http://pytest.org
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-py
+	makedepends = mingw-w64-i686-python3-py
+	makedepends = mingw-w64-i686-python2-colorama
+	makedepends = mingw-w64-i686-python3-colorama
+	source = pytest-3.1.2.tar.gz::https://github.com/pytest-dev/pytest/archive/3.1.2.tar.gz
+	sha256sums = 15bf1455f6d519bbba630cd1d2255d7dd93b9cf4e109ed7deac114b5d4f6b91b
+
+pkgname = mingw-w64-i686-python2-pytest
+
+pkgname = mingw-w64-i686-python3-pytest
+

@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-osgworks-git
+	pkgdesc = A toolkit for OpenSceneGraph applications (mingw-w64)
+	pkgver = 3.1.0.444
+	pkgrel = 1
+	url = https://github.com/mccdo/osgworks/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-OpenSceneGraph
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = osgworks::git+https://github.com/mccdo/osgworks.git
+	source = osg-3.3.x.patch
+	source = mingw-fpc-libs.patch
+	sha256sums = SKIP
+	sha256sums = 8a05e43a4947cb4dddb77ab8d20e806cb00abaa0ecfa677b3df5989562da5e4e
+	sha256sums = 1de62ae24ee5dbe53ab51d9b4f9b362427b05f7e6a42083287388aad6cd785a1
+
+pkgname = mingw-w64-x86_64-osgworks-git
+
+pkgname = mingw-w64-x86_64-osgworks-debug-git
+
+pkgbase = mingw-w64-osgworks-git
+	pkgdesc = A toolkit for OpenSceneGraph applications (mingw-w64)
+	pkgver = 3.1.0.444
+	pkgrel = 1
+	url = https://github.com/mccdo/osgworks/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-OpenSceneGraph
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = osgworks::git+https://github.com/mccdo/osgworks.git
+	source = osg-3.3.x.patch
+	source = mingw-fpc-libs.patch
+	sha256sums = SKIP
+	sha256sums = 8a05e43a4947cb4dddb77ab8d20e806cb00abaa0ecfa677b3df5989562da5e4e
+	sha256sums = 1de62ae24ee5dbe53ab51d9b4f9b362427b05f7e6a42083287388aad6cd785a1
+
+pkgname = mingw-w64-i686-osgworks-git
+
+pkgname = mingw-w64-i686-osgworks-debug-git
+

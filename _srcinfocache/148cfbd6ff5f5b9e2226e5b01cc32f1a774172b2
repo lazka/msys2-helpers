@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-librescl
+	pkgdesc = Reader/Writer SCL IEC 61850-6 files (mingw-w64)
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://github.com/pwmediaconsulting/librescl
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-libtool
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-gettext
+	depends = mingw-w64-x86_64-glib2>=2.34.0
+	depends = mingw-w64-x86_64-gobject-introspection
+	depends = mingw-w64-x86_64-gxml
+	depends = mingw-w64-x86_64-libgee
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-vala
+	depends = mingw-w64-x86_64-xz
+	depends = mingw-w64-x86_64-zlib
+	options = strip
+	options = staticlibs
+	source = https://github.com/pwmediaconsulting/librescl/archive/LIBRESCL_0_3_3.tar.gz
+	sha256sums = 9b1ffec7a11cd92e36bfb590b3a9b99d0bf39d2895a5e4c76c65998a19fb57c5
+
+pkgname = mingw-w64-x86_64-librescl
+
+pkgbase = mingw-w64-librescl
+	pkgdesc = Reader/Writer SCL IEC 61850-6 files (mingw-w64)
+	pkgver = 0.3.3
+	pkgrel = 1
+	url = https://github.com/pwmediaconsulting/librescl
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-libtool
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-gettext
+	depends = mingw-w64-i686-glib2>=2.34.0
+	depends = mingw-w64-i686-gobject-introspection
+	depends = mingw-w64-i686-gxml
+	depends = mingw-w64-i686-libgee
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-vala
+	depends = mingw-w64-i686-xz
+	depends = mingw-w64-i686-zlib
+	options = strip
+	options = staticlibs
+	source = https://github.com/pwmediaconsulting/librescl/archive/LIBRESCL_0_3_3.tar.gz
+	sha256sums = 9b1ffec7a11cd92e36bfb590b3a9b99d0bf39d2895a5e4c76c65998a19fb57c5
+
+pkgname = mingw-w64-i686-librescl
+

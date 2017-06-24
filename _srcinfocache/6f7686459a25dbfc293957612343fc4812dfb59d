@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-atkmm
+	pkgdesc = C++ bindings for atk (mingw-w64)
+	pkgver = 2.24.2
+	pkgrel = 2
+	url = https://gtkmm.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-atk
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-glibmm
+	depends = mingw-w64-x86_64-libsigc++
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/atkmm/2.24/atkmm-2.24.2.tar.xz
+	sha256sums = ff95385759e2af23828d4056356f25376cfabc41e690ac1df055371537e458bd
+
+pkgname = mingw-w64-x86_64-atkmm
+
+pkgbase = mingw-w64-atkmm
+	pkgdesc = C++ bindings for atk (mingw-w64)
+	pkgver = 2.24.2
+	pkgrel = 2
+	url = https://gtkmm.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-atk
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-glibmm
+	depends = mingw-w64-i686-libsigc++
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/atkmm/2.24/atkmm-2.24.2.tar.xz
+	sha256sums = ff95385759e2af23828d4056356f25376cfabc41e690ac1df055371537e458bd
+
+pkgname = mingw-w64-i686-atkmm
+

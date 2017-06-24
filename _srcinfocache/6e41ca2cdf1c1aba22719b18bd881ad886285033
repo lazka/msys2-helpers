@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-jsoncpp
+	pkgdesc = A C++ library for interacting with JSON (mingw-w64)
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://github.com/open-source-parsers/jsoncpp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-python2
+	options = staticlibs
+	options = !strip
+	options = !buildflags
+	source = jsoncpp-1.8.0.tar.gz::https://github.com/open-source-parsers/jsoncpp/archive/1.8.0.tar.gz
+	sha256sums = 5deb2462cbf0c0121c9d6c9823ec72fe71417e34242e3509bc7c003d526465bc
+
+pkgname = mingw-w64-x86_64-jsoncpp
+
+pkgbase = mingw-w64-jsoncpp
+	pkgdesc = A C++ library for interacting with JSON (mingw-w64)
+	pkgver = 1.8.0
+	pkgrel = 1
+	url = https://github.com/open-source-parsers/jsoncpp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-python2
+	options = staticlibs
+	options = !strip
+	options = !buildflags
+	source = jsoncpp-1.8.0.tar.gz::https://github.com/open-source-parsers/jsoncpp/archive/1.8.0.tar.gz
+	sha256sums = 5deb2462cbf0c0121c9d6c9823ec72fe71417e34242e3509bc7c003d526465bc
+
+pkgname = mingw-w64-i686-jsoncpp
+

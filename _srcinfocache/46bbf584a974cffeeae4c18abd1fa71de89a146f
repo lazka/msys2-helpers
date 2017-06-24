@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-mpg123
+	pkgdesc = A console based real time MPEG Audio Player for Layer 1, 2 and 3 (mingw-w64)
+	pkgver = 1.25.0
+	pkgrel = 1
+	url = https://www.mpg123.com/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-openal
+	makedepends = mingw-w64-x86_64-portaudio
+	makedepends = mingw-w64-x86_64-SDL
+	depends = mingw-w64-x86_64-libtool
+	depends = mingw-w64-x86_64-gcc-libs
+	optdepends = mingw-w64-x86_64-openal
+	optdepends = mingw-w64-x86_64-portaudio
+	optdepends = mingw-w64-x86_64-SDL
+	options = strip
+	options = staticlibs
+	options = libtool
+	source = https://www.mpg123.com/download/mpg123-1.25.0.tar.bz2
+	source = https://www.mpg123.com/download/mpg123-1.25.0.tar.bz2.sig
+	validpgpkeys = D021FF8ECF4BE09719D61A27231C4CBC60D5CAFE
+	sha256sums = 552e3e1db045e00f474252917007795ac295863fc8b13891859b3382d2f24e48
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-mpg123
+
+pkgbase = mingw-w64-mpg123
+	pkgdesc = A console based real time MPEG Audio Player for Layer 1, 2 and 3 (mingw-w64)
+	pkgver = 1.25.0
+	pkgrel = 1
+	url = https://www.mpg123.com/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-openal
+	makedepends = mingw-w64-i686-portaudio
+	makedepends = mingw-w64-i686-SDL
+	depends = mingw-w64-i686-libtool
+	depends = mingw-w64-i686-gcc-libs
+	optdepends = mingw-w64-i686-openal
+	optdepends = mingw-w64-i686-portaudio
+	optdepends = mingw-w64-i686-SDL
+	options = strip
+	options = staticlibs
+	options = libtool
+	source = https://www.mpg123.com/download/mpg123-1.25.0.tar.bz2
+	source = https://www.mpg123.com/download/mpg123-1.25.0.tar.bz2.sig
+	validpgpkeys = D021FF8ECF4BE09719D61A27231C4CBC60D5CAFE
+	sha256sums = 552e3e1db045e00f474252917007795ac295863fc8b13891859b3382d2f24e48
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-mpg123
+

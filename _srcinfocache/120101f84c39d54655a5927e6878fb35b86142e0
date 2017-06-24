@@ -1,0 +1,84 @@
+pkgbase = xz-git
+	pkgdesc = Library and command line tools for XZ and LZMA compressed files
+	pkgver = 5.2.1
+	pkgrel = 1
+	url = http://tukaani.org/xz/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = custom
+	makedepends = libiconv-devel
+	makedepends = gettext-devel
+	depends = sh
+	depends = libiconv
+	depends = gettext
+	options = staticlibs
+	source = git+http://git.tukaani.org/xz.git
+	sha256sums = SKIP
+
+pkgname = xz-git
+	groups = compression
+	depends = liblzma-git=5.2.1
+	depends = libiconv
+	depends = libintl
+	provides = xz
+	conflicts = xz
+
+pkgname = liblzma-git
+	pkgdesc = Library for XZ and LZMA compressed files
+	groups = libraries
+	provides = liblzma
+	conflicts = liblzma
+
+pkgname = liblzma-devel-git
+	pkgdesc = Liblzma headers and libraries
+	groups = development
+	depends = liblzma-git=5.2.1
+	depends = libiconv-devel
+	depends = gettext-devel
+	provides = liblzma-devel
+	conflicts = liblzma-devel
+
+pkgbase = xz-git
+	pkgdesc = Library and command line tools for XZ and LZMA compressed files
+	pkgver = 5.2.1
+	pkgrel = 1
+	url = http://tukaani.org/xz/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = custom
+	makedepends = libiconv-devel
+	makedepends = gettext-devel
+	depends = sh
+	depends = libiconv
+	depends = gettext
+	options = staticlibs
+	source = git+http://git.tukaani.org/xz.git
+	sha256sums = SKIP
+
+pkgname = xz-git
+	groups = compression
+	depends = liblzma-git=5.2.1
+	depends = libiconv
+	depends = libintl
+	provides = xz
+	conflicts = xz
+
+pkgname = liblzma-git
+	pkgdesc = Library for XZ and LZMA compressed files
+	groups = libraries
+	provides = liblzma
+	conflicts = liblzma
+
+pkgname = liblzma-devel-git
+	pkgdesc = Liblzma headers and libraries
+	groups = development
+	depends = liblzma-git=5.2.1
+	depends = libiconv-devel
+	depends = gettext-devel
+	provides = liblzma-devel
+	conflicts = liblzma-devel
+

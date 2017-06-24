@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-libpeas
+	pkgdesc = A GObject-based plugins engine (mingw-w64)
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = http://www.gtk.org
+	install = libpeas-x86_64.install
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-glade
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python3-gobject
+	makedepends = mingw-w64-x86_64-python2-gobject
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/libpeas/1.20/libpeas-1.20.0.tar.xz
+	source = 0004-localedir-fix.patch
+	sha256sums = f392fffe2dc00072a51bb2a1b274224a06bdc5f9c3b3c0ac4816909e9933d354
+	sha256sums = e428b0e009777602b106e00b115cfe5d5fc141027c7f57a5c69ddd7c50361cea
+
+pkgname = mingw-w64-x86_64-libpeas
+
+pkgbase = mingw-w64-libpeas
+	pkgdesc = A GObject-based plugins engine (mingw-w64)
+	pkgver = 1.20.0
+	pkgrel = 1
+	url = http://www.gtk.org
+	install = libpeas-i686.install
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-glade
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python3-gobject
+	makedepends = mingw-w64-i686-python2-gobject
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-adwaita-icon-theme
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/libpeas/1.20/libpeas-1.20.0.tar.xz
+	source = 0004-localedir-fix.patch
+	sha256sums = f392fffe2dc00072a51bb2a1b274224a06bdc5f9c3b3c0ac4816909e9933d354
+	sha256sums = e428b0e009777602b106e00b115cfe5d5fc141027c7f57a5c69ddd7c50361cea
+
+pkgname = mingw-w64-i686-libpeas
+

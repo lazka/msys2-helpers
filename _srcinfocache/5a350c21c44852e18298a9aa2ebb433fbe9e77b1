@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-qhull-git
+	pkgdesc = A general dimension code for computing convex hulls and related structures (mingw-w64)
+	pkgver = r157.f0bd8ce
+	pkgrel = 1
+	url = http://www.qhull.org/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gcc-libs
+	provides = mingw-w64-x86_64-qhull
+	conflicts = mingw-w64-x86_64-qhull
+	options = strip
+	options = staticlibs
+	source = qhull::git://github.com/qhull/qhull.git
+	source = 0001-MSYS2-Adopt-FHS-layout-in-cmake.patch
+	source = 0002-resolve-conflict-system-io_h.patch
+	sha256sums = SKIP
+	sha256sums = d14cc348b33c003dccdfbd95801a26b5ac0831f069cabc07da0c172f3823c8b3
+	sha256sums = b1eb1b2b02e806bd3c8adddd158db7c57bcbea103653120e9326d7db60391f29
+
+pkgname = mingw-w64-x86_64-qhull-git
+
+pkgbase = mingw-w64-qhull-git
+	pkgdesc = A general dimension code for computing convex hulls and related structures (mingw-w64)
+	pkgver = r157.f0bd8ce
+	pkgrel = 1
+	url = http://www.qhull.org/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gcc-libs
+	provides = mingw-w64-i686-qhull
+	conflicts = mingw-w64-i686-qhull
+	options = strip
+	options = staticlibs
+	source = qhull::git://github.com/qhull/qhull.git
+	source = 0001-MSYS2-Adopt-FHS-layout-in-cmake.patch
+	source = 0002-resolve-conflict-system-io_h.patch
+	sha256sums = SKIP
+	sha256sums = d14cc348b33c003dccdfbd95801a26b5ac0831f069cabc07da0c172f3823c8b3
+	sha256sums = b1eb1b2b02e806bd3c8adddd158db7c57bcbea103653120e9326d7db60391f29
+
+pkgname = mingw-w64-i686-qhull-git
+

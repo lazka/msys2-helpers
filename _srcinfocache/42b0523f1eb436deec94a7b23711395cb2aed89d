@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-python-cycler
+	pkgdesc = Composable style cycles
+	pkgver = 0.10.0
+	pkgrel = 2
+	url = https://github.com/matplotlib/cycler
+	arch = any
+	license = BSD
+	checkdepends = mingw-w64-x86_64-python3-nose
+	checkdepends = mingw-w64-x86_64-python2-nose
+	checkdepends = mingw-w64-x86_64-python3-coverage
+	checkdepends = mingw-w64-x86_64-python2-coverage
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-six
+	makedepends = mingw-w64-x86_64-python2-six
+	source = cycler-0.10.0.tar.gz::https://github.com/matplotlib/cycler/archive/v0.10.0.tar.gz
+	sha256sums = b6d217635e03024196225367b1a438996dbbf0271bec488f00584f0e7dc15cfa
+
+pkgname = mingw-w64-x86_64-python3-cycler
+
+pkgname = mingw-w64-x86_64-python2-cycler
+
+pkgbase = mingw-w64-python-cycler
+	pkgdesc = Composable style cycles
+	pkgver = 0.10.0
+	pkgrel = 2
+	url = https://github.com/matplotlib/cycler
+	arch = any
+	license = BSD
+	checkdepends = mingw-w64-i686-python3-nose
+	checkdepends = mingw-w64-i686-python2-nose
+	checkdepends = mingw-w64-i686-python3-coverage
+	checkdepends = mingw-w64-i686-python2-coverage
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-six
+	makedepends = mingw-w64-i686-python2-six
+	source = cycler-0.10.0.tar.gz::https://github.com/matplotlib/cycler/archive/v0.10.0.tar.gz
+	sha256sums = b6d217635e03024196225367b1a438996dbbf0271bec488f00584f0e7dc15cfa
+
+pkgname = mingw-w64-i686-python3-cycler
+
+pkgname = mingw-w64-i686-python2-cycler
+

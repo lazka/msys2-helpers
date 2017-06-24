@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-idna
+	pkgdesc = Internationalized Domain Names in Applications (mingw-w64)
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://github.com/kjd/idna
+	arch = any
+	license = BSD-like
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	source = https://pypi.python.org/packages/d8/82/28a51052215014efc07feac7330ed758702fc0581347098a81699b5281cb/idna-2.5.tar.gz
+	sha256sums = 3cb5ce08046c4e3a560fc02f138d0ac63e00f8ce5901a56b32ec8b7994082aab
+
+pkgname = mingw-w64-x86_64-python2-idna
+
+pkgname = mingw-w64-x86_64-python3-idna
+
+pkgbase = mingw-w64-python-idna
+	pkgdesc = Internationalized Domain Names in Applications (mingw-w64)
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://github.com/kjd/idna
+	arch = any
+	license = BSD-like
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	source = https://pypi.python.org/packages/d8/82/28a51052215014efc07feac7330ed758702fc0581347098a81699b5281cb/idna-2.5.tar.gz
+	sha256sums = 3cb5ce08046c4e3a560fc02f138d0ac63e00f8ce5901a56b32ec8b7994082aab
+
+pkgname = mingw-w64-i686-python2-idna
+
+pkgname = mingw-w64-i686-python3-idna
+

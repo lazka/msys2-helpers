@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-rubberband
+	pkgdesc = High quality software library for audio time-stretching and pitch-shifting. (mingw-w64)
+	pkgver = 1.8.1
+	pkgrel = 2
+	url = http://breakfastquay.com/rubberband/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-fftw
+	depends = mingw-w64-x86_64-libsamplerate
+	depends = mingw-w64-x86_64-libsndfile
+	depends = mingw-w64-x86_64-ladspa-sdk
+	depends = mingw-w64-x86_64-vamp-plugin-sdk
+	source = http://code.breakfastquay.com/attachments/download/34/rubberband-1.8.1.tar.bz2
+	source = 01-mingw-shared.patch
+	sha256sums = ff0c63b0b5ce41f937a8a3bc560f27918c5fe0b90c6bc1cb70829b86ada82b75
+	sha256sums = 0f3468036c3127374aa346eab70e2bfc99bed798a0994cb7d9402a2ff4148990
+
+pkgname = mingw-w64-x86_64-rubberband
+
+pkgbase = mingw-w64-rubberband
+	pkgdesc = High quality software library for audio time-stretching and pitch-shifting. (mingw-w64)
+	pkgver = 1.8.1
+	pkgrel = 2
+	url = http://breakfastquay.com/rubberband/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-fftw
+	depends = mingw-w64-i686-libsamplerate
+	depends = mingw-w64-i686-libsndfile
+	depends = mingw-w64-i686-ladspa-sdk
+	depends = mingw-w64-i686-vamp-plugin-sdk
+	source = http://code.breakfastquay.com/attachments/download/34/rubberband-1.8.1.tar.bz2
+	source = 01-mingw-shared.patch
+	sha256sums = ff0c63b0b5ce41f937a8a3bc560f27918c5fe0b90c6bc1cb70829b86ada82b75
+	sha256sums = 0f3468036c3127374aa346eab70e2bfc99bed798a0994cb7d9402a2ff4148990
+
+pkgname = mingw-w64-i686-rubberband
+

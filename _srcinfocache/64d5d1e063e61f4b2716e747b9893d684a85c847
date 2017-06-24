@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-libvirt
+	pkgdesc = Windows libvirt virtualization library (mingw-w64)
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://libvirt.org
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gnutls
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-libgcrypt
+	depends = mingw-w64-x86_64-libgpg-error
+	depends = mingw-w64-x86_64-gettext
+	depends = mingw-w64-x86_64-curl
+	depends = mingw-w64-x86_64-portablexdr
+	options = strip
+	options = staticlibs
+	source = https://libvirt.org/sources/libvirt-3.1.0.tar.xz
+	source = 001-fix-not-supported-authenticate-method.patch
+	sha256sums = 7879029a0fcac4e58dbeec66f0bc77771565c4b6667212c8f6251eefb03732a9
+	sha256sums = 4635fd04e596879186b74ef9ddbacf64f6058e32bfd8d8376e1b7fa7838f679b
+
+pkgname = mingw-w64-x86_64-libvirt
+
+pkgbase = mingw-w64-libvirt
+	pkgdesc = Windows libvirt virtualization library (mingw-w64)
+	pkgver = 3.1.0
+	pkgrel = 1
+	url = https://libvirt.org
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gnutls
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-libgcrypt
+	depends = mingw-w64-i686-libgpg-error
+	depends = mingw-w64-i686-gettext
+	depends = mingw-w64-i686-curl
+	depends = mingw-w64-i686-portablexdr
+	options = strip
+	options = staticlibs
+	source = https://libvirt.org/sources/libvirt-3.1.0.tar.xz
+	source = 001-fix-not-supported-authenticate-method.patch
+	sha256sums = 7879029a0fcac4e58dbeec66f0bc77771565c4b6667212c8f6251eefb03732a9
+	sha256sums = 4635fd04e596879186b74ef9ddbacf64f6058e32bfd8d8376e1b7fa7838f679b
+
+pkgname = mingw-w64-i686-libvirt
+

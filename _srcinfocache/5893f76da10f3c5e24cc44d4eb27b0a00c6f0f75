@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-glpk
+	pkgdesc = GNU Linear Programming Kit: solve LP, MIP and other problems (mingw-w64)
+	pkgver = 4.61
+	pkgrel = 1
+	url = https://www.gnu.org/software/glpk/glpk.html
+	arch = any
+	license = GPL
+	depends = mingw-w64-x86_64-gmp
+	options = staticlibs
+	options = strip
+	source = https://ftp.gnu.org/gnu/glpk/glpk-4.61.tar.gz
+	source = timeval-64bit.patch
+	sha256sums = 9866de41777782d4ce21da11b88573b66bb7858574f89c28be6967ac22dfaba9
+	sha256sums = a3cc547d1b1ddcbf17d9b2047e72dabc06b8b5943230f22bcb21e250a07aaa25
+
+pkgname = mingw-w64-x86_64-glpk
+
+pkgbase = mingw-w64-glpk
+	pkgdesc = GNU Linear Programming Kit: solve LP, MIP and other problems (mingw-w64)
+	pkgver = 4.61
+	pkgrel = 1
+	url = https://www.gnu.org/software/glpk/glpk.html
+	arch = any
+	license = GPL
+	depends = mingw-w64-i686-gmp
+	options = staticlibs
+	options = strip
+	source = https://ftp.gnu.org/gnu/glpk/glpk-4.61.tar.gz
+	source = timeval-64bit.patch
+	sha256sums = 9866de41777782d4ce21da11b88573b66bb7858574f89c28be6967ac22dfaba9
+	sha256sums = a3cc547d1b1ddcbf17d9b2047e72dabc06b8b5943230f22bcb21e250a07aaa25
+
+pkgname = mingw-w64-i686-glpk
+

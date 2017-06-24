@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-libbluray
+	pkgdesc = Library to access Blu-Ray disks for video playback (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://www.videolan.org/developers/libbluray.html
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-freetype
+	options = strip
+	options = staticlibs
+	source = https://download.videolan.org/pub/videolan/libbluray/1.0.0/libbluray-1.0.0.tar.bz2
+	sha256sums = f7e3add335c7bbef45824fcd2249a9bf293868598c13f8479352c44ec95374cc
+
+pkgname = mingw-w64-x86_64-libbluray
+
+pkgbase = mingw-w64-libbluray
+	pkgdesc = Library to access Blu-Ray disks for video playback (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://www.videolan.org/developers/libbluray.html
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-freetype
+	options = strip
+	options = staticlibs
+	source = https://download.videolan.org/pub/videolan/libbluray/1.0.0/libbluray-1.0.0.tar.bz2
+	sha256sums = f7e3add335c7bbef45824fcd2249a9bf293868598c13f8479352c44ec95374cc
+
+pkgname = mingw-w64-i686-libbluray
+

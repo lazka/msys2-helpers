@@ -1,0 +1,70 @@
+pkgbase = mingw-w64-python-matplotlib
+	pkgdesc = A python plotting library, making publication quality plots (mingw-w64)
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = http://matplotlib.org
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-python2-pytz
+	makedepends = mingw-w64-x86_64-python3-pytz
+	makedepends = mingw-w64-x86_64-python2-numpy
+	makedepends = mingw-w64-x86_64-python3-numpy
+	makedepends = mingw-w64-x86_64-python2-cairo
+	makedepends = mingw-w64-x86_64-python3-cairo
+	makedepends = mingw-w64-x86_64-python2-pyqt5
+	makedepends = mingw-w64-x86_64-python3-pyqt5
+	makedepends = mingw-w64-x86_64-python2-dateutil
+	makedepends = mingw-w64-x86_64-python3-dateutil
+	makedepends = mingw-w64-x86_64-python2-pyparsing
+	makedepends = mingw-w64-x86_64-python3-pyparsing
+	makedepends = mingw-w64-x86_64-python2-cycler
+	makedepends = mingw-w64-x86_64-python3-cycler
+	makedepends = mingw-w64-x86_64-freetype
+	makedepends = mingw-w64-x86_64-libpng
+	noextract = matplotlib-2.0.2.tar.gz
+	source = matplotlib-2.0.2.tar.gz::https://github.com/matplotlib/matplotlib/archive/v2.0.2.tar.gz
+	source = setupext.py.patch
+	source = setup.py.patch
+	sha256sums = aebed23921562792b68b8ca355de5abc176af4424f1987e2fa95f65e5c5e7e89
+	sha256sums = 76bd90000ed3c2b77db97db4fdf7e84a4c5e34e966f1a4feb6c91635df5c10ff
+	sha256sums = 8d5128f3d1bc467832ec382456541f4aa32959a88d36ee33dc88d9035416017e
+
+pkgname = mingw-w64-x86_64-python2-matplotlib
+
+pkgname = mingw-w64-x86_64-python3-matplotlib
+
+pkgbase = mingw-w64-python-matplotlib
+	pkgdesc = A python plotting library, making publication quality plots (mingw-w64)
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = http://matplotlib.org
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-python2-pytz
+	makedepends = mingw-w64-i686-python3-pytz
+	makedepends = mingw-w64-i686-python2-numpy
+	makedepends = mingw-w64-i686-python3-numpy
+	makedepends = mingw-w64-i686-python2-cairo
+	makedepends = mingw-w64-i686-python3-cairo
+	makedepends = mingw-w64-i686-python2-pyqt5
+	makedepends = mingw-w64-i686-python3-pyqt5
+	makedepends = mingw-w64-i686-python2-dateutil
+	makedepends = mingw-w64-i686-python3-dateutil
+	makedepends = mingw-w64-i686-python2-pyparsing
+	makedepends = mingw-w64-i686-python3-pyparsing
+	makedepends = mingw-w64-i686-python2-cycler
+	makedepends = mingw-w64-i686-python3-cycler
+	makedepends = mingw-w64-i686-freetype
+	makedepends = mingw-w64-i686-libpng
+	noextract = matplotlib-2.0.2.tar.gz
+	source = matplotlib-2.0.2.tar.gz::https://github.com/matplotlib/matplotlib/archive/v2.0.2.tar.gz
+	source = setupext.py.patch
+	source = setup.py.patch
+	sha256sums = aebed23921562792b68b8ca355de5abc176af4424f1987e2fa95f65e5c5e7e89
+	sha256sums = 76bd90000ed3c2b77db97db4fdf7e84a4c5e34e966f1a4feb6c91635df5c10ff
+	sha256sums = 8d5128f3d1bc467832ec382456541f4aa32959a88d36ee33dc88d9035416017e
+
+pkgname = mingw-w64-i686-python2-matplotlib
+
+pkgname = mingw-w64-i686-python3-matplotlib
+

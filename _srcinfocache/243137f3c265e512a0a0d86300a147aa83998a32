@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-protobuf-c
+	pkgdesc = Protocol Buffers implementation in C (mingw-w64)
+	pkgver = 1.2.1
+	pkgrel = 2
+	url = https://github.com/protobuf-c/protobuf-c
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-protobuf
+	options = staticlibs
+	options = strip
+	source = https://github.com/protobuf-c/protobuf-c/releases/download/v1.2.1/protobuf-c-1.2.1.tar.gz
+	sha256sums = 846eb4846f19598affdc349d817a8c4c0c68fd940303e6934725c889f16f00bd
+
+pkgname = mingw-w64-x86_64-protobuf-c
+
+pkgbase = mingw-w64-protobuf-c
+	pkgdesc = Protocol Buffers implementation in C (mingw-w64)
+	pkgver = 1.2.1
+	pkgrel = 2
+	url = https://github.com/protobuf-c/protobuf-c
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-protobuf
+	options = staticlibs
+	options = strip
+	source = https://github.com/protobuf-c/protobuf-c/releases/download/v1.2.1/protobuf-c-1.2.1.tar.gz
+	sha256sums = 846eb4846f19598affdc349d817a8c4c0c68fd940303e6934725c889f16f00bd
+
+pkgname = mingw-w64-i686-protobuf-c
+

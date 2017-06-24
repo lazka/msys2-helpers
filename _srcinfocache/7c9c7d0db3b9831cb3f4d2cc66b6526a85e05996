@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-ocaml-camlp4
+	pkgdesc = Pre-Processor-Pretty-Printer for OCaml (mingw-w64)
+	pkgver = 4.02.1
+	pkgrel = 6
+	url = https://github.com/ocaml/camlp4
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-x86_64-flexdll
+	depends = mingw-w64-x86_64-ocaml
+	source = ocaml-camlp4-4.02.1.tar.gz::https://github.com/ocaml/camlp4/archive/4.02.1+3.tar.gz
+	source = 0001-Properly-quote-preprocessor-command-to-ocamldep.patch
+	source = 0003-Guess-the-library-path-on-msys2.patch
+	sha256sums = c28058b20016dac51d492b1a98e6453d2c7097100542c99a0593cc240a3eeada
+	sha256sums = cc5d6fe07d5bff025caa431b62b1e83154490459f75634062975786b5d691814
+	sha256sums = 08080dde32d4714bdf41349c597c1220468c609c15a81d4e75be828cded44fe2
+
+pkgname = mingw-w64-x86_64-ocaml-camlp4
+
+pkgbase = mingw-w64-ocaml-camlp4
+	pkgdesc = Pre-Processor-Pretty-Printer for OCaml (mingw-w64)
+	pkgver = 4.02.1
+	pkgrel = 6
+	url = https://github.com/ocaml/camlp4
+	arch = any
+	license = LGPL2
+	makedepends = mingw-w64-i686-flexdll
+	depends = mingw-w64-i686-ocaml
+	source = ocaml-camlp4-4.02.1.tar.gz::https://github.com/ocaml/camlp4/archive/4.02.1+3.tar.gz
+	source = 0001-Properly-quote-preprocessor-command-to-ocamldep.patch
+	source = 0003-Guess-the-library-path-on-msys2.patch
+	sha256sums = c28058b20016dac51d492b1a98e6453d2c7097100542c99a0593cc240a3eeada
+	sha256sums = cc5d6fe07d5bff025caa431b62b1e83154490459f75634062975786b5d691814
+	sha256sums = 08080dde32d4714bdf41349c597c1220468c609c15a81d4e75be828cded44fe2
+
+pkgname = mingw-w64-i686-ocaml-camlp4
+

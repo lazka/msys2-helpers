@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-file
+	pkgdesc = Determine the type of a file from its contents (mingw-w64)
+	pkgver = 5.25
+	pkgrel = 1
+	url = http://www.darwinsys.com/file/
+	arch = any
+	license = BSD
+	depends = mingw-w64-x86_64-libsystre
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://fossies.org/linux/misc/file-5.25.tar.gz
+	sha256sums = 3735381563f69fb4239470b8c51b876a80425348b8285a7cded8b61d6b890eca
+
+pkgname = mingw-w64-x86_64-file
+
+pkgbase = mingw-w64-file
+	pkgdesc = Determine the type of a file from its contents (mingw-w64)
+	pkgver = 5.25
+	pkgrel = 1
+	url = http://www.darwinsys.com/file/
+	arch = any
+	license = BSD
+	depends = mingw-w64-i686-libsystre
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://fossies.org/linux/misc/file-5.25.tar.gz
+	sha256sums = 3735381563f69fb4239470b8c51b876a80425348b8285a7cded8b61d6b890eca
+
+pkgname = mingw-w64-i686-file
+

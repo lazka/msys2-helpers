@@ -1,0 +1,24 @@
+pkgbase = mingw-w64-ladspa-sdk
+	pkgdesc = Linux Audio Developer's Simple Plugin API (LADSPA) SDK (mingw-w64)
+	pkgver = 1.13
+	pkgrel = 2
+	url = http://www.ladspa.org/
+	arch = any
+	license = LGPL
+	source = http://www.ladspa.org/ladspa_sdk/ladspa.h.txt
+	sha256sums = 1bd380baaf018be5e05323c192444adf058ed8a35b8cbf4c8a11519fc81cb036
+
+pkgname = mingw-w64-x86_64-ladspa-sdk
+
+pkgbase = mingw-w64-ladspa-sdk
+	pkgdesc = Linux Audio Developer's Simple Plugin API (LADSPA) SDK (mingw-w64)
+	pkgver = 1.13
+	pkgrel = 2
+	url = http://www.ladspa.org/
+	arch = any
+	license = LGPL
+	source = http://www.ladspa.org/ladspa_sdk/ladspa.h.txt
+	sha256sums = 1bd380baaf018be5e05323c192444adf058ed8a35b8cbf4c8a11519fc81cb036
+
+pkgname = mingw-w64-i686-ladspa-sdk
+

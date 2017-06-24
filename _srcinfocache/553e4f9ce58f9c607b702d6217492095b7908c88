@@ -1,0 +1,42 @@
+pkgbase = wcd
+	pkgdesc = Wherever Change Directory
+	pkgver = 6.0.0
+	pkgrel = 1
+	url = https://waterlan.home.xs4all.nl/
+	arch = i686
+	arch = x86_64
+	groups = sys-utils
+	license = GPL
+	makedepends = perl
+	makedepends = gettext-devel
+	makedepends = libunistring-devel
+	makedepends = ncurses-devel
+	depends = libintl
+	depends = libunistring
+	depends = ncurses
+	source = https://waterlan.home.xs4all.nl/wcd/wcd-6.0.0.tar.gz
+	sha256sums = 3f9090fff08a2a57f747471bfd9229a411229b41347488729da8d2c2b3eaa156
+
+pkgname = wcd
+
+pkgbase = wcd
+	pkgdesc = Wherever Change Directory
+	pkgver = 6.0.0
+	pkgrel = 1
+	url = https://waterlan.home.xs4all.nl/
+	arch = i686
+	arch = x86_64
+	groups = sys-utils
+	license = GPL
+	makedepends = perl
+	makedepends = gettext-devel
+	makedepends = libunistring-devel
+	makedepends = ncurses-devel
+	depends = libintl
+	depends = libunistring
+	depends = ncurses
+	source = https://waterlan.home.xs4all.nl/wcd/wcd-6.0.0.tar.gz
+	sha256sums = 3f9090fff08a2a57f747471bfd9229a411229b41347488729da8d2c2b3eaa156
+
+pkgname = wcd
+

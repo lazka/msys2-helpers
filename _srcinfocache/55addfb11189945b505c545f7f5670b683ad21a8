@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-tclx
+	pkgdesc = Extends Tcl by providing new operating system interface commands, extended file control and many other.
+	pkgver = 8.4.1
+	pkgrel = 3
+	url = https://tclx.sourceforge.io/
+	arch = any
+	license = BSD
+	depends = mingw-w64-x86_64-tcl
+	source = https://sourceforge.net/projects/tclx/files/TclX/8.4.1/tclx8.4.1.tar.bz2
+	source = 001-fix-detect-mingw.patch
+	source = random.c
+	sha256sums = a9b41f606ec6c1268b9c78512e6e1cb533bd9ae3e786e650d111fc16ffe758ec
+	sha256sums = a60e0f9d5298fcb94843bbbebf428b158171ce9143f3931d12d20ec3689cb25a
+	sha256sums = 32b1b0685d67f20d8f7943682d16caaa86915937f745471652835239af51750c
+
+pkgname = mingw-w64-x86_64-tclx
+
+pkgbase = mingw-w64-tclx
+	pkgdesc = Extends Tcl by providing new operating system interface commands, extended file control and many other.
+	pkgver = 8.4.1
+	pkgrel = 3
+	url = https://tclx.sourceforge.io/
+	arch = any
+	license = BSD
+	depends = mingw-w64-i686-tcl
+	source = https://sourceforge.net/projects/tclx/files/TclX/8.4.1/tclx8.4.1.tar.bz2
+	source = 001-fix-detect-mingw.patch
+	source = random.c
+	sha256sums = a9b41f606ec6c1268b9c78512e6e1cb533bd9ae3e786e650d111fc16ffe758ec
+	sha256sums = a60e0f9d5298fcb94843bbbebf428b158171ce9143f3931d12d20ec3689cb25a
+	sha256sums = 32b1b0685d67f20d8f7943682d16caaa86915937f745471652835239af51750c
+
+pkgname = mingw-w64-i686-tclx
+

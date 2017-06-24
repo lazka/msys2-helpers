@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-lmdb
+	pkgdesc = Lightning Memory-mapped Database (mingw-w64)
+	pkgver = 0.9.18
+	pkgrel = 1
+	url = http://symas.com/mdb/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	source = lmdb-0.9.18.tar.gz::https://codeload.github.com/LMDB/lmdb/tar.gz/LMDB_0.9.18
+	sha256sums = dd35b471d6eea84f48f2feece13d121abf59ef255308b8624a36223ffbdf9989
+
+pkgname = mingw-w64-x86_64-lmdb
+
+pkgbase = mingw-w64-lmdb
+	pkgdesc = Lightning Memory-mapped Database (mingw-w64)
+	pkgver = 0.9.18
+	pkgrel = 1
+	url = http://symas.com/mdb/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	source = lmdb-0.9.18.tar.gz::https://codeload.github.com/LMDB/lmdb/tar.gz/LMDB_0.9.18
+	sha256sums = dd35b471d6eea84f48f2feece13d121abf59ef255308b8624a36223ffbdf9989
+
+pkgname = mingw-w64-i686-lmdb
+

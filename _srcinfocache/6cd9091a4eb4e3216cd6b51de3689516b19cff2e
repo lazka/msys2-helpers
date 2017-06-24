@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-fann
+	pkgdesc = Fast Artificial Neural Network Library (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://leenissen.dk/fann/wp/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	source = fann-2.2.0.tar.gz::https://codeload.github.com/libfann/fann/tar.gz/2.2.0
+	source = fann-2.2.0.patch
+	sha256sums = f31c92c1589996f97d855939b37293478ac03d24b4e1c08ff21e0bd093449c3c
+	sha256sums = d0d5a42366ddd8b0f35ad29aab436e770ec391f976c2288e371d06504a6905b0
+
+pkgname = mingw-w64-x86_64-fann
+
+pkgbase = mingw-w64-fann
+	pkgdesc = Fast Artificial Neural Network Library (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://leenissen.dk/fann/wp/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	source = fann-2.2.0.tar.gz::https://codeload.github.com/libfann/fann/tar.gz/2.2.0
+	source = fann-2.2.0.patch
+	sha256sums = f31c92c1589996f97d855939b37293478ac03d24b4e1c08ff21e0bd093449c3c
+	sha256sums = d0d5a42366ddd8b0f35ad29aab436e770ec391f976c2288e371d06504a6905b0
+
+pkgname = mingw-w64-i686-fann
+

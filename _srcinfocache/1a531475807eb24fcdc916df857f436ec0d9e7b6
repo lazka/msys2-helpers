@@ -1,0 +1,24 @@
+pkgbase = mingw-w64-x86_64-libcello
+	pkgdesc = A library brings higher level programming to C
+	pkgver = 2.0.3.293.a6a7354
+	pkgrel = 1
+	url = http://libcello.org/
+	arch = any
+	license = BSD
+	source = libcello::git+https://github.com/orangeduck/Cello.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libcello-git
+
+pkgbase = mingw-w64-i686-libcello
+	pkgdesc = A library brings higher level programming to C
+	pkgver = 2.0.3.293.a6a7354
+	pkgrel = 1
+	url = http://libcello.org/
+	arch = any
+	license = BSD
+	source = libcello::git+https://github.com/orangeduck/Cello.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libcello-git
+

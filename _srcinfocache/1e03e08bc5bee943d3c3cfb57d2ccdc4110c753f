@@ -1,0 +1,22 @@
+pkgbase = mingw-w64-python2-backports
+	pkgdesc = Namespace package required for backports collection (mingw-w64)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/backports
+	arch = any
+	license = PSF
+	depends = mingw-w64-x86_64-python2
+
+pkgname = mingw-w64-x86_64-python2-backports
+
+pkgbase = mingw-w64-python2-backports
+	pkgdesc = Namespace package required for backports collection (mingw-w64)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/backports
+	arch = any
+	license = PSF
+	depends = mingw-w64-i686-python2
+
+pkgname = mingw-w64-i686-python2-backports
+

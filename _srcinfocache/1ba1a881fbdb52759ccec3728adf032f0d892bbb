@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-python-setuptools
+	pkgdesc = Easily download, build, install, upgrade, and uninstall Python packages (mingw-w64)
+	pkgver = 36.0.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/setuptools
+	arch = any
+	license = PSF
+	depends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-python3
+	source = setuptools-36.0.1.tar.gz::https://github.com/pypa/setuptools/archive/v36.0.1.tar.gz
+	source = 0001-mingw-python-fix.patch
+	source = 0002-Allow-usr-bin-env-in-script.patch
+	source = 0003-MinGW-w64-Look-in-same-dir-as-script-for-exe.patch
+	source = 0004-dont-execute-msvc.patch
+	sha256sums = 99339ac1b4c9bc0a74745d6ff196a207ddfb5f7ca75df76f3d8d081a7f70cecc
+	sha256sums = d3bc778723e63bbd6e43ab3536a015c547c8c20a95c6679a952284a7a4822996
+	sha256sums = 7bb5617c69566f5fbf1a3ee29a08179e1b41bdeabbc2998bf67615e9aa000424
+	sha256sums = 0e556505cb70ff3a5df856e352d5e2b3cf1582c25d02fc00a2d935a28576b28c
+	sha256sums = 2a854e21e99d6724999e2abeff08451923e9940b4092eb2b638702da17abdb73
+
+pkgname = mingw-w64-x86_64-python2-setuptools
+
+pkgname = mingw-w64-x86_64-python3-setuptools
+
+pkgbase = mingw-w64-python-setuptools
+	pkgdesc = Easily download, build, install, upgrade, and uninstall Python packages (mingw-w64)
+	pkgver = 36.0.1
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/setuptools
+	arch = any
+	license = PSF
+	depends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-python3
+	source = setuptools-36.0.1.tar.gz::https://github.com/pypa/setuptools/archive/v36.0.1.tar.gz
+	source = 0001-mingw-python-fix.patch
+	source = 0002-Allow-usr-bin-env-in-script.patch
+	source = 0003-MinGW-w64-Look-in-same-dir-as-script-for-exe.patch
+	source = 0004-dont-execute-msvc.patch
+	sha256sums = 99339ac1b4c9bc0a74745d6ff196a207ddfb5f7ca75df76f3d8d081a7f70cecc
+	sha256sums = d3bc778723e63bbd6e43ab3536a015c547c8c20a95c6679a952284a7a4822996
+	sha256sums = 7bb5617c69566f5fbf1a3ee29a08179e1b41bdeabbc2998bf67615e9aa000424
+	sha256sums = 0e556505cb70ff3a5df856e352d5e2b3cf1582c25d02fc00a2d935a28576b28c
+	sha256sums = 2a854e21e99d6724999e2abeff08451923e9940b4092eb2b638702da17abdb73
+
+pkgname = mingw-w64-i686-python2-setuptools
+
+pkgname = mingw-w64-i686-python3-setuptools
+

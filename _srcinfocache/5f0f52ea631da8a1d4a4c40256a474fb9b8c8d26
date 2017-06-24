@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-zbar
+	pkgdesc = Application and library for reading bar codes from various sources (mingw-w64)
+	pkgver = 0.10
+	pkgrel = 1
+	url = http://zbar.sourceforge.net/
+	arch = any
+	license = LGPL
+	depends = mingw-w64-x86_64-imagemagick
+	options = strip
+	options = staticlibs
+	source = http://downloads.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2
+	source = windowsandimagemagick.patch
+	md5sums = 0fd61eb590ac1bab62a77913c8b086a5
+	md5sums = 291225949d396ecf828bab78e4773dc3
+
+pkgname = mingw-w64-x86_64-zbar
+
+pkgbase = mingw-w64-zbar
+	pkgdesc = Application and library for reading bar codes from various sources (mingw-w64)
+	pkgver = 0.10
+	pkgrel = 1
+	url = http://zbar.sourceforge.net/
+	arch = any
+	license = LGPL
+	depends = mingw-w64-i686-imagemagick
+	options = strip
+	options = staticlibs
+	source = http://downloads.sourceforge.net/project/zbar/zbar/0.10/zbar-0.10.tar.bz2
+	source = windowsandimagemagick.patch
+	md5sums = 0fd61eb590ac1bab62a77913c8b086a5
+	md5sums = 291225949d396ecf828bab78e4773dc3
+
+pkgname = mingw-w64-i686-zbar
+

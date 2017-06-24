@@ -1,0 +1,30 @@
+pkgbase = perl-Regexp-Common
+	pkgdesc = Provide commonly requested regular expressions
+	pkgver = 2016010801
+	pkgrel = 1
+	url = http://search.cpan.org/~abigail/Regexp-Common-2016010801
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	source = http://search.cpan.org/CPAN/authors/id/A/AB/ABIGAIL/Regexp-Common-2016010801.tar.gz
+	sha256sums = 65558ad12b5f6250c483b5980e8533048c46912d6d69c76150f8f95a5b8eb1c4
+
+pkgname = perl-Regexp-Common
+
+pkgbase = perl-Regexp-Common
+	pkgdesc = Provide commonly requested regular expressions
+	pkgver = 2016010801
+	pkgrel = 1
+	url = http://search.cpan.org/~abigail/Regexp-Common-2016010801
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	source = http://search.cpan.org/CPAN/authors/id/A/AB/ABIGAIL/Regexp-Common-2016010801.tar.gz
+	sha256sums = 65558ad12b5f6250c483b5980e8533048c46912d6d69c76150f8f95a5b8eb1c4
+
+pkgname = perl-Regexp-Common
+

@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-winsparkle-git
+	pkgdesc = App update framework for Windows, inspired by Sparkle for OS X (mingw-w64)
+	pkgver = r332.7c208b2
+	pkgrel = 1
+	url = http://winsparkle.org
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-expat
+	depends = mingw-w64-x86_64-wxWidgets
+	provides = mingw-w64-x86_64-winsparkle
+	conflicts = mingw-w64-x86_64-winsparkle
+	source = winsparkle::git+https://github.com/vslavik/winsparkle
+	source = 001-compile-fixes.patch
+	source = Makefile
+	sha256sums = SKIP
+	sha256sums = 0c36fcd5e3cc7f05b678fbc612fe3ac85a4f0234e7b131ff721f317bffcd719c
+	sha256sums = c92047c7b4ed2829583f967b279d8d771e268f5cf204cf7c4808681132bc5786
+
+pkgname = mingw-w64-x86_64-winsparkle-git
+
+pkgbase = mingw-w64-winsparkle-git
+	pkgdesc = App update framework for Windows, inspired by Sparkle for OS X (mingw-w64)
+	pkgver = r332.7c208b2
+	pkgrel = 1
+	url = http://winsparkle.org
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-expat
+	depends = mingw-w64-i686-wxWidgets
+	provides = mingw-w64-i686-winsparkle
+	conflicts = mingw-w64-i686-winsparkle
+	source = winsparkle::git+https://github.com/vslavik/winsparkle
+	source = 001-compile-fixes.patch
+	source = Makefile
+	sha256sums = SKIP
+	sha256sums = 0c36fcd5e3cc7f05b678fbc612fe3ac85a4f0234e7b131ff721f317bffcd719c
+	sha256sums = c92047c7b4ed2829583f967b279d8d771e268f5cf204cf7c4808681132bc5786
+
+pkgname = mingw-w64-i686-winsparkle-git
+

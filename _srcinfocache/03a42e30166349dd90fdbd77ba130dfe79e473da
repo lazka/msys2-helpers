@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-libbsdf
+	pkgdesc = Library for handling BSDF files (mingw-w64)
+	pkgver = 0.9.4
+	pkgrel = 1
+	url = https://github.com/KimuraRyo/libbsdf
+	arch = any
+	license = MPL2
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-eigen3
+	source = libbsdf-0.9.4.tar.gz::https://github.com/KimuraRyo/libbsdf/archive/v0.9.4.tar.gz
+	source = optimisations-CMakeLists.txt.patch
+	sha256sums = dcd9378a124ffc991d7424dcdc12c0c0ed8afc0ab27567641707f22db339e481
+	sha256sums = 9eee27da0e486e186cf75ad05dcfa0b0266dafec3881e45aa295a85474d66c14
+
+pkgname = mingw-w64-x86_64-libbsdf
+
+pkgbase = mingw-w64-libbsdf
+	pkgdesc = Library for handling BSDF files (mingw-w64)
+	pkgver = 0.9.4
+	pkgrel = 1
+	url = https://github.com/KimuraRyo/libbsdf
+	arch = any
+	license = MPL2
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-eigen3
+	source = libbsdf-0.9.4.tar.gz::https://github.com/KimuraRyo/libbsdf/archive/v0.9.4.tar.gz
+	source = optimisations-CMakeLists.txt.patch
+	sha256sums = dcd9378a124ffc991d7424dcdc12c0c0ed8afc0ab27567641707f22db339e481
+	sha256sums = 9eee27da0e486e186cf75ad05dcfa0b0266dafec3881e45aa295a85474d66c14
+
+pkgname = mingw-w64-i686-libbsdf
+

@@ -1,0 +1,84 @@
+pkgbase = libxslt
+	pkgdesc = XML stylesheet transformation library
+	pkgver = 1.1.28
+	pkgrel = 7
+	url = http://xmlsoft.org/XSLT/
+	arch = i686
+	arch = x86_64
+	license = custom
+	checkdepends = docbook-xml
+	makedepends = gcc
+	makedepends = python2
+	makedepends = libxml2-devel
+	makedepends = libgcrypt-devel
+	options = !libtool
+	source = ftp://xmlsoft.org/libxslt/libxslt-1.1.28.tar.gz
+	source = libxslt-1.1.28-msys2.patch
+	source = libxslt.m4-libxslt-1.1.26.patch
+	sha256sums = 5fc7151a57b89c03d7b825df5a0fae0a8d5f05674c0e7cf2937ecec4d54a028c
+	sha256sums = f0fce03a19e903c85e0a21e9652dbf7a59531a497a41e7524c003f664ce7b081
+	sha256sums = c02cd8437064db0921c08e63245c403dad12410d2997715aa7aa36600bfaa895
+
+pkgname = libxslt
+	groups = libraries
+	depends = libxml2
+	depends = libgcrypt
+
+pkgname = libxslt-devel
+	pkgdesc = Libxslt headers and libraries
+	groups = development
+	depends = libxslt=1.1.28
+	depends = libxml2-devel
+	depends = libgcrypt-devel
+	options = staticlibs
+
+pkgname = libxslt-python
+	pkgdesc = Libxslt python modules
+	install = libxslt-python.install
+	groups = python-modules
+	depends = libxslt=1.1.28
+	depends = python2
+	options = staticlibs
+
+pkgbase = libxslt
+	pkgdesc = XML stylesheet transformation library
+	pkgver = 1.1.28
+	pkgrel = 7
+	url = http://xmlsoft.org/XSLT/
+	arch = i686
+	arch = x86_64
+	license = custom
+	checkdepends = docbook-xml
+	makedepends = gcc
+	makedepends = python2
+	makedepends = libxml2-devel
+	makedepends = libgcrypt-devel
+	options = !libtool
+	source = ftp://xmlsoft.org/libxslt/libxslt-1.1.28.tar.gz
+	source = libxslt-1.1.28-msys2.patch
+	source = libxslt.m4-libxslt-1.1.26.patch
+	sha256sums = 5fc7151a57b89c03d7b825df5a0fae0a8d5f05674c0e7cf2937ecec4d54a028c
+	sha256sums = f0fce03a19e903c85e0a21e9652dbf7a59531a497a41e7524c003f664ce7b081
+	sha256sums = c02cd8437064db0921c08e63245c403dad12410d2997715aa7aa36600bfaa895
+
+pkgname = libxslt
+	groups = libraries
+	depends = libxml2
+	depends = libgcrypt
+
+pkgname = libxslt-devel
+	pkgdesc = Libxslt headers and libraries
+	groups = development
+	depends = libxslt=1.1.28
+	depends = libxml2-devel
+	depends = libgcrypt-devel
+	options = staticlibs
+
+pkgname = libxslt-python
+	pkgdesc = Libxslt python modules
+	install = libxslt-python.install
+	groups = python-modules
+	depends = libxslt=1.1.28
+	depends = python2
+	options = staticlibs
+

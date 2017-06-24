@@ -1,0 +1,46 @@
+pkgbase = m4
+	pkgdesc = The GNU macro processor
+	pkgver = 1.4.18
+	pkgrel = 1
+	url = https://www.gnu.org/software/m4
+	install = m4.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL3
+	depends = bash
+	depends = gcc-libs
+	depends = msys2-runtime
+	source = https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+	source = https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz.sig
+	source = m4-1.4.18-msys2.patch
+	validpgpkeys = 71C2CC22B1C4602927D2F3AAA7A16B4A2527436A
+	sha256sums = f2c1e86ca0a404ff281631bdc8377638992744b175afb806e25871a24a934e07
+	sha256sums = SKIP
+	sha256sums = fbdcb59d940cf5eeba79fdf8935bdb04e6c10b69c981d8ca6fa3a8c35b1905cb
+
+pkgname = m4
+
+pkgbase = m4
+	pkgdesc = The GNU macro processor
+	pkgver = 1.4.18
+	pkgrel = 1
+	url = https://www.gnu.org/software/m4
+	install = m4.install
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL3
+	depends = bash
+	depends = gcc-libs
+	depends = msys2-runtime
+	source = https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+	source = https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz.sig
+	source = m4-1.4.18-msys2.patch
+	validpgpkeys = 71C2CC22B1C4602927D2F3AAA7A16B4A2527436A
+	sha256sums = f2c1e86ca0a404ff281631bdc8377638992744b175afb806e25871a24a934e07
+	sha256sums = SKIP
+	sha256sums = fbdcb59d940cf5eeba79fdf8935bdb04e6c10b69c981d8ca6fa3a8c35b1905cb
+
+pkgname = m4
+

@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-eog-plugins
+	pkgdesc = Eye of GNOME graphics viewer program - plugins (mingw-w64)
+	pkgver = 3.16.3
+	pkgrel = 1
+	url = https://www.gnome.org
+	install = eog-plugins-x86_64.install
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-x86_64-gsettings-desktop-schemas
+	depends = mingw-w64-x86_64-eog
+	depends = mingw-w64-x86_64-libchamplain
+	depends = mingw-w64-x86_64-libexif
+	depends = mingw-w64-x86_64-libgdata
+	depends = mingw-w64-x86_64-postr
+	depends = mingw-w64-x86_64-python2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/eog-plugins/3.16/eog-plugins-3.16.3.tar.xz
+	source = 001-win.patch
+	source = 002-champlain.patch
+	sha256sums = 2d2198ed026b1c28329ac3d353b3031c2024277d81d60f3c1e626f4701a73bd2
+	sha256sums = 7b5a599b0fb719156747627944cae4b1107ffb8f11bcaddf0c8100d89c93548d
+	sha256sums = 3b7fab068ff3739fed247f72abbc18accb409b9008593e806f5c4e3df1d9b32d
+
+pkgname = mingw-w64-x86_64-eog-plugins
+
+pkgbase = mingw-w64-eog-plugins
+	pkgdesc = Eye of GNOME graphics viewer program - plugins (mingw-w64)
+	pkgver = 3.16.3
+	pkgrel = 1
+	url = https://www.gnome.org
+	install = eog-plugins-i686.install
+	arch = any
+	license = GPL 2
+	makedepends = mingw-w64-i686-gsettings-desktop-schemas
+	depends = mingw-w64-i686-eog
+	depends = mingw-w64-i686-libchamplain
+	depends = mingw-w64-i686-libexif
+	depends = mingw-w64-i686-libgdata
+	depends = mingw-w64-i686-postr
+	depends = mingw-w64-i686-python2
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/eog-plugins/3.16/eog-plugins-3.16.3.tar.xz
+	source = 001-win.patch
+	source = 002-champlain.patch
+	sha256sums = 2d2198ed026b1c28329ac3d353b3031c2024277d81d60f3c1e626f4701a73bd2
+	sha256sums = 7b5a599b0fb719156747627944cae4b1107ffb8f11bcaddf0c8100d89c93548d
+	sha256sums = 3b7fab068ff3739fed247f72abbc18accb409b9008593e806f5c4e3df1d9b32d
+
+pkgname = mingw-w64-i686-eog-plugins
+

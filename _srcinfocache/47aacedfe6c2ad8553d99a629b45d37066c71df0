@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-kqoauth-qt4
+	pkgdesc = kQOAuth is a library written in C++ for Qt that implements the OAuth 1.0 authentication specification RFC 5849 (mingw-w64)
+	pkgver = 0.98
+	pkgrel = 3
+	url = https://github.com/kypeli/kQOAuth
+	arch = any
+	license = custom:mingw-w64-x86_64-kqoauth-qt4
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-qt4
+	conflicts = mingw-w64-x86_64-kqoauth
+	options = strip
+	options = staticlibs
+	source = kqoauth-0.98.tar.gz::https://github.com/kypeli/kQOAuth/archive/0.98.tar.gz
+	source = src_pro.patch
+	source = pcfile_libname.patch
+	sha256sums = 9d6c43d98bda559cf4fbb055843a46479e08381527a317edcd9823f2b4990671
+	sha256sums = 4325146b547eed6fe924203c23309ba727e1afc2aba637831e2eb277d2ea4bc2
+	sha256sums = b0750e9fa0f6524adc056572001510420bee71e68504cd78228111f9f2dca3f5
+
+pkgname = mingw-w64-x86_64-kqoauth-qt4
+
+pkgbase = mingw-w64-kqoauth-qt4
+	pkgdesc = kQOAuth is a library written in C++ for Qt that implements the OAuth 1.0 authentication specification RFC 5849 (mingw-w64)
+	pkgver = 0.98
+	pkgrel = 3
+	url = https://github.com/kypeli/kQOAuth
+	arch = any
+	license = custom:mingw-w64-i686-kqoauth-qt4
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-qt4
+	conflicts = mingw-w64-i686-kqoauth
+	options = strip
+	options = staticlibs
+	source = kqoauth-0.98.tar.gz::https://github.com/kypeli/kQOAuth/archive/0.98.tar.gz
+	source = src_pro.patch
+	source = pcfile_libname.patch
+	sha256sums = 9d6c43d98bda559cf4fbb055843a46479e08381527a317edcd9823f2b4990671
+	sha256sums = 4325146b547eed6fe924203c23309ba727e1afc2aba637831e2eb277d2ea4bc2
+	sha256sums = b0750e9fa0f6524adc056572001510420bee71e68504cd78228111f9f2dca3f5
+
+pkgname = mingw-w64-i686-kqoauth-qt4
+

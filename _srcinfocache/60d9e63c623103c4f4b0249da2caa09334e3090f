@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-x265
+	pkgdesc = Open Source H265/HEVC video encoder (mingw-w64)
+	pkgver = 2.4
+	pkgrel = 1
+	url = https://bitbucket.org/multicoreware/x265
+	arch = any
+	license = GPL
+	makedepends = yasm
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	source = x265-2.4.tar.bz2::https://bitbucket.org/multicoreware/x265/get/2.4.tar.bz2
+	source = 0001-winxp-condition-var.mingw.patch
+	sha256sums = ea334e382ac4a75f2afd7d08d5275a75a6af2265e7db65ab06583bd3abb3a381
+	sha256sums = c71016ca51eb6d8916de9ef48f14048412569ae89e149f3d372158af6378e0e4
+
+pkgname = mingw-w64-x86_64-x265
+
+pkgbase = mingw-w64-x265
+	pkgdesc = Open Source H265/HEVC video encoder (mingw-w64)
+	pkgver = 2.4
+	pkgrel = 1
+	url = https://bitbucket.org/multicoreware/x265
+	arch = any
+	license = GPL
+	makedepends = yasm
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	source = x265-2.4.tar.bz2::https://bitbucket.org/multicoreware/x265/get/2.4.tar.bz2
+	source = 0001-winxp-condition-var.mingw.patch
+	sha256sums = ea334e382ac4a75f2afd7d08d5275a75a6af2265e7db65ab06583bd3abb3a381
+	sha256sums = c71016ca51eb6d8916de9ef48f14048412569ae89e149f3d372158af6378e0e4
+
+pkgname = mingw-w64-i686-x265
+

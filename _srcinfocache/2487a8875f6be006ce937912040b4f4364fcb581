@@ -1,0 +1,46 @@
+pkgbase = pkgfile
+	pkgdesc = A pacman .files metadata explorer
+	pkgver = 15
+	pkgrel = 1
+	url = https://github.com/falconindy/pkgfile
+	install = pkgfile.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = MIT
+	depends = libarchive
+	depends = curl
+	depends = pcre
+	depends = pacman
+	options = emptydirs
+	source = http://code.falconindy.com/archive/pkgfile/pkgfile-15.tar.xz
+	source = http://code.falconindy.com/archive/pkgfile/pkgfile-15.tar.xz.sig
+	sha256sums = 754b99cdb68a4536bd6a4a835ecf0c26de761ebf1b8a9cc0d1eb0b7be80ccb45
+	sha256sums = SKIP
+
+pkgname = pkgfile
+
+pkgbase = pkgfile
+	pkgdesc = A pacman .files metadata explorer
+	pkgver = 15
+	pkgrel = 1
+	url = https://github.com/falconindy/pkgfile
+	install = pkgfile.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = MIT
+	depends = libarchive
+	depends = curl
+	depends = pcre
+	depends = pacman
+	options = emptydirs
+	source = http://code.falconindy.com/archive/pkgfile/pkgfile-15.tar.xz
+	source = http://code.falconindy.com/archive/pkgfile/pkgfile-15.tar.xz.sig
+	sha256sums = 754b99cdb68a4536bd6a4a835ecf0c26de761ebf1b8a9cc0d1eb0b7be80ccb45
+	sha256sums = SKIP
+
+pkgname = pkgfile
+

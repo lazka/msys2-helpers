@@ -1,0 +1,40 @@
+pkgbase = perl-LWP-Protocol-https
+	pkgdesc = Provide https support for LWP::UserAgent
+	pkgver = 6.06
+	pkgrel = 1
+	url = https://metacpan.org/release/LWP-Protocol-https
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	depends = perl-IO-Socket-SSL
+	depends = perl-Mozilla-CA
+	depends = perl-Net-HTTP
+	depends = perl-libwww
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+	sha256sums = b86c83cc1dcf4a6f84e2fbe32f9c39591a36e6e418af00533505f3452496adef
+
+pkgname = perl-LWP-Protocol-https
+
+pkgbase = perl-LWP-Protocol-https
+	pkgdesc = Provide https support for LWP::UserAgent
+	pkgver = 6.06
+	pkgrel = 1
+	url = https://metacpan.org/release/LWP-Protocol-https
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	depends = perl-IO-Socket-SSL
+	depends = perl-Mozilla-CA
+	depends = perl-Net-HTTP
+	depends = perl-libwww
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+	sha256sums = b86c83cc1dcf4a6f84e2fbe32f9c39591a36e6e418af00533505f3452496adef
+
+pkgname = perl-LWP-Protocol-https
+

@@ -1,0 +1,50 @@
+pkgbase = perl-XML-Parser
+	pkgdesc = Expat-based XML parser module for perl
+	pkgver = 2.44
+	pkgrel = 2
+	url = http://search.cpan.org/dist/XML-Parser/
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	makedepends = libexpat-devel
+	makedepends = libcrypt-devel
+	depends = perl
+	depends = libexpat
+	depends = libcrypt
+	provides = perlxml=2.44
+	replaces = perlxml
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
+	source = XML-Parser-2.41.patch
+	sha256sums = 1ae9d07ee9c35326b3d9aad56eae71a6730a73a116b9fe9e8a4758b7cc033216
+	sha256sums = ba1604bcb41c4d24be82a3391fda1b3451338359bc808305b6e92bc169253223
+
+pkgname = perl-XML-Parser
+
+pkgbase = perl-XML-Parser
+	pkgdesc = Expat-based XML parser module for perl
+	pkgver = 2.44
+	pkgrel = 2
+	url = http://search.cpan.org/dist/XML-Parser/
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	makedepends = libexpat-devel
+	makedepends = libcrypt-devel
+	depends = perl
+	depends = libexpat
+	depends = libcrypt
+	provides = perlxml=2.44
+	replaces = perlxml
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
+	source = XML-Parser-2.41.patch
+	sha256sums = 1ae9d07ee9c35326b3d9aad56eae71a6730a73a116b9fe9e8a4758b7cc033216
+	sha256sums = ba1604bcb41c4d24be82a3391fda1b3451338359bc808305b6e92bc169253223
+
+pkgname = perl-XML-Parser
+

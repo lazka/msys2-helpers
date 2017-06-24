@@ -1,0 +1,44 @@
+pkgbase = libyaml
+	pkgdesc = YAML 1.1 library
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = http://pyyaml.org/wiki/LibYAML
+	arch = i686
+	arch = x86_64
+	license = MIT
+	source = http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+	source = yaml-0.1.4-fix-undefined.patch
+	source = yaml-0.1.4-msys2.patch
+	sha256sums = 7bf81554ae5ab2d9b6977da398ea789722e0db75b86bffdaeb4e66d961de6a37
+	sha256sums = 646a918a9212c392350578e46fd4e1e8f9b433e69cd11e705b95c77d1439e2ae
+	sha256sums = 4284291aecb1dfd08a93e20501eba932c55263c85acd22bd15973bae4433cdf4
+
+pkgname = libyaml
+	groups = libraries
+
+pkgname = libyaml-devel
+	groups = development
+	depends = libyaml=0.1.4
+
+pkgbase = libyaml
+	pkgdesc = YAML 1.1 library
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = http://pyyaml.org/wiki/LibYAML
+	arch = i686
+	arch = x86_64
+	license = MIT
+	source = http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+	source = yaml-0.1.4-fix-undefined.patch
+	source = yaml-0.1.4-msys2.patch
+	sha256sums = 7bf81554ae5ab2d9b6977da398ea789722e0db75b86bffdaeb4e66d961de6a37
+	sha256sums = 646a918a9212c392350578e46fd4e1e8f9b433e69cd11e705b95c77d1439e2ae
+	sha256sums = 4284291aecb1dfd08a93e20501eba932c55263c85acd22bd15973bae4433cdf4
+
+pkgname = libyaml
+	groups = libraries
+
+pkgname = libyaml-devel
+	groups = development
+	depends = libyaml=0.1.4
+

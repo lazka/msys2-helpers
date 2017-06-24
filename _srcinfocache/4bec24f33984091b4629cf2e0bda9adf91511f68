@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-irrlicht
+	pkgdesc = An open source high performance realtime 3D graphics engine (mingw-w64)
+	pkgver = 1.8.3
+	pkgrel = 1
+	url = https://irrlicht.sourceforge.io/
+	arch = any
+	license = ZLIB
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = dos2unix
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/irrlicht/irrlicht-1.8.3.zip
+	sha256sums = 9e7be44277bf2004d73580a8585e7bd3c9ce9a3c801691e4f4aed030ac68931c
+
+pkgname = mingw-w64-x86_64-irrlicht
+
+pkgbase = mingw-w64-irrlicht
+	pkgdesc = An open source high performance realtime 3D graphics engine (mingw-w64)
+	pkgver = 1.8.3
+	pkgrel = 1
+	url = https://irrlicht.sourceforge.io/
+	arch = any
+	license = ZLIB
+	makedepends = mingw-w64-i686-gcc
+	makedepends = dos2unix
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/irrlicht/irrlicht-1.8.3.zip
+	sha256sums = 9e7be44277bf2004d73580a8585e7bd3c9ce9a3c801691e4f4aed030ac68931c
+
+pkgname = mingw-w64-i686-irrlicht
+

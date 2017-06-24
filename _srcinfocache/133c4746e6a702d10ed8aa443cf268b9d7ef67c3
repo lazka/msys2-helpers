@@ -1,0 +1,40 @@
+pkgbase = mksh
+	pkgdesc = The MirBSD Korn Shell
+	pkgver = 51
+	pkgrel = 1
+	url = https://www.mirbsd.org/mksh.htm
+	install = mksh.install
+	arch = i686
+	arch = x86_64
+	license = ISC
+	makedepends = gcc
+	depends = gcc-libs
+	provides = ksh
+	conflicts = ksh
+	source = https://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R51.tgz
+	source = https://www.mirbsd.org/TaC-mksh.txt
+	sha256sums = 9feeaa5ff33d8199c0123675dec29785943ffc67152d58d431802bc20765dadf
+	sha256sums = 974f9df9396933861595b69574b7df64d0f93c2e5c64c69e79f988245725293e
+
+pkgname = mksh
+
+pkgbase = mksh
+	pkgdesc = The MirBSD Korn Shell
+	pkgver = 51
+	pkgrel = 1
+	url = https://www.mirbsd.org/mksh.htm
+	install = mksh.install
+	arch = i686
+	arch = x86_64
+	license = ISC
+	makedepends = gcc
+	depends = gcc-libs
+	provides = ksh
+	conflicts = ksh
+	source = https://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R51.tgz
+	source = https://www.mirbsd.org/TaC-mksh.txt
+	sha256sums = 9feeaa5ff33d8199c0123675dec29785943ffc67152d58d431802bc20765dadf
+	sha256sums = 974f9df9396933861595b69574b7df64d0f93c2e5c64c69e79f988245725293e
+
+pkgname = mksh
+

@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-jucipp-git
+	pkgdesc = A lightweight, cross-platform C++-IDE supporting C++11, C++14, and experimental C++17 features (mingw-w64)
+	pkgver = 1403.3134396
+	pkgrel = 1
+	url = https://github.com/cppit/jucipp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = git
+	depends = mingw-w64-x86_64-clang
+	depends = mingw-w64-x86_64-gtkmm3
+	depends = mingw-w64-x86_64-gtksourceviewmm3
+	depends = mingw-w64-x86_64-boost
+	depends = mingw-w64-x86_64-aspell-en
+	provides = mingw-w64-x86_64-jucipp
+	replaces = mingw-w64-x86_64-jucipp
+	options = strip
+	options = staticlibs
+	source = jucipp::git+https://github.com/cppit/jucipp.git
+	source = libclangmm::git+https://github.com/cppit/libclangmm.git
+	source = tiny-process-library::git+https://github.com/eidheim/tiny-process-library.git
+	validpgpkeys = gpg_KEY
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-jucipp-git
+
+pkgbase = mingw-w64-jucipp-git
+	pkgdesc = A lightweight, cross-platform C++-IDE supporting C++11, C++14, and experimental C++17 features (mingw-w64)
+	pkgver = 1403.3134396
+	pkgrel = 1
+	url = https://github.com/cppit/jucipp
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-cmake
+	makedepends = git
+	depends = mingw-w64-i686-clang
+	depends = mingw-w64-i686-gtkmm3
+	depends = mingw-w64-i686-gtksourceviewmm3
+	depends = mingw-w64-i686-boost
+	depends = mingw-w64-i686-aspell-en
+	provides = mingw-w64-i686-jucipp
+	replaces = mingw-w64-i686-jucipp
+	options = strip
+	options = staticlibs
+	source = jucipp::git+https://github.com/cppit/jucipp.git
+	source = libclangmm::git+https://github.com/cppit/libclangmm.git
+	source = tiny-process-library::git+https://github.com/eidheim/tiny-process-library.git
+	validpgpkeys = gpg_KEY
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-jucipp-git
+

@@ -1,0 +1,68 @@
+pkgbase = apr-util
+	pkgdesc = The Apache Portable Runtime
+	pkgver = 1.5.4
+	pkgrel = 2
+	url = https://apr.apache.org/
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	makedepends = apr-devel
+	makedepends = libexpat-devel
+	makedepends = libsqlite-devel
+	options = !libtool
+	source = https://archive.apache.org/dist/apr/apr-util-1.5.4.tar.bz2
+	source = apr-util-1.5.3-msys2.patch
+	source = plugins.patch
+	sha256sums = a6cf327189ca0df2fb9d5633d7326c460fe2b61684745fd7963e79a6dd0dc82e
+	sha256sums = 51566cd23d08880c9b493087bc788f6310f7641c1273c55e38c80245c0697ff2
+	sha256sums = d79c9202ce6ddc9a67a671ec5bcf495672330a4fa7e29446fa54db793f3f09fe
+
+pkgname = apr-util
+	groups = libraries
+	depends = apr
+	depends = expat
+	depends = libsqlite
+
+pkgname = apr-util-devel
+	pkgdesc = Libapr-util headers and libraries
+	groups = development
+	depends = apr-util=1.5.4
+	depends = apr-devel
+	depends = libexpat-devel
+	depends = libsqlite-devel
+	options = staticlibs
+
+pkgbase = apr-util
+	pkgdesc = The Apache Portable Runtime
+	pkgver = 1.5.4
+	pkgrel = 2
+	url = https://apr.apache.org/
+	arch = i686
+	arch = x86_64
+	license = APACHE
+	makedepends = apr-devel
+	makedepends = libexpat-devel
+	makedepends = libsqlite-devel
+	options = !libtool
+	source = https://archive.apache.org/dist/apr/apr-util-1.5.4.tar.bz2
+	source = apr-util-1.5.3-msys2.patch
+	source = plugins.patch
+	sha256sums = a6cf327189ca0df2fb9d5633d7326c460fe2b61684745fd7963e79a6dd0dc82e
+	sha256sums = 51566cd23d08880c9b493087bc788f6310f7641c1273c55e38c80245c0697ff2
+	sha256sums = d79c9202ce6ddc9a67a671ec5bcf495672330a4fa7e29446fa54db793f3f09fe
+
+pkgname = apr-util
+	groups = libraries
+	depends = apr
+	depends = expat
+	depends = libsqlite
+
+pkgname = apr-util-devel
+	pkgdesc = Libapr-util headers and libraries
+	groups = development
+	depends = apr-util=1.5.4
+	depends = apr-devel
+	depends = libexpat-devel
+	depends = libsqlite-devel
+	options = staticlibs
+

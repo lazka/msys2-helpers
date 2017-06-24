@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-babl
+	pkgdesc = Dynamic Pixel Format Translation Library (mingw-w64)
+	pkgver = 0.1.28
+	pkgrel = 1
+	url = http://gegl.org/babl/
+	arch = any
+	license = GPL-3.0+
+	license = LGPL-3.0+
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-librsvg
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = git
+	depends = mingw-w64-x86_64-gcc-libs
+	provides = mingw-w64-x86_64-babl
+	conflicts = mingw-w64-x86_64-babl
+	replaces = mingw-w64-x86_64-babl-git
+	options = strip
+	options = staticlibs
+	source = http://ftp.gtk.org/pub/babl/0.1/babl-0.1.28.tar.bz2
+	sha256sums = 63f3ed23e72a857a0e6df53d9d968a325024177b01edbe314a0c98b499eb8603
+
+pkgname = mingw-w64-x86_64-babl
+
+pkgbase = mingw-w64-babl
+	pkgdesc = Dynamic Pixel Format Translation Library (mingw-w64)
+	pkgver = 0.1.28
+	pkgrel = 1
+	url = http://gegl.org/babl/
+	arch = any
+	license = GPL-3.0+
+	license = LGPL-3.0+
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-librsvg
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = git
+	depends = mingw-w64-i686-gcc-libs
+	provides = mingw-w64-i686-babl
+	conflicts = mingw-w64-i686-babl
+	replaces = mingw-w64-i686-babl-git
+	options = strip
+	options = staticlibs
+	source = http://ftp.gtk.org/pub/babl/0.1/babl-0.1.28.tar.bz2
+	sha256sums = 63f3ed23e72a857a0e6df53d9d968a325024177b01edbe314a0c98b499eb8603
+
+pkgname = mingw-w64-i686-babl
+

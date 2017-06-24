@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-liblastfm-qt4
+	pkgdesc = A Qt C++ library for the Last.fm webservices http://www.last.fm (mingw-w64)
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = http://www.rasterbar.com/products/libtorrent
+	arch = any
+	license = Boost
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-qt4
+	depends = mingw-w64-x86_64-fftw
+	depends = mingw-w64-x86_64-libsamplerate
+	conflicts = mingw-w64-x86_64-liblastfm
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = liblastfm-1.0.9.tar.gz::https://github.com/lastfm/liblastfm/archive/1.0.9.tar.gz
+	source = versioned-dlls-mingw.patch
+	sha256sums = 5276b5fe00932479ce6fe370ba3213f3ab842d70a7d55e4bead6e26738425f7b
+	sha256sums = 8a19f0a53277be5929411f3f247bc5d2c380c32b170ba0d0824bce9b7f7b7fa7
+
+pkgname = mingw-w64-x86_64-liblastfm-qt4
+
+pkgbase = mingw-w64-liblastfm-qt4
+	pkgdesc = A Qt C++ library for the Last.fm webservices http://www.last.fm (mingw-w64)
+	pkgver = 1.0.9
+	pkgrel = 1
+	url = http://www.rasterbar.com/products/libtorrent
+	arch = any
+	license = Boost
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-qt4
+	depends = mingw-w64-i686-fftw
+	depends = mingw-w64-i686-libsamplerate
+	conflicts = mingw-w64-i686-liblastfm
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = liblastfm-1.0.9.tar.gz::https://github.com/lastfm/liblastfm/archive/1.0.9.tar.gz
+	source = versioned-dlls-mingw.patch
+	sha256sums = 5276b5fe00932479ce6fe370ba3213f3ab842d70a7d55e4bead6e26738425f7b
+	sha256sums = 8a19f0a53277be5929411f3f247bc5d2c380c32b170ba0d0824bce9b7f7b7fa7
+
+pkgname = mingw-w64-i686-liblastfm-qt4
+

@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-intel-tbb
+	pkgdesc = High level abstract threading library (mingw-w64)
+	pkgver = 2017_20170118
+	pkgrel = 1
+	epoch = 1
+	url = https://www.threadingbuildingblocks.org/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-make
+	depends = mingw-w64-x86_64-gcc-libs
+	options = !strip
+	options = staticlibs
+	source = https://www.threadingbuildingblocks.org/sites/default/files/software_releases/source/tbb2017_20170118oss_src.tgz
+	source = tbb-disable_windows_api.patch
+	sha256sums = 48bb526287fa8b4e7d1e1b2ba9e5fb9c3e372b497772c06ef9ccd7f93f344e74
+	sha256sums = 413e75118518074da634258ccdb57ff134f4ec234ca1ae17dd5a2decf8c677f6
+
+pkgname = mingw-w64-x86_64-intel-tbb
+
+pkgbase = mingw-w64-intel-tbb
+	pkgdesc = High level abstract threading library (mingw-w64)
+	pkgver = 2017_20170118
+	pkgrel = 1
+	epoch = 1
+	url = https://www.threadingbuildingblocks.org/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-make
+	depends = mingw-w64-i686-gcc-libs
+	options = !strip
+	options = staticlibs
+	source = https://www.threadingbuildingblocks.org/sites/default/files/software_releases/source/tbb2017_20170118oss_src.tgz
+	source = tbb-disable_windows_api.patch
+	sha256sums = 48bb526287fa8b4e7d1e1b2ba9e5fb9c3e372b497772c06ef9ccd7f93f344e74
+	sha256sums = 413e75118518074da634258ccdb57ff134f4ec234ca1ae17dd5a2decf8c677f6
+
+pkgname = mingw-w64-i686-intel-tbb
+

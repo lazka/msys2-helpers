@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-expat
+	pkgdesc = An XML parser library (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = https://expat.sourceforge.io/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/expat/expat-2.2.0.tar.bz2
+	source = 001-fix-extension.patch
+	source = expat-2.2.0-CVE-2016-0718-regression.patch
+	sha256sums = d9e50ff2d19b3538bd2127902a89987474e1a4db8e43a66a4d1a712ab9a504ff
+	sha256sums = 3d97bc769ad70d81ba9c488619e71cf21f43122076857a0b7d0ed425a1cbe68e
+	sha256sums = e64ff17753e601f23a6825beeb930aef1bec17b7eec7dce4e8c465b3c0cd66ff
+
+pkgname = mingw-w64-x86_64-expat
+
+pkgbase = mingw-w64-expat
+	pkgdesc = An XML parser library (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = https://expat.sourceforge.io/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/expat/expat-2.2.0.tar.bz2
+	source = 001-fix-extension.patch
+	source = expat-2.2.0-CVE-2016-0718-regression.patch
+	sha256sums = d9e50ff2d19b3538bd2127902a89987474e1a4db8e43a66a4d1a712ab9a504ff
+	sha256sums = 3d97bc769ad70d81ba9c488619e71cf21f43122076857a0b7d0ed425a1cbe68e
+	sha256sums = e64ff17753e601f23a6825beeb930aef1bec17b7eec7dce4e8c465b3c0cd66ff
+
+pkgname = mingw-w64-i686-expat
+

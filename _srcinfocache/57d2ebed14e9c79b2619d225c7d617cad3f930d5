@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-libntlm
+	pkgdesc = Library that implement Microsoft's NTLM authentication (mingw-w64)
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://www.nongnu.org/libntlm/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = http://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz
+	source = http://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz.sig
+	sha256sums = 8415d75e31d3135dc7062787eaf4119b984d50f86f0d004b964cdc18a3182589
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libntlm
+
+pkgbase = mingw-w64-libntlm
+	pkgdesc = Library that implement Microsoft's NTLM authentication (mingw-w64)
+	pkgver = 1.4
+	pkgrel = 2
+	url = http://www.nongnu.org/libntlm/
+	arch = any
+	license = LGPL2.1
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = http://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz
+	source = http://www.nongnu.org/libntlm/releases/libntlm-1.4.tar.gz.sig
+	sha256sums = 8415d75e31d3135dc7062787eaf4119b984d50f86f0d004b964cdc18a3182589
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libntlm
+

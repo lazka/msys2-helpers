@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-ipython_genutils
+	pkgdesc = IPython vestigial utilities (mingw-w64)
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/ipython/ipython_genutils
+	arch = any
+	license = Modified BSD
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = ipython_genutils-0.1.0.tar.gz::https://github.com/ipython/ipython_genutils/archive/0.1.0.tar.gz
+	sha256sums = 34803f408a7681ebe13282f95806293029b502c9c1e17b2e5f517f8d1b1275f6
+
+pkgname = mingw-w64-x86_64-python3-ipython_genutils
+
+pkgname = mingw-w64-x86_64-python2-ipython_genutils
+
+pkgbase = mingw-w64-python-ipython_genutils
+	pkgdesc = IPython vestigial utilities (mingw-w64)
+	pkgver = 0.1.0
+	pkgrel = 2
+	url = https://github.com/ipython/ipython_genutils
+	arch = any
+	license = Modified BSD
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = ipython_genutils-0.1.0.tar.gz::https://github.com/ipython/ipython_genutils/archive/0.1.0.tar.gz
+	sha256sums = 34803f408a7681ebe13282f95806293029b502c9c1e17b2e5f517f8d1b1275f6
+
+pkgname = mingw-w64-i686-python3-ipython_genutils
+
+pkgname = mingw-w64-i686-python2-ipython_genutils
+

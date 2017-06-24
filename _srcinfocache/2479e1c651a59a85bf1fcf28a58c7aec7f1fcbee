@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-chromaprint
+	pkgdesc = Library that implements a custom algorithm for extracting fingerprints from any audio source (mingw-w64)
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = http://acoustid.org/chromaprint
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	options = strip
+	options = staticlibs
+	source = https://github.com/acoustid/chromaprint/releases/download/v1.4.2/chromaprint-1.4.2.tar.gz
+	sha256sums = 989609a7e841dd75b34ee793bd1d049ce99a8f0d444b3cea39d57c3e5d26b4d4
+
+pkgname = mingw-w64-x86_64-chromaprint
+
+pkgbase = mingw-w64-chromaprint
+	pkgdesc = Library that implements a custom algorithm for extracting fingerprints from any audio source (mingw-w64)
+	pkgver = 1.4.2
+	pkgrel = 1
+	url = http://acoustid.org/chromaprint
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	options = strip
+	options = staticlibs
+	source = https://github.com/acoustid/chromaprint/releases/download/v1.4.2/chromaprint-1.4.2.tar.gz
+	sha256sums = 989609a7e841dd75b34ee793bd1d049ce99a8f0d444b3cea39d57c3e5d26b4d4
+
+pkgname = mingw-w64-i686-chromaprint
+

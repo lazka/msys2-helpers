@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-jsonrpc-glib
+	pkgdesc = A JSON-RPC library for GLib (mingw-w64)
+	pkgver = 3.25.2
+	pkgrel = 1
+	url = https://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-meson
+	makedepends = mingw-w64-x86_64-ninja
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-x86_64-glib2
+	depends = mingw-w64-x86_64-json-glib
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/jsonrpc-glib/3.25/jsonrpc-glib-3.25.2.tar.xz
+	sha256sums = bbe6c0ef37e0b79675531e251c02f00471286b37fbc1cfe692f9a40b59d9b656
+
+pkgname = mingw-w64-x86_64-jsonrpc-glib
+
+pkgbase = mingw-w64-jsonrpc-glib
+	pkgdesc = A JSON-RPC library for GLib (mingw-w64)
+	pkgver = 3.25.2
+	pkgrel = 1
+	url = https://www.gnome.org/
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-meson
+	makedepends = mingw-w64-i686-ninja
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-i686-glib2
+	depends = mingw-w64-i686-json-glib
+	options = strip
+	options = staticlibs
+	source = https://download.gnome.org/sources/jsonrpc-glib/3.25/jsonrpc-glib-3.25.2.tar.xz
+	sha256sums = bbe6c0ef37e0b79675531e251c02f00471286b37fbc1cfe692f9a40b59d9b656
+
+pkgname = mingw-w64-i686-jsonrpc-glib
+

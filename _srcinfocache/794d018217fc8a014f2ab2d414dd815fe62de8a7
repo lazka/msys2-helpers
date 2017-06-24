@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-aztecgen
+	pkgdesc = A simple library for encoding "Aztec Code" barcodes (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://aztecgen.sourceforge.io/
+	arch = any
+	license = BSD
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/aztecgen/aztecgen-1.0.1.zip
+	source = aztecgen-unix_slashes.patch
+	source = aztecgen-typename_fix.patch
+	source = aztecgen-noexcept.patch
+	sha256sums = d2a36022bde4234c90f6dd68c4708169df475675c4f8b83ae267f162a5437acb
+	sha256sums = 3558ddcbcd5d34134ce787027138e9a62be30558803015a96b43898d5d5fe0bb
+	sha256sums = 50bcd4be5ee159efa3772b4ba095b9d65de5e369c96fa556038cbb29693ac3ba
+	sha256sums = e58ef63be35c991244df1e0e86407035e4c7f7e46f809e49152eb0044083e2b0
+
+pkgname = mingw-w64-x86_64-aztecgen
+
+pkgbase = mingw-w64-aztecgen
+	pkgdesc = A simple library for encoding "Aztec Code" barcodes (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://aztecgen.sourceforge.io/
+	arch = any
+	license = BSD
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/aztecgen/aztecgen-1.0.1.zip
+	source = aztecgen-unix_slashes.patch
+	source = aztecgen-typename_fix.patch
+	source = aztecgen-noexcept.patch
+	sha256sums = d2a36022bde4234c90f6dd68c4708169df475675c4f8b83ae267f162a5437acb
+	sha256sums = 3558ddcbcd5d34134ce787027138e9a62be30558803015a96b43898d5d5fe0bb
+	sha256sums = 50bcd4be5ee159efa3772b4ba095b9d65de5e369c96fa556038cbb29693ac3ba
+	sha256sums = e58ef63be35c991244df1e0e86407035e4c7f7e46f809e49152eb0044083e2b0
+
+pkgname = mingw-w64-i686-aztecgen
+

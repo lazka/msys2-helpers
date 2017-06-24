@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-pangomm
+	pkgdesc = C++ bindings for pango (mingw-w64)
+	pkgver = 2.40.0
+	pkgrel = 2
+	url = https://gtkmm.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-cairomm
+	depends = mingw-w64-x86_64-glibmm
+	depends = mingw-w64-x86_64-pango
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/pangomm/2.40/pangomm-2.40.0.tar.xz
+	sha256sums = 7dd0afa9dcce57cdb0aad77da9ea46823ee8515d5f3ffd895b9ede7365c3d70d
+
+pkgname = mingw-w64-x86_64-pangomm
+
+pkgbase = mingw-w64-pangomm
+	pkgdesc = C++ bindings for pango (mingw-w64)
+	pkgver = 2.40.0
+	pkgrel = 2
+	url = https://gtkmm.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-cairomm
+	depends = mingw-w64-i686-glibmm
+	depends = mingw-w64-i686-pango
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/pangomm/2.40/pangomm-2.40.0.tar.xz
+	sha256sums = 7dd0afa9dcce57cdb0aad77da9ea46823ee8515d5f3ffd895b9ede7365c3d70d
+
+pkgname = mingw-w64-i686-pangomm
+

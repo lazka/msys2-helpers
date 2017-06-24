@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-osm-gps-map
+	pkgdesc = A Gtk+ Widget for Displaying OpenStreetMap tiles. (mingw-w64)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://nzjrs.github.io/osm-gps-map/
+	arch = any
+	license = GPLv2+
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libtool
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-libsoup
+	depends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-python2-gobject2
+	depends = mingw-w64-x86_64-python2-cairo
+	depends = mingw-w64-x86_64-python2-pygtk
+	depends = mingw-w64-x86_64-gobject-introspection
+	source = https://github.com/nzjrs/osm-gps-map/releases/download/1.1.0/osm-gps-map-1.1.0.tar.gz
+	sha256sums = 8F2FF865ED9ED9786CC5373C37B341B876958416139D0065EBB785CF88D33586
+
+pkgname = mingw-w64-x86_64-osm-gps-map
+
+pkgbase = mingw-w64-osm-gps-map
+	pkgdesc = A Gtk+ Widget for Displaying OpenStreetMap tiles. (mingw-w64)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://nzjrs.github.io/osm-gps-map/
+	arch = any
+	license = GPLv2+
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libtool
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-libsoup
+	depends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-python2-gobject2
+	depends = mingw-w64-i686-python2-cairo
+	depends = mingw-w64-i686-python2-pygtk
+	depends = mingw-w64-i686-gobject-introspection
+	source = https://github.com/nzjrs/osm-gps-map/releases/download/1.1.0/osm-gps-map-1.1.0.tar.gz
+	sha256sums = 8F2FF865ED9ED9786CC5373C37B341B876958416139D0065EBB785CF88D33586
+
+pkgname = mingw-w64-i686-osm-gps-map
+

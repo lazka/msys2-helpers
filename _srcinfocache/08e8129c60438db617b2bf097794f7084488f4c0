@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-itk
+	pkgdesc = An open-source C++ toolkit for medical image processing (mingw-w64)
+	pkgver = 4.11.0
+	pkgrel = 1
+	url = http://www.itk.org/
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-opencv
+	makedepends = mingw-w64-x86_64-vtk
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-expat
+	depends = mingw-w64-x86_64-fftw
+	depends = mingw-w64-x86_64-hdf5
+	depends = mingw-w64-x86_64-libjpeg
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-libtiff
+	depends = mingw-w64-x86_64-zlib
+	optdepends = mingw-w64-x86_64-opencv: ITK-OpenCV bridge
+	optdepends = mingw-w64-x86_64-vtk: ITK-VTK bridge
+	source = itk-4.11.0.tar.gz::https://github.com/InsightSoftwareConsortium/ITK/archive/v4.11.0.tar.gz
+	sha256sums = a1857aa89f02efce3e091d102fbff7b2c53fe40c7f74580a47236bfd846c4e8b
+
+pkgname = mingw-w64-x86_64-itk
+
+pkgbase = mingw-w64-itk
+	pkgdesc = An open-source C++ toolkit for medical image processing (mingw-w64)
+	pkgver = 4.11.0
+	pkgrel = 1
+	url = http://www.itk.org/
+	arch = any
+	license = Apache
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-opencv
+	makedepends = mingw-w64-i686-vtk
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-expat
+	depends = mingw-w64-i686-fftw
+	depends = mingw-w64-i686-hdf5
+	depends = mingw-w64-i686-libjpeg
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-libtiff
+	depends = mingw-w64-i686-zlib
+	optdepends = mingw-w64-i686-opencv: ITK-OpenCV bridge
+	optdepends = mingw-w64-i686-vtk: ITK-VTK bridge
+	source = itk-4.11.0.tar.gz::https://github.com/InsightSoftwareConsortium/ITK/archive/v4.11.0.tar.gz
+	sha256sums = a1857aa89f02efce3e091d102fbff7b2c53fe40c7f74580a47236bfd846c4e8b
+
+pkgname = mingw-w64-i686-itk
+

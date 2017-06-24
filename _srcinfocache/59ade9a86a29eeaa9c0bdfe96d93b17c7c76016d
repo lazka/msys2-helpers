@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-libpng
+	pkgdesc = A collection of routines used to create PNG format graphics (mingw-w64)
+	pkgver = 1.6.29
+	pkgrel = 1
+	url = http://www.libpng.org/pub/png/libpng.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-zlib
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/libpng/libpng-1.6.29.tar.xz
+	source = https://downloads.sourceforge.net/sourceforge/libpng/libpng-1.6.29.tar.xz.asc
+	source = https://downloads.sourceforge.net/project/apng/libpng/libpng16/libpng-1.6.29-apng.patch.gz
+	validpgpkeys = 8048643BA2C840F4F92A195FF54984BFA16C640F
+	sha256sums = 4245b684e8fe829ebb76186327bb37ce5a639938b219882b53d64bd3cfc5f239
+	sha256sums = SKIP
+	sha256sums = 6120948990a86f8118d67471ff04e35ca1f93722061ef6b90842c64608584b91
+
+pkgname = mingw-w64-x86_64-libpng
+
+pkgbase = mingw-w64-libpng
+	pkgdesc = A collection of routines used to create PNG format graphics (mingw-w64)
+	pkgver = 1.6.29
+	pkgrel = 1
+	url = http://www.libpng.org/pub/png/libpng.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-zlib
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = https://downloads.sourceforge.net/sourceforge/libpng/libpng-1.6.29.tar.xz
+	source = https://downloads.sourceforge.net/sourceforge/libpng/libpng-1.6.29.tar.xz.asc
+	source = https://downloads.sourceforge.net/project/apng/libpng/libpng16/libpng-1.6.29-apng.patch.gz
+	validpgpkeys = 8048643BA2C840F4F92A195FF54984BFA16C640F
+	sha256sums = 4245b684e8fe829ebb76186327bb37ce5a639938b219882b53d64bd3cfc5f239
+	sha256sums = SKIP
+	sha256sums = 6120948990a86f8118d67471ff04e35ca1f93722061ef6b90842c64608584b91
+
+pkgname = mingw-w64-i686-libpng
+

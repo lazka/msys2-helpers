@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-discount
+	pkgdesc = A Markdown implementation written in C (mingw-w64)
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = http://www.pell.portland.or.us/~orc/Code/discount/
+	arch = any
+	license = custom:BSD
+	provides = mingw-w64-x86_64-markdown
+	conflicts = mingw-w64-x86_64-markdown
+	options = strip
+	options = staticlibs
+	source = http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.2.tar.bz2
+	source = discount-mingw-building.patch
+	sha256sums = ec7916731e3ef8516336333f8b7aa9e2af51e57c0017b1e03fa43f1ba6978f64
+	sha256sums = 8d9d39f5ceaba80191fd0d3937dc8922be7b14b13a3ea73544db519fb6005c19
+
+pkgname = mingw-w64-x86_64-discount
+
+pkgbase = mingw-w64-discount
+	pkgdesc = A Markdown implementation written in C (mingw-w64)
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = http://www.pell.portland.or.us/~orc/Code/discount/
+	arch = any
+	license = custom:BSD
+	provides = mingw-w64-i686-markdown
+	conflicts = mingw-w64-i686-markdown
+	options = strip
+	options = staticlibs
+	source = http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.2.tar.bz2
+	source = discount-mingw-building.patch
+	sha256sums = ec7916731e3ef8516336333f8b7aa9e2af51e57c0017b1e03fa43f1ba6978f64
+	sha256sums = 8d9d39f5ceaba80191fd0d3937dc8922be7b14b13a3ea73544db519fb6005c19
+
+pkgname = mingw-w64-i686-discount
+

@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-verilator
+	pkgdesc = The fastest free Verilog HDL simulator (mingw-w64)
+	pkgver = 3.900
+	pkgrel = 1
+	url = https://www.veripool.org/projects/verilator/wiki/Intro
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = flex
+	depends = mingw-w64-x86_64-gcc-libs
+	source = https://www.veripool.org/ftp/verilator-3.900.tgz
+	sha256sums = 4be851e66179b405410782887e4121db7c6e8a7614a8066f353c36edd98a6b7b
+
+pkgname = mingw-w64-x86_64-verilator
+
+pkgbase = mingw-w64-verilator
+	pkgdesc = The fastest free Verilog HDL simulator (mingw-w64)
+	pkgver = 3.900
+	pkgrel = 1
+	url = https://www.veripool.org/projects/verilator/wiki/Intro
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = flex
+	depends = mingw-w64-i686-gcc-libs
+	source = https://www.veripool.org/ftp/verilator-3.900.tgz
+	sha256sums = 4be851e66179b405410782887e4121db7c6e8a7614a8066f353c36edd98a6b7b
+
+pkgname = mingw-w64-i686-verilator
+

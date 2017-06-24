@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-librsvg
+	pkgdesc = A SVG viewing library (mingw-w64)
+	pkgver = 2.40.17
+	pkgrel = 1
+	url = https://live.gnome.org/LibRsvg
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-gdk-pixbuf2
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = setconf
+	depends = mingw-w64-x86_64-gdk-pixbuf2
+	depends = mingw-w64-x86_64-pango
+	depends = mingw-w64-x86_64-libcroco
+	optdepends = mingw-w64-x86_64-gtk3: for rsvg-view-3
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/librsvg/2.40/librsvg-2.40.17.tar.xz
+	source = 0005-hack-unixy-paths.patch
+	sha256sums = e6f6c5cbecc405bb945c7cd15061276035ae3173bbb3bb25e8a916779c7f69cc
+	sha256sums = b23b094c0cb65fcbbbb952350448de6f3430b30f273e05acdbf7a56d634212dc
+
+pkgname = mingw-w64-x86_64-librsvg
+
+pkgbase = mingw-w64-librsvg
+	pkgdesc = A SVG viewing library (mingw-w64)
+	pkgver = 2.40.17
+	pkgrel = 1
+	url = https://live.gnome.org/LibRsvg
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-gdk-pixbuf2
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-vala
+	makedepends = setconf
+	depends = mingw-w64-i686-gdk-pixbuf2
+	depends = mingw-w64-i686-pango
+	depends = mingw-w64-i686-libcroco
+	optdepends = mingw-w64-i686-gtk3: for rsvg-view-3
+	options = staticlibs
+	options = strip
+	source = https://download.gnome.org/sources/librsvg/2.40/librsvg-2.40.17.tar.xz
+	source = 0005-hack-unixy-paths.patch
+	sha256sums = e6f6c5cbecc405bb945c7cd15061276035ae3173bbb3bb25e8a916779c7f69cc
+	sha256sums = b23b094c0cb65fcbbbb952350448de6f3430b30f273e05acdbf7a56d634212dc
+
+pkgname = mingw-w64-i686-librsvg
+

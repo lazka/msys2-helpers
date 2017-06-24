@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-libguess
+	pkgdesc = High-speed character set detection library (mingw-w64)
+	pkgver = 1.2
+	pkgrel = 2
+	url = http://atheme.org/projects/libguess.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-libmowgli
+	options = staticlibs
+	options = strip
+	source = http://rabbit.dereferenced.org/%7Enenolod/distfiles/libguess-1.2.tar.bz2
+	sha256sums = 8019a16bdc7ca9d2efbdcc1429d48d033d5053d42e45fccea10abf98074f05f8
+
+pkgname = mingw-w64-x86_64-libguess
+
+pkgbase = mingw-w64-libguess
+	pkgdesc = High-speed character set detection library (mingw-w64)
+	pkgver = 1.2
+	pkgrel = 2
+	url = http://atheme.org/projects/libguess.html
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-libmowgli
+	options = staticlibs
+	options = strip
+	source = http://rabbit.dereferenced.org/%7Enenolod/distfiles/libguess-1.2.tar.bz2
+	sha256sums = 8019a16bdc7ca9d2efbdcc1429d48d033d5053d42e45fccea10abf98074f05f8
+
+pkgname = mingw-w64-i686-libguess
+

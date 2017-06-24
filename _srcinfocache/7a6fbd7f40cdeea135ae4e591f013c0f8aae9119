@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-libgcrypt
+	pkgdesc = General purpose cryptographic library based on the code from GnuPG (mingw-w64)
+	pkgver = 1.7.7
+	pkgrel = 1
+	url = https://gnupg.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libgpg-error
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-libgpg-error
+	options = staticlibs
+	options = strip
+	source = https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.7.7.tar.bz2
+	source = libgcrypt-use-correct-def-file.patch
+	source = Smarter-fig2dev-detection.all.patch
+	sha256sums = b9b85eba0793ea3e6e66b896eb031fa05e1a4517277cc9ab10816b359254cd9a
+	sha256sums = 55cf915badebb4b3cfa671eea725aebb77be791aa39a19caef090ded4f38d8eb
+	sha256sums = d6855fc9b7a3a7fa440be1d9ae3477f8c08524d1aab1a8c7bb26d62b55382f72
+
+pkgname = mingw-w64-x86_64-libgcrypt
+
+pkgbase = mingw-w64-libgcrypt
+	pkgdesc = General purpose cryptographic library based on the code from GnuPG (mingw-w64)
+	pkgver = 1.7.7
+	pkgrel = 1
+	url = https://gnupg.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libgpg-error
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-libgpg-error
+	options = staticlibs
+	options = strip
+	source = https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.7.7.tar.bz2
+	source = libgcrypt-use-correct-def-file.patch
+	source = Smarter-fig2dev-detection.all.patch
+	sha256sums = b9b85eba0793ea3e6e66b896eb031fa05e1a4517277cc9ab10816b359254cd9a
+	sha256sums = 55cf915badebb4b3cfa671eea725aebb77be791aa39a19caef090ded4f38d8eb
+	sha256sums = d6855fc9b7a3a7fa440be1d9ae3477f8c08524d1aab1a8c7bb26d62b55382f72
+
+pkgname = mingw-w64-i686-libgcrypt
+

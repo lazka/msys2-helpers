@@ -1,0 +1,38 @@
+pkgbase = perl-HTTP-Cookies
+	pkgdesc = HTTP cookie jars
+	pkgver = 6.01
+	pkgrel = 2
+	url = http://search.cpan.org/dist/HTTP-Cookies
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=5.8.8
+	depends = perl-HTTP-Date>=6
+	depends = perl-HTTP-Message
+	conflicts = perl-libwww<6
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+	sha256sums = f5d3ade383ce6389d80cb0d0356b643af80435bb036afd8edce335215ec5eb20
+
+pkgname = perl-HTTP-Cookies
+
+pkgbase = perl-HTTP-Cookies
+	pkgdesc = HTTP cookie jars
+	pkgver = 6.01
+	pkgrel = 2
+	url = http://search.cpan.org/dist/HTTP-Cookies
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl>=5.8.8
+	depends = perl-HTTP-Date>=6
+	depends = perl-HTTP-Message
+	conflicts = perl-libwww<6
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+	sha256sums = f5d3ade383ce6389d80cb0d0356b643af80435bb036afd8edce335215ec5eb20
+
+pkgname = perl-HTTP-Cookies
+

@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-bwidget
+	pkgdesc = A companion to Tcllib, for Tk related packages (mingw-w64)
+	pkgver = 1.9.10
+	pkgrel = 1
+	url = https://core.tcl.tk/bwidget/home
+	arch = any
+	license = BSD
+	depends = mingw-w64-x86_64-tk
+	source = https://downloads.sourceforge.net/project/tcllib/BWidget/1.9.10/bwidget-1.9.10.tar.gz
+	sha256sums = 26c312204bd9d065001e95fcac8fed0f63cb44e746204853f21813ac62aeb408
+
+pkgname = mingw-w64-x86_64-bwidget
+
+pkgbase = mingw-w64-bwidget
+	pkgdesc = A companion to Tcllib, for Tk related packages (mingw-w64)
+	pkgver = 1.9.10
+	pkgrel = 1
+	url = https://core.tcl.tk/bwidget/home
+	arch = any
+	license = BSD
+	depends = mingw-w64-i686-tk
+	source = https://downloads.sourceforge.net/project/tcllib/BWidget/1.9.10/bwidget-1.9.10.tar.gz
+	sha256sums = 26c312204bd9d065001e95fcac8fed0f63cb44e746204853f21813ac62aeb408
+
+pkgname = mingw-w64-i686-bwidget
+

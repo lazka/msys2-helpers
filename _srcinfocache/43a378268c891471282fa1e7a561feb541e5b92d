@@ -1,0 +1,66 @@
+pkgbase = task
+	pkgdesc = A command-line todo list manager
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://taskwarrior.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = python
+	checkdepends = bash
+	makedepends = git
+	makedepends = gcc
+	makedepends = make
+	makedepends = cmake
+	makedepends = libgnutls-devel
+	makedepends = libutil-linux-devel
+	depends = gcc-libs
+	depends = libgnutls
+	depends = libutil-linux
+	depends = libhogweed
+	optdepends = bash-completion
+	optdepends = python
+	optdepends = ruby
+	optdepends = perl
+	optdepends = perl-json
+	optdepends = rsync
+	optdepends = curl
+	optdepends = openssh
+	source = task-2.5.1::git+https://git.tasktools.org/scm/tm/task.git#tag=v2.5.1
+	sha256sums = SKIP
+
+pkgname = task
+
+pkgbase = task
+	pkgdesc = A command-line todo list manager
+	pkgver = 2.5.1
+	pkgrel = 1
+	url = https://taskwarrior.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	checkdepends = python
+	checkdepends = bash
+	makedepends = git
+	makedepends = gcc
+	makedepends = make
+	makedepends = cmake
+	makedepends = libgnutls-devel
+	makedepends = libutil-linux-devel
+	depends = gcc-libs
+	depends = libgnutls
+	depends = libutil-linux
+	depends = libhogweed
+	optdepends = bash-completion
+	optdepends = python
+	optdepends = ruby
+	optdepends = perl
+	optdepends = perl-json
+	optdepends = rsync
+	optdepends = curl
+	optdepends = openssh
+	source = task-2.5.1::git+https://git.tasktools.org/scm/tm/task.git#tag=v2.5.1
+	sha256sums = SKIP
+
+pkgname = task
+

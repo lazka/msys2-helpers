@@ -1,0 +1,46 @@
+pkgbase = patch
+	pkgdesc = A utility to apply patch files to original sources
+	pkgver = 2.7.5
+	pkgrel = 1
+	url = https://www.gnu.org/software/patch/patch.html
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	makedepends = ed
+	depends = msys2-runtime
+	optdepends = ed: for patch -e functionality
+	source = https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
+	source = https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz.sig
+	source = msys2-patch-2.7.1.patch
+	source = msys2-patch-manifest.patch
+	sha256sums = fd95153655d6b95567e623843a0e77b81612d502ecf78a489a4aed7867caa299
+	sha256sums = SKIP
+	sha256sums = 9be45bcfb141c17b7501ed10cc88d50967d6c2cc1bba2f1273a47ca7e316ffe0
+	sha256sums = 714da1a384d3e0acca5351980b0b3b1b09b66140fabe2e74dfd313652f964de9
+
+pkgname = patch
+
+pkgbase = patch
+	pkgdesc = A utility to apply patch files to original sources
+	pkgver = 2.7.5
+	pkgrel = 1
+	url = https://www.gnu.org/software/patch/patch.html
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = GPL
+	makedepends = ed
+	depends = msys2-runtime
+	optdepends = ed: for patch -e functionality
+	source = https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz
+	source = https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.xz.sig
+	source = msys2-patch-2.7.1.patch
+	source = msys2-patch-manifest.patch
+	sha256sums = fd95153655d6b95567e623843a0e77b81612d502ecf78a489a4aed7867caa299
+	sha256sums = SKIP
+	sha256sums = 9be45bcfb141c17b7501ed10cc88d50967d6c2cc1bba2f1273a47ca7e316ffe0
+	sha256sums = 714da1a384d3e0acca5351980b0b3b1b09b66140fabe2e74dfd313652f964de9
+
+pkgname = patch
+

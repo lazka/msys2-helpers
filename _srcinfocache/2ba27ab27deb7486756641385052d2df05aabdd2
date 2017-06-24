@@ -1,0 +1,56 @@
+pkgbase = gawk
+	pkgdesc = GNU version of awk
+	pkgver = 4.1.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/gawk/
+	install = gawk.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = GPL
+	makedepends = gettext-devel
+	makedepends = mpfr-devel
+	makedepends = libreadline-devel
+	depends = sh
+	depends = mpfr
+	depends = libintl
+	depends = libreadline
+	provides = awk
+	source = https://ftp.gnu.org/pub/gnu/gawk/gawk-4.1.4.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gawk/gawk-4.1.4.tar.gz.sig
+	source = gawk-4.1.1-autotools.patch
+	sha256sums = 8c03080e2b5a56263e8783f6f1f306398d4591be18254041f3f547efef944d35
+	sha256sums = SKIP
+	sha256sums = 51ffe7862667f237f822f17caa5ab46b81fffb484bcd99ca8ba6d9f31f3fbf70
+
+pkgname = gawk
+
+pkgbase = gawk
+	pkgdesc = GNU version of awk
+	pkgver = 4.1.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/gawk/
+	install = gawk.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = GPL
+	makedepends = gettext-devel
+	makedepends = mpfr-devel
+	makedepends = libreadline-devel
+	depends = sh
+	depends = mpfr
+	depends = libintl
+	depends = libreadline
+	provides = awk
+	source = https://ftp.gnu.org/pub/gnu/gawk/gawk-4.1.4.tar.gz
+	source = https://ftp.gnu.org/pub/gnu/gawk/gawk-4.1.4.tar.gz.sig
+	source = gawk-4.1.1-autotools.patch
+	sha256sums = 8c03080e2b5a56263e8783f6f1f306398d4591be18254041f3f547efef944d35
+	sha256sums = SKIP
+	sha256sums = 51ffe7862667f237f822f17caa5ab46b81fffb484bcd99ca8ba6d9f31f3fbf70
+
+pkgname = gawk
+

@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-rust
+	pkgdesc = A safe, concurrent, practical language from Mozilla (mingw-w64)
+	pkgver = r31923.27e8d5b
+	pkgrel = 1
+	url = https://www.rust-lang.org/
+	arch = any
+	license = custom:MIT
+	license = Apache
+	makedepends = git
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-llvm
+	makedepends = curl
+	makedepends = mingw-w64-x86_64-libffi
+	makedepends = python2
+	options = !makeflags
+	options = staticlibs
+	source = rust::git+https://github.com/mozilla/rust.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-rust
+
+pkgbase = mingw-w64-rust
+	pkgdesc = A safe, concurrent, practical language from Mozilla (mingw-w64)
+	pkgver = r31923.27e8d5b
+	pkgrel = 1
+	url = https://www.rust-lang.org/
+	arch = any
+	license = custom:MIT
+	license = Apache
+	makedepends = git
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-llvm
+	makedepends = curl
+	makedepends = mingw-w64-i686-libffi
+	makedepends = python2
+	options = !makeflags
+	options = staticlibs
+	source = rust::git+https://github.com/mozilla/rust.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-rust
+

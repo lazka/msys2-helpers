@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-gst-libav
+	pkgdesc = GStreamer libav (mingw-w64)
+	pkgver = 1.12.1
+	pkgrel = 1
+	url = https://gstreamer.freedesktop.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = yasm
+	depends = mingw-w64-x86_64-bzip2
+	depends = mingw-w64-x86_64-gst-plugins-base
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://gstreamer.freedesktop.org//src/gst-libav/gst-libav-1.12.1.tar.xz
+	sha256sums = 55d7823fdf63195de991adfef32db4b8a8bef3cafa46115a951e590dc18a5077
+
+pkgname = mingw-w64-x86_64-gst-libav
+
+pkgbase = mingw-w64-gst-libav
+	pkgdesc = GStreamer libav (mingw-w64)
+	pkgver = 1.12.1
+	pkgrel = 1
+	url = https://gstreamer.freedesktop.org/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python2
+	makedepends = yasm
+	depends = mingw-w64-i686-bzip2
+	depends = mingw-w64-i686-gst-plugins-base
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://gstreamer.freedesktop.org//src/gst-libav/gst-libav-1.12.1.tar.xz
+	sha256sums = 55d7823fdf63195de991adfef32db4b8a8bef3cafa46115a951e590dc18a5077
+
+pkgname = mingw-w64-i686-gst-libav
+

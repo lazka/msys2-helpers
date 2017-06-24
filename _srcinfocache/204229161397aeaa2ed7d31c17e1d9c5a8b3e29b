@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-gtkspell3
+	pkgdesc = Provides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget (mingw-w64)
+	pkgver = 3.0.9
+	pkgrel = 1
+	url = https://gtkspell.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-gobject-introspection
+	makedepends = mingw-w64-x86_64-iso-codes
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-vala
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-x86_64-gtk3
+	depends = mingw-w64-x86_64-gtk2
+	depends = mingw-w64-x86_64-enchant
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://sourceforge.net/projects/gtkspell/files/3.0.9/gtkspell3-3.0.9.tar.xz
+	source = 001-win.patch
+	sha256sums = a4f4a4a2789f7499563e26d96b22d8085222ebe278da47d026b2de782b8b4d26
+	sha256sums = 658a15a3a34c39632ce0700b9d709b634e5b166498f053d235416bd3e11b29c0
+
+pkgname = mingw-w64-x86_64-gtkspell3
+
+pkgbase = mingw-w64-gtkspell3
+	pkgdesc = Provides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget (mingw-w64)
+	pkgver = 3.0.9
+	pkgrel = 1
+	url = https://gtkspell.sourceforge.io/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-gobject-introspection
+	makedepends = mingw-w64-i686-iso-codes
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-vala
+	makedepends = gtk-doc
+	makedepends = intltool
+	depends = mingw-w64-i686-gtk3
+	depends = mingw-w64-i686-gtk2
+	depends = mingw-w64-i686-enchant
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://sourceforge.net/projects/gtkspell/files/3.0.9/gtkspell3-3.0.9.tar.xz
+	source = 001-win.patch
+	sha256sums = a4f4a4a2789f7499563e26d96b22d8085222ebe278da47d026b2de782b8b4d26
+	sha256sums = 658a15a3a34c39632ce0700b9d709b634e5b166498f053d235416bd3e11b29c0
+
+pkgname = mingw-w64-i686-gtkspell3
+

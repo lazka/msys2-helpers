@@ -1,0 +1,72 @@
+pkgbase = pyalpm
+	pkgdesc = Libalpm bindings for Python
+	pkgver = 0.8
+	pkgrel = 3
+	url = http://projects.archlinux.org/users/remy/pyalpm.git/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python2
+	makedepends = python3
+	makedepends = gettext-devel
+	makedepends = heimdal-devel
+	makedepends = libarchive-devel
+	makedepends = libcurl-devel
+	makedepends = libgpgme-devel
+	makedepends = pacman
+	depends = libarchive-devel
+	source = https://sources.archlinux.org/other/pyalpm/pyalpm-0.8.tar.gz
+	source = 0001-Python2-compat-Module-initialization.patch
+	source = 0002-Python2-compat-Use-Py_BuildValue-s-file-name.patch
+	source = 0003-Python2-compat-pycman-from-__future__-import-print_f.patch
+	source = 0004-Python2-compat-python3-python-coding-utf-8.patch
+	source = 0005-Use-pkg-config-add-LIBALPM_STATIC-env.-var.patch
+	sha256sums = b83b50a8a03b38954c84a280ea627e7c5a750cd6451530e0418c097ab0476e22
+	sha256sums = 489a3556bea9e22e809d7be31beb2dcaa74a3f776acd304d4a31cc1cfc2c547a
+	sha256sums = 37f510ad8b66317b68125e7b2c4d7fee8396a0e795c145c443bfb3770187bed4
+	sha256sums = 4b64a72f86cb6df75f37acf96de50148314ae1f44ae5ebd011b4631a7b5abcb8
+	sha256sums = 0faf882eda91d360a346f24591cf51d94f5f8b9ed0f8c4291e8610bb5932db98
+	sha256sums = 7588f18f1c8546957dc1acba1a08d1a0bf14f7a5c3a6efcb8cc8a4278928ce06
+
+pkgname = python2-pyalpm
+	depends = python2
+
+pkgname = python3-pyalpm
+	depends = python3
+
+pkgbase = pyalpm
+	pkgdesc = Libalpm bindings for Python
+	pkgver = 0.8
+	pkgrel = 3
+	url = http://projects.archlinux.org/users/remy/pyalpm.git/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = python2
+	makedepends = python3
+	makedepends = gettext-devel
+	makedepends = heimdal-devel
+	makedepends = libarchive-devel
+	makedepends = libcurl-devel
+	makedepends = libgpgme-devel
+	makedepends = pacman
+	depends = libarchive-devel
+	source = https://sources.archlinux.org/other/pyalpm/pyalpm-0.8.tar.gz
+	source = 0001-Python2-compat-Module-initialization.patch
+	source = 0002-Python2-compat-Use-Py_BuildValue-s-file-name.patch
+	source = 0003-Python2-compat-pycman-from-__future__-import-print_f.patch
+	source = 0004-Python2-compat-python3-python-coding-utf-8.patch
+	source = 0005-Use-pkg-config-add-LIBALPM_STATIC-env.-var.patch
+	sha256sums = b83b50a8a03b38954c84a280ea627e7c5a750cd6451530e0418c097ab0476e22
+	sha256sums = 489a3556bea9e22e809d7be31beb2dcaa74a3f776acd304d4a31cc1cfc2c547a
+	sha256sums = 37f510ad8b66317b68125e7b2c4d7fee8396a0e795c145c443bfb3770187bed4
+	sha256sums = 4b64a72f86cb6df75f37acf96de50148314ae1f44ae5ebd011b4631a7b5abcb8
+	sha256sums = 0faf882eda91d360a346f24591cf51d94f5f8b9ed0f8c4291e8610bb5932db98
+	sha256sums = 7588f18f1c8546957dc1acba1a08d1a0bf14f7a5c3a6efcb8cc8a4278928ce06
+
+pkgname = python2-pyalpm
+	depends = python2
+
+pkgname = python3-pyalpm
+	depends = python3
+

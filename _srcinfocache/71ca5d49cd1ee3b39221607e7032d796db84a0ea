@@ -1,0 +1,28 @@
+pkgbase = cscope
+	pkgdesc = A tool for browsing source code
+	pkgver = 15.8b
+	pkgrel = 1
+	url = https://cscope.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ncurses-devel
+	source = https://sourceforge.net/projects/cscope/files/cscope/15.8b/cscope-15.8b.tar.gz
+	sha256sums = 4889d091f05aa0845384b1e4965aa31d2b20911fb2c001b2cdcffbcb7212d3af
+
+pkgname = cscope
+
+pkgbase = cscope
+	pkgdesc = A tool for browsing source code
+	pkgver = 15.8b
+	pkgrel = 1
+	url = https://cscope.sourceforge.io/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ncurses-devel
+	source = https://sourceforge.net/projects/cscope/files/cscope/15.8b/cscope-15.8b.tar.gz
+	sha256sums = 4889d091f05aa0845384b1e4965aa31d2b20911fb2c001b2cdcffbcb7212d3af
+
+pkgname = cscope
+

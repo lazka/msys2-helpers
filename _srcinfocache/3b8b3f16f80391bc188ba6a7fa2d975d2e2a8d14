@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-python2-backports.shutil_get_terminal_size
+	pkgdesc = The get_terminal_size() function from Python 3.3 (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/backports.ssl_match_hostname
+	arch = any
+	license = MIT
+	depends = mingw-w64-x86_64-python2-backports
+	source = backports.shutil_get_terminal_size-1.0.0.tar.gz::https://github.com/chrippa/backports.shutil_get_terminal_size/archive/v1.0.0.tar.gz
+	sha256sums = ebeddf414a973f6b1c08c35892a8c5330aa9368171d9f70d749909525d72c9f1
+
+pkgname = mingw-w64-x86_64-python2-backports.shutil_get_terminal_size
+
+pkgbase = mingw-w64-python2-backports.shutil_get_terminal_size
+	pkgdesc = The get_terminal_size() function from Python 3.3 (mingw-w64)
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://pypi.python.org/pypi/backports.ssl_match_hostname
+	arch = any
+	license = MIT
+	depends = mingw-w64-i686-python2-backports
+	source = backports.shutil_get_terminal_size-1.0.0.tar.gz::https://github.com/chrippa/backports.shutil_get_terminal_size/archive/v1.0.0.tar.gz
+	sha256sums = ebeddf414a973f6b1c08c35892a8c5330aa9368171d9f70d749909525d72c9f1
+
+pkgname = mingw-w64-i686-python2-backports.shutil_get_terminal_size
+

@@ -1,0 +1,66 @@
+pkgbase = catgets
+	pkgdesc = catgets message catalog API
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://www.gnu.org/software/libc/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = libiconv-devel
+	makedepends = gettext-devel
+	source = catgets-1.1.tar.bz2
+	source = catgets-1.1-2.src.patch
+	source = catgets-1.1-msys2.patch
+	sha256sums = d957740de9a1582798f4cc227bd983baef2167da6da281a9d678c019156c1158
+	sha256sums = ffb78a4012cee2aff07e2010a75768c4faf96d7b1023b4c835a2f060b420d1bc
+	sha256sums = ce7d5551ef03edda4665ea867783f82b39761d6017705db538bc025e35602516
+
+pkgname = catgets
+	depends = libiconv
+	depends = libintl
+	depends = libcatgets
+
+pkgname = libcatgets
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libcatgets-devel
+	pkgdesc = Libcatgets headers and libraries
+	groups = development
+	depends = libcatgets=1.1
+	options = staticlibs
+
+pkgbase = catgets
+	pkgdesc = catgets message catalog API
+	pkgver = 1.1
+	pkgrel = 2
+	url = https://www.gnu.org/software/libc/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = libiconv-devel
+	makedepends = gettext-devel
+	source = catgets-1.1.tar.bz2
+	source = catgets-1.1-2.src.patch
+	source = catgets-1.1-msys2.patch
+	sha256sums = d957740de9a1582798f4cc227bd983baef2167da6da281a9d678c019156c1158
+	sha256sums = ffb78a4012cee2aff07e2010a75768c4faf96d7b1023b4c835a2f060b420d1bc
+	sha256sums = ce7d5551ef03edda4665ea867783f82b39761d6017705db538bc025e35602516
+
+pkgname = catgets
+	depends = libiconv
+	depends = libintl
+	depends = libcatgets
+
+pkgname = libcatgets
+	groups = libraries
+	depends = gcc-libs
+
+pkgname = libcatgets-devel
+	pkgdesc = Libcatgets headers and libraries
+	groups = development
+	depends = libcatgets=1.1
+	options = staticlibs
+

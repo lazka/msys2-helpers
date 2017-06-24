@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-creduce-git
+	pkgdesc = A C program reducer (mingw-w64)
+	pkgver = 2.5.0.r77.g56670fd
+	pkgrel = 1
+	url = https://github.com/csmith-project/creduce
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = git
+	makedepends = flex
+	makedepends = mingw-w64-x86_64-clang
+	depends = perl-Benchmark-Timer
+	depends = perl-Exporter-Lite
+	depends = perl-File-Which
+	depends = perl-Getopt-Tabular
+	depends = perl-Regexp-Common
+	depends = perl-Sys-CPU
+	depends = mingw-w64-x86_64-astyle
+	depends = mingw-w64-x86_64-indent
+	depends = mingw-w64-x86_64-clang
+	provides = mingw-w64-x86_64-creduce
+	conflicts = mingw-w64-x86_64-creduce
+	source = creduce::git+https://github.com/csmith-project/creduce.git
+	source = llvm-config-cygpath
+	sha256sums = SKIP
+	sha256sums = 03a7239d1e26d8a5dd5f405e10826679725cae6c01a9c37e80c6f1c184dad0a9
+
+pkgname = mingw-w64-x86_64-creduce-git
+
+pkgbase = mingw-w64-creduce-git
+	pkgdesc = A C program reducer (mingw-w64)
+	pkgver = 2.5.0.r77.g56670fd
+	pkgrel = 1
+	url = https://github.com/csmith-project/creduce
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = git
+	makedepends = flex
+	makedepends = mingw-w64-i686-clang
+	depends = perl-Benchmark-Timer
+	depends = perl-Exporter-Lite
+	depends = perl-File-Which
+	depends = perl-Getopt-Tabular
+	depends = perl-Regexp-Common
+	depends = perl-Sys-CPU
+	depends = mingw-w64-i686-astyle
+	depends = mingw-w64-i686-indent
+	depends = mingw-w64-i686-clang
+	provides = mingw-w64-i686-creduce
+	conflicts = mingw-w64-i686-creduce
+	source = creduce::git+https://github.com/csmith-project/creduce.git
+	source = llvm-config-cygpath
+	sha256sums = SKIP
+	sha256sums = 03a7239d1e26d8a5dd5f405e10826679725cae6c01a9c37e80c6f1c184dad0a9
+
+pkgname = mingw-w64-i686-creduce-git
+

@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-edd-dbg
+	pkgdesc = C++ library of debugging tools for OS X and Windows (mingw-w64)
+	pkgver = 0.2.1
+	pkgrel = 2
+	url = https://bitbucket.org/edd/dbg/wiki/Home
+	arch = any
+	license = Boost Software License
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-edd-fungo
+	source = edd-dbg-0.2.1.tar.gz::https://bitbucket.org/edd/dbg/get/0.2.1.tar.gz
+	source = edd-test_o_matic-0.4.3.tar.gz::https://bitbucket.org/edd/test_o_matic/get/0.4.3.tar.gz
+	source = edd-dbg-0.2.1-complement.zip
+	source = edd-dbg-0.2.1.patch
+	sha256sums = 3c683d92c5a5b0a005d54257178512188d32d1affb7533e175f829d34e2e8c2a
+	sha256sums = 1e843b8ca8e3875161070b93be7b068c684c140d41c22bd1e3e3086c7d36322b
+	sha256sums = 90c6d53e4e7c1fa9579d33612a6ef14b4e0ffc459a63b562f767b3a4735193e6
+	sha256sums = 65166a8c8316c56e4040a8d0fac0d11741e75f054618229036786a8cee074536
+
+pkgname = mingw-w64-x86_64-edd-dbg
+
+pkgbase = mingw-w64-edd-dbg
+	pkgdesc = C++ library of debugging tools for OS X and Windows (mingw-w64)
+	pkgver = 0.2.1
+	pkgrel = 2
+	url = https://bitbucket.org/edd/dbg/wiki/Home
+	arch = any
+	license = Boost Software License
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-edd-fungo
+	source = edd-dbg-0.2.1.tar.gz::https://bitbucket.org/edd/dbg/get/0.2.1.tar.gz
+	source = edd-test_o_matic-0.4.3.tar.gz::https://bitbucket.org/edd/test_o_matic/get/0.4.3.tar.gz
+	source = edd-dbg-0.2.1-complement.zip
+	source = edd-dbg-0.2.1.patch
+	sha256sums = 3c683d92c5a5b0a005d54257178512188d32d1affb7533e175f829d34e2e8c2a
+	sha256sums = 1e843b8ca8e3875161070b93be7b068c684c140d41c22bd1e3e3086c7d36322b
+	sha256sums = 90c6d53e4e7c1fa9579d33612a6ef14b4e0ffc459a63b562f767b3a4735193e6
+	sha256sums = 65166a8c8316c56e4040a8d0fac0d11741e75f054618229036786a8cee074536
+
+pkgname = mingw-w64-i686-edd-dbg
+

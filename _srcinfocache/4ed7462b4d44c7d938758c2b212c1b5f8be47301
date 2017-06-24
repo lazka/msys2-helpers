@@ -1,0 +1,126 @@
+pkgbase = mingw-w64-clang-svn
+	pkgdesc = C language family frontend for LLVM (svn) (mingw-w64)
+	pkgver = 60430.db7c3ac
+	pkgrel = 1
+	url = http://llvm.org
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-python3-sphinx
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = git
+	depends = mingw-w64-x86_64-gcc
+	options = debug
+	options = !strip
+	source = llvm::git+http://llvm.org/git/llvm.git
+	source = lld::git+http://llvm.org/git/lld.git
+	source = clang::git+http://llvm.org/git/clang.git
+	source = clang-tools-extra::git+http://llvm.org/git/clang-tools-extra.git
+	source = compiler-rt::git+http://llvm.org/git/compiler-rt.git
+	source = testsuite::git+http://llvm.org/git/test-suite.git
+	source = libcxxabi::git+http://llvm.org/git/libcxxabi.git
+	source = libcxx::git+http://llvm.org/git/libcxx.git
+	source = lldb::git+http://llvm.org/git/lldb.git
+	source = 0001-Fix-GetHostTriple-for-mingw-w64-in-msys.patch
+	source = 0002-use-DESTDIR-on-windows.patch
+	source = 0003-generate-proper-library-names-mingw.patch
+	source = 0014-dont-create-cl-mingw.patch
+	source = 0018-mingw-enable-static-libclang.patch
+	source = 0041-libcxx-add-support-for-mingw-w64.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 0804146b32138d55c611336cc81e1783c29a8fab0fe62f248ba1ad7acc711c4d
+	sha256sums = 2671d9644b135dc81daa9d28290799ef51d3e14ebfc5791eb2102e8ede894b89
+	sha256sums = c50bb58575072cf05986adfff737c27477b145cb4e9e2edb625ec34efe9ad23f
+	sha256sums = b03cfc7ebbbfb847e88ae3569d9dcafb01f179b06f1312de29fbd5b7cf906617
+	sha256sums = d929ef7c4c18c65f7a48156ff3ca38453334822008f2a5f57dd3f1d7c61b6723
+	sha256sums = 5b8edbbb638c906216e20229529e8348abc50d5886d20e07af08543e1e574e94
+
+pkgname = mingw-w64-x86_64-clang-svn
+
+pkgname = mingw-w64-x86_64-clang-analyzer-svn
+
+pkgname = mingw-w64-x86_64-clang-tools-extra-svn
+
+pkgname = mingw-w64-x86_64-compiler-rt-svn
+
+pkgname = mingw-w64-x86_64-libc++abi-svn
+
+pkgname = mingw-w64-x86_64-libc++-svn
+
+pkgname = mingw-w64-x86_64-lld-svn
+
+pkgname = mingw-w64-x86_64-llvm-svn
+
+pkgbase = mingw-w64-clang-svn
+	pkgdesc = C language family frontend for LLVM (svn) (mingw-w64)
+	pkgver = 60430.db7c3ac
+	pkgrel = 1
+	url = http://llvm.org
+	arch = any
+	license = custom:University of Illinois/NCSA Open Source License
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-python3-sphinx
+	makedepends = mingw-w64-i686-python2
+	makedepends = git
+	depends = mingw-w64-i686-gcc
+	options = debug
+	options = !strip
+	source = llvm::git+http://llvm.org/git/llvm.git
+	source = lld::git+http://llvm.org/git/lld.git
+	source = clang::git+http://llvm.org/git/clang.git
+	source = clang-tools-extra::git+http://llvm.org/git/clang-tools-extra.git
+	source = compiler-rt::git+http://llvm.org/git/compiler-rt.git
+	source = testsuite::git+http://llvm.org/git/test-suite.git
+	source = libcxxabi::git+http://llvm.org/git/libcxxabi.git
+	source = libcxx::git+http://llvm.org/git/libcxx.git
+	source = lldb::git+http://llvm.org/git/lldb.git
+	source = 0001-Fix-GetHostTriple-for-mingw-w64-in-msys.patch
+	source = 0002-use-DESTDIR-on-windows.patch
+	source = 0003-generate-proper-library-names-mingw.patch
+	source = 0014-dont-create-cl-mingw.patch
+	source = 0018-mingw-enable-static-libclang.patch
+	source = 0041-libcxx-add-support-for-mingw-w64.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 0804146b32138d55c611336cc81e1783c29a8fab0fe62f248ba1ad7acc711c4d
+	sha256sums = 2671d9644b135dc81daa9d28290799ef51d3e14ebfc5791eb2102e8ede894b89
+	sha256sums = c50bb58575072cf05986adfff737c27477b145cb4e9e2edb625ec34efe9ad23f
+	sha256sums = b03cfc7ebbbfb847e88ae3569d9dcafb01f179b06f1312de29fbd5b7cf906617
+	sha256sums = d929ef7c4c18c65f7a48156ff3ca38453334822008f2a5f57dd3f1d7c61b6723
+	sha256sums = 5b8edbbb638c906216e20229529e8348abc50d5886d20e07af08543e1e574e94
+
+pkgname = mingw-w64-i686-clang-svn
+
+pkgname = mingw-w64-i686-clang-analyzer-svn
+
+pkgname = mingw-w64-i686-clang-tools-extra-svn
+
+pkgname = mingw-w64-i686-compiler-rt-svn
+
+pkgname = mingw-w64-i686-libc++abi-svn
+
+pkgname = mingw-w64-i686-libc++-svn
+
+pkgname = mingw-w64-i686-lld-svn
+
+pkgname = mingw-w64-i686-llvm-svn
+

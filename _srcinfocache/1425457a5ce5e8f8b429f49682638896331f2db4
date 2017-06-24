@@ -1,0 +1,26 @@
+pkgbase = mingw-w64-connect
+	pkgdesc = Make socket connection using SOCKS4/5 and HTTP tunnel (mingw-w64)
+	pkgver = 1.104
+	pkgrel = 1
+	url = https://bitbucket.org/gotoh/connect/overview
+	arch = any
+	license = GPL2+
+	options = strip
+	source = connect-1.104.tar.bz2::https://bitbucket.org/gotoh/connect/get/1.104.tar.bz2
+	sha256sums = e262cd3a6ee66e65187f3780ca808bc8dddee03dc5c5755b2b9c4db10274eb40
+
+pkgname = mingw-w64-x86_64-connect
+
+pkgbase = mingw-w64-connect
+	pkgdesc = Make socket connection using SOCKS4/5 and HTTP tunnel (mingw-w64)
+	pkgver = 1.104
+	pkgrel = 1
+	url = https://bitbucket.org/gotoh/connect/overview
+	arch = any
+	license = GPL2+
+	options = strip
+	source = connect-1.104.tar.bz2::https://bitbucket.org/gotoh/connect/get/1.104.tar.bz2
+	sha256sums = e262cd3a6ee66e65187f3780ca808bc8dddee03dc5c5755b2b9c4db10274eb40
+
+pkgname = mingw-w64-i686-connect
+

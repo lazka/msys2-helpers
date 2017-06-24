@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-libtre-git
+	pkgdesc = The approximate regex matching library and agrep command line tool (mingw-w64)
+	pkgver = r128.6fb7206
+	pkgrel = 1
+	url = https://github.com/laurikari/tre
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = git
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-gettext
+	provides = mingw-w64-x86_64-libtre
+	conflicts = mingw-w64-x86_64-libtre
+	options = strip
+	options = staticlibs
+	source = libtre::git+https://github.com/laurikari/tre.git#commit=6fb7206
+	source = 001-autotools.patch
+	source = 002-pointer-cast.patch
+	sha256sums = SKIP
+	sha256sums = 470134e966eabe90371f68b89183217cf0631a6c221f6329b594a587d4390b6f
+	sha256sums = 72c87b956eade17ed5444c3c6eae7be09b93d145573f20017ec590d9c2516c52
+
+pkgname = mingw-w64-x86_64-libtre-git
+
+pkgbase = mingw-w64-libtre-git
+	pkgdesc = The approximate regex matching library and agrep command line tool (mingw-w64)
+	pkgver = r128.6fb7206
+	pkgrel = 1
+	url = https://github.com/laurikari/tre
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = git
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-gettext
+	provides = mingw-w64-i686-libtre
+	conflicts = mingw-w64-i686-libtre
+	options = strip
+	options = staticlibs
+	source = libtre::git+https://github.com/laurikari/tre.git#commit=6fb7206
+	source = 001-autotools.patch
+	source = 002-pointer-cast.patch
+	sha256sums = SKIP
+	sha256sums = 470134e966eabe90371f68b89183217cf0631a6c221f6329b594a587d4390b6f
+	sha256sums = 72c87b956eade17ed5444c3c6eae7be09b93d145573f20017ec590d9c2516c52
+
+pkgname = mingw-w64-i686-libtre-git
+

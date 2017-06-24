@@ -1,0 +1,38 @@
+pkgbase = perl-IO-Socket-SSL
+	pkgdesc = Nearly transparent SSL encapsulation for IO::Socket::INET
+	pkgver = 2.016
+	pkgrel = 1
+	url = http://search.cpan.org/dist/IO-Socket-SSL/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	checkdepends = perl-IO-Socket-INET6
+	depends = perl-Net-SSLeay
+	depends = perl
+	depends = perl-URI
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.016.tar.gz
+	sha256sums = 936268b3c152a4900f9c1762ab2e0aa3f84ed3a988e8e60aaad604beda7bfe41
+
+pkgname = perl-IO-Socket-SSL
+
+pkgbase = perl-IO-Socket-SSL
+	pkgdesc = Nearly transparent SSL encapsulation for IO::Socket::INET
+	pkgver = 2.016
+	pkgrel = 1
+	url = http://search.cpan.org/dist/IO-Socket-SSL/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	checkdepends = perl-IO-Socket-INET6
+	depends = perl-Net-SSLeay
+	depends = perl
+	depends = perl-URI
+	options = !emptydirs
+	source = http://www.cpan.org/authors/id/S/SU/SULLR/IO-Socket-SSL-2.016.tar.gz
+	sha256sums = 936268b3c152a4900f9c1762ab2e0aa3f84ed3a988e8e60aaad604beda7bfe41
+
+pkgname = perl-IO-Socket-SSL
+

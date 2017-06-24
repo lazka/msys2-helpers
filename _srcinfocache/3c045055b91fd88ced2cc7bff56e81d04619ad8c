@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-cocos2d-x-console-git
+	pkgdesc = cocos2d command line tool (mingw-w64)
+	pkgver = r470.037a13f
+	pkgrel = 1
+	url = http://www.cocos2d-x.org/
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = mingw-w64-x86_64-cocos2d-x
+	depends = mingw-w64-x86_64-cmake
+	provides = mingw-w64-x86_64-cocos2d-x-console
+	conflicts = mingw-w64-x86_64-cocos2d-x-console
+	options = staticlibs
+	options = strip
+	source = cocos2d-x-console::git+https://github.com/cocos2d/cocos2d-console.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-cocos2d-x-console-git
+
+pkgbase = mingw-w64-cocos2d-x-console-git
+	pkgdesc = cocos2d command line tool (mingw-w64)
+	pkgver = r470.037a13f
+	pkgrel = 1
+	url = http://www.cocos2d-x.org/
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = mingw-w64-i686-cocos2d-x
+	depends = mingw-w64-i686-cmake
+	provides = mingw-w64-i686-cocos2d-x-console
+	conflicts = mingw-w64-i686-cocos2d-x-console
+	options = staticlibs
+	options = strip
+	source = cocos2d-x-console::git+https://github.com/cocos2d/cocos2d-console.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-cocos2d-x-console-git
+

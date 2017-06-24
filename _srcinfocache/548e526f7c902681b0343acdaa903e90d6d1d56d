@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-gd
+	pkgdesc = Library for the dynamic creation of images by programmers (mingw-w64)
+	pkgver = 2.1.1
+	pkgrel = 3
+	url = http://www.libgd.org/
+	arch = any
+	license = CPL
+	depends = mingw-w64-x86_64-fontconfig
+	depends = mingw-w64-x86_64-libiconv
+	depends = mingw-w64-x86_64-libjpeg
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-libtiff
+	depends = mingw-w64-x86_64-libvpx
+	depends = mingw-w64-x86_64-xpm-nox
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.1.tar.xz
+	source = php-gd-newvpx.patch
+	sha256sums = 9ada1ed45594abc998ebc942cef12b032fbad672e73efc22bc9ff54f5df2b285
+	sha256sums = 26409750a6d3deb7ced138daf5a37c514221f37281def372e542ffe3dde4c597
+
+pkgname = mingw-w64-x86_64-gd
+
+pkgbase = mingw-w64-gd
+	pkgdesc = Library for the dynamic creation of images by programmers (mingw-w64)
+	pkgver = 2.1.1
+	pkgrel = 3
+	url = http://www.libgd.org/
+	arch = any
+	license = CPL
+	depends = mingw-w64-i686-fontconfig
+	depends = mingw-w64-i686-libiconv
+	depends = mingw-w64-i686-libjpeg
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-libtiff
+	depends = mingw-w64-i686-libvpx
+	depends = mingw-w64-i686-xpm-nox
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.1.tar.xz
+	source = php-gd-newvpx.patch
+	sha256sums = 9ada1ed45594abc998ebc942cef12b032fbad672e73efc22bc9ff54f5df2b285
+	sha256sums = 26409750a6d3deb7ced138daf5a37c514221f37281def372e542ffe3dde4c597
+
+pkgname = mingw-w64-i686-gd
+

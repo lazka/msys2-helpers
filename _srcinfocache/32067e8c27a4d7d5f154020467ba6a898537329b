@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-usbmuxd
+	pkgdesc = A socket daemon to multiplex connections from and to iOS devices (mingw-w64)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://www.libimobiledevice.org/
+	arch = any
+	license = GPL2+
+	depends = mingw-w64-x86_64-libplist
+	depends = mingw-w64-x86_64-libusb
+	depends = mingw-w64-x86_64-libimobiledevice
+	source = http://www.libimobiledevice.org/downloads/usbmuxd-1.1.0.tar.bz2
+	sha256sums = 3e8948b4fe4250ee5c4bd41ccd1b83c09b8a6f5518a7d131a66fd38bd461b42d
+
+pkgname = mingw-w64-x86_64-usbmuxd
+
+pkgbase = mingw-w64-usbmuxd
+	pkgdesc = A socket daemon to multiplex connections from and to iOS devices (mingw-w64)
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = http://www.libimobiledevice.org/
+	arch = any
+	license = GPL2+
+	depends = mingw-w64-i686-libplist
+	depends = mingw-w64-i686-libusb
+	depends = mingw-w64-i686-libimobiledevice
+	source = http://www.libimobiledevice.org/downloads/usbmuxd-1.1.0.tar.bz2
+	sha256sums = 3e8948b4fe4250ee5c4bd41ccd1b83c09b8a6f5518a7d131a66fd38bd461b42d
+
+pkgname = mingw-w64-i686-usbmuxd
+

@@ -1,0 +1,36 @@
+pkgbase = perl-File-Which
+	pkgdesc = Portable implementation of which
+	pkgver = 1.19
+	pkgrel = 1
+	url = http://search.cpan.org/dist/File-Which
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = perl-Test-Script>=1.05
+	source = http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.19.tar.gz
+	source = File-Which-1.09.patch
+	sha256sums = 4bad2708c7efa1e756a94c285a64eebbedf9335d2da1b7d3bbed6409c86e9656
+	sha256sums = 1e5b9187b5af3589e298e486c9b53b0b3ec61dd058173aab168e551163be0e5e
+
+pkgname = perl-File-Which
+
+pkgbase = perl-File-Which
+	pkgdesc = Portable implementation of which
+	pkgver = 1.19
+	pkgrel = 1
+	url = http://search.cpan.org/dist/File-Which
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = perl-Test-Script>=1.05
+	source = http://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.19.tar.gz
+	source = File-Which-1.09.patch
+	sha256sums = 4bad2708c7efa1e756a94c285a64eebbedf9335d2da1b7d3bbed6409c86e9656
+	sha256sums = 1e5b9187b5af3589e298e486c9b53b0b3ec61dd058173aab168e551163be0e5e
+
+pkgname = perl-File-Which
+

@@ -1,0 +1,64 @@
+pkgbase = mingw-w64-collada-dom-svn
+	pkgdesc = API that provides a C++ object representation of a COLLADA XML instance document (mingw-w64)
+	pkgver = 2.4.1.r889
+	pkgrel = 6
+	url = https://sourceforge.net/projects/collada-dom/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = subversion
+	depends = mingw-w64-x86_64-bzip2
+	depends = mingw-w64-x86_64-boost
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-pcre
+	depends = mingw-w64-x86_64-zlib
+	provides = mingw-w64-x86_64-collada-dom
+	conflicts = mingw-w64-x86_64-collada-dom
+	options = staticlibs
+	options = strip
+	options = buildflags
+	source = collada-dom::svn+https://svn.code.sf.net/p/collada-dom/code/trunk#revision=889
+	source = 001-collada-2.4.0-mingw-w64-fix.patch
+	source = 002-fix-pkg-config.patch
+	source = 003-fix-warnings.patch
+	sha256sums = SKIP
+	sha256sums = a415b4615c46317683d4eade3c650e39fcfcfb2f2484293ba8a1e4173a53f29a
+	sha256sums = 543376c86d137c45c41f1c659f4b86ff9f73824ece606a20a44915ae9fe18ecb
+	sha256sums = 1d9548f849e17a60fa6de60c1b2872ca5e80ea6c8695cb6fae47418b48a09e46
+
+pkgname = mingw-w64-x86_64-collada-dom-svn
+
+pkgbase = mingw-w64-collada-dom-svn
+	pkgdesc = API that provides a C++ object representation of a COLLADA XML instance document (mingw-w64)
+	pkgver = 2.4.1.r889
+	pkgrel = 6
+	url = https://sourceforge.net/projects/collada-dom/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-cmake
+	makedepends = subversion
+	depends = mingw-w64-i686-bzip2
+	depends = mingw-w64-i686-boost
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-pcre
+	depends = mingw-w64-i686-zlib
+	provides = mingw-w64-i686-collada-dom
+	conflicts = mingw-w64-i686-collada-dom
+	options = staticlibs
+	options = strip
+	options = buildflags
+	source = collada-dom::svn+https://svn.code.sf.net/p/collada-dom/code/trunk#revision=889
+	source = 001-collada-2.4.0-mingw-w64-fix.patch
+	source = 002-fix-pkg-config.patch
+	source = 003-fix-warnings.patch
+	sha256sums = SKIP
+	sha256sums = a415b4615c46317683d4eade3c650e39fcfcfb2f2484293ba8a1e4173a53f29a
+	sha256sums = 543376c86d137c45c41f1c659f4b86ff9f73824ece606a20a44915ae9fe18ecb
+	sha256sums = 1d9548f849e17a60fa6de60c1b2872ca5e80ea6c8695cb6fae47418b48a09e46
+
+pkgname = mingw-w64-i686-collada-dom-svn
+

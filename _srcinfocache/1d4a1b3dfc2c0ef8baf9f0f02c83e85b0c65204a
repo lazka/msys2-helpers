@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-python-sphinx_rtd_theme
+	pkgdesc = Python Sphinx Read The Docs Theme (mingw-w64)
+	pkgver = 0.2.5b1
+	pkgrel = 1
+	url = https://github.com/snide/sphinx_rtd_theme
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	options = staticlibs
+	source = https://pypi.python.org/packages/59/e4/9e3a74a3271e6734911d3f549e8439db53b8ac29adf10c8f698e6c86246b/sphinx_rtd_theme-0.2.5b1.tar.gz
+	sha256sums = d99513e7f2f8b9da8fdc189ad83df926b83d7fb15ad7ed07f24665d1f29d38da
+
+pkgname = mingw-w64-x86_64-python2-sphinx_rtd_theme
+
+pkgname = mingw-w64-x86_64-python3-sphinx_rtd_theme
+
+pkgbase = mingw-w64-python-sphinx_rtd_theme
+	pkgdesc = Python Sphinx Read The Docs Theme (mingw-w64)
+	pkgver = 0.2.5b1
+	pkgrel = 1
+	url = https://github.com/snide/sphinx_rtd_theme
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	options = staticlibs
+	source = https://pypi.python.org/packages/59/e4/9e3a74a3271e6734911d3f549e8439db53b8ac29adf10c8f698e6c86246b/sphinx_rtd_theme-0.2.5b1.tar.gz
+	sha256sums = d99513e7f2f8b9da8fdc189ad83df926b83d7fb15ad7ed07f24665d1f29d38da
+
+pkgname = mingw-w64-i686-python2-sphinx_rtd_theme
+
+pkgname = mingw-w64-i686-python3-sphinx_rtd_theme
+

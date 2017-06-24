@@ -1,0 +1,36 @@
+pkgbase = ssh-pageant-git
+	pkgdesc = An SSH authentication agent for Cygwin/MSYS to PuTTY's Pageant
+	pkgver = 1.4.4.gf09e76e
+	pkgrel = 1
+	url = https://github.com/cuviper/ssh-pageant
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = gcc
+	provides = ssh-pageant
+	conflicts = ssh-pageant
+	options = strip
+	source = ssh-pageant::git+https://github.com/cuviper/ssh-pageant.git
+	sha256sums = SKIP
+
+pkgname = ssh-pageant-git
+
+pkgbase = ssh-pageant-git
+	pkgdesc = An SSH authentication agent for Cygwin/MSYS to PuTTY's Pageant
+	pkgver = 1.4.4.gf09e76e
+	pkgrel = 1
+	url = https://github.com/cuviper/ssh-pageant
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = git
+	makedepends = gcc
+	provides = ssh-pageant
+	conflicts = ssh-pageant
+	options = strip
+	source = ssh-pageant::git+https://github.com/cuviper/ssh-pageant.git
+	sha256sums = SKIP
+
+pkgname = ssh-pageant-git
+

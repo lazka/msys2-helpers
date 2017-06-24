@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-python-cvxopt
+	pkgdesc = Convex optimization based on the Python programming language (mingw-w64)
+	pkgver = 1.1.9
+	pkgrel = 2
+	url = http://cvxopt.org
+	arch = any
+	license = GPL v3
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	depends = mingw-w64-x86_64-openblas
+	depends = mingw-w64-x86_64-suitesparse
+	depends = mingw-w64-x86_64-gsl
+	depends = mingw-w64-x86_64-fftw
+	depends = mingw-w64-x86_64-dsdp
+	depends = mingw-w64-x86_64-glpk
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = mingw-w64-python-cvxopt-1.1.9.tar.gz::https://github.com/cvxopt/cvxopt/archive/1.1.9.tar.gz
+	validpgpkeys = gpg_KEY
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-python2-cvxopt
+
+pkgname = mingw-w64-x86_64-python3-cvxopt
+
+pkgbase = mingw-w64-python-cvxopt
+	pkgdesc = Convex optimization based on the Python programming language (mingw-w64)
+	pkgver = 1.1.9
+	pkgrel = 2
+	url = http://cvxopt.org
+	arch = any
+	license = GPL v3
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	depends = mingw-w64-i686-openblas
+	depends = mingw-w64-i686-suitesparse
+	depends = mingw-w64-i686-gsl
+	depends = mingw-w64-i686-fftw
+	depends = mingw-w64-i686-dsdp
+	depends = mingw-w64-i686-glpk
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = mingw-w64-python-cvxopt-1.1.9.tar.gz::https://github.com/cvxopt/cvxopt/archive/1.1.9.tar.gz
+	validpgpkeys = gpg_KEY
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-python2-cvxopt
+
+pkgname = mingw-w64-i686-python3-cvxopt
+

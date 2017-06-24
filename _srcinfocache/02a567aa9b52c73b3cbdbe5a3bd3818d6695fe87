@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-mathgl
+	pkgdesc = Library for high-quality scientific graphics (mingw-w64)
+	pkgver = 2.3.5.1
+	pkgrel = 1
+	url = http://mathgl.sourceforge.net/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-cmake
+	depends = mingw-w64-x86_64-hdf5
+	depends = mingw-w64-x86_64-fltk
+	depends = mingw-w64-x86_64-libharu
+	depends = mingw-w64-x86_64-libjpeg-turbo
+	depends = mingw-w64-x86_64-libpng
+	depends = mingw-w64-x86_64-giflib
+	depends = mingw-w64-x86_64-qt5
+	depends = mingw-w64-x86_64-freeglut
+	depends = mingw-w64-x86_64-wxWidgets
+	source = mathgl-2.3.5.1.tar.gz::http://downloads.sourceforge.net/mathgl/mathgl-2.3.5.1.tar.gz
+	source = mathgl-2.3.5.1.patch
+	sha256sums = 77a56936f5a763fc03480c9c1fe8ed528a949b3d63b858c91abc21c731acf0db
+	sha256sums = ed72407cbba7db1737765e6ebd0a055b9c15f8db192675f6ad61cd66c4572f9d
+
+pkgname = mingw-w64-x86_64-mathgl
+
+pkgbase = mingw-w64-mathgl
+	pkgdesc = Library for high-quality scientific graphics (mingw-w64)
+	pkgver = 2.3.5.1
+	pkgrel = 1
+	url = http://mathgl.sourceforge.net/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-cmake
+	depends = mingw-w64-i686-hdf5
+	depends = mingw-w64-i686-fltk
+	depends = mingw-w64-i686-libharu
+	depends = mingw-w64-i686-libjpeg-turbo
+	depends = mingw-w64-i686-libpng
+	depends = mingw-w64-i686-giflib
+	depends = mingw-w64-i686-qt5
+	depends = mingw-w64-i686-freeglut
+	depends = mingw-w64-i686-wxWidgets
+	source = mathgl-2.3.5.1.tar.gz::http://downloads.sourceforge.net/mathgl/mathgl-2.3.5.1.tar.gz
+	source = mathgl-2.3.5.1.patch
+	sha256sums = 77a56936f5a763fc03480c9c1fe8ed528a949b3d63b858c91abc21c731acf0db
+	sha256sums = ed72407cbba7db1737765e6ebd0a055b9c15f8db192675f6ad61cd66c4572f9d
+
+pkgname = mingw-w64-i686-mathgl
+

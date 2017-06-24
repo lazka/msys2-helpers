@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-libcmis
+	pkgdesc = C/C++ client library for the CMIS interface (mingw-w64)
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/tdf/libcmis
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-boost
+	depends = mingw-w64-x86_64-curl
+	depends = mingw-w64-x86_64-cppunit
+	options = strip
+	options = staticlibs
+	source = https://github.com/tdf/libcmis/releases/download/v0.5.1/libcmis-0.5.1.tar.gz
+	sha256sums = 6acbdf22ecdbaba37728729b75bfc085ee5a4b49a6024757cfb86ccd3da27b0e
+
+pkgname = mingw-w64-x86_64-libcmis
+
+pkgbase = mingw-w64-libcmis
+	pkgdesc = C/C++ client library for the CMIS interface (mingw-w64)
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/tdf/libcmis
+	arch = any
+	license = LGPL 2.1
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-boost
+	depends = mingw-w64-i686-curl
+	depends = mingw-w64-i686-cppunit
+	options = strip
+	options = staticlibs
+	source = https://github.com/tdf/libcmis/releases/download/v0.5.1/libcmis-0.5.1.tar.gz
+	sha256sums = 6acbdf22ecdbaba37728729b75bfc085ee5a4b49a6024757cfb86ccd3da27b0e
+
+pkgname = mingw-w64-i686-libcmis
+

@@ -1,0 +1,44 @@
+pkgbase = gnome-doc-utils
+	pkgdesc = Documentation utilities for Gnome
+	pkgver = 0.20.10
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = intltool
+	depends = libxslt
+	depends = python2
+	depends = docbook-xml
+	depends = rarian
+	source = https://download.gnome.org/sources/gnome-doc-utils/0.20/gnome-doc-utils-0.20.10.tar.xz
+	source = 0.18.0-abs_top_srcdir.patch
+	source = msysize.patch
+	sha256sums = cb0639ffa9550b6ddf3b62f3b1add92fb92ab4690d351f2353cffe668be8c4a6
+	sha256sums = 39cb4c5c1fdc59f3d03ce4362d579d216c1ac3910c1e8c5b1b4d052f63e447b3
+	sha256sums = db5db69b298fe27a29cb1c72ae2737f79bf04cbe871a98ceb9d1389865a31acd
+
+pkgname = gnome-doc-utils
+
+pkgbase = gnome-doc-utils
+	pkgdesc = Documentation utilities for Gnome
+	pkgver = 0.20.10
+	pkgrel = 1
+	url = https://www.gnome.org
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = intltool
+	depends = libxslt
+	depends = python2
+	depends = docbook-xml
+	depends = rarian
+	source = https://download.gnome.org/sources/gnome-doc-utils/0.20/gnome-doc-utils-0.20.10.tar.xz
+	source = 0.18.0-abs_top_srcdir.patch
+	source = msysize.patch
+	sha256sums = cb0639ffa9550b6ddf3b62f3b1add92fb92ab4690d351f2353cffe668be8c4a6
+	sha256sums = 39cb4c5c1fdc59f3d03ce4362d579d216c1ac3910c1e8c5b1b4d052f63e447b3
+	sha256sums = db5db69b298fe27a29cb1c72ae2737f79bf04cbe871a98ceb9d1389865a31acd
+
+pkgname = gnome-doc-utils
+

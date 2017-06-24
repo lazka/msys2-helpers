@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-quantlib
+	pkgdesc = QuantLib - A free/open-source library for quantitative finance (mingw-w64)
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = http://quantlib.org
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-boost
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = libtool
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/quantlib/QuantLib/1.7.1/QuantLib-1.7.1.tar.gz
+	source = no-undefined.patch
+	sha256sums = b5dc38ae51ad7396ccf7358147753902838ce2870dd6e6a4d829c806db3e0a81
+	sha256sums = e391fb490928fdf761c7dbb2ca4631d1ccbb092045de50b89fe37a1c5b9787e5
+
+pkgname = mingw-w64-x86_64-quantlib
+
+pkgbase = mingw-w64-quantlib
+	pkgdesc = QuantLib - A free/open-source library for quantitative finance (mingw-w64)
+	pkgver = 1.7.1
+	pkgrel = 1
+	url = http://quantlib.org
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-boost
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = libtool
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/project/quantlib/QuantLib/1.7.1/QuantLib-1.7.1.tar.gz
+	source = no-undefined.patch
+	sha256sums = b5dc38ae51ad7396ccf7358147753902838ce2870dd6e6a4d829c806db3e0a81
+	sha256sums = e391fb490928fdf761c7dbb2ca4631d1ccbb092045de50b89fe37a1c5b9787e5
+
+pkgname = mingw-w64-i686-quantlib
+

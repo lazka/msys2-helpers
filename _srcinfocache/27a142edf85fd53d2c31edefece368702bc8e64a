@@ -1,0 +1,110 @@
+pkgbase = libxml2
+	pkgdesc = XML parsing library, version 2
+	pkgver = 2.9.2
+	pkgrel = 3
+	url = http://www.xmlsoft.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python2
+	makedepends = python3
+	makedepends = libreadline-devel
+	makedepends = ncurses-devel
+	makedepends = liblzma-devel
+	makedepends = zlib-devel
+	source = ftp://ftp.xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz
+	source = https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+	source = libxml2-2.9.0-do-not-check-crc.patch
+	source = libxml2-2.7.3-doc-install.patch
+	source = libxml2-2.8.0_rc1-winnt.patch
+	source = libxml2-2.9.1-msys2.patch
+	source = libxml2-2.9.2-catalog-revert.patch
+	sha256sums = 5178c30b151d044aefb1b08bf54c3003a0ac55c59c866763997529d60770d5bc
+	sha256sums = 9b61db9f5dbffa545f4b8d78422167083a8568c59bd1129f94138f936cf6fc1f
+	sha256sums = 5a53d640ebce5a96e35fbdf5f644c37642dfa3345a1dc4fc355728897c19b7e7
+	sha256sums = bff6790eadec6d7b3affd2d3a7385ce7f80cec2cf4abbd2ed83e9cb297a614a9
+	sha256sums = c18b2c15550b3ff4709a85cd18d16368928319b1b7fd8875dc34acd67076b134
+	sha256sums = 3eadad15d01594b8b52e561a4ebce3dffe16a42e5ebd211ea50df92a244994ed
+	sha256sums = ea2bcb58b4b39835c031aa64433c01f885533a33a1e64069633c43dc4ef8be31
+
+pkgname = libxml2
+	install = libxml2.install
+	groups = libraries
+	depends = coreutils
+	depends = liblzma
+	depends = libreadline
+	depends = ncurses
+	depends = zlib
+
+pkgname = libxml2-devel
+	pkgdesc = Libxml2 headers and libraries
+	groups = development
+	depends = libxml2=2.9.2
+	depends = libreadline-devel
+	depends = ncurses-devel
+	depends = liblzma-devel
+	depends = zlib-devel
+	options = staticlibs
+
+pkgname = libxml2-python
+	pkgdesc = Libxml2 python modules
+	install = libxml2-python.install
+	groups = python-modules
+	depends = libxml2
+	options = staticlibs
+
+pkgbase = libxml2
+	pkgdesc = XML parsing library, version 2
+	pkgver = 2.9.2
+	pkgrel = 3
+	url = http://www.xmlsoft.org/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python2
+	makedepends = python3
+	makedepends = libreadline-devel
+	makedepends = ncurses-devel
+	makedepends = liblzma-devel
+	makedepends = zlib-devel
+	source = ftp://ftp.xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz
+	source = https://www.w3.org/XML/Test/xmlts20130923.tar.gz
+	source = libxml2-2.9.0-do-not-check-crc.patch
+	source = libxml2-2.7.3-doc-install.patch
+	source = libxml2-2.8.0_rc1-winnt.patch
+	source = libxml2-2.9.1-msys2.patch
+	source = libxml2-2.9.2-catalog-revert.patch
+	sha256sums = 5178c30b151d044aefb1b08bf54c3003a0ac55c59c866763997529d60770d5bc
+	sha256sums = 9b61db9f5dbffa545f4b8d78422167083a8568c59bd1129f94138f936cf6fc1f
+	sha256sums = 5a53d640ebce5a96e35fbdf5f644c37642dfa3345a1dc4fc355728897c19b7e7
+	sha256sums = bff6790eadec6d7b3affd2d3a7385ce7f80cec2cf4abbd2ed83e9cb297a614a9
+	sha256sums = c18b2c15550b3ff4709a85cd18d16368928319b1b7fd8875dc34acd67076b134
+	sha256sums = 3eadad15d01594b8b52e561a4ebce3dffe16a42e5ebd211ea50df92a244994ed
+	sha256sums = ea2bcb58b4b39835c031aa64433c01f885533a33a1e64069633c43dc4ef8be31
+
+pkgname = libxml2
+	install = libxml2.install
+	groups = libraries
+	depends = coreutils
+	depends = liblzma
+	depends = libreadline
+	depends = ncurses
+	depends = zlib
+
+pkgname = libxml2-devel
+	pkgdesc = Libxml2 headers and libraries
+	groups = development
+	depends = libxml2=2.9.2
+	depends = libreadline-devel
+	depends = ncurses-devel
+	depends = liblzma-devel
+	depends = zlib-devel
+	options = staticlibs
+
+pkgname = libxml2-python
+	pkgdesc = Libxml2 python modules
+	install = libxml2-python.install
+	groups = python-modules
+	depends = libxml2
+	options = staticlibs
+

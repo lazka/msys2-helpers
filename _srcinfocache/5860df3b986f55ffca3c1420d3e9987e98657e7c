@@ -1,0 +1,56 @@
+pkgbase = liblzo2
+	pkgdesc = Portable lossless data compression library
+	pkgver = 2.10
+	pkgrel = 1
+	url = http://www.oberhumer.com/opensource/lzo
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	groups = compression
+	license = GPL
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	options = !libtool
+	source = http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
+	source = lzo-2.07-msys2.patch
+	sha256sums = c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072
+	sha256sums = 8f2bf70693d6efe5b98ad394c76d88467cc3f7ac124cc1850d2b2847bc5f6cba
+
+pkgname = liblzo2
+	depends = gcc-libs
+
+pkgname = liblzo2-devel
+	pkgdesc = Liblzo2 headers and libraries
+	groups = development
+	depends = liblzo2=2.10
+	options = staticlibs
+
+pkgbase = liblzo2
+	pkgdesc = Portable lossless data compression library
+	pkgver = 2.10
+	pkgrel = 1
+	url = http://www.oberhumer.com/opensource/lzo
+	arch = i686
+	arch = x86_64
+	groups = libraries
+	groups = compression
+	license = GPL
+	makedepends = gcc
+	makedepends = make
+	makedepends = patch
+	options = !libtool
+	source = http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz
+	source = lzo-2.07-msys2.patch
+	sha256sums = c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072
+	sha256sums = 8f2bf70693d6efe5b98ad394c76d88467cc3f7ac124cc1850d2b2847bc5f6cba
+
+pkgname = liblzo2
+	depends = gcc-libs
+
+pkgname = liblzo2-devel
+	pkgdesc = Liblzo2 headers and libraries
+	groups = development
+	depends = liblzo2=2.10
+	options = staticlibs
+

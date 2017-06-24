@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-babel
+	pkgdesc = A collection of tools for internationalizing Python applications
+	pkgver = 2.3.4
+	pkgrel = 2
+	url = http://babel.pocoo.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-pytz
+	makedepends = mingw-w64-x86_64-python3-pytz
+	source = babel-2.3.4.tar.gz::https://github.com/mitsuhiko/babel/archive/2.3.4.tar.gz
+	sha256sums = 41a206f3d4305556a6f103afe04143928ed6663109acfc30ebb4064acb8a4e33
+
+pkgname = mingw-w64-x86_64-python2-babel
+
+pkgname = mingw-w64-x86_64-python3-babel
+
+pkgbase = mingw-w64-python-babel
+	pkgdesc = A collection of tools for internationalizing Python applications
+	pkgver = 2.3.4
+	pkgrel = 2
+	url = http://babel.pocoo.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-pytz
+	makedepends = mingw-w64-i686-python3-pytz
+	source = babel-2.3.4.tar.gz::https://github.com/mitsuhiko/babel/archive/2.3.4.tar.gz
+	sha256sums = 41a206f3d4305556a6f103afe04143928ed6663109acfc30ebb4064acb8a4e33
+
+pkgname = mingw-w64-i686-python2-babel
+
+pkgname = mingw-w64-i686-python3-babel
+

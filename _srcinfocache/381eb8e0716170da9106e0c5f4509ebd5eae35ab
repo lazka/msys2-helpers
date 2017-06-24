@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-libdvdcss
+	pkgdesc = Portable abstraction library for DVD decryption (mingw-w64)
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://www.videolan.org/libdvdcss
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://download.videolan.org/pub/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2
+	sha256sums = 2089375984800df29a4817b37f3123c1706723342d6dab4d0a8b75c25c2c845a
+
+pkgname = mingw-w64-x86_64-libdvdcss
+
+pkgbase = mingw-w64-libdvdcss
+	pkgdesc = Portable abstraction library for DVD decryption (mingw-w64)
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://www.videolan.org/libdvdcss
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://download.videolan.org/pub/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2
+	sha256sums = 2089375984800df29a4817b37f3123c1706723342d6dab4d0a8b75c25c2c845a
+
+pkgname = mingw-w64-i686-libdvdcss
+

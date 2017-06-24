@@ -1,0 +1,70 @@
+pkgbase = rebase
+	pkgdesc = The Cygwin rebase distribution contains four utilities, rebase, rebaseall, peflags, and peflagsall.
+	pkgver = 4.4.2
+	pkgrel = 2
+	url = https://www.cygwin.com/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = coreutils
+	makedepends = git
+	makedepends = grep
+	makedepends = gzip
+	makedepends = sed
+	depends = msys2-runtime
+	depends = dash
+	source = rebase-4.4.2::git://sourceware.org/git/cygwin-apps/rebase.git#tag=rebase-4-4-2
+	source = rebase-4.4.1-msys2.patch
+	source = autorebase.bat
+	source = autorebasebase1st.bat
+	source = rebaseall-add-python-exts.patch
+	source = pacman-rec-filename-grep
+	source = allow-non-database-mode-when-__CYGWIN__-__MSYS__.patch
+	source = msys2-usr.patch
+	sha256sums = SKIP
+	sha256sums = 261921df1e581f74751c6dbc5a83c475a57c42bdfef62bdbc9fe8e1f5c648c47
+	sha256sums = 8e4099a29107a1d03031b198c3d142bbc31a40ff19298d6e099d9bcffd31b1b0
+	sha256sums = 0aed2c3a36e1926af4b0c914d208d4846bb0082d2f4886e6bb17d4b8b7fb42d5
+	sha256sums = b06d561d82e7c32573082cf0207ca80275bab241c61debf2d3d8cc10cf79e31b
+	sha256sums = 2ca1e58fb1d2625e93224d0d1ca3b86944030ef2572289222b42ccc2387033fd
+	sha256sums = b4823bfdc169744e05b9c71d513ef570b580ffc9dded4fa482ec644a557de56b
+	sha256sums = 825b24888bdf0e5e51691cda8a160905c6e40e991a6098664e2f892e56f87742
+
+pkgname = rebase
+
+pkgbase = rebase
+	pkgdesc = The Cygwin rebase distribution contains four utilities, rebase, rebaseall, peflags, and peflagsall.
+	pkgver = 4.4.2
+	pkgrel = 2
+	url = https://www.cygwin.com/
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = custom
+	makedepends = coreutils
+	makedepends = git
+	makedepends = grep
+	makedepends = gzip
+	makedepends = sed
+	depends = msys2-runtime
+	depends = dash
+	source = rebase-4.4.2::git://sourceware.org/git/cygwin-apps/rebase.git#tag=rebase-4-4-2
+	source = rebase-4.4.1-msys2.patch
+	source = autorebase.bat
+	source = autorebasebase1st.bat
+	source = rebaseall-add-python-exts.patch
+	source = pacman-rec-filename-grep
+	source = allow-non-database-mode-when-__CYGWIN__-__MSYS__.patch
+	source = msys2-usr.patch
+	sha256sums = SKIP
+	sha256sums = 261921df1e581f74751c6dbc5a83c475a57c42bdfef62bdbc9fe8e1f5c648c47
+	sha256sums = 8e4099a29107a1d03031b198c3d142bbc31a40ff19298d6e099d9bcffd31b1b0
+	sha256sums = 0aed2c3a36e1926af4b0c914d208d4846bb0082d2f4886e6bb17d4b8b7fb42d5
+	sha256sums = b06d561d82e7c32573082cf0207ca80275bab241c61debf2d3d8cc10cf79e31b
+	sha256sums = 2ca1e58fb1d2625e93224d0d1ca3b86944030ef2572289222b42ccc2387033fd
+	sha256sums = b4823bfdc169744e05b9c71d513ef570b580ffc9dded4fa482ec644a557de56b
+	sha256sums = 825b24888bdf0e5e51691cda8a160905c6e40e991a6098664e2f892e56f87742
+
+pkgname = rebase
+

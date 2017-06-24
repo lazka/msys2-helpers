@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-libvpx
+	pkgdesc = The VP8 Codec SDK (mingw-w64)
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = http://www.webmproject.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-yasm
+	options = strip
+	options = staticlibs
+	source = libvpx-1.6.1.tar.gz::https://github.com/webmproject/libvpx/archive/v1.6.1.tar.gz
+	source = 0001-enable-shared-on.mingw.patch
+	source = 0002-no-pthreads.mingw.patch
+	source = 0003-cross-with-native-binutils.mingw.patch
+	source = 0005-fix-exports.mingw.patch
+	sha256sums = cda8bb6f0e4848c018177d3a576fa83ed96d762554d7010fe4cfb9d70c22e588
+	sha256sums = 38f1aba2461afd007a6f6a64fdb3eab213bcc279d55b981f77d44209c9c303da
+	sha256sums = bba4f6f7f18a6c12cef99f5170ff69473049bbb1e7edf1bd83ef8b509d2c6e93
+	sha256sums = fabe7d4a756b33016947f741b1b5d8cbbf9aefd8862240645d0ed7bf7b4a3739
+	sha256sums = 7c511b5df935278da2cba32b03b90582f360ab6786a5e32028bc82025193fabd
+
+pkgname = mingw-w64-x86_64-libvpx
+
+pkgbase = mingw-w64-libvpx
+	pkgdesc = The VP8 Codec SDK (mingw-w64)
+	pkgver = 1.6.1
+	pkgrel = 1
+	url = http://www.webmproject.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-yasm
+	options = strip
+	options = staticlibs
+	source = libvpx-1.6.1.tar.gz::https://github.com/webmproject/libvpx/archive/v1.6.1.tar.gz
+	source = 0001-enable-shared-on.mingw.patch
+	source = 0002-no-pthreads.mingw.patch
+	source = 0003-cross-with-native-binutils.mingw.patch
+	source = 0005-fix-exports.mingw.patch
+	sha256sums = cda8bb6f0e4848c018177d3a576fa83ed96d762554d7010fe4cfb9d70c22e588
+	sha256sums = 38f1aba2461afd007a6f6a64fdb3eab213bcc279d55b981f77d44209c9c303da
+	sha256sums = bba4f6f7f18a6c12cef99f5170ff69473049bbb1e7edf1bd83ef8b509d2c6e93
+	sha256sums = fabe7d4a756b33016947f741b1b5d8cbbf9aefd8862240645d0ed7bf7b4a3739
+	sha256sums = 7c511b5df935278da2cba32b03b90582f360ab6786a5e32028bc82025193fabd
+
+pkgname = mingw-w64-i686-libvpx
+

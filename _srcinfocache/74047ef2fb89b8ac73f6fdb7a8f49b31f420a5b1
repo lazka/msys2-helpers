@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-xmlada-gpl
+	pkgdesc = A full XML suite for Ada
+	pkgver = 2014
+	pkgrel = 1
+	url = https://libre.adacore.com/libre/tools/xmlada/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-x86_64-gcc-ada
+	provides = mingw-w64-x86_64-xmlada
+	options = strip
+	source = http://downloads.dragonlace.net/src/xmlada-gpl-2014-src.tar.gz
+	sha256sums = f686bc49318583c0a3bd12315e0ac8fcb3721bb8d528cdbf3bccbd753d227e69
+
+pkgname = mingw-w64-x86_64-xmlada-gpl
+
+pkgbase = mingw-w64-xmlada-gpl
+	pkgdesc = A full XML suite for Ada
+	pkgver = 2014
+	pkgrel = 1
+	url = https://libre.adacore.com/libre/tools/xmlada/
+	arch = any
+	license = GPL3
+	depends = mingw-w64-i686-gcc-ada
+	provides = mingw-w64-i686-xmlada
+	options = strip
+	source = http://downloads.dragonlace.net/src/xmlada-gpl-2014-src.tar.gz
+	sha256sums = f686bc49318583c0a3bd12315e0ac8fcb3721bb8d528cdbf3bccbd753d227e69
+
+pkgname = mingw-w64-i686-xmlada-gpl
+

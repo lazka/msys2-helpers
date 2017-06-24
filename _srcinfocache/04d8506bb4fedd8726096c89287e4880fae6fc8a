@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-catch
+	pkgdesc = Multi-paradigm automated test framework for C++ and Objective-C (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://github.com/philsquared/Catch
+	arch = any
+	license = custom
+	checkdepends = mingw-w64-x86_64-gcc
+	checkdepends = mingw-w64-x86_64-cmake
+	source = catch-1.6.0.tar.gz::https://github.com/philsquared/Catch/archive/v1.6.0.tar.gz
+	sha256sums = 83532346983c43963cf89a69c1544be493e6b4cccaf20975e53f5cf2239b73a9
+
+pkgname = mingw-w64-x86_64-catch
+
+pkgbase = mingw-w64-catch
+	pkgdesc = Multi-paradigm automated test framework for C++ and Objective-C (mingw-w64)
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://github.com/philsquared/Catch
+	arch = any
+	license = custom
+	checkdepends = mingw-w64-i686-gcc
+	checkdepends = mingw-w64-i686-cmake
+	source = catch-1.6.0.tar.gz::https://github.com/philsquared/Catch/archive/v1.6.0.tar.gz
+	sha256sums = 83532346983c43963cf89a69c1544be493e6b4cccaf20975e53f5cf2239b73a9
+
+pkgname = mingw-w64-i686-catch
+

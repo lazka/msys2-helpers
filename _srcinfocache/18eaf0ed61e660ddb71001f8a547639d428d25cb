@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-MinHook
+	pkgdesc = The Minimalistic x86/x64 API Hooking Library for Windows (mingw-w64)
+	pkgver = 1.3.3
+	pkgrel = 1
+	url = https://github.com/TsudaKageyu/minhook
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	options = staticlibs
+	options = !libtool
+	source = MinHook-1.3.3.tar.g::https://github.com/TsudaKageyu/MinHook/archive/v1.3.3.tar.gz
+	sha256sums = 5bec16358ec9086d4593124bf558635e89135abea2c76e5761ecaf09f4546b19
+
+pkgname = mingw-w64-x86_64-MinHook
+
+pkgbase = mingw-w64-MinHook
+	pkgdesc = The Minimalistic x86/x64 API Hooking Library for Windows (mingw-w64)
+	pkgver = 1.3.3
+	pkgrel = 1
+	url = https://github.com/TsudaKageyu/minhook
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	options = staticlibs
+	options = !libtool
+	source = MinHook-1.3.3.tar.g::https://github.com/TsudaKageyu/MinHook/archive/v1.3.3.tar.gz
+	sha256sums = 5bec16358ec9086d4593124bf558635e89135abea2c76e5761ecaf09f4546b19
+
+pkgname = mingw-w64-i686-MinHook
+

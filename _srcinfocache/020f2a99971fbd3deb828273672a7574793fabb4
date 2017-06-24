@@ -1,0 +1,32 @@
+pkgbase = perl-Archive-Zip
+	pkgdesc = Provide a perl interface to ZIP archive files
+	pkgver = 1.46
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Archive-Zip/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PH/PHRED/Archive-Zip-1.46.tar.gz
+	sha256sums = 6630ebeba753a7025126028eb290040ce44d86e8ced77017e31b75863348e524
+
+pkgname = perl-Archive-Zip
+
+pkgbase = perl-Archive-Zip
+	pkgdesc = Provide a perl interface to ZIP archive files
+	pkgver = 1.46
+	pkgrel = 1
+	url = http://search.cpan.org/dist/Archive-Zip/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PH/PHRED/Archive-Zip-1.46.tar.gz
+	sha256sums = 6630ebeba753a7025126028eb290040ce44d86e8ced77017e31b75863348e524
+
+pkgname = perl-Archive-Zip
+

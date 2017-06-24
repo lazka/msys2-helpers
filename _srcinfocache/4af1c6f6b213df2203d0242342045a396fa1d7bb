@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-kguiaddons-qt5
+	pkgdesc = Utilities for graphical user interfaces (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kguiaddons
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kguiaddons-5.12.0.tar.xz
+	sha256sums = e3726591d6ba2daf97415d7466632f693556f9cd3bfa7cb36d4ded138cdd8968
+
+pkgname = mingw-w64-x86_64-kguiaddons-qt5
+
+pkgbase = mingw-w64-kguiaddons-qt5
+	pkgdesc = Utilities for graphical user interfaces (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kguiaddons
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kguiaddons-5.12.0.tar.xz
+	sha256sums = e3726591d6ba2daf97415d7466632f693556f9cd3bfa7cb36d4ded138cdd8968
+
+pkgname = mingw-w64-i686-kguiaddons-qt5
+

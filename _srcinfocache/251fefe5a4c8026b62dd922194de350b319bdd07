@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-python-whoosh
+	pkgdesc = Fast, pure-Python full text indexing, search, and spell checking library (mingw-w64)
+	pkgver = 2.7.4
+	pkgrel = 1
+	url = http://bitbucket.org/mchaput/whoosh/wiki/Home
+	arch = any
+	license = BSD
+	checkdepends = mingw-w64-x86_64-python2-pytest-runner
+	checkdepends = mingw-w64-x86_64-python3-pytest-runner
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mercurial
+	source = hg+https://bitbucket.org/mchaput/whoosh#tag=2.7.4
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-python2-whoosh
+
+pkgname = mingw-w64-x86_64-python3-whoosh
+
+pkgbase = mingw-w64-python-whoosh
+	pkgdesc = Fast, pure-Python full text indexing, search, and spell checking library (mingw-w64)
+	pkgver = 2.7.4
+	pkgrel = 1
+	url = http://bitbucket.org/mchaput/whoosh/wiki/Home
+	arch = any
+	license = BSD
+	checkdepends = mingw-w64-i686-python2-pytest-runner
+	checkdepends = mingw-w64-i686-python3-pytest-runner
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mercurial
+	source = hg+https://bitbucket.org/mchaput/whoosh#tag=2.7.4
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-python2-whoosh
+
+pkgname = mingw-w64-i686-python3-whoosh
+

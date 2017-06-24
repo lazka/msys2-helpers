@@ -1,0 +1,40 @@
+pkgbase = global
+	pkgdesc = A source code tagging system
+	pkgver = 6.5.2
+	pkgrel = 1
+	url = https://www.gnu.org/software/global/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = ncurses-devel
+	depends = libltdl
+	optdepends = ctags
+	optdepends = python2-pygments
+	optdepends = python3-pygments
+	options = libtool
+	options = !emptydirs
+	source = https://ftp.gnu.org/gnu/global/global-6.5.2.tar.gz
+	sha256sums = c0fc831c1a54a5ee4f5fc765a7af90ade773e4fb4763416c0b6d4d2e571b1d1f
+
+pkgname = global
+
+pkgbase = global
+	pkgdesc = A source code tagging system
+	pkgver = 6.5.2
+	pkgrel = 1
+	url = https://www.gnu.org/software/global/
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = ncurses-devel
+	depends = libltdl
+	optdepends = ctags
+	optdepends = python2-pygments
+	optdepends = python3-pygments
+	options = libtool
+	options = !emptydirs
+	source = https://ftp.gnu.org/gnu/global/global-6.5.2.tar.gz
+	sha256sums = c0fc831c1a54a5ee4f5fc765a7af90ade773e4fb4763416c0b6d4d2e571b1d1f
+
+pkgname = global
+

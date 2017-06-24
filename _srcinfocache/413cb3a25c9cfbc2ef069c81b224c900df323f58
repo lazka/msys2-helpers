@@ -1,0 +1,32 @@
+pkgbase = perl-Date-Calc
+	pkgdesc = Date::Calc - Gregorian calendar date calculations
+	pkgver = 6.4
+	pkgrel = 1
+	url = http://search.cpan.org/~stbey/Date-Calc-6.4/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/ST/STBEY/Date-Calc-6.4.tar.gz
+	sha256sums = 7ce137b2e797b7c0901f3adf1a05a19343356cd1f04676aa1c56a9f624f859ad
+
+pkgname = perl-Date-Calc
+
+pkgbase = perl-Date-Calc
+	pkgdesc = Date::Calc - Gregorian calendar date calculations
+	pkgver = 6.4
+	pkgrel = 1
+	url = http://search.cpan.org/~stbey/Date-Calc-6.4/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/S/ST/STBEY/Date-Calc-6.4.tar.gz
+	sha256sums = 7ce137b2e797b7c0901f3adf1a05a19343356cd1f04676aa1c56a9f624f859ad
+
+pkgname = perl-Date-Calc
+

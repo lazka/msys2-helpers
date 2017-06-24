@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-rabbitmq-c
+	pkgdesc = RabbitMQ C client (mingw-w64)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/alanxz/rabbitmq-c
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-openssl
+	depends = mingw-w64-x86_64-popt
+	options = strip
+	options = staticlibs
+	source = rabbitmq-c-0.8.0.tar.gz::https://github.com/alanxz/rabbitmq-c/archive/v0.8.0.tar.gz
+	source = 0001-librabbitmq-CMakeLists.txt.patch
+	sha256sums = d8ed9dcb49903d83d79d7b227da35ef68c60e5e0b08d0fc1fb4e4dc577b8802b
+	sha256sums = c203af8844ff5de17ed00395ce58ff60dba4b5fd7029f8847a1dd8ba6c772261
+
+pkgname = mingw-w64-x86_64-rabbitmq-c
+
+pkgbase = mingw-w64-rabbitmq-c
+	pkgdesc = RabbitMQ C client (mingw-w64)
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/alanxz/rabbitmq-c
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-openssl
+	depends = mingw-w64-i686-popt
+	options = strip
+	options = staticlibs
+	source = rabbitmq-c-0.8.0.tar.gz::https://github.com/alanxz/rabbitmq-c/archive/v0.8.0.tar.gz
+	source = 0001-librabbitmq-CMakeLists.txt.patch
+	sha256sums = d8ed9dcb49903d83d79d7b227da35ef68c60e5e0b08d0fc1fb4e4dc577b8802b
+	sha256sums = c203af8844ff5de17ed00395ce58ff60dba4b5fd7029f8847a1dd8ba6c772261
+
+pkgname = mingw-w64-i686-rabbitmq-c
+

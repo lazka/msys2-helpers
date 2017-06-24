@@ -1,0 +1,56 @@
+pkgbase = sed
+	pkgdesc = GNU stream editor
+	pkgver = 4.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/sed
+	install = sed.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = GPL3
+	makedepends = gettext
+	makedepends = gettext-devel
+	depends = libintl
+	depends = sh
+	source = https://ftp.gnu.org/pub/gnu/sed/sed-4.4.tar.xz
+	source = https://ftp.gnu.org/pub/gnu/sed/sed-4.4.tar.xz.sig
+	source = sed-4.4-1.src.patch
+	source = sed-4.2.2-msys2.patch
+	source = sed-4.4-msys-use-text-mode.patch
+	sha256sums = cbd6ebc5aaf080ed60d0162d7f6aeae58211a1ee9ba9bb25623daa6cd942683b
+	sha256sums = SKIP
+	sha256sums = 12525e7bf4a1b57913d4047a2313f9127f29468193c2b583cfdfa128b4141032
+	sha256sums = 0dfaa048d9edb8478e079b40bb61cc46f270cc85058d12def9382096dacdd71e
+	sha256sums = 5b25526061d61aaecdec464bccc1e1a78d0e0a64dabdd0eea759399f6c92e0a7
+
+pkgname = sed
+
+pkgbase = sed
+	pkgdesc = GNU stream editor
+	pkgver = 4.4
+	pkgrel = 2
+	url = https://www.gnu.org/software/sed
+	install = sed.install
+	arch = i686
+	arch = x86_64
+	groups = base
+	groups = base-devel
+	license = GPL3
+	makedepends = gettext
+	makedepends = gettext-devel
+	depends = libintl
+	depends = sh
+	source = https://ftp.gnu.org/pub/gnu/sed/sed-4.4.tar.xz
+	source = https://ftp.gnu.org/pub/gnu/sed/sed-4.4.tar.xz.sig
+	source = sed-4.4-1.src.patch
+	source = sed-4.2.2-msys2.patch
+	source = sed-4.4-msys-use-text-mode.patch
+	sha256sums = cbd6ebc5aaf080ed60d0162d7f6aeae58211a1ee9ba9bb25623daa6cd942683b
+	sha256sums = SKIP
+	sha256sums = 12525e7bf4a1b57913d4047a2313f9127f29468193c2b583cfdfa128b4141032
+	sha256sums = 0dfaa048d9edb8478e079b40bb61cc46f270cc85058d12def9382096dacdd71e
+	sha256sums = 5b25526061d61aaecdec464bccc1e1a78d0e0a64dabdd0eea759399f6c92e0a7
+
+pkgname = sed
+

@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-libmatroska
+	pkgdesc = Matroska library (mingw-w64)
+	pkgver = 1.4.5
+	pkgrel = 1
+	url = https://matroska.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = automake
+	makedepends = autoconf
+	depends = mingw-w64-x86_64-libebml
+	options = staticlibs
+	source = https://dl.matroska.org/downloads/libmatroska/libmatroska-1.4.5.tar.bz2
+	sha256sums = 79023fa46901e5562b27d93a9dd168278fa101361d7fd11a35e84e58e11557bc
+
+pkgname = mingw-w64-x86_64-libmatroska
+
+pkgbase = mingw-w64-libmatroska
+	pkgdesc = Matroska library (mingw-w64)
+	pkgver = 1.4.5
+	pkgrel = 1
+	url = https://matroska.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = automake
+	makedepends = autoconf
+	depends = mingw-w64-i686-libebml
+	options = staticlibs
+	source = https://dl.matroska.org/downloads/libmatroska/libmatroska-1.4.5.tar.bz2
+	sha256sums = 79023fa46901e5562b27d93a9dd168278fa101361d7fd11a35e84e58e11557bc
+
+pkgname = mingw-w64-i686-libmatroska
+

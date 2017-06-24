@@ -1,0 +1,56 @@
+pkgbase = mingw-w64-SDL2_mixer
+	pkgdesc = A simple multi-channel audio mixer (Version 2) (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 3
+	url = https://libsdl.org/projects/SDL_mixer
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = mingw-w64-x86_64-smpeg2
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-SDL2
+	depends = mingw-w64-x86_64-libvorbis
+	depends = mingw-w64-x86_64-libmodplug
+	depends = mingw-w64-x86_64-libmad
+	depends = mingw-w64-x86_64-flac
+	depends = mingw-w64-x86_64-fluidsynth
+	options = staticlibs
+	options = strip
+	source = https://libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.1.zip
+	source = SDL2_mixer-2.0.1-find_lib.mingw.patch
+	source = SDL2_mixer-2.0.1-libtool_windres.mingw.patch
+	sha256sums = 06733c61deb10f0300017e3ddaa31bd10ad9ea5c1f6926b0ab5f0e322a036dda
+	sha256sums = c7c03d36f5d4bf965ad7780aa75279dc6c338abab71096bd8d0852d45b86c478
+	sha256sums = 3a6e7d1f14a9e49d20019dac9ee8c0113118023b4855ccb3e72e5caa682156ad
+
+pkgname = mingw-w64-x86_64-SDL2_mixer
+
+pkgbase = mingw-w64-SDL2_mixer
+	pkgdesc = A simple multi-channel audio mixer (Version 2) (mingw-w64)
+	pkgver = 2.0.1
+	pkgrel = 3
+	url = https://libsdl.org/projects/SDL_mixer
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = mingw-w64-i686-smpeg2
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-SDL2
+	depends = mingw-w64-i686-libvorbis
+	depends = mingw-w64-i686-libmodplug
+	depends = mingw-w64-i686-libmad
+	depends = mingw-w64-i686-flac
+	depends = mingw-w64-i686-fluidsynth
+	options = staticlibs
+	options = strip
+	source = https://libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.1.zip
+	source = SDL2_mixer-2.0.1-find_lib.mingw.patch
+	source = SDL2_mixer-2.0.1-libtool_windres.mingw.patch
+	sha256sums = 06733c61deb10f0300017e3ddaa31bd10ad9ea5c1f6926b0ab5f0e322a036dda
+	sha256sums = c7c03d36f5d4bf965ad7780aa75279dc6c338abab71096bd8d0852d45b86c478
+	sha256sums = 3a6e7d1f14a9e49d20019dac9ee8c0113118023b4855ccb3e72e5caa682156ad
+
+pkgname = mingw-w64-i686-SDL2_mixer
+

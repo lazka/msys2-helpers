@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-cpptest
+	pkgdesc = A C++ Unit Testing Framework (mingw-w64)
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://cpptest.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = automake
+	makedepends = autoconf
+	source = https://downloads.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
+	source = cpptest-1.1.2.patch
+	sha256sums = 9e4fdf156b709397308536eb6b921e3aea1f463c6613f9a0c1dfec9614386027
+	sha256sums = e583639839ab25651d35c954daf166f92fcaa431abb3159e562959b104126d80
+
+pkgname = mingw-w64-x86_64-cpptest
+
+pkgbase = mingw-w64-cpptest
+	pkgdesc = A C++ Unit Testing Framework (mingw-w64)
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://cpptest.sourceforge.io/
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = automake
+	makedepends = autoconf
+	source = https://downloads.sourceforge.net/project/cpptest/cpptest/cpptest-1.1.2/cpptest-1.1.2.tar.gz
+	source = cpptest-1.1.2.patch
+	sha256sums = 9e4fdf156b709397308536eb6b921e3aea1f463c6613f9a0c1dfec9614386027
+	sha256sums = e583639839ab25651d35c954daf166f92fcaa431abb3159e562959b104126d80
+
+pkgname = mingw-w64-i686-cpptest
+

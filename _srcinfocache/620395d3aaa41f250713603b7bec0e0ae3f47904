@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-usbview
+	pkgdesc = GUI for browsing all USB controllers and connected USB devices on your computer (mingw-w64)
+	pkgver = 42.c4ba9c6
+	pkgrel = 1
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = patch
+	provides = mingw-w64-x86_64-usbview
+	conflicts = mingw-w64-x86_64-usbview
+	replaces = mingw-w64-x86_64-usbview
+	options = strip
+	source = wds::git+https://github.com/Microsoft/Windows-driver-samples
+	source = my_xmlhelper.c
+	source = 01-uvcview-includes.patch
+	source = 03-resource-fix.patch
+	source = 04-redefinition.patch
+	source = 05-connection-statuses.patch
+	sha256sums = SKIP
+	sha256sums = c753691eea14e4cd267cc9a8e1afbf97648e9fda57cf68011384e4a5b1421c2e
+	sha256sums = 36173cc353ca4901c23f971980a1ff59c007b952dd602d4faa5a34c7d7fc3518
+	sha256sums = 2be3167e95f8d5d8abf91e43a49fac4593b8264df5c20478f476bdbe1bae89a3
+	sha256sums = 017bcb16508f6496e227dce96bd547ed1be20f2712742a05bafd4460924d3aad
+	sha256sums = edcbf4392677934b21234e57a0094ce46f34053b51509719b186a18d7bdddc8e
+
+pkgname = mingw-w64-x86_64-usbview-git
+
+pkgbase = mingw-w64-usbview
+	pkgdesc = GUI for browsing all USB controllers and connected USB devices on your computer (mingw-w64)
+	pkgver = 42.c4ba9c6
+	pkgrel = 1
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = patch
+	provides = mingw-w64-i686-usbview
+	conflicts = mingw-w64-i686-usbview
+	replaces = mingw-w64-i686-usbview
+	options = strip
+	source = wds::git+https://github.com/Microsoft/Windows-driver-samples
+	source = my_xmlhelper.c
+	source = 01-uvcview-includes.patch
+	source = 03-resource-fix.patch
+	source = 04-redefinition.patch
+	source = 05-connection-statuses.patch
+	sha256sums = SKIP
+	sha256sums = c753691eea14e4cd267cc9a8e1afbf97648e9fda57cf68011384e4a5b1421c2e
+	sha256sums = 36173cc353ca4901c23f971980a1ff59c007b952dd602d4faa5a34c7d7fc3518
+	sha256sums = 2be3167e95f8d5d8abf91e43a49fac4593b8264df5c20478f476bdbe1bae89a3
+	sha256sums = 017bcb16508f6496e227dce96bd547ed1be20f2712742a05bafd4460924d3aad
+	sha256sums = edcbf4392677934b21234e57a0094ce46f34053b51509719b186a18d7bdddc8e
+
+pkgname = mingw-w64-i686-usbview-git
+

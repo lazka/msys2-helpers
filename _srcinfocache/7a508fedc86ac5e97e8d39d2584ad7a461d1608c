@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-libffi
+	pkgdesc = A portable, high level programming interface to various calling conventions (mingw-w64)
+	pkgver = 3.2.1
+	pkgrel = 4
+	url = https://sourceware.org/libffi
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	options = staticlibs
+	options = strip
+	source = ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz
+	source = fix_return_size.patch
+	sha256sums = d06ebb8e1d9a22d19e38d63fdb83954253f39bedc5d46232a05645685722ca37
+	sha256sums = f0b27e01eb2f7f6bfa52fc519a1e64b5c83e1f68476ffcc2f2fa808ba6ca4e0f
+
+pkgname = mingw-w64-x86_64-libffi
+
+pkgbase = mingw-w64-libffi
+	pkgdesc = A portable, high level programming interface to various calling conventions (mingw-w64)
+	pkgver = 3.2.1
+	pkgrel = 4
+	url = https://sourceware.org/libffi
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	options = staticlibs
+	options = strip
+	source = ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz
+	source = fix_return_size.patch
+	sha256sums = d06ebb8e1d9a22d19e38d63fdb83954253f39bedc5d46232a05645685722ca37
+	sha256sums = f0b27e01eb2f7f6bfa52fc519a1e64b5c83e1f68476ffcc2f2fa808ba6ca4e0f
+
+pkgname = mingw-w64-i686-libffi
+

@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-qtconsole
+	pkgdesc = A rich Qt-based console for working with Jupyter kernels, supporting rich media output, session export, and more (mingw-w64)
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://jupyter.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = qtconsole-4.3.0.tar.gz::https://github.com/jupyter/qtconsole/archive/4.3.0.tar.gz
+	sha256sums = 8dbe3990dfdfa4965e1a07171165651107d660826f2500b0cbe300ad615796d8
+
+pkgname = mingw-w64-x86_64-python2-qtconsole
+
+pkgname = mingw-w64-x86_64-python3-qtconsole
+
+pkgbase = mingw-w64-python-qtconsole
+	pkgdesc = A rich Qt-based console for working with Jupyter kernels, supporting rich media output, session export, and more (mingw-w64)
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://jupyter.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = qtconsole-4.3.0.tar.gz::https://github.com/jupyter/qtconsole/archive/4.3.0.tar.gz
+	sha256sums = 8dbe3990dfdfa4965e1a07171165651107d660826f2500b0cbe300ad615796d8
+
+pkgname = mingw-w64-i686-python2-qtconsole
+
+pkgname = mingw-w64-i686-python3-qtconsole
+

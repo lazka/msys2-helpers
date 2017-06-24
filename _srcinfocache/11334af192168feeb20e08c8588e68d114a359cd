@@ -1,0 +1,32 @@
+pkgbase = perl-ExtUtils-MakeMaker
+	pkgdesc = ExtUtils::MakeMaker - Create a module Makefile
+	pkgver = 7.25_01
+	pkgrel = 1
+	url = http://search.cpan.org/~bingos/ExtUtils-MakeMaker/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/ExtUtils-MakeMaker-7.25_01.tar.gz
+	sha256sums = 2eed1f12b2bb6fbc319e45e2b179b722b40ca975d239ee2f6a698fc5d9bbf697
+
+pkgname = perl-ExtUtils-MakeMaker
+
+pkgbase = perl-ExtUtils-MakeMaker
+	pkgdesc = ExtUtils::MakeMaker - Create a module Makefile
+	pkgver = 7.25_01
+	pkgrel = 1
+	url = http://search.cpan.org/~bingos/ExtUtils-MakeMaker/
+	arch = any
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/ExtUtils-MakeMaker-7.25_01.tar.gz
+	sha256sums = 2eed1f12b2bb6fbc319e45e2b179b722b40ca975d239ee2f6a698fc5d9bbf697
+
+pkgname = perl-ExtUtils-MakeMaker
+

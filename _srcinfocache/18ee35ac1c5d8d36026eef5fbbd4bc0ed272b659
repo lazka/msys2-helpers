@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-xpm-nox
+	pkgdesc = X Pixmap library not using X (mingw-w64)
+	pkgver = 4.2.0
+	pkgrel = 4
+	url = ftp://koala.inria.fr/pub/xpm
+	arch = any
+	license = Groupe Bull
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	options = !buildflags
+	options = !makeflags
+	source = ftp://koala.inria.fr/pub/xpm/xpm-nox-4.2.0.tar.bz2
+	source = xpm-nox-4.2.0-mingw.patch
+	source = xpm.pc
+	md5sums = c87a25f7cfae59cd536b708d02c0cfad
+	md5sums = 20f17c990d74d1c7a52c352e2e9e7874
+	md5sums = 7b5e02d69f8eebd5dbf2b1a1c8601329
+
+pkgname = mingw-w64-x86_64-xpm-nox
+
+pkgbase = mingw-w64-xpm-nox
+	pkgdesc = X Pixmap library not using X (mingw-w64)
+	pkgver = 4.2.0
+	pkgrel = 4
+	url = ftp://koala.inria.fr/pub/xpm
+	arch = any
+	license = Groupe Bull
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	options = !buildflags
+	options = !makeflags
+	source = ftp://koala.inria.fr/pub/xpm/xpm-nox-4.2.0.tar.bz2
+	source = xpm-nox-4.2.0-mingw.patch
+	source = xpm.pc
+	md5sums = c87a25f7cfae59cd536b708d02c0cfad
+	md5sums = 20f17c990d74d1c7a52c352e2e9e7874
+	md5sums = 7b5e02d69f8eebd5dbf2b1a1c8601329
+
+pkgname = mingw-w64-i686-xpm-nox
+

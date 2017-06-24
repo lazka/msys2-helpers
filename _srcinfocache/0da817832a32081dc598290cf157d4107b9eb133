@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-libdvdnav
+	pkgdesc = The library for xine-dvdnav plugin (mingw-w64)
+	pkgver = 5.0.3
+	pkgrel = 1
+	url = http://dvdnav.mplayerhq.hu/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-doxygen
+	makedepends = mingw-w64-x86_64-pkg-config
+	makedepends = git
+	depends = mingw-w64-x86_64-libdvdread
+	options = staticlibs
+	options = strip
+	source = libdvdnav-5.0.3::git+https://git.videolan.org/git/libdvdnav.git#tag=5.0.3
+	source = 001-no-undefined.patch
+	sha256sums = SKIP
+	sha256sums = 95a36364e015ef0a1e765d167c69e1bcb643bbcc0e9036ae0bc0b54145c07190
+
+pkgname = mingw-w64-x86_64-libdvdnav
+
+pkgbase = mingw-w64-libdvdnav
+	pkgdesc = The library for xine-dvdnav plugin (mingw-w64)
+	pkgver = 5.0.3
+	pkgrel = 1
+	url = http://dvdnav.mplayerhq.hu/
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-doxygen
+	makedepends = mingw-w64-i686-pkg-config
+	makedepends = git
+	depends = mingw-w64-i686-libdvdread
+	options = staticlibs
+	options = strip
+	source = libdvdnav-5.0.3::git+https://git.videolan.org/git/libdvdnav.git#tag=5.0.3
+	source = 001-no-undefined.patch
+	sha256sums = SKIP
+	sha256sums = 95a36364e015ef0a1e765d167c69e1bcb643bbcc0e9036ae0bc0b54145c07190
+
+pkgname = mingw-w64-i686-libdvdnav
+

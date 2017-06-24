@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-libmodplug
+	pkgdesc = A MOD playing library (mingw-w64)
+	pkgver = 0.8.9.0
+	pkgrel = 1
+	url = https://modplug-xmms.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/modplug-xmms/libmodplug-0.8.9.0.tar.gz
+	source = 0002-fix-pkgconfig-file.patch
+	sha256sums = 457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de
+	sha256sums = ca46295aed995688efc3380b928e7bed87c5d061f12b9ddf75b0448b916d9069
+
+pkgname = mingw-w64-x86_64-libmodplug
+
+pkgbase = mingw-w64-libmodplug
+	pkgdesc = A MOD playing library (mingw-w64)
+	pkgver = 0.8.9.0
+	pkgrel = 1
+	url = https://modplug-xmms.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/modplug-xmms/libmodplug-0.8.9.0.tar.gz
+	source = 0002-fix-pkgconfig-file.patch
+	sha256sums = 457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de
+	sha256sums = ca46295aed995688efc3380b928e7bed87c5d061f12b9ddf75b0448b916d9069
+
+pkgname = mingw-w64-i686-libmodplug
+

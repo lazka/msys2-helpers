@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-ninja
+	pkgdesc = Ninja is a small build system with a focus on speed (mingw-w64)
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = https://ninja-build.org
+	arch = any
+	license = Apache
+	makedepends = python2
+	makedepends = re2c
+	options = strip
+	options = staticlibs
+	source = ninja-1.7.2.tar.gz::https://github.com/ninja-build/ninja/archive/v1.7.2.tar.gz
+	sha256sums = 2edda0a5421ace3cf428309211270772dd35a91af60c96f93f90df6bc41b16d9
+
+pkgname = mingw-w64-x86_64-ninja
+
+pkgbase = mingw-w64-ninja
+	pkgdesc = Ninja is a small build system with a focus on speed (mingw-w64)
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = https://ninja-build.org
+	arch = any
+	license = Apache
+	makedepends = python2
+	makedepends = re2c
+	options = strip
+	options = staticlibs
+	source = ninja-1.7.2.tar.gz::https://github.com/ninja-build/ninja/archive/v1.7.2.tar.gz
+	sha256sums = 2edda0a5421ace3cf428309211270772dd35a91af60c96f93f90df6bc41b16d9
+
+pkgname = mingw-w64-i686-ninja
+

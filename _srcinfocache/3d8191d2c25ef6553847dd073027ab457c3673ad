@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-kidletime-qt5
+	pkgdesc = Reporting of idle time of user and system (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kidletime
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-x86_64-extra-cmake-modules
+	makedepends = mingw-w64-x86_64-qt5
+	makedepends = mingw-w64-x86_64-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kidletime-5.12.0.tar.xz
+	sha256sums = 0c0bd1ca3e028b5e78a5c3d2313aa24d62ddbe66971c41ac3a81e9033091fbe6
+
+pkgname = mingw-w64-x86_64-kidletime-qt5
+
+pkgbase = mingw-w64-kidletime-qt5
+	pkgdesc = Reporting of idle time of user and system (mingw-w64-qt5)
+	pkgver = 5.12.0
+	pkgrel = 1
+	url = https://projects.kde.org/projects/frameworks/kidletime
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = mingw-w64-i686-extra-cmake-modules
+	makedepends = mingw-w64-i686-qt5
+	makedepends = mingw-w64-i686-bzip2
+	source = http://download.kde.org/stable/frameworks/5.12/kidletime-5.12.0.tar.xz
+	sha256sums = 0c0bd1ca3e028b5e78a5c3d2313aa24d62ddbe66971c41ac3a81e9033091fbe6
+
+pkgname = mingw-w64-i686-kidletime-qt5
+

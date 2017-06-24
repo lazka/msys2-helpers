@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-ipykernel
+	pkgdesc = The ipython kernel for Jupyter (mingw-w64)
+	pkgver = 4.6.1
+	pkgrel = 1
+	url = https://ipython.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	source = ipykernel-4.6.1.tar.gz::https://github.com/ipython/ipykernel/archive/4.6.1.tar.gz
+	sha256sums = b52022f5a1bd026862ec49195f7ce2c915fbd9772c9e04ce4e778dba159d92a6
+
+pkgname = mingw-w64-x86_64-python2-ipykernel
+
+pkgname = mingw-w64-x86_64-python3-ipykernel
+
+pkgbase = mingw-w64-python-ipykernel
+	pkgdesc = The ipython kernel for Jupyter (mingw-w64)
+	pkgver = 4.6.1
+	pkgrel = 1
+	url = https://ipython.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	source = ipykernel-4.6.1.tar.gz::https://github.com/ipython/ipykernel/archive/4.6.1.tar.gz
+	sha256sums = b52022f5a1bd026862ec49195f7ce2c915fbd9772c9e04ce4e778dba159d92a6
+
+pkgname = mingw-w64-i686-python2-ipykernel
+
+pkgname = mingw-w64-i686-python3-ipykernel
+

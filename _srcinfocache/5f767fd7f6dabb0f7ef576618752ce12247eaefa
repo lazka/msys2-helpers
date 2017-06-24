@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-qtbinpatcher
+	pkgdesc = Patcher for Qt libraries (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://tver-soft.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	options = staticlibs
+	options = strip
+	source = qtbinpatcher-2.2.0.tar.gz
+	source = 001-minimize-files-touching.patch
+	sha256sums = 7196199cd59777bf78ee0e3f77baa3c44e02e69dded192d6f0e59cf9b7bbd18e
+	sha256sums = a1069f33493c5a4da4b42d9d4acf8ab3c26946cd040b7024d29d4eeae4d90ea4
+
+pkgname = mingw-w64-x86_64-qtbinpatcher
+
+pkgbase = mingw-w64-qtbinpatcher
+	pkgdesc = Patcher for Qt libraries (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = http://tver-soft.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	options = staticlibs
+	options = strip
+	source = qtbinpatcher-2.2.0.tar.gz
+	source = 001-minimize-files-touching.patch
+	sha256sums = 7196199cd59777bf78ee0e3f77baa3c44e02e69dded192d6f0e59cf9b7bbd18e
+	sha256sums = a1069f33493c5a4da4b42d9d4acf8ab3c26946cd040b7024d29d4eeae4d90ea4
+
+pkgname = mingw-w64-i686-qtbinpatcher
+

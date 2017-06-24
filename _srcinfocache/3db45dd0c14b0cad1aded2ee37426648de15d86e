@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-libmicroutils
+	pkgdesc = Micro cross-platform C library for handling strings, files, regex, hashs and among others.
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://github.com/silvioprog/microutils
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-libsystre
+	makedepends = mingw-w64-x86_64-libiconv
+	makedepends = mingw-w64-x86_64-zlib
+	makedepends = mingw-w64-x86_64-libtool
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-libsystre
+	source = https://github.com/silvioprog/microutils/releases/download/v4.3.0/libmicroutils-4.3.0.tar.gz
+	source = https://github.com/silvioprog/microutils/releases/download/v4.3.0/libmicroutils-4.3.0.tar.gz.sig
+	validpgpkeys = ACDEB1EB9330106D5D8F98053BFD572FA16D239A
+	sha256sums = 66811fcfcb582d567baeb3d48754b82f23b84d3396cb28feb08c53fa35c9773c
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libmicroutils
+
+pkgbase = mingw-w64-libmicroutils
+	pkgdesc = Micro cross-platform C library for handling strings, files, regex, hashs and among others.
+	pkgver = 4.3.0
+	pkgrel = 1
+	url = https://github.com/silvioprog/microutils
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-libsystre
+	makedepends = mingw-w64-i686-libiconv
+	makedepends = mingw-w64-i686-zlib
+	makedepends = mingw-w64-i686-libtool
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-libsystre
+	source = https://github.com/silvioprog/microutils/releases/download/v4.3.0/libmicroutils-4.3.0.tar.gz
+	source = https://github.com/silvioprog/microutils/releases/download/v4.3.0/libmicroutils-4.3.0.tar.gz.sig
+	validpgpkeys = ACDEB1EB9330106D5D8F98053BFD572FA16D239A
+	sha256sums = 66811fcfcb582d567baeb3d48754b82f23b84d3396cb28feb08c53fa35c9773c
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libmicroutils
+

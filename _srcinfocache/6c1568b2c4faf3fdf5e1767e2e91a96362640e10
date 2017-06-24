@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-docbook-xsl
+	pkgdesc = XML stylesheets for Docbook-xml transformations (mingw-w64)
+	pkgver = 1.79.1
+	pkgrel = 1
+	url = https://docbook.sourceforge.io/
+	install = docbook-xsl-x86_64.install
+	arch = any
+	license = custom
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-libxslt
+	depends = mingw-w64-x86_64-docbook-xml
+	source = https://downloads.sourceforge.net/docbook/docbook-xsl-1.79.1.tar.bz2
+	sha256sums = 725f452e12b296956e8bfb876ccece71eeecdd14b94f667f3ed9091761a4a968
+
+pkgname = mingw-w64-x86_64-docbook-xsl
+
+pkgbase = mingw-w64-docbook-xsl
+	pkgdesc = XML stylesheets for Docbook-xml transformations (mingw-w64)
+	pkgver = 1.79.1
+	pkgrel = 1
+	url = https://docbook.sourceforge.io/
+	install = docbook-xsl-i686.install
+	arch = any
+	license = custom
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-libxslt
+	depends = mingw-w64-i686-docbook-xml
+	source = https://downloads.sourceforge.net/docbook/docbook-xsl-1.79.1.tar.bz2
+	sha256sums = 725f452e12b296956e8bfb876ccece71eeecdd14b94f667f3ed9091761a4a968
+
+pkgname = mingw-w64-i686-docbook-xsl
+

@@ -1,0 +1,54 @@
+pkgbase = mingw-w64-geany
+	pkgdesc = Fast and lightweight IDE (mingw-w64)
+	pkgver = 1.29
+	pkgrel = 1
+	url = http://www.geany.org/
+	install = geany-x86_64.install
+	arch = any
+	license = GPL
+	makedepends = perlxml
+	makedepends = intltool
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-python2-docutils
+	depends = mingw-w64-x86_64-gtk2
+	depends = mingw-w64-x86_64-adwaita-icon-theme
+	optdepends = mingw-w64-x86_64-geany-plugins: various extra features
+	optdepends = mingw-w64-x86_64-python2
+	source = http://download.geany.org/geany-1.29.tar.bz2
+	source = http://download.geany.org/geany-1.29.tar.bz2.sig
+	source = 0001-Fix-windres-invocation.patch
+	source = 0002-Use-FHS.patch
+	sha256sums = 394307596bc908419617e4c33e93eae8b5b733dfc8d01161677b8cbd3a4fb20f
+	sha256sums = SKIP
+	sha256sums = 5e4f8976c5604a8855dff6d7fc9666914a7bac43a2283d8ad2941923ef1494fc
+	sha256sums = f655d8e0abc0f03ce4249dfcd95029754314d346e08182045daffb34798df613
+
+pkgname = mingw-w64-x86_64-geany
+
+pkgbase = mingw-w64-geany
+	pkgdesc = Fast and lightweight IDE (mingw-w64)
+	pkgver = 1.29
+	pkgrel = 1
+	url = http://www.geany.org/
+	install = geany-i686.install
+	arch = any
+	license = GPL
+	makedepends = perlxml
+	makedepends = intltool
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-python2-docutils
+	depends = mingw-w64-i686-gtk2
+	depends = mingw-w64-i686-adwaita-icon-theme
+	optdepends = mingw-w64-i686-geany-plugins: various extra features
+	optdepends = mingw-w64-i686-python2
+	source = http://download.geany.org/geany-1.29.tar.bz2
+	source = http://download.geany.org/geany-1.29.tar.bz2.sig
+	source = 0001-Fix-windres-invocation.patch
+	source = 0002-Use-FHS.patch
+	sha256sums = 394307596bc908419617e4c33e93eae8b5b733dfc8d01161677b8cbd3a4fb20f
+	sha256sums = SKIP
+	sha256sums = 5e4f8976c5604a8855dff6d7fc9666914a7bac43a2283d8ad2941923ef1494fc
+	sha256sums = f655d8e0abc0f03ce4249dfcd95029754314d346e08182045daffb34798df613
+
+pkgname = mingw-w64-i686-geany
+

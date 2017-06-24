@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-atom-shell-git
+	pkgdesc = Cross-platform desktop application shell (mingw-w64)
+	pkgver = r2873.1a80bc7
+	pkgrel = 1
+	url = https://atom.io
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-ninja
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = git
+	source = atom-shell-x86_64::git+https://github.com/atom/atom-shell.git#branch=master
+	source = 0001-python-python2.patch
+	source = 0002-Add-ninja-option.patch
+	sha256sums = SKIP
+	sha256sums = 5b0ad589432c93939b2e25d6f20beeeeda7ee79bafca81481169f17e4d246b08
+	sha256sums = 68145f10ebbff24f81eccf9998d2180e0b92586b4549a38e66deea547ffb4f11
+
+pkgname = mingw-w64-x86_64-atom-shell-git
+
+pkgbase = mingw-w64-atom-shell-git
+	pkgdesc = Cross-platform desktop application shell (mingw-w64)
+	pkgver = r2873.1a80bc7
+	pkgrel = 1
+	url = https://atom.io
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-ninja
+	makedepends = mingw-w64-i686-python2
+	makedepends = git
+	source = atom-shell-i686::git+https://github.com/atom/atom-shell.git#branch=master
+	source = 0001-python-python2.patch
+	source = 0002-Add-ninja-option.patch
+	sha256sums = SKIP
+	sha256sums = 5b0ad589432c93939b2e25d6f20beeeeda7ee79bafca81481169f17e4d246b08
+	sha256sums = 68145f10ebbff24f81eccf9998d2180e0b92586b4549a38e66deea547ffb4f11
+
+pkgname = mingw-w64-i686-atom-shell-git
+

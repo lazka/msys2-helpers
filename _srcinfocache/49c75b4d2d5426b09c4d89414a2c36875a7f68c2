@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-pyparsing
+	pkgdesc = General parsing module for Python (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = http://pyparsing.wikispaces.com
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2
+	source = https://downloads.sourceforge.net/pyparsing/pyparsing-2.2.0.tar.gz
+	sha256sums = 0832bcf47acd283788593e7a0f542407bd9550a55a8a8435214a1960e04bcb04
+
+pkgname = mingw-w64-x86_64-python2-pyparsing
+
+pkgname = mingw-w64-x86_64-python3-pyparsing
+
+pkgbase = mingw-w64-python-pyparsing
+	pkgdesc = General parsing module for Python (mingw-w64)
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = http://pyparsing.wikispaces.com
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2
+	source = https://downloads.sourceforge.net/pyparsing/pyparsing-2.2.0.tar.gz
+	sha256sums = 0832bcf47acd283788593e7a0f542407bd9550a55a8a8435214a1960e04bcb04
+
+pkgname = mingw-w64-i686-python2-pyparsing
+
+pkgname = mingw-w64-i686-python3-pyparsing
+

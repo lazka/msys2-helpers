@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-libsignal-protocol-c-git
+	pkgdesc = Signal Protocol C Library (mingw-w64)
+	pkgver = r34.16bfd04
+	pkgrel = 1
+	url = https://github.com/WhisperSystems/libsignal-protocol-c
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = rsync
+	makedepends = git
+	provides = mingw-w64-x86_64-libsignal-protocol-c
+	conflicts = mingw-w64-x86_64-libsignal-protocol-c
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = git+https://github.com/WhisperSystems/libsignal-protocol-c
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-libsignal-protocol-c-git
+
+pkgbase = mingw-w64-libsignal-protocol-c-git
+	pkgdesc = Signal Protocol C Library (mingw-w64)
+	pkgver = r34.16bfd04
+	pkgrel = 1
+	url = https://github.com/WhisperSystems/libsignal-protocol-c
+	arch = any
+	license = GPL3
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = rsync
+	makedepends = git
+	provides = mingw-w64-i686-libsignal-protocol-c
+	conflicts = mingw-w64-i686-libsignal-protocol-c
+	options = !libtool
+	options = strip
+	options = staticlibs
+	source = git+https://github.com/WhisperSystems/libsignal-protocol-c
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-libsignal-protocol-c-git
+

@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-wxPython
+	pkgdesc = A wxWidgets GUI toolkit for Python (mingw-w64)
+	pkgver = 3.0.2.0
+	pkgrel = 6
+	url = http://www.wxpython.org/
+	arch = any
+	license = custom:wxWindows
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-python2
+	depends = mingw-w64-x86_64-wxWidgets
+	options = strip
+	options = staticlibs
+	options = buildflags
+	source = https://downloads.sourceforge.net/wxpython/wxPython-src-3.0.2.0.tar.bz2
+	source = 001-mingw-python.patch
+	source = 002-system-includes.patch
+	source = 003-fix-cast-error.patch
+	sha256sums = d54129e5fbea4fb8091c87b2980760b72c22a386cb3b9dd2eebc928ef5e8df61
+	sha256sums = 61ca97f814b85b1274e751c694f9e3adc31ce1e22c56c9ca9c59e0337a36fef5
+	sha256sums = bea571dfdade2c7b15e1feaf260834d571f49c36101a420104b933c3597f7ebf
+	sha256sums = d7c4de5594149d2bba4a0ceb95d6a6a0c3c0e43ab9e876dce22440ccaad3b5f0
+
+pkgname = mingw-w64-x86_64-wxPython
+
+pkgbase = mingw-w64-wxPython
+	pkgdesc = A wxWidgets GUI toolkit for Python (mingw-w64)
+	pkgver = 3.0.2.0
+	pkgrel = 6
+	url = http://www.wxpython.org/
+	arch = any
+	license = custom:wxWindows
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-python2
+	depends = mingw-w64-i686-wxWidgets
+	options = strip
+	options = staticlibs
+	options = buildflags
+	source = https://downloads.sourceforge.net/wxpython/wxPython-src-3.0.2.0.tar.bz2
+	source = 001-mingw-python.patch
+	source = 002-system-includes.patch
+	source = 003-fix-cast-error.patch
+	sha256sums = d54129e5fbea4fb8091c87b2980760b72c22a386cb3b9dd2eebc928ef5e8df61
+	sha256sums = 61ca97f814b85b1274e751c694f9e3adc31ce1e22c56c9ca9c59e0337a36fef5
+	sha256sums = bea571dfdade2c7b15e1feaf260834d571f49c36101a420104b933c3597f7ebf
+	sha256sums = d7c4de5594149d2bba4a0ceb95d6a6a0c3c0e43ab9e876dce22440ccaad3b5f0
+
+pkgname = mingw-w64-i686-wxPython
+

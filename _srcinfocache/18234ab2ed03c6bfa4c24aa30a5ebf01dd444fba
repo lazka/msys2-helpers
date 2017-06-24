@@ -1,0 +1,44 @@
+pkgbase = time
+	pkgdesc = Utility for monitoring a program's use of system resources
+	pkgver = 1.7
+	pkgrel = 2
+	url = https://www.gnu.org/directory/time.html
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = GPL
+	makedepends = gcc
+	depends = msys2-runtime
+	source = https://ftp.gnu.org/pub/gnu/time/time-1.7.tar.gz
+	source = time-1.7-Recompute-CPU-usage-at-microsecond-level.patch
+	source = time-1.7-ru_maxrss-is-in-kilobytes-on-Linux.patch
+	source = time-1.7-cygwin.patch
+	sha256sums = e37ea79a253bf85a85ada2f7c632c14e481a5fd262a362f6f4fd58e68601496d
+	sha256sums = 360b5ff9c413cdc14a35d15934eaf07b67d181becdfe3717afe528386c75c7b6
+	sha256sums = 5a4efc406962df9790ff7a2f88b03a846b25e17d3c95bd3c5ef534c4bb70cfa2
+	sha256sums = 799600e27fb0b9c029d88d3c416602146b74bd784f0379c12373b2a6f8c06393
+
+pkgname = time
+
+pkgbase = time
+	pkgdesc = Utility for monitoring a program's use of system resources
+	pkgver = 1.7
+	pkgrel = 2
+	url = https://www.gnu.org/directory/time.html
+	arch = i686
+	arch = x86_64
+	groups = base
+	license = GPL
+	makedepends = gcc
+	depends = msys2-runtime
+	source = https://ftp.gnu.org/pub/gnu/time/time-1.7.tar.gz
+	source = time-1.7-Recompute-CPU-usage-at-microsecond-level.patch
+	source = time-1.7-ru_maxrss-is-in-kilobytes-on-Linux.patch
+	source = time-1.7-cygwin.patch
+	sha256sums = e37ea79a253bf85a85ada2f7c632c14e481a5fd262a362f6f4fd58e68601496d
+	sha256sums = 360b5ff9c413cdc14a35d15934eaf07b67d181becdfe3717afe528386c75c7b6
+	sha256sums = 5a4efc406962df9790ff7a2f88b03a846b25e17d3c95bd3c5ef534c4bb70cfa2
+	sha256sums = 799600e27fb0b9c029d88d3c416602146b74bd784f0379c12373b2a6f8c06393
+
+pkgname = time
+

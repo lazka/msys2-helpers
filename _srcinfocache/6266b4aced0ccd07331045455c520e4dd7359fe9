@@ -1,0 +1,30 @@
+pkgbase = docx2txt
+	pkgdesc = docx2txt is a perl based command line utility to convert Microsoft Office(Tm) Docx documents to equivalent Text documents
+	pkgver = 1.4
+	pkgrel = 1
+	url = http://docx2txt.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL3+
+	depends = perl
+	depends = unzip
+	source = https://downloads.sourceforge.net/sourceforge/docx2txt/docx2txt-1.4.tgz
+	sha256sums = b297752910a404c1435e703d5aedb4571222bd759fa316c86ad8c8bbe58c6d1b
+
+pkgname = docx2txt
+
+pkgbase = docx2txt
+	pkgdesc = docx2txt is a perl based command line utility to convert Microsoft Office(Tm) Docx documents to equivalent Text documents
+	pkgver = 1.4
+	pkgrel = 1
+	url = http://docx2txt.sourceforge.net/
+	arch = i686
+	arch = x86_64
+	license = GPL3+
+	depends = perl
+	depends = unzip
+	source = https://downloads.sourceforge.net/sourceforge/docx2txt/docx2txt-1.4.tgz
+	sha256sums = b297752910a404c1435e703d5aedb4571222bd759fa316c86ad8c8bbe58c6d1b
+
+pkgname = docx2txt
+

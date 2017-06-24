@@ -1,0 +1,38 @@
+pkgbase = perl-Sys-CPU
+	pkgdesc = Provide commonly requested regular expressions
+	pkgver = 0.61
+	pkgrel = 3
+	url = http://search.cpan.org/~mzsanford/Sys-CPU-0.61
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = libcrypt-devel
+	source = http://search.cpan.org/CPAN/authors/id/M/MZ/MZSANFORD/Sys-CPU-0.61.tar.gz
+	source = 0001-Cygwin-is-as-per-Windows.patch
+	sha256sums = 250a86b79c231001c4ae71d2f66428092a4fbb2070971acafd471aa49739c9e4
+	sha256sums = 3dc075609561da40044c6547274cb463c92d458e59839972a291ea0830193bc8
+
+pkgname = perl-Sys-CPU
+
+pkgbase = perl-Sys-CPU
+	pkgdesc = Provide commonly requested regular expressions
+	pkgver = 0.61
+	pkgrel = 3
+	url = http://search.cpan.org/~mzsanford/Sys-CPU-0.61
+	arch = i686
+	arch = x86_64
+	groups = perl-modules
+	license = GPL
+	license = PerlArtistic
+	depends = perl
+	depends = libcrypt-devel
+	source = http://search.cpan.org/CPAN/authors/id/M/MZ/MZSANFORD/Sys-CPU-0.61.tar.gz
+	source = 0001-Cygwin-is-as-per-Windows.patch
+	sha256sums = 250a86b79c231001c4ae71d2f66428092a4fbb2070971acafd471aa49739c9e4
+	sha256sums = 3dc075609561da40044c6547274cb463c92d458e59839972a291ea0830193bc8
+
+pkgname = perl-Sys-CPU
+

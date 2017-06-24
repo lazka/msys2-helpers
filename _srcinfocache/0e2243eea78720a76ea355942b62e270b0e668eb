@@ -1,0 +1,38 @@
+pkgbase = gradle
+	pkgver = 2.12
+	pkgrel = 1
+	url = https://www.gradle.org/
+	arch = any
+	license = APACHE
+	source = https://services.gradle.org/distributions/gradle-2.12-all.zip
+	source = gradle.sh
+	sha256sums = d8b1948a575dc9ec13e03db94502ce91815d73da023f611296c04b852164cb5f
+	sha256sums = 84294ba7bf75587204e0f46f6e0d001f26b0133f7ecdbaf55cc9d8478dc77caf
+
+pkgname = gradle
+	pkgdesc = A powerful build system for the JVM
+
+pkgname = gradle-doc
+	pkgdesc = A powerful build system for the JVM (documentation and samples)
+	optdepends = gradle
+	options = !strip
+
+pkgbase = gradle
+	pkgver = 2.12
+	pkgrel = 1
+	url = https://www.gradle.org/
+	arch = any
+	license = APACHE
+	source = https://services.gradle.org/distributions/gradle-2.12-all.zip
+	source = gradle.sh
+	sha256sums = d8b1948a575dc9ec13e03db94502ce91815d73da023f611296c04b852164cb5f
+	sha256sums = 84294ba7bf75587204e0f46f6e0d001f26b0133f7ecdbaf55cc9d8478dc77caf
+
+pkgname = gradle
+	pkgdesc = A powerful build system for the JVM
+
+pkgname = gradle-doc
+	pkgdesc = A powerful build system for the JVM (documentation and samples)
+	optdepends = gradle
+	options = !strip
+

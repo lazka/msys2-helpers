@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-opencl-headers
+	pkgdesc = OpenCL (Open Computing Language) header files
+	pkgver = 2.1.20161129
+	pkgrel = 3
+	epoch = 2
+	url = https://www.khronos.org/registry/cl/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = python3
+	source = git+https://github.com/KhronosGroup/OpenCL-Headers.git#commit=abb2958
+	source = git+https://github.com/KhronosGroup/OpenCL-CLHPP.git#commit=d54d52c
+	source = LICENSE.txt
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = d1059405dce021e0c0a7f7e01b48447e641477e0c14a9bc29983f4202b67c410
+
+pkgname = mingw-w64-x86_64-opencl-headers
+
+pkgbase = mingw-w64-opencl-headers
+	pkgdesc = OpenCL (Open Computing Language) header files
+	pkgver = 2.1.20161129
+	pkgrel = 3
+	epoch = 2
+	url = https://www.khronos.org/registry/cl/
+	arch = any
+	license = custom
+	makedepends = git
+	makedepends = python3
+	source = git+https://github.com/KhronosGroup/OpenCL-Headers.git#commit=abb2958
+	source = git+https://github.com/KhronosGroup/OpenCL-CLHPP.git#commit=d54d52c
+	source = LICENSE.txt
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = d1059405dce021e0c0a7f7e01b48447e641477e0c14a9bc29983f4202b67c410
+
+pkgname = mingw-w64-i686-opencl-headers
+

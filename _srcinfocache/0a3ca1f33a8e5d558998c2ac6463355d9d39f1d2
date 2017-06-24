@@ -1,0 +1,64 @@
+pkgbase = mingw-w64-kicad-doc
+	pkgdesc = Documentation for KiCad (mingw-w64)
+	pkgver = 4.0.4
+	pkgrel = 1
+	url = http://kicad-pcb.org/download/source/
+	arch = any
+	license = GPL3
+	license = custom
+	options = !strip
+	source = http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.4.tar.gz
+	sha256sums = 3f180197ac8963f129239922c62530313b3344bfc0ec40a6512defb086163722
+
+pkgname = mingw-w64-x86_64-kicad-doc-ca
+
+pkgname = mingw-w64-x86_64-kicad-doc-de
+
+pkgname = mingw-w64-x86_64-kicad-doc-en
+
+pkgname = mingw-w64-x86_64-kicad-doc-es
+
+pkgname = mingw-w64-x86_64-kicad-doc-fr
+
+pkgname = mingw-w64-x86_64-kicad-doc-it
+
+pkgname = mingw-w64-x86_64-kicad-doc-ja
+
+pkgname = mingw-w64-x86_64-kicad-doc-nl
+
+pkgname = mingw-w64-x86_64-kicad-doc-pl
+
+pkgname = mingw-w64-x86_64-kicad-doc-ru
+
+pkgbase = mingw-w64-kicad-doc
+	pkgdesc = Documentation for KiCad (mingw-w64)
+	pkgver = 4.0.4
+	pkgrel = 1
+	url = http://kicad-pcb.org/download/source/
+	arch = any
+	license = GPL3
+	license = custom
+	options = !strip
+	source = http://downloads.kicad-pcb.org/docs/kicad-doc-4.0.4.tar.gz
+	sha256sums = 3f180197ac8963f129239922c62530313b3344bfc0ec40a6512defb086163722
+
+pkgname = mingw-w64-i686-kicad-doc-ca
+
+pkgname = mingw-w64-i686-kicad-doc-de
+
+pkgname = mingw-w64-i686-kicad-doc-en
+
+pkgname = mingw-w64-i686-kicad-doc-es
+
+pkgname = mingw-w64-i686-kicad-doc-fr
+
+pkgname = mingw-w64-i686-kicad-doc-it
+
+pkgname = mingw-w64-i686-kicad-doc-ja
+
+pkgname = mingw-w64-i686-kicad-doc-nl
+
+pkgname = mingw-w64-i686-kicad-doc-pl
+
+pkgname = mingw-w64-i686-kicad-doc-ru
+

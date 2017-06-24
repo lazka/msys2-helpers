@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-fftw
+	pkgdesc = A library for computing the discrete Fourier transform (DFT) (mingw-w64)
+	pkgver = 3.3.6.pl2
+	pkgrel = 1
+	url = http://www.fftw.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	options = strip
+	source = http://www.fftw.org/fftw-3.3.6-pl2.tar.gz
+	sha256sums = a5de35c5c824a78a058ca54278c706cdf3d4abba1c56b63531c2cb05f5d57da2
+
+pkgname = mingw-w64-x86_64-fftw
+
+pkgbase = mingw-w64-fftw
+	pkgdesc = A library for computing the discrete Fourier transform (DFT) (mingw-w64)
+	pkgver = 3.3.6.pl2
+	pkgrel = 1
+	url = http://www.fftw.org
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	options = strip
+	source = http://www.fftw.org/fftw-3.3.6-pl2.tar.gz
+	sha256sums = a5de35c5c824a78a058ca54278c706cdf3d4abba1c56b63531c2cb05f5d57da2
+
+pkgname = mingw-w64-i686-fftw
+

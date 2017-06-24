@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-sqlcipher
+	pkgdesc = SQLite extension that provides transparent 256-bit AES encryption of database files
+	pkgver = 3.4.1
+	pkgrel = 1
+	url = https://www.zetetic.net/sqlcipher/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-tcl
+	depends = mingw-w64-x86_64-gcc-libs
+	depends = mingw-w64-x86_64-openssl
+	depends = mingw-w64-x86_64-readline
+	source = sqlcipher-3.4.1.zip::https://github.com/sqlcipher/sqlcipher/archive/v3.4.1.zip
+	source = https://www.zetetic.net/sqlcipher/verify/3.4.1/sqlcipher-3.4.1.zip.sig
+	source = 01-fix_dep.diff
+	source = 02-fix-tcl-find.patch
+	validpgpkeys = D83F5F9EB811D6E6B4A0D9C5D1FA3A2A97ED25C2
+	sha256sums = 6f65b65a6b450279151bdec8c66122133245bc78605165482a45347cee8dc904
+	sha256sums = SKIP
+	sha256sums = e0cfe85705fd0d7d33b087dfd4cf2f807e1a75f2c9b15f5ceb8b9ff202f6ce5c
+	sha256sums = 048b08a4ddc628111fe9a0f6559e5cf25f0b9414c86109917684115283ab8d6b
+
+pkgname = mingw-w64-x86_64-sqlcipher
+
+pkgbase = mingw-w64-sqlcipher
+	pkgdesc = SQLite extension that provides transparent 256-bit AES encryption of database files
+	pkgver = 3.4.1
+	pkgrel = 1
+	url = https://www.zetetic.net/sqlcipher/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-tcl
+	depends = mingw-w64-i686-gcc-libs
+	depends = mingw-w64-i686-openssl
+	depends = mingw-w64-i686-readline
+	source = sqlcipher-3.4.1.zip::https://github.com/sqlcipher/sqlcipher/archive/v3.4.1.zip
+	source = https://www.zetetic.net/sqlcipher/verify/3.4.1/sqlcipher-3.4.1.zip.sig
+	source = 01-fix_dep.diff
+	source = 02-fix-tcl-find.patch
+	validpgpkeys = D83F5F9EB811D6E6B4A0D9C5D1FA3A2A97ED25C2
+	sha256sums = 6f65b65a6b450279151bdec8c66122133245bc78605165482a45347cee8dc904
+	sha256sums = SKIP
+	sha256sums = e0cfe85705fd0d7d33b087dfd4cf2f807e1a75f2c9b15f5ceb8b9ff202f6ce5c
+	sha256sums = 048b08a4ddc628111fe9a0f6559e5cf25f0b9414c86109917684115283ab8d6b
+
+pkgname = mingw-w64-i686-sqlcipher
+

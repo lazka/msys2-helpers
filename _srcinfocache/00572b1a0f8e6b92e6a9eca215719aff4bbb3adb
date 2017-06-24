@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-schroedinger
+	pkgdesc = An implemenation of the Dirac video codec in ANSI C code (mingw-w64)
+	pkgver = 1.0.11
+	pkgrel = 3
+	url = http://www.diracvideo.org/
+	arch = any
+	license = GPL2
+	license = LGPL2.1
+	license = MPL
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-pkg-config
+	depends = mingw-w64-x86_64-orc
+	options = strip
+	options = staticlibs
+	source = https://download.videolan.org/contrib/schroedinger-1.0.11.tar.gz
+	source = 0001-builddir-not-srcdir.all.patch
+	source = 0002-link-testsuite-to-orc-tmp.mingw.patch
+	sha256sums = 1e572a0735b92aca5746c4528f9bebd35aa0ccf8619b22fa2756137a8cc9f912
+	sha256sums = 215a8a964a1d7aaa8cb23aa5420892f6c970e4ecde1a55e7fcf13054749be73c
+	sha256sums = 4178960ea60e90917fc77d0dd231db83ba55a3621c3c40471a2bd9efa872ea6e
+
+pkgname = mingw-w64-x86_64-schroedinger
+
+pkgbase = mingw-w64-schroedinger
+	pkgdesc = An implemenation of the Dirac video codec in ANSI C code (mingw-w64)
+	pkgver = 1.0.11
+	pkgrel = 3
+	url = http://www.diracvideo.org/
+	arch = any
+	license = GPL2
+	license = LGPL2.1
+	license = MPL
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-pkg-config
+	depends = mingw-w64-i686-orc
+	options = strip
+	options = staticlibs
+	source = https://download.videolan.org/contrib/schroedinger-1.0.11.tar.gz
+	source = 0001-builddir-not-srcdir.all.patch
+	source = 0002-link-testsuite-to-orc-tmp.mingw.patch
+	sha256sums = 1e572a0735b92aca5746c4528f9bebd35aa0ccf8619b22fa2756137a8cc9f912
+	sha256sums = 215a8a964a1d7aaa8cb23aa5420892f6c970e4ecde1a55e7fcf13054749be73c
+	sha256sums = 4178960ea60e90917fc77d0dd231db83ba55a3621c3c40471a2bd9efa872ea6e
+
+pkgname = mingw-w64-i686-schroedinger
+

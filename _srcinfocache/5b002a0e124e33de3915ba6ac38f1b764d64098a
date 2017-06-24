@@ -1,0 +1,50 @@
+pkgbase = mingw-w64-python-psutil
+	pkgdesc = A cross-platform process and system utilities module for Python (mingw-w64)
+	pkgver = 5.2.2
+	pkgrel = 1
+	url = https://github.com/giampaolo/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = psutil-5.2.2.tar.gz::https://github.com/giampaolo//psutil/archive/release-5.2.2.tar.gz
+	source = 0001-MSYS-Allow-detecting-when-running-on-MSYS.patch
+	source = 0002-msys-fixes-for-msys2.patch
+	sha256sums = ed4711cc736330c6093fdfe775c5b6d5a4111a427562349d92ee51588dd06e2c
+	sha256sums = 1b0d3105dca0c9137ff8097a2e4c5c3612cd20bcf263d4a46065515f28285fb3
+	sha256sums = 309af06b394831183dd117ad87bfe536edf379ade3b1d5b34f8f930f71d9d967
+
+pkgname = mingw-w64-x86_64-python2-psutil
+
+pkgname = mingw-w64-x86_64-python3-psutil
+
+pkgbase = mingw-w64-python-psutil
+	pkgdesc = A cross-platform process and system utilities module for Python (mingw-w64)
+	pkgver = 5.2.2
+	pkgrel = 1
+	url = https://github.com/giampaolo/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	options = staticlibs
+	options = strip
+	options = !debug
+	source = psutil-5.2.2.tar.gz::https://github.com/giampaolo//psutil/archive/release-5.2.2.tar.gz
+	source = 0001-MSYS-Allow-detecting-when-running-on-MSYS.patch
+	source = 0002-msys-fixes-for-msys2.patch
+	sha256sums = ed4711cc736330c6093fdfe775c5b6d5a4111a427562349d92ee51588dd06e2c
+	sha256sums = 1b0d3105dca0c9137ff8097a2e4c5c3612cd20bcf263d4a46065515f28285fb3
+	sha256sums = 309af06b394831183dd117ad87bfe536edf379ade3b1d5b34f8f930f71d9d967
+
+pkgname = mingw-w64-i686-python2-psutil
+
+pkgname = mingw-w64-i686-python3-psutil
+

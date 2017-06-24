@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-python-pandas
+	pkgdesc = Cross-section and time series data analysis toolkit (mingw-w64)
+	pkgver = 0.20.2
+	pkgrel = 1
+	url = http://pandas.pydata.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2-numpy
+	makedepends = mingw-w64-x86_64-python3-numpy
+	makedepends = mingw-w64-x86_64-python2-pytz
+	makedepends = mingw-w64-x86_64-python3-pytz
+	makedepends = mingw-w64-x86_64-python2-dateutil
+	makedepends = mingw-w64-x86_64-python3-dateutil
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-gcc
+	source = https://pypi.python.org/packages/37/69/20c19ebb5dd713d8e92f68544c766fd92592103f48e220d14accaebed37e/pandas-0.20.2.tar.gz
+	sha256sums = 92173c976fcca70cb19a958eccdacf98af62ef7301bf786d0321cb8857cdfae6
+
+pkgname = mingw-w64-x86_64-python2-pandas
+
+pkgname = mingw-w64-x86_64-python3-pandas
+
+pkgbase = mingw-w64-python-pandas
+	pkgdesc = Cross-section and time series data analysis toolkit (mingw-w64)
+	pkgver = 0.20.2
+	pkgrel = 1
+	url = http://pandas.pydata.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2-numpy
+	makedepends = mingw-w64-i686-python3-numpy
+	makedepends = mingw-w64-i686-python2-pytz
+	makedepends = mingw-w64-i686-python3-pytz
+	makedepends = mingw-w64-i686-python2-dateutil
+	makedepends = mingw-w64-i686-python3-dateutil
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-gcc
+	source = https://pypi.python.org/packages/37/69/20c19ebb5dd713d8e92f68544c766fd92592103f48e220d14accaebed37e/pandas-0.20.2.tar.gz
+	sha256sums = 92173c976fcca70cb19a958eccdacf98af62ef7301bf786d0321cb8857cdfae6
+
+pkgname = mingw-w64-i686-python2-pandas
+
+pkgname = mingw-w64-i686-python3-pandas
+

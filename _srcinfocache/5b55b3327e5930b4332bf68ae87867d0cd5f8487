@@ -1,0 +1,52 @@
+pkgbase = mosh
+	pkgdesc = Mobile shell, surviving disconnects with local echo and line editing
+	pkgver = 1.2.5
+	pkgrel = 1
+	url = https://mosh.mit.edu/
+	arch = i686
+	arch = x86_64
+	groups = net-utils
+	license = GPL3
+	makedepends = protobuf-devel
+	makedepends = ncurses-devel
+	makedepends = zlib-devel
+	makedepends = openssl-devel
+	makedepends = bash-completion
+	depends = protobuf
+	depends = ncurses
+	depends = zlib
+	depends = libopenssl
+	depends = openssh
+	depends = perl
+	options = !emptydirs
+	source = https://mosh.mit.edu/mosh-1.2.5.tar.gz
+	sha256sums = 1af809e5d747c333a852fbf7acdbf4d354dc4bbc2839e3afe5cf798190074be3
+
+pkgname = mosh
+
+pkgbase = mosh
+	pkgdesc = Mobile shell, surviving disconnects with local echo and line editing
+	pkgver = 1.2.5
+	pkgrel = 1
+	url = https://mosh.mit.edu/
+	arch = i686
+	arch = x86_64
+	groups = net-utils
+	license = GPL3
+	makedepends = protobuf-devel
+	makedepends = ncurses-devel
+	makedepends = zlib-devel
+	makedepends = openssl-devel
+	makedepends = bash-completion
+	depends = protobuf
+	depends = ncurses
+	depends = zlib
+	depends = libopenssl
+	depends = openssh
+	depends = perl
+	options = !emptydirs
+	source = https://mosh.mit.edu/mosh-1.2.5.tar.gz
+	sha256sums = 1af809e5d747c333a852fbf7acdbf4d354dc4bbc2839e3afe5cf798190074be3
+
+pkgname = mosh
+

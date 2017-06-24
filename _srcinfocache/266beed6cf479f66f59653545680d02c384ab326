@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-python3-ipython
+	pkgdesc = An enhanced Interactive Python shell (mingw-w64)
+	pkgver = 6.1.0
+	pkgrel = 1
+	url = http://ipython.org
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	depends = mingw-w64-x86_64-sqlite3
+	depends = mingw-w64-x86_64-python3-traitlets
+	depends = mingw-w64-x86_64-python3-simplegeneric
+	depends = mingw-w64-x86_64-python3-pickleshare
+	depends = mingw-w64-x86_64-python3-prompt_toolkit
+	depends = mingw-w64-x86_64-python3-win_unicode_console
+	optdepends = mingw-w64-x86_64-python3-nose: for IPython's test suite
+	optdepends = mingw-w64-x86_64-python3-pyqt4: for ipython qtconsole
+	optdepends = mingw-w64-x86_64-python3-sip: for ipython qtconsole
+	optdepends = mingw-w64-x86_64-python3-pygments: for ipython qtconsole
+	optdepends = mingw-w64-x86_64-python3-jinja: for ipython notebook
+	source = ipython-6.1.0.tar.gz::https://github.com/ipython/ipython/archive/6.1.0.tar.gz
+	sha256sums = c570a80a29100664a79429d3863389fa5f53102292b3a7789d93416a2d7681cf
+
+pkgname = mingw-w64-x86_64-python3-ipython
+
+pkgbase = mingw-w64-python3-ipython
+	pkgdesc = An enhanced Interactive Python shell (mingw-w64)
+	pkgver = 6.1.0
+	pkgrel = 1
+	url = http://ipython.org
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python3-setuptools
+	depends = mingw-w64-i686-sqlite3
+	depends = mingw-w64-i686-python3-traitlets
+	depends = mingw-w64-i686-python3-simplegeneric
+	depends = mingw-w64-i686-python3-pickleshare
+	depends = mingw-w64-i686-python3-prompt_toolkit
+	depends = mingw-w64-i686-python3-win_unicode_console
+	optdepends = mingw-w64-i686-python3-nose: for IPython's test suite
+	optdepends = mingw-w64-i686-python3-pyqt4: for ipython qtconsole
+	optdepends = mingw-w64-i686-python3-sip: for ipython qtconsole
+	optdepends = mingw-w64-i686-python3-pygments: for ipython qtconsole
+	optdepends = mingw-w64-i686-python3-jinja: for ipython notebook
+	source = ipython-6.1.0.tar.gz::https://github.com/ipython/ipython/archive/6.1.0.tar.gz
+	sha256sums = c570a80a29100664a79429d3863389fa5f53102292b3a7789d93416a2d7681cf
+
+pkgname = mingw-w64-i686-python3-ipython
+

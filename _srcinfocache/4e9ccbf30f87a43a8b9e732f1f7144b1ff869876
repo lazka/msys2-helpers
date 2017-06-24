@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-nanodbc
+	pkgdesc = A small C++ wrapper for the native C ODBC API (mingw-w64)
+	pkgver = 2.12.4
+	pkgrel = 1
+	url = http://lexicalunit.github.io/nanodbc/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	source = nanodbc-2.12.4.tar.gz::https://codeload.github.com/lexicalunit/nanodbc/tar.gz/v2.12.4
+	source = nanodbc-2.12.4.patch
+	sha256sums = ad2b6275ceb172a2fa9cbf53c5ea8fdda7257a61b2aff572a673f47d0040a2d8
+	sha256sums = 7308ecc5a10ea7aeeb4551b38c0cbc34a84d39622193a78badc20e6111fa27e0
+
+pkgname = mingw-w64-x86_64-nanodbc
+
+pkgbase = mingw-w64-nanodbc
+	pkgdesc = A small C++ wrapper for the native C ODBC API (mingw-w64)
+	pkgver = 2.12.4
+	pkgrel = 1
+	url = http://lexicalunit.github.io/nanodbc/
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	source = nanodbc-2.12.4.tar.gz::https://codeload.github.com/lexicalunit/nanodbc/tar.gz/v2.12.4
+	source = nanodbc-2.12.4.patch
+	sha256sums = ad2b6275ceb172a2fa9cbf53c5ea8fdda7257a61b2aff572a673f47d0040a2d8
+	sha256sums = 7308ecc5a10ea7aeeb4551b38c0cbc34a84d39622193a78badc20e6111fa27e0
+
+pkgname = mingw-w64-i686-nanodbc
+

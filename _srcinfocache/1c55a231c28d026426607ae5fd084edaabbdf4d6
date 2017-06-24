@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-giflib
+	pkgdesc = A library for reading and writing gif images (mingw-w64)
+	pkgver = 5.1.4
+	pkgrel = 1
+	url = https://sourceforge.net/projects/giflib
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = xmlto
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/sourceforge/giflib/giflib-5.1.4.tar.bz2
+	source = giflib-5.0.4-include-stddef.patch
+	sha256sums = df27ec3ff24671f80b29e6ab1c4971059c14ac3db95406884fc26574631ba8d5
+	sha256sums = 32b9fbea6616db51df76b0872094b57a67fff1d8a338de5592773ff18fb1bf6f
+
+pkgname = mingw-w64-x86_64-giflib
+
+pkgbase = mingw-w64-giflib
+	pkgdesc = A library for reading and writing gif images (mingw-w64)
+	pkgver = 5.1.4
+	pkgrel = 1
+	url = https://sourceforge.net/projects/giflib
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-gcc
+	makedepends = xmlto
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	options = strip
+	source = https://downloads.sourceforge.net/sourceforge/giflib/giflib-5.1.4.tar.bz2
+	source = giflib-5.0.4-include-stddef.patch
+	sha256sums = df27ec3ff24671f80b29e6ab1c4971059c14ac3db95406884fc26574631ba8d5
+	sha256sums = 32b9fbea6616db51df76b0872094b57a67fff1d8a338de5592773ff18fb1bf6f
+
+pkgname = mingw-w64-i686-giflib
+

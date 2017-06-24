@@ -1,0 +1,44 @@
+pkgbase = mingw-w64-qxmpp-qt4
+	pkgdesc = Cross-platform C++ XMPP client and server library (mingw-w64)
+	pkgver = 0.8.3
+	pkgrel = 2
+	url = https://github.com/qxmpp-project/qxmpp
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-make
+	depends = mingw-w64-x86_64-libtheora
+	depends = mingw-w64-x86_64-libvpx
+	depends = mingw-w64-x86_64-qt4
+	depends = mingw-w64-x86_64-speex
+	provides = mingw-w64-x86_64-qxmpp
+	conflicts = mingw-w64-x86_64-qxmpp
+	options = !strip
+	options = staticlibs
+	source = qxmpp-0.8.3.tar.gz::https://github.com/qxmpp-project/qxmpp/archive/v0.8.3.tar.gz
+	sha256sums = f4c34e126fb3d0a4e2fc3d505aea5f75e662e3a477955c98cc103deaf83e8a9d
+
+pkgname = mingw-w64-x86_64-qxmpp-qt4
+
+pkgbase = mingw-w64-qxmpp-qt4
+	pkgdesc = Cross-platform C++ XMPP client and server library (mingw-w64)
+	pkgver = 0.8.3
+	pkgrel = 2
+	url = https://github.com/qxmpp-project/qxmpp
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-make
+	depends = mingw-w64-i686-libtheora
+	depends = mingw-w64-i686-libvpx
+	depends = mingw-w64-i686-qt4
+	depends = mingw-w64-i686-speex
+	provides = mingw-w64-i686-qxmpp
+	conflicts = mingw-w64-i686-qxmpp
+	options = !strip
+	options = staticlibs
+	source = qxmpp-0.8.3.tar.gz::https://github.com/qxmpp-project/qxmpp/archive/v0.8.3.tar.gz
+	sha256sums = f4c34e126fb3d0a4e2fc3d505aea5f75e662e3a477955c98cc103deaf83e8a9d
+
+pkgname = mingw-w64-i686-qxmpp-qt4
+

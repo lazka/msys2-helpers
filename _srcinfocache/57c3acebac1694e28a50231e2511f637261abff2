@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-python-sphinxcontrib-websupport
+	pkgdesc = Sphinx API for Web Apps (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = http://www.sphinx-doc.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = sphinxcontrib-websupport-1.0.1.tar.gz::https://github.com/sphinx-doc/sphinxcontrib-websupport/archive/1.0.1.tar.gz
+	sha256sums = b320eda0c0127af2d86fee1b93d891d2ad6b660797220c5d7be8fdcc2d4db141
+
+pkgname = mingw-w64-x86_64-python2-sphinxcontrib-websupport
+
+pkgname = mingw-w64-x86_64-python3-sphinxcontrib-websupport
+
+pkgbase = mingw-w64-python-sphinxcontrib-websupport
+	pkgdesc = Sphinx API for Web Apps (mingw-w64)
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = http://www.sphinx-doc.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = sphinxcontrib-websupport-1.0.1.tar.gz::https://github.com/sphinx-doc/sphinxcontrib-websupport/archive/1.0.1.tar.gz
+	sha256sums = b320eda0c0127af2d86fee1b93d891d2ad6b660797220c5d7be8fdcc2d4db141
+
+pkgname = mingw-w64-i686-python2-sphinxcontrib-websupport
+
+pkgname = mingw-w64-i686-python3-sphinxcontrib-websupport
+

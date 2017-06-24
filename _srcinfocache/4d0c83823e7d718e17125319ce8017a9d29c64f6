@@ -1,0 +1,34 @@
+pkgbase = mingw-w64-python-decorator
+	pkgdesc = Better living through Python with decorators (mingw-w64)
+	pkgver = 4.0.11
+	pkgrel = 2
+	url = https://github.com/micheles/decorator
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	makedepends = git
+	source = decorator-4.0.11.tar.gz::https://github.com/micheles/decorator/archive/4.0.11.tar.gz
+	sha256sums = cb2d6dfefe7905e9382afd06fee132da5adda30f3846d1cfad0da3e02b3f248a
+
+pkgname = mingw-w64-x86_64-python3-decorator
+
+pkgname = mingw-w64-x86_64-python2-decorator
+
+pkgbase = mingw-w64-python-decorator
+	pkgdesc = Better living through Python with decorators (mingw-w64)
+	pkgver = 4.0.11
+	pkgrel = 2
+	url = https://github.com/micheles/decorator
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	makedepends = git
+	source = decorator-4.0.11.tar.gz::https://github.com/micheles/decorator/archive/4.0.11.tar.gz
+	sha256sums = cb2d6dfefe7905e9382afd06fee132da5adda30f3846d1cfad0da3e02b3f248a
+
+pkgname = mingw-w64-i686-python3-decorator
+
+pkgname = mingw-w64-i686-python2-decorator
+

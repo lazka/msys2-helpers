@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-tidyhtml
+	pkgdesc = A tool to tidy down your HTML code to a clean style
+	pkgver = 1.46
+	pkgrel = 1
+	url = https://tidy.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = cvs
+	makedepends = mingw-w64-x86_64-pkg-config
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = tidyhtml-1.46.tar.bz2
+	source = mappedio_sizecheck.patch
+	source = version_fix.patch
+	sha256sums = SKIP
+	sha256sums = 6e12d8c3c449e57be58c1c90776b34a02136b3cd1904d919f64961abb009f798
+	sha256sums = e7a922a29f4f917c3370df09c02af52c9ed936610244415d393ba599b841a87b
+
+pkgname = mingw-w64-x86_64-tidyhtml
+
+pkgbase = mingw-w64-tidyhtml
+	pkgdesc = A tool to tidy down your HTML code to a clean style
+	pkgver = 1.46
+	pkgrel = 1
+	url = https://tidy.sourceforge.io/
+	arch = any
+	license = custom
+	makedepends = cvs
+	makedepends = mingw-w64-i686-pkg-config
+	options = !strip
+	options = staticlibs
+	options = !buildflags
+	source = tidyhtml-1.46.tar.bz2
+	source = mappedio_sizecheck.patch
+	source = version_fix.patch
+	sha256sums = SKIP
+	sha256sums = 6e12d8c3c449e57be58c1c90776b34a02136b3cd1904d919f64961abb009f798
+	sha256sums = e7a922a29f4f917c3370df09c02af52c9ed936610244415d393ba599b841a87b
+
+pkgname = mingw-w64-i686-tidyhtml
+

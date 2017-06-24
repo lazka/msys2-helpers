@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-opus-git
+	pkgdesc = Codec designed for interactive speech and audio transmission over the Internet (mingw-w64)
+	pkgver = v1.2.alpha.r2.ge619ea7
+	pkgrel = 1
+	url = https://www.opus-codec.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	provides = mingw-w64-x86_64-opus
+	conflicts = mingw-w64-x86_64-opus
+	source = git+https://git.xiph.org/opus.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-opus-git
+
+pkgbase = mingw-w64-opus-git
+	pkgdesc = Codec designed for interactive speech and audio transmission over the Internet (mingw-w64)
+	pkgver = v1.2.alpha.r2.ge619ea7
+	pkgrel = 1
+	url = https://www.opus-codec.org/
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	provides = mingw-w64-i686-opus
+	conflicts = mingw-w64-i686-opus
+	source = git+https://git.xiph.org/opus.git
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-opus-git
+

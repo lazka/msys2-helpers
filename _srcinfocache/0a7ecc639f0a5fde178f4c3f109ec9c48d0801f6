@@ -1,0 +1,32 @@
+pkgbase = perl-File-Next
+	pkgdesc = File-finding iterator
+	pkgver = 1.12
+	pkgrel = 2
+	url = http://search.cpan.org/dist/File-Next
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/File-Next-1.12.tar.gz
+	sha256sums = cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a
+
+pkgname = perl-File-Next
+
+pkgbase = perl-File-Next
+	pkgdesc = File-finding iterator
+	pkgver = 1.12
+	pkgrel = 2
+	url = http://search.cpan.org/dist/File-Next
+	arch = any
+	groups = perl-modules
+	license = PerlArtistic
+	license = GPL
+	depends = perl
+	options = !emptydirs
+	source = http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/File-Next-1.12.tar.gz
+	sha256sums = cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a
+
+pkgname = perl-File-Next
+

@@ -1,0 +1,56 @@
+pkgbase = automake-wrapper
+	pkgdesc = Wrapper scripts for automake and aclocal
+	pkgver = 10
+	pkgrel = 1
+	url = http://www.gentoo.org
+	arch = any
+	groups = base-devel
+	license = GPL
+	depends = bash
+	depends = gawk
+	depends = automake1.6
+	depends = automake1.7
+	depends = automake1.7
+	depends = automake1.8
+	depends = automake1.9
+	depends = automake1.10
+	depends = automake1.11
+	depends = automake1.12
+	depends = automake1.13
+	depends = automake1.14
+	depends = automake1.15
+	provides = automake
+	conflicts = automake
+	source = am-wrapper-10.sh
+	sha256sums = 0b12af8d55b7ac8b0c4ed674877741913fca5b3c35ca2e2b03c0201f27286a97
+
+pkgname = automake-wrapper
+
+pkgbase = automake-wrapper
+	pkgdesc = Wrapper scripts for automake and aclocal
+	pkgver = 10
+	pkgrel = 1
+	url = http://www.gentoo.org
+	arch = any
+	groups = base-devel
+	license = GPL
+	depends = bash
+	depends = gawk
+	depends = automake1.6
+	depends = automake1.7
+	depends = automake1.7
+	depends = automake1.8
+	depends = automake1.9
+	depends = automake1.10
+	depends = automake1.11
+	depends = automake1.12
+	depends = automake1.13
+	depends = automake1.14
+	depends = automake1.15
+	provides = automake
+	conflicts = automake
+	source = am-wrapper-10.sh
+	sha256sums = 0b12af8d55b7ac8b0c4ed674877741913fca5b3c35ca2e2b03c0201f27286a97
+
+pkgname = automake-wrapper
+

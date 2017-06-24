@@ -1,0 +1,42 @@
+pkgbase = mingw-w64-fribidi
+	pkgdesc = A Free Implementation of the Unicode Bidirectional Algorithm (mingw-w64)
+	pkgver = 0.19.7
+	pkgrel = 1
+	url = http://fribidi.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-glib2
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = http://fribidi.org/download/fribidi-0.19.7.tar.bz2
+	source = 0001-No-need-to-specialcase-export-symbols-for-OS_WIN32.patch
+	source = 0003-fix-eols-in-tests-on.mingw.patch
+	sha256sums = 08222a6212bbc2276a2d55c3bf370109ae4a35b689acbc66571ad2a670595a8e
+	sha256sums = 85eedcd4870140ebc419ad35c4e22214be8a96490c2af9c41738a505a0857724
+	sha256sums = 51b6729ea94b3dd3a8f8418733a39cde7a17888de6a407905509d8c968eff6cd
+
+pkgname = mingw-w64-x86_64-fribidi
+
+pkgbase = mingw-w64-fribidi
+	pkgdesc = A Free Implementation of the Unicode Bidirectional Algorithm (mingw-w64)
+	pkgver = 0.19.7
+	pkgrel = 1
+	url = http://fribidi.org
+	arch = any
+	license = LGPL
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-glib2
+	options = strip
+	options = !libtool
+	options = staticlibs
+	source = http://fribidi.org/download/fribidi-0.19.7.tar.bz2
+	source = 0001-No-need-to-specialcase-export-symbols-for-OS_WIN32.patch
+	source = 0003-fix-eols-in-tests-on.mingw.patch
+	sha256sums = 08222a6212bbc2276a2d55c3bf370109ae4a35b689acbc66571ad2a670595a8e
+	sha256sums = 85eedcd4870140ebc419ad35c4e22214be8a96490c2af9c41738a505a0857724
+	sha256sums = 51b6729ea94b3dd3a8f8418733a39cde7a17888de6a407905509d8c968eff6cd
+
+pkgname = mingw-w64-i686-fribidi
+

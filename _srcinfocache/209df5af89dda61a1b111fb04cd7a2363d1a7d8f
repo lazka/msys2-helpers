@@ -1,0 +1,40 @@
+pkgbase = mingw-w64-miniupnpc
+	pkgdesc = A small UPnP client library/tool to access Internet Gateway Devices (mingw-w64)
+	pkgver = 2.0
+	pkgrel = 2
+	url = http://miniupnp.free.fr
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-gcc
+	makedepends = mingw-w64-x86_64-cmake
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3
+	depends = mingw-w64-x86_64-gcc-libs
+	options = staticlibs
+	source = http://miniupnp.tuxfamily.org/files/miniupnpc-2.0.tar.gz
+	source = 001-link-libraries.patch
+	sha256sums = d434ceb8986efbe199c5ca53f90ed53eab290b1e6d0530b717eb6fa49d61f93b
+	sha256sums = 3ac8b46b15ab48415cbbfa759d968873b315a96120d4dcbe062fbc39a909726d
+
+pkgname = mingw-w64-x86_64-miniupnpc
+
+pkgbase = mingw-w64-miniupnpc
+	pkgdesc = A small UPnP client library/tool to access Internet Gateway Devices (mingw-w64)
+	pkgver = 2.0
+	pkgrel = 2
+	url = http://miniupnp.free.fr
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-gcc
+	makedepends = mingw-w64-i686-cmake
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3
+	depends = mingw-w64-i686-gcc-libs
+	options = staticlibs
+	source = http://miniupnp.tuxfamily.org/files/miniupnpc-2.0.tar.gz
+	source = 001-link-libraries.patch
+	sha256sums = d434ceb8986efbe199c5ca53f90ed53eab290b1e6d0530b717eb6fa49d61f93b
+	sha256sums = 3ac8b46b15ab48415cbbfa759d968873b315a96120d4dcbe062fbc39a909726d
+
+pkgname = mingw-w64-i686-miniupnpc
+

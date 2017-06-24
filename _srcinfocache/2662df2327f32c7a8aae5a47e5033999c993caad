@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-python-mock
+	pkgdesc = Rolling backport of unittest.mock for all Pythons (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://github.com/testing-cabal/mock
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-x86_64-python3
+	makedepends = mingw-w64-x86_64-python2
+	makedepends = mingw-w64-x86_64-python3-six
+	makedepends = mingw-w64-x86_64-python2-six
+	makedepends = mingw-w64-x86_64-python3-funcsigs
+	makedepends = mingw-w64-x86_64-python2-funcsigs
+	makedepends = mingw-w64-x86_64-python3-pbr
+	makedepends = mingw-w64-x86_64-python2-pbr
+	noextract = mock-2.0.0.tar.gz
+	source = https://pypi.python.org/packages/source/m/mock/mock-2.0.0.tar.gz
+	sha256sums = b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba
+
+pkgname = mingw-w64-x86_64-python2-mock
+
+pkgname = mingw-w64-x86_64-python3-mock
+
+pkgbase = mingw-w64-python-mock
+	pkgdesc = Rolling backport of unittest.mock for all Pythons (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://github.com/testing-cabal/mock
+	arch = any
+	license = BSD
+	makedepends = mingw-w64-i686-python3
+	makedepends = mingw-w64-i686-python2
+	makedepends = mingw-w64-i686-python3-six
+	makedepends = mingw-w64-i686-python2-six
+	makedepends = mingw-w64-i686-python3-funcsigs
+	makedepends = mingw-w64-i686-python2-funcsigs
+	makedepends = mingw-w64-i686-python3-pbr
+	makedepends = mingw-w64-i686-python2-pbr
+	noextract = mock-2.0.0.tar.gz
+	source = https://pypi.python.org/packages/source/m/mock/mock-2.0.0.tar.gz
+	sha256sums = b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba
+
+pkgname = mingw-w64-i686-python2-mock
+
+pkgname = mingw-w64-i686-python3-mock
+

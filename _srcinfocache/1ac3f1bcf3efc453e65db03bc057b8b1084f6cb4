@@ -1,0 +1,52 @@
+pkgbase = mingw-w64-libvorbisidec-svn
+	pkgdesc = Integer-only Ogg Vorbis decoder, AKA \"tremor\" (mingw-w64)
+	pkgver = r19494
+	pkgrel = 1
+	url = https://svn.xiph.org/trunk/Tremor
+	arch = any
+	license = custom
+	makedepends = subversion
+	makedepends = mingw-w64-x86_64-gcc
+	depends = mingw-w64-x86_64-libogg
+	provides = mingw-w64-x86_64-libvorbisidec
+	conflicts = mingw-w64-x86_64-libvorbisidec
+	options = strip
+	options = staticlibs
+	options = !emptydirs
+	source = libvorbisidec::svn+https://svn.xiph.org/trunk/Tremor/
+	source = 0001-add-no-undefined-for-libtool.mingw.patch
+	source = 0002-no-configure-in-autogen.mingw.patch
+	source = 0003-update-ac.mingw.patch
+	sha256sums = SKIP
+	sha256sums = 5c5f30ceef0dfa9e33b71b8b475ee79e4c15a10d311ad92c56df459070dd8abd
+	sha256sums = dde8d0a8cdbec73476959454cd6ef303677be304da0a3b1b7c23066d666a7bf3
+	sha256sums = e831885ef703c4600fd0e330d1f77943866c35af53e9c5e39406aaf8e124d27c
+
+pkgname = mingw-w64-x86_64-libvorbisidec-svn
+
+pkgbase = mingw-w64-libvorbisidec-svn
+	pkgdesc = Integer-only Ogg Vorbis decoder, AKA \"tremor\" (mingw-w64)
+	pkgver = r19494
+	pkgrel = 1
+	url = https://svn.xiph.org/trunk/Tremor
+	arch = any
+	license = custom
+	makedepends = subversion
+	makedepends = mingw-w64-i686-gcc
+	depends = mingw-w64-i686-libogg
+	provides = mingw-w64-i686-libvorbisidec
+	conflicts = mingw-w64-i686-libvorbisidec
+	options = strip
+	options = staticlibs
+	options = !emptydirs
+	source = libvorbisidec::svn+https://svn.xiph.org/trunk/Tremor/
+	source = 0001-add-no-undefined-for-libtool.mingw.patch
+	source = 0002-no-configure-in-autogen.mingw.patch
+	source = 0003-update-ac.mingw.patch
+	sha256sums = SKIP
+	sha256sums = 5c5f30ceef0dfa9e33b71b8b475ee79e4c15a10d311ad92c56df459070dd8abd
+	sha256sums = dde8d0a8cdbec73476959454cd6ef303677be304da0a3b1b7c23066d666a7bf3
+	sha256sums = e831885ef703c4600fd0e330d1f77943866c35af53e9c5e39406aaf8e124d27c
+
+pkgname = mingw-w64-i686-libvorbisidec-svn
+

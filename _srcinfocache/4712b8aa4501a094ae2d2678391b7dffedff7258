@@ -1,0 +1,28 @@
+pkgbase = mingw-w64-nimble
+	pkgdesc = Package manager for the Nim programming language (mingw-w64)
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://github.com/nim-lang/nimble
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = mingw-w64-x86_64-nim
+	source = nimble::git+https://github.com/nim-lang/nimble.git#tag=v0.6.2
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-nimble
+
+pkgbase = mingw-w64-nimble
+	pkgdesc = Package manager for the Nim programming language (mingw-w64)
+	pkgver = 0.6.2
+	pkgrel = 1
+	url = https://github.com/nim-lang/nimble
+	arch = any
+	license = BSD
+	makedepends = git
+	makedepends = mingw-w64-i686-nim
+	source = nimble::git+https://github.com/nim-lang/nimble.git#tag=v0.6.2
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-nimble
+

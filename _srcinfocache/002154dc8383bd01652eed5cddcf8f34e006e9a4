@@ -1,0 +1,36 @@
+pkgbase = mingw-w64-libplist
+	pkgdesc = A library to handle Apple Property List format in binary or XML (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://www.libimobiledevice.org/
+	arch = any
+	license = GPL2+
+	makedepends = mingw-w64-x86_64-python3
+	depends = mingw-w64-x86_64-libxml2
+	depends = mingw-w64-x86_64-cython
+	options = staticlibs
+	source = http://www.libimobiledevice.org/downloads/libplist-2.0.0.tar.bz2
+	source = 001-cython-module.patch
+	sha256sums = 3a7e9694c2d9a85174ba1fa92417cfabaea7f6d19631e544948dc7e17e82f602
+	sha256sums = 42e7c4d3fa91b5b5d206faf51e95690f74b751b1896056bb32a616e17563ee93
+
+pkgname = mingw-w64-x86_64-libplist
+
+pkgbase = mingw-w64-libplist
+	pkgdesc = A library to handle Apple Property List format in binary or XML (mingw-w64)
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = http://www.libimobiledevice.org/
+	arch = any
+	license = GPL2+
+	makedepends = mingw-w64-i686-python3
+	depends = mingw-w64-i686-libxml2
+	depends = mingw-w64-i686-cython
+	options = staticlibs
+	source = http://www.libimobiledevice.org/downloads/libplist-2.0.0.tar.bz2
+	source = 001-cython-module.patch
+	sha256sums = 3a7e9694c2d9a85174ba1fa92417cfabaea7f6d19631e544948dc7e17e82f602
+	sha256sums = 42e7c4d3fa91b5b5d206faf51e95690f74b751b1896056bb32a616e17563ee93
+
+pkgname = mingw-w64-i686-libplist
+

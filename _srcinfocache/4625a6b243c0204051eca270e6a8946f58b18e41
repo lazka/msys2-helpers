@@ -1,0 +1,46 @@
+pkgbase = mingw-w64-pyqt4
+	pkgdesc = Qt4 bindings for Python (mingw-w64)
+	pkgver = 4.11.4
+	pkgrel = 3
+	url = http://www.riverbankcomputing.co.uk/software/pyqt
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-x86_64-python2-sip
+	makedepends = mingw-w64-x86_64-python3-sip
+	makedepends = mingw-w64-x86_64-qt4
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt-win-gpl-4.11.4.zip
+	source = 001-mingw-python.patch
+	sha256sums = 5a5c5b23b9fba85bcae44cd91e524b267d40e18966a66de72842f4d96832ad29
+	sha256sums = 1effff11ec3e558d724d75dab529f130bf2fad8f71ba274813a094242d94957e
+
+pkgname = mingw-w64-x86_64-pyqt4-common
+
+pkgname = mingw-w64-x86_64-python2-pyqt4
+
+pkgname = mingw-w64-x86_64-python3-pyqt4
+
+pkgbase = mingw-w64-pyqt4
+	pkgdesc = Qt4 bindings for Python (mingw-w64)
+	pkgver = 4.11.4
+	pkgrel = 3
+	url = http://www.riverbankcomputing.co.uk/software/pyqt
+	arch = any
+	license = GPL
+	makedepends = mingw-w64-i686-python2-sip
+	makedepends = mingw-w64-i686-python3-sip
+	makedepends = mingw-w64-i686-qt4
+	options = strip
+	options = staticlibs
+	source = https://downloads.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt-win-gpl-4.11.4.zip
+	source = 001-mingw-python.patch
+	sha256sums = 5a5c5b23b9fba85bcae44cd91e524b267d40e18966a66de72842f4d96832ad29
+	sha256sums = 1effff11ec3e558d724d75dab529f130bf2fad8f71ba274813a094242d94957e
+
+pkgname = mingw-w64-i686-pyqt4-common
+
+pkgname = mingw-w64-i686-python2-pyqt4
+
+pkgname = mingw-w64-i686-python3-pyqt4
+

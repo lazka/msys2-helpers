@@ -1,0 +1,32 @@
+pkgbase = dejagnu
+	pkgdesc = Framework for testing other programs
+	pkgver = 1.5.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/dejagnu/
+	arch = any
+	license = GPL
+	depends = expect
+	source = https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.5.3.tar.gz
+	source = https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.5.3.tar.gz.sig
+	validpgpkeys = CB0B31452BBE862933013D9176362888B55988D4
+	sha256sums = 099b8e364ca1d6248f8e1d32168c4b12677abff4253bbbb4a8ac8cdd321e3f19
+	sha256sums = SKIP
+
+pkgname = dejagnu
+
+pkgbase = dejagnu
+	pkgdesc = Framework for testing other programs
+	pkgver = 1.5.3
+	pkgrel = 1
+	url = https://www.gnu.org/software/dejagnu/
+	arch = any
+	license = GPL
+	depends = expect
+	source = https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.5.3.tar.gz
+	source = https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.5.3.tar.gz.sig
+	validpgpkeys = CB0B31452BBE862933013D9176362888B55988D4
+	sha256sums = 099b8e364ca1d6248f8e1d32168c4b12677abff4253bbbb4a8ac8cdd321e3f19
+	sha256sums = SKIP
+
+pkgname = dejagnu
+

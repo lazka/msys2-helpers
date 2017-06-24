@@ -1,0 +1,30 @@
+pkgbase = mingw-w64-tktable
+	pkgdesc = A full-featured 2D table widget for Tk (mingw-w64)
+	pkgver = 2.10
+	pkgrel = 4
+	url = https://tktable.sourceforge.io/
+	arch = any
+	license = custom
+	depends = mingw-w64-x86_64-tk
+	source = https://sourceforge.net/projects/tktable/files/tktable/2.10/Tktable2.10.tar.gz
+	source = 001-fix-detect-mingw.patch
+	sha256sums = c335117fa1be45fe4d3032e96fd4b4641fff6a4f8467878608dabed11198a4cb
+	sha256sums = 1decff05ed2e09f62a44e1e6d15e32904f331e83c4e1170f5f1140f7d9f9bb1f
+
+pkgname = mingw-w64-x86_64-tktable
+
+pkgbase = mingw-w64-tktable
+	pkgdesc = A full-featured 2D table widget for Tk (mingw-w64)
+	pkgver = 2.10
+	pkgrel = 4
+	url = https://tktable.sourceforge.io/
+	arch = any
+	license = custom
+	depends = mingw-w64-i686-tk
+	source = https://sourceforge.net/projects/tktable/files/tktable/2.10/Tktable2.10.tar.gz
+	source = 001-fix-detect-mingw.patch
+	sha256sums = c335117fa1be45fe4d3032e96fd4b4641fff6a4f8467878608dabed11198a4cb
+	sha256sums = 1decff05ed2e09f62a44e1e6d15e32904f331e83c4e1170f5f1140f7d9f9bb1f
+
+pkgname = mingw-w64-i686-tktable
+

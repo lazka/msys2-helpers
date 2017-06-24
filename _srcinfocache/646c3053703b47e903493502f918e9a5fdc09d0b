@@ -1,0 +1,40 @@
+pkgbase = msys2-launcher-git
+	pkgdesc = Helper for launching MSYS2 shells
+	pkgver = 0.3.32.56c2ba7
+	pkgrel = 2
+	arch = x86_64
+	arch = i686
+	groups = base
+	license = MIT
+	makedepends = mingw-w64-cross-gcc
+	depends = mintty>=1~2.2.1
+	provides = msys2-launcher
+	conflicts = msys2-launcher
+	backup = mingw32.ini
+	backup = mingw64.ini
+	backup = msys2.ini
+	source = git+https://github.com/elieux/msys2-launcher
+	sha256sums = SKIP
+
+pkgname = msys2-launcher-git
+
+pkgbase = msys2-launcher-git
+	pkgdesc = Helper for launching MSYS2 shells
+	pkgver = 0.3.32.56c2ba7
+	pkgrel = 2
+	arch = x86_64
+	arch = i686
+	groups = base
+	license = MIT
+	makedepends = mingw-w64-cross-gcc
+	depends = mintty>=1~2.2.1
+	provides = msys2-launcher
+	conflicts = msys2-launcher
+	backup = mingw32.ini
+	backup = mingw64.ini
+	backup = msys2.ini
+	source = git+https://github.com/elieux/msys2-launcher
+	sha256sums = SKIP
+
+pkgname = msys2-launcher-git
+

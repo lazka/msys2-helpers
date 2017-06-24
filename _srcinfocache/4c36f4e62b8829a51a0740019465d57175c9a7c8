@@ -1,0 +1,38 @@
+pkgbase = delta
+	pkgdesc = An useful tool that lets you minimize interesting files subject to a test of their interestingness.
+	pkgver = 20060803
+	pkgrel = 1
+	url = http://delta.tigris.org/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = make
+	makedepends = gcc
+	makedepends = flex
+	depends = perl
+	source = http://www.tigris.org/files/documents/3103/33566/delta-2006.08.03.tar.gz
+	source = 0001-Cygwin-MSYS2-WIN32-Reopen-stdin-in-text-mode.patch
+	sha256sums = 38184847a92b01b099bf927dbe66ef88fcfbe7d346a7304eeaad0977cb809ca0
+	sha256sums = af6302fd7fcc2d277b678b6aae78330635ce08939bb9dbcf1d75f0d93a1f8460
+
+pkgname = delta
+
+pkgbase = delta
+	pkgdesc = An useful tool that lets you minimize interesting files subject to a test of their interestingness.
+	pkgver = 20060803
+	pkgrel = 1
+	url = http://delta.tigris.org/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = make
+	makedepends = gcc
+	makedepends = flex
+	depends = perl
+	source = http://www.tigris.org/files/documents/3103/33566/delta-2006.08.03.tar.gz
+	source = 0001-Cygwin-MSYS2-WIN32-Reopen-stdin-in-text-mode.patch
+	sha256sums = 38184847a92b01b099bf927dbe66ef88fcfbe7d346a7304eeaad0977cb809ca0
+	sha256sums = af6302fd7fcc2d277b678b6aae78330635ce08939bb9dbcf1d75f0d93a1f8460
+
+pkgname = delta
+

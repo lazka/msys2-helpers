@@ -1,0 +1,48 @@
+pkgbase = mingw-w64-remake
+	pkgdesc = Enhanced GNU Make - tracing, error reporting, debugging, profiling and more (mingw-w64)
+	pkgver = 4.1.2943.f059924
+	pkgrel = 1
+	url = https://github.com/rocky/remake
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = wget
+	depends = mingw-w64-x86_64-gettext
+	depends = mingw-w64-x86_64-readline
+	provides = mingw-w64-x86_64-remake
+	conflicts = mingw-w64-x86_64-remake
+	options = debug
+	options = !strip
+	source = remake::git+https://github.com/rocky/remake#branch=master
+	source = make-getopt.patch
+	source = make-linebuf-mingw.patch
+	sha256sums = SKIP
+	sha256sums = 6aa89d99b37de75f90e79941f8142f388ce30740ab591bcb025f0eadce54011f
+	sha256sums = 11859c48a641baf9a5f000fa4e5c10d0cdf602bc8e3aaea3ed74005943dcd8da
+
+pkgname = mingw-w64-x86_64-remake
+
+pkgbase = mingw-w64-remake
+	pkgdesc = Enhanced GNU Make - tracing, error reporting, debugging, profiling and more (mingw-w64)
+	pkgver = 4.1.2943.f059924
+	pkgrel = 1
+	url = https://github.com/rocky/remake
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = wget
+	depends = mingw-w64-i686-gettext
+	depends = mingw-w64-i686-readline
+	provides = mingw-w64-i686-remake
+	conflicts = mingw-w64-i686-remake
+	options = debug
+	options = !strip
+	source = remake::git+https://github.com/rocky/remake#branch=master
+	source = make-getopt.patch
+	source = make-linebuf-mingw.patch
+	sha256sums = SKIP
+	sha256sums = 6aa89d99b37de75f90e79941f8142f388ce30740ab591bcb025f0eadce54011f
+	sha256sums = 11859c48a641baf9a5f000fa4e5c10d0cdf602bc8e3aaea3ed74005943dcd8da
+
+pkgname = mingw-w64-i686-remake
+

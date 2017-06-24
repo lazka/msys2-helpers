@@ -1,0 +1,46 @@
+pkgbase = yasm
+	pkgdesc = A rewrite of NASM to allow for multiple syntax supported (NASM, TASM, GAS, etc.)
+	pkgver = 1.3.0
+	pkgrel = 2
+	url = https://www.tortall.net/projects/yasm/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	license = GPL2
+	license = LGPL2.1
+	license = PerlArtistic
+	options = staticlibs
+	source = https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
+	source = msysize.patch
+	source = yasm-1.2.0-1.src.patch
+	sha256sums = 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f
+	sha256sums = c29f0b53b13f8a3e16dbfb38c1f67ed281cdad9140447726bfcba321fe0f67ad
+	sha256sums = 10a8dee681519d6fe14bf7f4dc9cb5b0f55cc7210c4e532e6939c4363cb0d3c0
+
+pkgname = yasm
+
+pkgname = yasm-devel
+
+pkgbase = yasm
+	pkgdesc = A rewrite of NASM to allow for multiple syntax supported (NASM, TASM, GAS, etc.)
+	pkgver = 1.3.0
+	pkgrel = 2
+	url = https://www.tortall.net/projects/yasm/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	license = GPL2
+	license = LGPL2.1
+	license = PerlArtistic
+	options = staticlibs
+	source = https://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
+	source = msysize.patch
+	source = yasm-1.2.0-1.src.patch
+	sha256sums = 3dce6601b495f5b3d45b59f7d2492a340ee7e84b5beca17e48f862502bd5603f
+	sha256sums = c29f0b53b13f8a3e16dbfb38c1f67ed281cdad9140447726bfcba321fe0f67ad
+	sha256sums = 10a8dee681519d6fe14bf7f4dc9cb5b0f55cc7210c4e532e6939c4363cb0d3c0
+
+pkgname = yasm
+
+pkgname = yasm-devel
+

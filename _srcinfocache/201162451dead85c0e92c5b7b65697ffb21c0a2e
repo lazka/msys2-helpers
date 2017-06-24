@@ -1,0 +1,46 @@
+pkgbase = make-git
+	pkgdesc = GNU make utility to maintain groups of programs
+	pkgver = 4.1.8.g292da6f
+	pkgrel = 2
+	url = https://www.gnu.org/software/make
+	install = make-git.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = gettext
+	makedepends = gettext-devel
+	makedepends = git
+	makedepends = wget
+	depends = msys2-runtime
+	depends = sh
+	depends = guile
+	provides = make
+	conflicts = make
+	source = make-git::git+https://git.savannah.gnu.org/git/make.git
+	sha256sums = SKIP
+
+pkgname = make-git
+
+pkgbase = make-git
+	pkgdesc = GNU make utility to maintain groups of programs
+	pkgver = 4.1.8.g292da6f
+	pkgrel = 2
+	url = https://www.gnu.org/software/make
+	install = make-git.install
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = gettext
+	makedepends = gettext-devel
+	makedepends = git
+	makedepends = wget
+	depends = msys2-runtime
+	depends = sh
+	depends = guile
+	provides = make
+	conflicts = make
+	source = make-git::git+https://git.savannah.gnu.org/git/make.git
+	sha256sums = SKIP
+
+pkgname = make-git
+

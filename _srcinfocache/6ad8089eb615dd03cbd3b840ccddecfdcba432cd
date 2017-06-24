@@ -1,0 +1,32 @@
+pkgbase = mingw-w64-python-wcwidth
+	pkgdesc = Measures number of Terminal column cells of wide-character codes (mingw-w64)
+	pkgver = 0.1.7
+	pkgrel = 2
+	url = https://github.com/jquast/wcwidth
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-x86_64-python3-setuptools
+	makedepends = mingw-w64-x86_64-python2-setuptools
+	source = wcwidth-0.1.7.tar.gz::https://github.com/jquast/wcwidth/archive/0.1.7.tar.gz
+	sha256sums = c0122eb9a4ef7ab6489d0ef7c72db4143387b9466e27385cd5201950f49583b3
+
+pkgname = mingw-w64-x86_64-python3-wcwidth
+
+pkgname = mingw-w64-x86_64-python2-wcwidth
+
+pkgbase = mingw-w64-python-wcwidth
+	pkgdesc = Measures number of Terminal column cells of wide-character codes (mingw-w64)
+	pkgver = 0.1.7
+	pkgrel = 2
+	url = https://github.com/jquast/wcwidth
+	arch = any
+	license = MIT
+	makedepends = mingw-w64-i686-python3-setuptools
+	makedepends = mingw-w64-i686-python2-setuptools
+	source = wcwidth-0.1.7.tar.gz::https://github.com/jquast/wcwidth/archive/0.1.7.tar.gz
+	sha256sums = c0122eb9a4ef7ab6489d0ef7c72db4143387b9466e27385cd5201950f49583b3
+
+pkgname = mingw-w64-i686-python3-wcwidth
+
+pkgname = mingw-w64-i686-python2-wcwidth
+

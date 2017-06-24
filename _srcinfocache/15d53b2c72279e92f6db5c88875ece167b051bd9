@@ -1,0 +1,52 @@
+pkgbase = c-ares
+	pkgdesc = C library that performs DNS requests and name resolves asynchronously (libraries)
+	pkgver = 1.10.0
+	pkgrel = 2
+	url = http://c-ares.haxx.se/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	depends = gcc-libs
+	options = staticlibs
+	source = http://c-ares.haxx.se/download/c-ares-1.10.0.tar.gz
+	source = http://c-ares.haxx.se/download/c-ares-1.10.0.tar.gz.asc
+	source = http://c-ares.haxx.se/license.html
+	sha256sums = 3d701674615d1158e56a59aaede7891f2dde3da0f46a6d3c684e0ae70f52d3db
+	sha256sums = SKIP
+	sha256sums = aa259141af2018178b832960800be9eaec1b04b18b54b55748e6735396962597
+
+pkgname = libcares
+	groups = libraries
+
+pkgname = libcares-devel
+	pkgdesc = c-ares headers and libraries (development)
+	groups = development
+	depends = libcares=1.10.0
+
+pkgbase = c-ares
+	pkgdesc = C library that performs DNS requests and name resolves asynchronously (libraries)
+	pkgver = 1.10.0
+	pkgrel = 2
+	url = http://c-ares.haxx.se/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	depends = gcc-libs
+	options = staticlibs
+	source = http://c-ares.haxx.se/download/c-ares-1.10.0.tar.gz
+	source = http://c-ares.haxx.se/download/c-ares-1.10.0.tar.gz.asc
+	source = http://c-ares.haxx.se/license.html
+	sha256sums = 3d701674615d1158e56a59aaede7891f2dde3da0f46a6d3c684e0ae70f52d3db
+	sha256sums = SKIP
+	sha256sums = aa259141af2018178b832960800be9eaec1b04b18b54b55748e6735396962597
+
+pkgname = libcares
+	groups = libraries
+
+pkgname = libcares-devel
+	pkgdesc = c-ares headers and libraries (development)
+	groups = development
+	depends = libcares=1.10.0
+

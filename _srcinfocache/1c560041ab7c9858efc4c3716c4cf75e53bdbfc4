@@ -1,0 +1,38 @@
+pkgbase = mingw-w64-qrupdate-svn
+	pkgdesc = qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions (mingw-w64)
+	pkgver = r28
+	pkgrel = 4
+	url = https://qrupdate.sourceforge.io/
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = subversion
+	makedepends = mingw-w64-x86_64-gcc-fortran
+	depends = mingw-w64-x86_64-openblas
+	provides = mingw-w64-x86_64-qrupdate
+	options = strip
+	options = staticlibs
+	source = qrupdate::svn+https://svn.code.sf.net/p/qrupdate/code
+	sha256sums = SKIP
+
+pkgname = mingw-w64-x86_64-qrupdate-svn
+
+pkgbase = mingw-w64-qrupdate-svn
+	pkgdesc = qrupdate is a Fortran library for fast updates of QR and Cholesky decompositions (mingw-w64)
+	pkgver = r28
+	pkgrel = 4
+	url = https://qrupdate.sourceforge.io/
+	arch = any
+	license = GPL
+	license = LGPL
+	makedepends = subversion
+	makedepends = mingw-w64-i686-gcc-fortran
+	depends = mingw-w64-i686-openblas
+	provides = mingw-w64-i686-qrupdate
+	options = strip
+	options = staticlibs
+	source = qrupdate::svn+https://svn.code.sf.net/p/qrupdate/code
+	sha256sums = SKIP
+
+pkgname = mingw-w64-i686-qrupdate-svn
+

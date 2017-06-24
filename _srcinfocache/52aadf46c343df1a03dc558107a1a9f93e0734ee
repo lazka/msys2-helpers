@@ -1,0 +1,78 @@
+pkgbase = db
+	pkgdesc = The Berkeley DB embedded database system
+	pkgver = 5.3.28
+	pkgrel = 2
+	url = https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = sh
+	options = !makeflags
+	source = http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz
+	source = 5.3-java.patch
+	source = 5.3-tcl.patch
+	source = 5.3-vpath.patch
+	source = db-5.3.28-msys2.patch
+	sha256sums = e0a992d740709892e81f9d93f06daf305cf73fb81b545afe72478043172c3628
+	sha256sums = a925b88e58cff6d4aeed3eecfa2cf4c606f2ed469607d8fd0c5c0a9c4b5a8bd1
+	sha256sums = 2166bac574f60d42fe6dd6c03223d6595accf303375be397e277b38676b8cb08
+	sha256sums = 7614933d2770c2aa6864cd731c114b90a4e4c1a8a988daabd9b6f203ab8f1f21
+	sha256sums = 42ae2995fefbd06853278db1620e8a15dbfd580e1a26c7f26e6d81e734e064cd
+
+pkgname = db
+	groups = Database
+	depends = libdb=5.3.28
+
+pkgname = libdb
+	groups = libraries
+	depends = gcc-libs
+	depends = msys2-runtime
+
+pkgname = libdb-devel
+	pkgdesc = libdb headers and libraries
+	groups = development
+	depends = libdb=5.3.28
+	options = staticlibs
+
+pkgname = db-docs
+	pkgdesc = BerkleyDB documentation
+
+pkgbase = db
+	pkgdesc = The Berkeley DB embedded database system
+	pkgver = 5.3.28
+	pkgrel = 2
+	url = https://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = sh
+	options = !makeflags
+	source = http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz
+	source = 5.3-java.patch
+	source = 5.3-tcl.patch
+	source = 5.3-vpath.patch
+	source = db-5.3.28-msys2.patch
+	sha256sums = e0a992d740709892e81f9d93f06daf305cf73fb81b545afe72478043172c3628
+	sha256sums = a925b88e58cff6d4aeed3eecfa2cf4c606f2ed469607d8fd0c5c0a9c4b5a8bd1
+	sha256sums = 2166bac574f60d42fe6dd6c03223d6595accf303375be397e277b38676b8cb08
+	sha256sums = 7614933d2770c2aa6864cd731c114b90a4e4c1a8a988daabd9b6f203ab8f1f21
+	sha256sums = 42ae2995fefbd06853278db1620e8a15dbfd580e1a26c7f26e6d81e734e064cd
+
+pkgname = db
+	groups = Database
+	depends = libdb=5.3.28
+
+pkgname = libdb
+	groups = libraries
+	depends = gcc-libs
+	depends = msys2-runtime
+
+pkgname = libdb-devel
+	pkgdesc = libdb headers and libraries
+	groups = development
+	depends = libdb=5.3.28
+	options = staticlibs
+
+pkgname = db-docs
+	pkgdesc = BerkleyDB documentation
+

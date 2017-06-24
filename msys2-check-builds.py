@@ -29,6 +29,7 @@ import os
 import sys
 import argparse
 import subprocess
+import hashlib
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
@@ -41,20 +42,52 @@ def red(text):
     return "\033[31m" + text + "\033[39m"
 
 
+def cyan(text):
+    return "\033[36m" + text + "\033[39m"
+
+
+DIR = os.path.dirname(os.path.realpath(__file__))
+
+
+def _get_cached(pkgbuild_path):
+    try:
+        os.mkdir(os.path.join(DIR, "_srcinfocache"))
+    except OSError:
+        pass
+
+    with open(pkgbuild_path, "rb") as f:
+        h = hashlib.new("SHA1")
+        h.update(f.read())
+        digest = h.hexdigest()
+
+    cache_path = os.path.join(DIR, "_srcinfocache", digest)
+    if not os.path.exists(cache_path):
+        try:
+            data = subprocess.check_output(
+                ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
+                 os.path.basename(pkgbuild_path)],
+                cwd=os.path.dirname(pkgbuild_path),
+                stderr=subprocess.STDOUT)
+        except subprocess.CalledProcessError as e:
+            print(
+                red("ERROR: %s %s" % (pkgbuild_path, e.output.splitlines())),
+                file=sys.stderr)
+            return
+
+        with open(cache_path, "wb") as f:
+            f.write(data)
+
+    with open(cache_path, "rb") as f:
+        return f.read()
+
+
 def get_pkgbuild_versions(pkgbuild_path):
     packages = {}
 
-    try:
-        text = subprocess.check_output(
-            ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
-             os.path.basename(pkgbuild_path)],
-            cwd=os.path.dirname(pkgbuild_path),
-            stderr=subprocess.STDOUT).decode("utf-8")
-    except subprocess.CalledProcessError as e:
-        print(
-            red("ERROR: %s %s" % (pkgbuild_path, e.output.splitlines())),
-            file=sys.stderr)
-        return packages
+    data = _get_cached(pkgbuild_path)
+    if data is None:
+        return pkgbuild_path, packages
+    text = data.decode("utf-8")
 
     pkgver = None
     pkgrel = None
@@ -73,7 +106,7 @@ def get_pkgbuild_versions(pkgbuild_path):
             if epoch:
                 version = "%s~%s" % (epoch, version)
             packages[pkgname] = version
-    return packages
+    return pkgbuild_path, packages
 
 
 def iter_all_pkgbuilds(repo_path):
@@ -99,10 +132,10 @@ def iter_all_pkgbuilds(repo_path):
 
     pool = ThreadPool(cpu_count() * 2)
     pool_iter = pool.imap_unordered(get_pkgbuild_versions, pkgbuild_paths)
-    for i, v in enumerate(pool_iter):
+    for i, (p, v) in enumerate(pool_iter):
         print("%d/%d" % (i + 1, len(pkgbuild_paths)), file=sys.stderr)
         for name, version in v.items():
-            yield (name, version)
+            yield (p, name, version)
     pool.close()
     pool.join()
 
@@ -124,14 +157,14 @@ def main(argv):
         pkgbuilds_in_repo[package_name] = version
 
     repo_path = os.path.abspath(args.path)
-    for name, version in iter_all_pkgbuilds(repo_path):
+    for path, name, version in iter_all_pkgbuilds(repo_path):
         if name not in pkgbuilds_in_repo:
-            print(green("NOT IN REPO: %s" % name))
+            print(green("NOT IN REPO: %s (%s)" % (name, path)))
         else:
             repo_version = pkgbuilds_in_repo[name]
             if version != repo_version:
-                print(green("DIFFERENTE VERSION: %s local=%s repo=%s" % (
-                    name, version, repo_version)))
+                print(cyan("DIFFERENTE VERSION: %s local=%s repo=%s (%s)" % (
+                    name, version, repo_version, path)))
 
 
 if __name__ == "__main__":

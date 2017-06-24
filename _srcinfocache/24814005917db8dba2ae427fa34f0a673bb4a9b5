@@ -1,0 +1,34 @@
+pkgbase = diffstat
+	pkgdesc = Display a histogram of diff changes
+	pkgver = 1.58
+	pkgrel = 1
+	url = http://invisible-island.net/diffstat
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = MIT
+	depends = msys2-runtime
+	source = ftp://invisible-island.net/diffstat/diffstat-1.58.tgz
+	source = diffstat-1.58-msys2.patch
+	sha256sums = fad5135199c3b9aea132c5d45874248f4ce0ff35f61abb8d03c3b90258713793
+	sha256sums = c4ec808391eea37809ba1f3eb043f01d52b486798db713cd6aef34d9f2a29162
+
+pkgname = diffstat
+
+pkgbase = diffstat
+	pkgdesc = Display a histogram of diff changes
+	pkgver = 1.58
+	pkgrel = 1
+	url = http://invisible-island.net/diffstat
+	arch = i686
+	arch = x86_64
+	groups = base-devel
+	license = MIT
+	depends = msys2-runtime
+	source = ftp://invisible-island.net/diffstat/diffstat-1.58.tgz
+	source = diffstat-1.58-msys2.patch
+	sha256sums = fad5135199c3b9aea132c5d45874248f4ce0ff35f61abb8d03c3b90258713793
+	sha256sums = c4ec808391eea37809ba1f3eb043f01d52b486798db713cd6aef34d9f2a29162
+
+pkgname = diffstat
+
