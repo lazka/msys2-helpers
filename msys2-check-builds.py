@@ -32,50 +32,68 @@ import subprocess
 import hashlib
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
+from collections import OrderedDict
+import json
+import threading
 
 
 DIR = os.path.dirname(os.path.realpath(__file__))
+CACHE = OrderedDict()
+CACHE_LOCK = threading.Lock()
+
+
+def _load_cache():
+    try:
+        with open(os.path.join(DIR, "_srcinfocache.json"), "rb") as h:
+            cache = json.loads(h.read(), object_pairs_hook=OrderedDict)
+    except EnvironmentError:
+        return
+    with CACHE_LOCK:
+        CACHE.update(cache)
+
+
+def _save_cache():
+    with CACHE_LOCK:
+        with open(os.path.join(DIR, "_srcinfocache.json"), "wb") as h:
+            h.write(json.dumps(CACHE, indent=2).encode("utf-8"))
 
 
 def _get_cached(pkgbuild_path):
-    try:
-        os.mkdir(os.path.join(DIR, "_srcinfocache"))
-    except OSError:
-        pass
-
     with open(pkgbuild_path, "rb") as f:
         h = hashlib.new("SHA1")
         h.update(f.read())
         digest = h.hexdigest()
+    
+    with CACHE_LOCK:
+        text = CACHE.get(digest)
 
-    cache_path = os.path.join(DIR, "_srcinfocache", digest)
-    if not os.path.exists(cache_path):
+    if text is None:
         try:
-            data = subprocess.check_output(
+            text = subprocess.check_output(
                 ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
                  os.path.basename(pkgbuild_path)],
                 cwd=os.path.dirname(pkgbuild_path),
-                stderr=subprocess.STDOUT)
+                stderr=subprocess.STDOUT).decode("utf-8")
         except subprocess.CalledProcessError as e:
             print(
                 "ERROR: %s %s" % (pkgbuild_path, e.output.splitlines()),
                 file=sys.stderr)
             return
 
-        with open(cache_path, "wb") as f:
-            f.write(data)
+        with CACHE_LOCK:
+            CACHE[digest] = text
 
-    with open(cache_path, "rb") as f:
-        return f.read()
+        _save_cache()
+
+    return text
 
 
 def get_pkgbuild_versions(pkgbuild_path):
     packages = {}
 
-    data = _get_cached(pkgbuild_path)
-    if data is None:
+    text = _get_cached(pkgbuild_path)
+    if text is None:
         return pkgbuild_path, packages
-    text = data.decode("utf-8")
 
     pkgver = None
     pkgrel = None
@@ -134,6 +152,8 @@ def main(argv):
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")
     args = parser.parse_args(argv[1:])
+
+    _load_cache()
 
     pkgbuilds_in_repo = {}
     text = subprocess.check_output(["pacman", "-Sl"]).decode("utf-8")
