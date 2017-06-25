@@ -25,6 +25,8 @@ from __future__ import print_function
 import subprocess
 import sys
 from multiprocessing.pool import ThreadPool
+from contextlib import contextmanager
+
 
 from .utils import package_name_is_vcs
 
@@ -201,6 +203,24 @@ def add_parser(subparsers):
     parser.set_defaults(func=main)
 
 
+@contextmanager
+def progress(total):
+    width = 80
+    sys.stdout.write("[%s]" % (" " * width))
+    sys.stdout.flush()
+    sys.stdout.write("\b" * (width + 1))
+
+    def update(current):
+        blocks = int((float(current) / total) * width)
+        sys.stdout.write("#" * blocks)
+        sys.stdout.write("\b" * blocks)
+        sys.stdout.flush()
+
+    yield update
+
+    sys.stdout.write("\n")
+
+
 def main(args):
     packages = msys2_get_mingw_packages(installed_only=not args.all)
 
@@ -211,13 +231,17 @@ def main(args):
     pool = ThreadPool(15)
     arch_versions = {}
     pool_iter = pool.imap(_fetch_version, work_items)
-    for i, some_versions in enumerate(pool_iter):
-        print("%d/%d" % (i + 1, len(work_items)), file=sys.stderr)
-        arch_versions.update(some_versions)
+
+    print("Fetching versions...")
+    with progress(len(work_items)) as update:
+        for i, some_versions in enumerate(pool_iter):
+            update(i + 1)
+            arch_versions.update(some_versions)
     pool.close()
     pool.join()
 
-    print("#" * 80, file=sys.stderr)
+    print("%-30s %-20s %-20s %s" % ("Name", "Local", "Arch", "Arch Package"))
+    print("%-30s %-20s %-20s %s" % ("-" * 30, "-" * 20 , "-" * 20, "-" * 20))
     for name, version in packages:
         arch_name = package_get_arch_name(name)
         arch_info = arch_versions.get(arch_name)
