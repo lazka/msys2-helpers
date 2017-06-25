@@ -23,13 +23,14 @@
 
 from __future__ import print_function
 
-import os
 import subprocess
 import sys
 import argparse
 from multiprocessing.pool import ThreadPool
 
 import requests
+
+from m2hlib import package_name_is_vcs
 
 
 def msys2_package_should_skip(package_name):
@@ -41,7 +42,7 @@ def msys2_package_should_skip(package_name):
         bool: If the package should be ignored
     """
 
-    if package_is_vcs(package_name):
+    if package_name_is_vcs(package_name):
         return True
 
     # These packages will never be in Arch
@@ -87,7 +88,7 @@ def msys2_get_mingw_packages(installed_only):
             continue
         name = name.split("-", 3)[-1]
         version = version.rsplit("-", 1)[0]
-        if package_is_vcs(name):
+        if package_name_is_vcs(name):
             continue
         v[name] = version
     return sorted(list(v.items()))
@@ -129,16 +130,6 @@ def package_get_arch_name(package_name):
     return package_name.lower()
 
 
-def package_is_vcs(package_name):
-    """
-    Returns:
-        bool: If the package is a VCS package
-    """
-
-    return package_name.endswith(
-        ("-cvs", "-svn", "-hg", "-darcs", "-bzr", "-git"))
-
-
 def version_is_newer_than(v1, v2):
     """
     Args:
@@ -165,16 +156,21 @@ def _fetch_version(args):
     else:
         results = []
 
+    def build_url(r):
+        return "https://www.archlinux.org/packages/%s/%s/%s" % (
+            r["repo"], r["arch"], r["pkgname"])
+
     versions = {}
     for result in results:
-        versions[arch_name] = result["pkgver"]
+        url = build_url(result)
+        versions[arch_name] = (result["pkgver"], url)
         for vs in result["provides"]:
             if "=" in vs:
                 prov_name, ver = vs.split("=", 1)
                 ver = ver.rsplit("-", 1)[0]
-                versions[prov_name] = ver
+                versions[prov_name] = (ver, url)
             else:
-                versions[vs] = result["pkgver"]
+                versions[vs] = (result["pkgver"], url)
         return versions
 
     # If all fails, search the AUR
@@ -187,7 +183,8 @@ def _fetch_version(args):
 
     for result in results:
         if result["Name"] == arch_name:
-            return {arch_name: result["Version"].rsplit("-", 1)[0]}
+            url = "https://aur.archlinux.org/packages/%s" % result["Name"]
+            return {arch_name: (result["Version"].rsplit("-", 1)[0], url)}
     
     return {}
 
@@ -216,16 +213,18 @@ def main(argv):
     print("#" * 80, file=sys.stderr)
     for name, version in packages:
         arch_name = package_get_arch_name(name)
-        arch_version = arch_versions.get(arch_name)
-        if arch_version is not None:
+        arch_info = arch_versions.get(arch_name)
+        if arch_info is not None:
+            arch_version, arch_url = arch_info
             if not version_is_newer_than(arch_version, version):
                 continue
         else:
             if msys2_package_should_skip(name):
                 continue
             arch_version = "???"
+            arch_url = ""
 
-        print("%-30s %-20s %-20s" % (name, version, arch_version))
+        print("%-30s %-20s %-20s %s" % (name, version, arch_version, arch_url))
 
 
 if __name__ == "__main__":
