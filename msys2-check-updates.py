@@ -140,6 +140,11 @@ def version_is_newer_than(v1, v2):
     """
 
     assert v1 and v2
+
+    # fast path
+    if v1 == v2:
+        return False
+
     return int(
         subprocess.check_output(["vercmp", v1, v2]).decode("ascii")) == 1
 
