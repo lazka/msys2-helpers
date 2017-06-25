@@ -25,10 +25,8 @@ from __future__ import print_function
 import subprocess
 import sys
 from multiprocessing.pool import ThreadPool
-from contextlib import contextmanager
 
-
-from .utils import package_name_is_vcs
+from .utils import package_name_is_vcs, progress
 
 
 def msys2_package_should_skip(package_name):
@@ -201,24 +199,6 @@ def add_parser(subparsers):
     parser.add_argument("--all", help="check all packages",
                         action="store_true")
     parser.set_defaults(func=main)
-
-
-@contextmanager
-def progress(total):
-    width = 80
-    sys.stdout.write("[%s]" % (" " * width))
-    sys.stdout.flush()
-    sys.stdout.write("\b" * (width + 1))
-
-    def update(current):
-        blocks = int((float(current) / total) * width)
-        sys.stdout.write("#" * blocks)
-        sys.stdout.write("\b" * blocks)
-        sys.stdout.flush()
-
-    yield update
-
-    sys.stdout.write("\n")
 
 
 def main(args):

@@ -29,6 +29,7 @@ import hashlib
 from collections import OrderedDict
 import json
 import threading
+from contextlib import contextmanager
 
 
 DIR = os.path.dirname(os.path.realpath(__file__))
@@ -105,3 +106,21 @@ def package_name_is_vcs(package_name):
 
     return package_name.endswith(
         ("-cvs", "-svn", "-hg", "-darcs", "-bzr", "-git"))
+
+
+@contextmanager
+def progress(total):
+    width = 70
+
+    def update(current):
+        blocks = int((float(current) / total) * width)
+        line = "[" + "#" * blocks + " " * (width - blocks) + "]"
+        line += (" %%%dd/%%d" % len(str(total))) % (current, total)
+        sys.stdout.write(line)
+        sys.stdout.write("\b" * len(line))
+        sys.stdout.flush()
+
+    update(0)
+    yield update
+
+    sys.stdout.write("\n")
