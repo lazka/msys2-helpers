@@ -29,6 +29,9 @@ from __future__ import print_function
 import subprocess
 import os
 import sys
+from multiprocessing.pool import ThreadPool
+
+from .utils import progress
 
 
 def get_required_by_typelibs(root):
@@ -135,13 +138,15 @@ def get_packages_for_lib(path_or_name):
     return packages
 
 
+def _thread_get_deps(path):
+    return path, get_dependencies(path)
+
+
 def main(args):
     root = sys.prefix
     extensions = [".exe", ".pyd", ".dll"]
 
-    def pkg_list(lib):
-        return ", ".join(get_packages_for_lib(lib)) or "???"
-
+    print("Collecting files in %s..." % root)
     paths_to_check = []
     for base, dirs, files in os.walk(root):
         for f in files:
@@ -151,16 +156,38 @@ def main(args):
                 continue
             paths_to_check.append(path)
 
-    for path in paths_to_check:
-        for lib in get_dependencies(path):
-            if not find_lib(root, lib):
-                print("MISSING: %s (%s) -> %s (%s)" % (
-                    path, pkg_list(path),lib, pkg_list(lib)))
+    print("Collecting dependencies...")
+    to_check = []
+    pool = ThreadPool()
+    pool_iter = pool.imap_unordered(_thread_get_deps, paths_to_check)
+    with progress(len(paths_to_check)) as update:
+        for i, (path, deps) in enumerate(pool_iter):
+            update(i + 1)
+            for lib in deps:
+                to_check.append((path, lib))
+    pool.close()
+    pool.join()
 
+    print("Collecting GIR dependencies...")
     for namespace, version, lib in get_required_by_typelibs(root):
-        if not find_lib(root, lib):
-            print("MISSING: %s-%s.typelib -> %s (%s)" % (
-                namespace, version, lib, pkg_list(lib)))
+        to_check.append(("%s-%s.typelib" % (namespace, version), lib))
+
+    print("Verifying dependencies...")
+    missing = []
+    with progress(len(to_check)) as update:
+        for i, (path, lib) in enumerate(to_check):
+            update(i + 1)
+            if not find_lib(root, lib):
+                missing.append(
+                    (path, get_packages_for_lib(path),
+                     lib, get_packages_for_lib(lib)))
+
+    def pkg_list(pkgs):
+        return ", ".join(pkgs) or "???"
+
+    for path, path_pkgs, lib, lib_pkgs in missing:
+        print("MISSING: %s (%s) -> %s (%s)" % (
+            path, pkg_list(path_pkgs),lib, pkg_list(lib_pkgs)))
 
 
 def add_parser(subparsers):

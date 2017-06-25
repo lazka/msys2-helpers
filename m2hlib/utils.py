@@ -111,16 +111,21 @@ def package_name_is_vcs(package_name):
 @contextmanager
 def progress(total):
     width = 70
+    last_blocks = [-1]
 
-    def update(current):
+    def update(current, clear=False):
         blocks = int((float(current) / total) * width)
+        if blocks == last_blocks[0] and not clear:
+            return
+        last_blocks[0] = blocks
         line = "[" + "#" * blocks + " " * (width - blocks) + "]"
         line += (" %%%dd/%%d" % len(str(total))) % (current, total)
+        if clear:
+            line = " " * len(line)
         sys.stdout.write(line)
         sys.stdout.write("\b" * len(line))
         sys.stdout.flush()
 
     update(0)
     yield update
-
-    sys.stdout.write("\n")
+    update(0, True)
