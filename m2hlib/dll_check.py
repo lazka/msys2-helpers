@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christoph Reiter
 #
@@ -30,7 +29,6 @@ from __future__ import print_function
 import subprocess
 import os
 import sys
-import argparse
 
 
 def get_required_by_typelibs(root):
@@ -137,7 +135,8 @@ def get_packages_for_lib(path_or_name):
     return packages
 
 
-def check_deps(root):
+def main(args):
+    root = sys.prefix
     extensions = [".exe", ".pyd", ".dll"]
 
     def pkg_list(lib):
@@ -164,12 +163,9 @@ def check_deps(root):
                 namespace, version, lib, pkg_list(lib)))
 
 
-def main(argv):
-    parser = argparse.ArgumentParser()
-    parser.parse_args(argv[1:])
-
-    check_deps(sys.prefix)
-
-
-if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+def add_parser(subparsers):
+    parser = subparsers.add_parser("dll-check",
+        help="Searches for missing dependencies")
+    parser.add_argument("--all", help="check all packages",
+                        action="store_true")
+    parser.set_defaults(func=main)

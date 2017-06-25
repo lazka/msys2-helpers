@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christoph Reiter
 #
@@ -27,12 +26,11 @@ from __future__ import print_function
 
 import os
 import sys
-import argparse
 import subprocess
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
-from m2hlib import get_srcinfo_for_pkgbuild, package_name_is_vcs
+from .utils import get_srcinfo_for_pkgbuild, package_name_is_vcs
 
 
 class cached_property(object):
@@ -267,8 +265,11 @@ def print_table(packages_todo, pkgbuilds_in_repo):
                 package.pkgbuild_path))
 
 
-def main(argv):
-    parser = argparse.ArgumentParser()
+def add_parser(subparsers):
+    parser = subparsers.add_parser("check-builds",
+        help="Compares the packages versions of PKGBUILD files with the "
+             "versions in the database and reports packages which need to "
+             "be build/updated")
     parser.add_argument(
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")
@@ -281,8 +282,10 @@ def main(argv):
     parser.add_argument('--buildorder', action='store_true',
                         help="List PKGFILES which need to be build in the "
                              "order they need to be build")
-    args = parser.parse_args(argv[1:])
+    parser.set_defaults(func=main)
 
+
+def main(args):
     repo_path = os.path.abspath(args.path)
 
     pkgbuilds_in_repo = get_packages_in_repo()
@@ -303,7 +306,3 @@ def main(argv):
         print_build_order(packages_todo, pkgbuilds_in_repo)
     else:
         print_table(packages_todo, pkgbuilds_in_repo)
-
-
-if __name__ == "__main__":
-    sys.exit(main(sys.argv))

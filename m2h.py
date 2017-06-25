@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christoph Reiter
 #
@@ -19,3 +20,27 @@
 # CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+
+from __future__ import print_function
+
+import sys
+import argparse
+
+from m2hlib import check_builds, check_updates, dll_check
+
+
+def main(argv):
+    parser = argparse.ArgumentParser()
+    subparser = parser.add_subparsers(title="subcommands")
+
+    check_builds.add_parser(subparser)
+    check_updates.add_parser(subparser)
+    dll_check.add_parser(subparser)
+
+    args = parser.parse_args(argv[1:])
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

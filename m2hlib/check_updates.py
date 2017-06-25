@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christoph Reiter
 #
@@ -25,12 +24,9 @@ from __future__ import print_function
 
 import subprocess
 import sys
-import argparse
 from multiprocessing.pool import ThreadPool
 
-import requests
-
-from m2hlib import package_name_is_vcs
+from .utils import package_name_is_vcs
 
 
 def msys2_package_should_skip(package_name):
@@ -153,6 +149,8 @@ def _fetch_version(args):
     name, = args
     arch_name = package_get_arch_name(name)
 
+    import requests
+
     # First try to get the package by name
     r = requests.get("https://www.archlinux.org/packages/search/json",
                      params={"name": arch_name})
@@ -194,12 +192,16 @@ def _fetch_version(args):
     return {}
 
 
-def main(argv):
-    parser = argparse.ArgumentParser()
+def add_parser(subparsers):
+    parser = subparsers.add_parser("check-updates",
+        help="Compares package version in the package database against "
+             "versions in the Arch Linux distribution")
     parser.add_argument("--all", help="check all packages",
                         action="store_true")
-    args = parser.parse_args(argv[1:])
+    parser.set_defaults(func=main)
 
+
+def main(args):
     packages = msys2_get_mingw_packages(installed_only=not args.all)
 
     work_items = []
@@ -230,7 +232,3 @@ def main(argv):
             arch_url = ""
 
         print("%-30s %-20s %-20s %s" % (name, version, arch_version, arch_url))
-
-
-if __name__ == "__main__":
-    sys.exit(main(sys.argv))
