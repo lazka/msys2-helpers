@@ -29,6 +29,10 @@ import threading
 from collections import OrderedDict
 import hashlib
 import subprocess
+from multiprocessing.pool import ThreadPool
+from multiprocessing import cpu_count
+
+from .utils import progress
 
 
 class SrcInfoPool(object):
@@ -67,6 +71,7 @@ class SrcInfoPackage(object):
         self.epoch = None
         self.depends = []
         self.makedepends = []
+        self.sources = []
 
     def __repr__(self):
         return "<%s %s %s>" % (
@@ -89,10 +94,13 @@ class SrcInfoPackage(object):
                 pkgver = pkgrel = epoch = None
                 depends = []
                 makedepends = []
+                sources = []
             elif line.startswith("depends = "):
                 depends.append(line.split(" = ", 1)[-1])
             elif line.startswith("makedepends = "):
                 makedepends.append(line.split(" = ", 1)[-1])
+            elif line.startswith("source = "):
+                sources.append(line.split(" = ", 1)[-1])
             elif line.startswith("pkgver = "):
                 pkgver = line.split(" = ", 1)[-1]
             elif line.startswith("pkgrel = "):
@@ -105,6 +113,7 @@ class SrcInfoPackage(object):
                 package.epoch = epoch
                 package.depends = depends
                 package.makedepends = makedepends
+                package.sources = sources
                 packages.add(package)
 
         return packages
@@ -183,3 +192,36 @@ def get_srcinfo_for_pkgbuild(pkgbuild_path):
         _save_cache()
 
     return text
+
+
+def iter_packages(repo_path):
+
+    pkgbuild_paths = []
+    if os.path.isfile(repo_path) and os.path.basename(repo_path) == "PKGBUILD":
+        pkgbuild_paths.append(repo_path)
+    else:
+        print("Searching for PKGBUILD files in %s" % repo_path)
+        for base, dirs, files in os.walk(repo_path):
+            for f in files:
+                if f == "PKGBUILD":
+                    # in case we find a PKGBUILD, don't go deeper
+                    del dirs[:]
+                    path = os.path.join(base, f)
+                    pkgbuild_paths.append(path)
+        pkgbuild_paths.sort()
+
+    if not pkgbuild_paths:
+        print("No PKGBUILD files found here")
+        return
+    else:
+        print("Found %d PKGBUILD files" % len(pkgbuild_paths))
+
+    pool = ThreadPool(cpu_count() * 2)
+    pool_iter = pool.imap_unordered(SrcInfoPackage.for_pkgbuild, pkgbuild_paths)
+    print("Parsing PKGBUILD files...")
+    with progress(len(pkgbuild_paths)) as update:
+        for i, packages in enumerate(pool_iter):
+            update(i + 1)
+            for package in packages:
+                yield package
+    pool.close()

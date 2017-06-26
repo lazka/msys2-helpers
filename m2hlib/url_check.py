@@ -22,3 +22,68 @@
 
 
 from __future__ import print_function
+
+import os
+from multiprocessing.pool import ThreadPool
+
+import requests
+
+from .srcinfo import iter_packages
+from .utils import progress
+
+
+def add_parser(subparsers):
+    parser = subparsers.add_parser("urlcheck",
+        help="Check if the source URLs of all packages are reachable")
+    parser.add_argument(
+        "path", help="path to the directory containg PKGBUILD files or a "
+                     "PKGBUILD file itself")
+    parser.set_defaults(func=main)
+
+
+def source_get_url(source):
+    if "::" in source:
+        source = source.split("::", 1)[-1]
+    if source.startswith(("https:", "http:")):
+        return source
+
+
+def _check_url(args):
+    url, pkgbuilds = args
+
+    try:
+        r = requests.get(url, timeout=10, stream=True)
+        try:
+            r.raise_for_status()
+        finally:
+            r.close()
+    except Exception as e:
+        return url, pkgbuilds, str(e)
+    return url, pkgbuilds, ""
+
+
+def main(args):
+    sources = {}
+    repo_path = os.path.abspath(args.path)
+    for package in iter_packages(repo_path):
+        for source in package.sources:
+            url = source_get_url(source)
+            if url:
+                sources.setdefault(url, set()).add(package.pkgbuild_path)
+
+    print("Checking URLs...")
+    work_items = sources.items()
+    pool = ThreadPool(50)
+    pool_iter = pool.imap_unordered(_check_url, work_items)
+    broken = []
+    with progress(len(work_items)) as update:
+        for i, (url, pkgbuilds, error) in enumerate(pool_iter):
+            update(i + 1)
+            if error:
+                broken.append((url, pkgbuilds, error))
+    pool.close()
+    pool.join()
+
+    for url, pkgbuilds, error in broken:
+        print("\n%s\n   %s\n   %s" % (
+            url, " ".join(error.splitlines()), ", ".join(pkgbuilds)))

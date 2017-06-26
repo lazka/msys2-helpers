@@ -27,46 +27,10 @@ from __future__ import print_function
 import os
 import sys
 import subprocess
-from multiprocessing.pool import ThreadPool
-from multiprocessing import cpu_count
 
-from .utils import package_name_is_vcs, progress
-from .srcinfo import SrcInfoPackage, SrcInfoPool
+from .utils import package_name_is_vcs
+from .srcinfo import SrcInfoPool, iter_packages
 from .pacman import PacmanPackage
-
-
-def iter_packages(repo_path):
-
-    pkgbuild_paths = []
-    if os.path.isfile(repo_path) and os.path.basename(repo_path) == "PKGBUILD":
-        pkgbuild_paths.append(repo_path)
-    else:
-        print("Searching for PKGBUILD files in %s" % repo_path)
-        for base, dirs, files in os.walk(repo_path):
-            for f in files:
-                if f == "PKGBUILD":
-                    # in case we find a PKGBUILD, don't go deeper
-                    del dirs[:]
-                    path = os.path.join(base, f)
-                    pkgbuild_paths.append(path)
-        pkgbuild_paths.sort()
-
-    if not pkgbuild_paths:
-        print("No PKGBUILD files found here")
-        return
-    else:
-        print("Found %d PKGBUILD files" % len(pkgbuild_paths))
-
-    pool = ThreadPool(cpu_count() * 2)
-    pool_iter = pool.imap_unordered(SrcInfoPackage.for_pkgbuild, pkgbuild_paths)
-    print("Parsing PKGBUILD files...")
-    with progress(len(pkgbuild_paths)) as update:
-        for i, packages in enumerate(pool_iter):
-            update(i + 1)
-            for package in packages:
-                yield package
-    pool.close()
-    pool.join()
 
 
 def get_packages_in_repo():
