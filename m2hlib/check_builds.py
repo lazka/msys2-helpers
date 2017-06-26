@@ -32,6 +32,7 @@ from multiprocessing import cpu_count
 
 from .utils import package_name_is_vcs, progress
 from .srcinfo import SrcInfoPackage, SrcInfoPool
+from .pacman import PacmanPackage
 
 
 def iter_packages(repo_path):
@@ -80,7 +81,7 @@ def get_packages_in_repo():
     return pkgbuilds_in_repo
 
 
-def print_build_order(packages_todo, pkgbuilds_in_repo):
+def print_build_order(packages_todo):
 
     pool = SrcInfoPool()
     pkgbuilds = {}
@@ -143,16 +144,16 @@ def print_build_order(packages_todo, pkgbuilds_in_repo):
         print(path)
 
 
-def print_table(packages_todo, pkgbuilds_in_repo):
+def print_table(packages_todo, repo_packages):
     for package in sorted(packages_todo, key=lambda p: p.pkgname):
-        if package.pkgname not in pkgbuilds_in_repo:
+        if package.pkgname not in repo_packages:
             print("%-50s local=%-25s repo=%-25s %s" % (
                 package.pkgname, package.build_version, "missing",
                 package.pkgbuild_path))
         else:
-            repo_version = pkgbuilds_in_repo[package.pkgname]
+            repo_pkg = repo_packages[package.pkgname]
             print("%-50s local=%-25s repo=%-25s %s" % (
-                package.pkgname, package.build_version, repo_version,
+                package.pkgname, package.build_version, repo_pkg.version,
                 package.pkgbuild_path))
 
 
@@ -177,21 +178,22 @@ def add_parser(subparsers):
 def main(args):
     repo_path = os.path.abspath(args.path)
 
-    pkgbuilds_in_repo = get_packages_in_repo()
+    repo_packages = PacmanPackage.get_all_packages()
+    repo_packages = dict((p.name, p) for p in repo_packages)
 
     packages_todo = set()
     for package in iter_packages(repo_path):
         if not args.show_vcs and package_name_is_vcs(package.pkgname):
             continue
-        if package.pkgname not in pkgbuilds_in_repo:
+        if package.pkgname not in repo_packages:
             if args.show_missing:
                 packages_todo.add(package)
         else:
-            repo_version = pkgbuilds_in_repo[package.pkgname]
-            if package.build_version != repo_version:
+            repo_pkg = repo_packages[package.pkgname]
+            if package.build_version != repo_pkg.version:
                 packages_todo.add(package)
 
     if args.buildorder:
-        print_build_order(packages_todo, pkgbuilds_in_repo)
+        print_build_order(packages_todo)
     else:
-        print_table(packages_todo, pkgbuilds_in_repo)
+        print_table(packages_todo, repo_packages)

@@ -26,6 +26,7 @@ import subprocess
 from multiprocessing.pool import ThreadPool
 
 from .utils import package_name_is_vcs, progress
+from .pacman import PacmanPackage
 
 
 def msys2_package_should_skip(package_name):
@@ -36,6 +37,9 @@ def msys2_package_should_skip(package_name):
     Returns:
         bool: If the package should be ignored
     """
+
+    if package_name.startswith("mingw-w64-i686-"):
+        package_name = package_name.split("-", 3)[-1]
 
     if package_name_is_vcs(package_name):
         return True
@@ -57,38 +61,6 @@ def msys2_package_should_skip(package_name):
     return False
 
 
-def msys2_get_mingw_packages(installed_only):
-    """
-    Args:
-        installed_only (bool): If only currently installed packages should be
-            checked
-    Returns:
-        list(tuple(str, str)): A list of package name, version tuples.
-    """
-
-    v = {}
-    if installed_only:
-        cmd = ["pacman", "-Q"]
-    else:
-        cmd = ["pacman", "-Sl"]
-    for line in subprocess.check_output(cmd).decode("utf-8").splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        if not installed_only:
-            line = line.split(" ", 1)[-1]
-        line = line.rsplit("[", 1)[0]
-        name, version = line.split()
-        if not name.startswith("mingw-w64-"):
-            continue
-        name = name.split("-", 3)[-1]
-        version = version.rsplit("-", 1)[0]
-        if package_name_is_vcs(name):
-            continue
-        v[name] = version
-    return sorted(list(v.items()))
-
-
 def package_get_arch_name(package_name):
     """
     Args:
@@ -96,6 +68,9 @@ def package_get_arch_name(package_name):
     Returns:
         str: The Arch package name
     """
+
+    if package_name.startswith("mingw-w64-i686-"):
+        package_name = package_name.split("-", 3)[-1]
 
     mapping = {
         "freetype": "freetype2",
@@ -201,15 +176,18 @@ def add_parser(subparsers):
 
 
 def main(args):
-    packages = msys2_get_mingw_packages(installed_only=not args.all)
+    if args.all:
+        packages = PacmanPackage.get_all_packages()
+    else:
+        packages = PacmanPackage.get_installed_packages()
 
-    work_items = []
-    for name, version in packages:
-        work_items.append((name,))
+    packages = [p for p in packages if p.repo == "mingw32" and not p.is_vcs
+                and not msys2_package_should_skip(p.name)]
 
-    pool = ThreadPool(15)
+    work_items = [(p.name,) for p in packages]
+    pool = ThreadPool(20)
     arch_versions = {}
-    pool_iter = pool.imap(_fetch_version, work_items)
+    pool_iter = pool.imap_unordered(_fetch_version, work_items)
 
     print("Fetching versions...")
     with progress(len(work_items)) as update:
@@ -221,17 +199,16 @@ def main(args):
 
     print("%-30s %-20s %-20s %s" % ("Name", "Local", "Arch", "Arch Package"))
     print("%-30s %-20s %-20s %s" % ("-" * 30, "-" * 20 , "-" * 20, "-" * 20))
-    for name, version in packages:
-        arch_name = package_get_arch_name(name)
+    for p in sorted(packages, key=lambda p: p.name):
+        arch_name = package_get_arch_name(p.name)
         arch_info = arch_versions.get(arch_name)
         if arch_info is not None:
             arch_version, arch_url = arch_info
-            if not version_is_newer_than(arch_version, version):
+            if not version_is_newer_than(arch_version, p.version):
                 continue
         else:
-            if msys2_package_should_skip(name):
-                continue
             arch_version = "???"
             arch_url = ""
 
-        print("%-30s %-20s %-20s %s" % (name, version, arch_version, arch_url))
+        print("%-30s %-20s %-20s %s" % (
+            p.name.split("-", 3)[-1], p.version, arch_version, arch_url))
