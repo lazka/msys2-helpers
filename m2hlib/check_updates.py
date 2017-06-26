@@ -23,7 +23,6 @@
 from __future__ import print_function
 
 import subprocess
-import sys
 from multiprocessing.pool import ThreadPool
 
 from .utils import package_name_is_vcs, progress

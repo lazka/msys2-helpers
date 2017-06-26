@@ -23,77 +23,7 @@
 from __future__ import print_function
 
 import sys
-import os
-import subprocess
-import hashlib
-from collections import OrderedDict
-import json
-import threading
 from contextlib import contextmanager
-
-
-DIR = os.path.dirname(os.path.realpath(__file__))
-CACHE = OrderedDict()
-CACHE_LOCK = threading.Lock()
-
-
-def _load_cache():
-    with CACHE_LOCK:
-        if CACHE:
-            return
-        try:
-            with open(os.path.join(DIR, "_srcinfocache.json"), "rb") as h:
-                cache = json.loads(h.read(), object_pairs_hook=OrderedDict)
-        except EnvironmentError:
-            return
-        CACHE.update(cache)
-
-
-def _save_cache():
-    with CACHE_LOCK:
-        with open(os.path.join(DIR, "_srcinfocache.json"), "wb") as h:
-            cache = OrderedDict(sorted(CACHE.items()))
-            h.write(json.dumps(cache, indent=2).encode("utf-8"))
-
-
-def get_srcinfo_for_pkgbuild(pkgbuild_path):
-    """Given a path to a PKGBUILD file returns the srcinfo text
-
-    Args:
-        pkgbuild_path (str): Path to PKGBUILD
-    Return:
-        str or None: srcinfo text or None in case it failed.
-    """
-
-    with open(pkgbuild_path, "rb") as f:
-        h = hashlib.new("SHA1")
-        h.update(f.read())
-        digest = h.hexdigest()
-
-    _load_cache()
-
-    with CACHE_LOCK:
-        text = CACHE.get(digest)
-
-    if text is None:
-        try:
-            text = subprocess.check_output(
-                ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
-                 os.path.basename(pkgbuild_path)],
-                cwd=os.path.dirname(pkgbuild_path),
-                stderr=subprocess.STDOUT).decode("utf-8")
-        except subprocess.CalledProcessError as e:
-            print(
-                "ERROR: %s %s" % (pkgbuild_path, e.output.splitlines()),
-                file=sys.stderr)
-            return
-
-        with CACHE_LOCK:
-            CACHE[digest] = text
-
-        _save_cache()
-
-    return text
 
 
 def package_name_is_vcs(package_name):
@@ -129,3 +59,22 @@ def progress(total):
     update(0)
     yield update
     update(0, True)
+
+
+class cached_property(object):
+    """A read-only @property that is only evaluated once."""
+
+    def __init__(self, fget, doc=None):
+        self.fget = fget
+        self.__doc__ = doc or fget.__doc__
+        self.__name__ = name = fget.__name__
+        # these get name mangled, so caching wont work unless
+        # we mangle too
+        assert not (name.startswith("__") and not name.endswith("__")), \
+            "can't cache a dunder method"
+
+    def __get__(self, obj, cls):
+        if obj is None:
+            return self
+        obj.__dict__[self.__name__] = result = self.fget(obj)
+        return result

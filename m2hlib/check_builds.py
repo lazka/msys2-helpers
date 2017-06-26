@@ -30,119 +30,8 @@ import subprocess
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
-from .utils import get_srcinfo_for_pkgbuild, package_name_is_vcs, progress
-
-
-class cached_property(object):
-    """A read-only @property that is only evaluated once."""
-
-    def __init__(self, fget, doc=None):
-        self.fget = fget
-        self.__doc__ = doc or fget.__doc__
-        self.__name__ = name = fget.__name__
-        # these get name mangled, so caching wont work unless
-        # we mangle too
-        assert not (name.startswith("__") and not name.endswith("__")), \
-            "can't cache a dunder method"
-
-    def __get__(self, obj, cls):
-        if obj is None:
-            return self
-        obj.__dict__[self.__name__] = result = self.fget(obj)
-        return result
-
-
-class Package(object):
-
-    __packages = {}
-
-    def __init__(self, pkgbuild_path, pkgname, pkgver, pkgrel):
-        self.pkgbuild_path = pkgbuild_path
-        self.pkgname = pkgname
-        self.pkgver = pkgver
-        self.pkgrel = pkgrel
-        self.epoch = None
-        self.depends = []
-        self.makedepends = []
-
-        # There can be more than one package with the same name, we can't be
-        # sure which one is in the repo..
-        self.__packages.setdefault(pkgname, set()).add(self)
-
-    def __repr__(self):
-        return "<%s %s %s>" % (
-            type(self).__name__, self.pkgname, self.build_version)
-
-    @classmethod
-    def by_name(cls, pkgname):
-        return cls.__packages.get(pkgname, set())
-
-    @cached_property
-    def transitive_dependencies(self):
-        """Returns a set of transitive dependencies for this package"""
-
-        packages_todo = set([self])
-        packages_done = set()
-        deps = set()
-
-        while packages_todo:
-            p = packages_todo.pop()
-            packages_done.add(p)
-            new_deps = set(p.depends + p.makedepends)
-            deps.update(new_deps)
-            for d in new_deps:
-                for new_p in self.by_name(d):
-                    if new_p not in packages_done:
-                        packages_todo.add(new_p)
-        return deps
-
-    @property
-    def build_version(self):
-        version = "%s-%s" % (self.pkgver, self.pkgrel)
-        if self.epoch:
-            version = "%s~%s" % (self.epoch, version)
-        return version
-
-    @classmethod
-    def from_srcinfo(cls, pkgbuild_path, srcinfo):
-        packages = set()
-
-        for line in srcinfo.splitlines():
-            line = line.strip()
-            if line.startswith("pkgbase = "):
-                pkgver = pkgrel = epoch = None
-                depends = []
-                makedepends = []
-            elif line.startswith("depends = "):
-                depends.append(line.split(" = ", 1)[-1])
-            elif line.startswith("makedepends = "):
-                makedepends.append(line.split(" = ", 1)[-1])
-            elif line.startswith("pkgver = "):
-                pkgver = line.split(" = ", 1)[-1]
-            elif line.startswith("pkgrel = "):
-                pkgrel = line.split(" = ", 1)[-1]
-            elif line.startswith("epoch = "):
-                epoch = line.split(" = ", 1)[-1]
-            elif line.startswith("pkgname = "):
-                pkgname = line.split(" = ", 1)[-1]
-                package = Package(pkgbuild_path, pkgname, pkgver, pkgrel)
-                package.epoch = epoch
-                package.depends = depends
-                package.makedepends = makedepends
-                packages.add(package)
-
-        return packages
-
-
-def get_packages_for_pkgbuild(pkgbuild_path):
-    packages = set()
-
-    srcinfo = get_srcinfo_for_pkgbuild(pkgbuild_path)
-    if srcinfo is None:
-        return packages
-
-    packages.update(Package.from_srcinfo(pkgbuild_path, srcinfo))
-    return packages
+from .utils import package_name_is_vcs, progress
+from .srcinfo import SrcInfoPackage
 
 
 def iter_packages(repo_path):
@@ -168,7 +57,7 @@ def iter_packages(repo_path):
         print("Found %d PKGBUILD files" % len(pkgbuild_paths))
 
     pool = ThreadPool(cpu_count() * 2)
-    pool_iter = pool.imap_unordered(get_packages_for_pkgbuild, pkgbuild_paths)
+    pool_iter = pool.imap_unordered(SrcInfoPackage.for_pkgbuild, pkgbuild_paths)
     print("Parsing PKGBUILD files...")
     with progress(len(pkgbuild_paths)) as update:
         for i, packages in enumerate(pool_iter):
