@@ -30,12 +30,34 @@ from collections import OrderedDict
 import hashlib
 import subprocess
 
-from .utils import cached_property
+
+class SrcInfoPool(object):
+
+    def __init__(self):
+        self._packages = {}
+
+    def add_package(self, package):
+        name = package.pkgname
+        self._packages.setdefault(name, set()).add(package)
+
+    def get_transitive_dependencies(self, package):
+        packages_todo = set([package])
+        packages_done = set()
+        deps = set()
+
+        while packages_todo:
+            p = packages_todo.pop()
+            packages_done.add(p)
+            new_deps = set(p.depends + p.makedepends)
+            deps.update(new_deps)
+            for d in new_deps:
+                for new_p in self._packages.get(d, set()):
+                    if new_p not in packages_done:
+                        packages_todo.add(new_p)
+        return deps
 
 
 class SrcInfoPackage(object):
-
-    __packages = {}
 
     def __init__(self, pkgbuild_path, pkgname, pkgver, pkgrel):
         self.pkgbuild_path = pkgbuild_path
@@ -46,36 +68,9 @@ class SrcInfoPackage(object):
         self.depends = []
         self.makedepends = []
 
-        # There can be more than one package with the same name, we can't be
-        # sure which one is in the repo..
-        self.__packages.setdefault(pkgname, set()).add(self)
-
     def __repr__(self):
         return "<%s %s %s>" % (
             type(self).__name__, self.pkgname, self.build_version)
-
-    @classmethod
-    def by_name(cls, pkgname):
-        return cls.__packages.get(pkgname, set())
-
-    @cached_property
-    def transitive_dependencies(self):
-        """Returns a set of transitive dependencies for this package"""
-
-        packages_todo = set([self])
-        packages_done = set()
-        deps = set()
-
-        while packages_todo:
-            p = packages_todo.pop()
-            packages_done.add(p)
-            new_deps = set(p.depends + p.makedepends)
-            deps.update(new_deps)
-            for d in new_deps:
-                for new_p in self.by_name(d):
-                    if new_p not in packages_done:
-                        packages_todo.add(new_p)
-        return deps
 
     @property
     def build_version(self):

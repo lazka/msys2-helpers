@@ -31,7 +31,7 @@ from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
 from .utils import package_name_is_vcs, progress
-from .srcinfo import SrcInfoPackage
+from .srcinfo import SrcInfoPackage, SrcInfoPool
 
 
 def iter_packages(repo_path):
@@ -82,8 +82,10 @@ def get_packages_in_repo():
 
 def print_build_order(packages_todo, pkgbuilds_in_repo):
 
+    pool = SrcInfoPool()
     pkgbuilds = {}
     for package in packages_todo:
+        pool.add_package(package)
         pkgbuilds.setdefault(package.pkgbuild_path, set()).add(package)
 
     # now sort the pkgbuilds by the dependencies of the contained packages
@@ -101,12 +103,12 @@ def print_build_order(packages_todo, pkgbuilds_in_repo):
         at = set()
         for a in aa:
             a_name = a.pkgname
-            at.update(a.transitive_dependencies)
+            at.update(pool.get_transitive_dependencies(a))
 
         bt = set()
         for b in bb:
             b_name = b.pkgname
-            bt.update(b.transitive_dependencies)
+            bt.update(pool.get_transitive_dependencies(b))
 
         # make the result deterministic, packages with fewer dependencies first
         a_key = (len(at), a_name)
