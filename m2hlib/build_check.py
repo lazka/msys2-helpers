@@ -25,11 +25,9 @@
 from __future__ import print_function
 
 import os
-import sys
-import subprocess
 
 from .utils import package_name_is_vcs
-from .srcinfo import SrcInfoPool, iter_packages
+from .srcinfo import iter_packages
 from .pacman import PacmanPackage
 
 
