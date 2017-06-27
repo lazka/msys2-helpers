@@ -68,11 +68,11 @@ def main(args):
 
     for package in sorted(packages_todo, key=lambda p: p.pkgname):
         if package.pkgname not in repo_packages:
-            print("%-50s local=%-25s repo=%-25s %s" % (
+            print("%-50s local=%-25s db=%-25s %s" % (
                 package.pkgname, package.build_version, "missing",
                 package.pkgbuild_path))
         else:
             repo_pkg = repo_packages[package.pkgname]
-            print("%-50s local=%-25s repo=%-25s %s" % (
+            print("%-50s local=%-25s db=%-25s %s" % (
                 package.pkgname, package.build_version, repo_pkg.version,
                 package.pkgbuild_path))
