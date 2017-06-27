@@ -32,7 +32,7 @@ import subprocess
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
-from .utils import progress
+from .utils import progress, package_name_is_vcs
 
 
 class SrcInfoPool(object):
@@ -63,8 +63,9 @@ class SrcInfoPool(object):
 
 class SrcInfoPackage(object):
 
-    def __init__(self, pkgbuild_path, pkgname, pkgver, pkgrel):
+    def __init__(self, pkgbuild_path, pkgbase, pkgname, pkgver, pkgrel):
         self.pkgbuild_path = pkgbuild_path
+        self.pkgbase = pkgbase
         self.pkgname = pkgname
         self.pkgver = pkgver
         self.pkgrel = pkgrel
@@ -76,6 +77,10 @@ class SrcInfoPackage(object):
     def __repr__(self):
         return "<%s %s %s>" % (
             type(self).__name__, self.pkgname, self.build_version)
+
+    @property
+    def is_vcs(self):
+        return package_name_is_vcs(self.pkgname)
 
     @property
     def build_version(self):
@@ -95,6 +100,7 @@ class SrcInfoPackage(object):
                 depends = []
                 makedepends = []
                 sources = []
+                pkgbase = line.split(" = ", 1)[-1]
             elif line.startswith("depends = "):
                 depends.append(line.split(" = ", 1)[-1])
             elif line.startswith("makedepends = "):
@@ -109,7 +115,7 @@ class SrcInfoPackage(object):
                 epoch = line.split(" = ", 1)[-1]
             elif line.startswith("pkgname = "):
                 pkgname = line.split(" = ", 1)[-1]
-                package = cls(pkgbuild_path, pkgname, pkgver, pkgrel)
+                package = cls(pkgbuild_path, pkgbase, pkgname, pkgver, pkgrel)
                 package.epoch = epoch
                 package.depends = depends
                 package.makedepends = makedepends

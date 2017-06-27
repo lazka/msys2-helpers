@@ -27,17 +27,18 @@ from __future__ import print_function
 import sys
 import argparse
 
-from m2hlib import check_builds, check_updates, dll_check, url_check
+from m2hlib import build_check, update_check, dll_check, url_check, build
 
 
 def main(argv):
     parser = argparse.ArgumentParser()
     subparser = parser.add_subparsers(title="subcommands")
 
-    check_builds.add_parser(subparser)
-    check_updates.add_parser(subparser)
+    build_check.add_parser(subparser)
+    update_check.add_parser(subparser)
     dll_check.add_parser(subparser)
     url_check.add_parser(subparser)
+    build.add_parser(subparser)
 
     args = parser.parse_args(argv[1:])
     return args.func(args)

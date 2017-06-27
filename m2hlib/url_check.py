@@ -30,6 +30,7 @@ import requests
 
 from .srcinfo import iter_packages
 from .utils import progress
+from .pacman import PacmanPackage
 
 
 def add_parser(subparsers):
@@ -38,6 +39,9 @@ def add_parser(subparsers):
     parser.add_argument(
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")
+    parser.add_argument('--all', action='store_true',
+                        help="Also check packages which are not in the "
+                             "package database")
     parser.set_defaults(func=main)
 
 
@@ -65,7 +69,15 @@ def _check_url(args):
 def main(args):
     sources = {}
     repo_path = os.path.abspath(args.path)
+
+    repo_packages = PacmanPackage.get_all_packages()
+    repo_package_names = set(p.name for p in repo_packages)
+
     for package in iter_packages(repo_path):
+        # only check packages which are in the repo, all others are many
+        # times broken in other ways.
+        if not args.all and package.pkgname not in repo_package_names:
+            continue
         for source in package.sources:
             url = source_get_url(source)
             if url:

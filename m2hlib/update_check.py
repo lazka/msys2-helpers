@@ -167,7 +167,7 @@ def _fetch_version(args):
 
 
 def add_parser(subparsers):
-    parser = subparsers.add_parser("check-updates",
+    parser = subparsers.add_parser("updatecheck",
         help="Compares package version in the package database against "
              "versions in the Arch Linux distribution")
     parser.add_argument("--all", help="check all packages",

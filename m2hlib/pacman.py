@@ -39,10 +39,19 @@ class PacmanPackage(object):
 
     @property
     def is_vcs(self):
+        """bool: If the package is a VCS one"""
+
         return package_name_is_vcs(self.name)
 
     @classmethod
     def get_all_packages(cls):
+        """Returns a set of packages with the version they are installed
+        (not the version they are in the repo)
+
+        Returns:
+            set(PacmanPackage)
+        """
+
         pkgbuilds_in_repo = set()
         text = subprocess.check_output(["pacman", "-Sl"]).decode("utf-8")
         for line in text.splitlines():
@@ -50,11 +59,20 @@ class PacmanPackage(object):
             if not line:
                 continue
             repo, package_name, version = line.split()[:3]
+            if "[installed:" in line:
+                version = line.rsplit(":", 1)[-1].strip("]").strip()
             pkgbuilds_in_repo.add(cls(repo, package_name, version))
         return pkgbuilds_in_repo
 
     @classmethod
     def get_installed_packages(cls):
+        """Returns a set of installed packages with the version they are
+        installed (not the version they are in the repo)
+
+        Returns:
+            set(PacmanPackage)
+        """
+
         text = subprocess.check_output(["pacman", "-Q"]).decode("utf-8")
         installed = set()
         for line in text.splitlines():
