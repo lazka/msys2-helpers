@@ -31,7 +31,9 @@ from m2hlib import build_check, update_check, dll_check, url_check, build
 
 
 def main(argv):
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Provides various tools for automating maintainance work "
+                    "for the MSYS2 repositories")
     subparser = parser.add_subparsers(title="subcommands")
 
     build_check.add_parser(subparser)

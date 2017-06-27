@@ -221,7 +221,9 @@ def build(pkgbuild, packages, targetdir):
 
 def add_parser(subparsers):
     parser = subparsers.add_parser("build",
-        help="Auto builds PKGBUILD files which are not in the repo")
+        help="Auto builds PKGBUILD files where the packages in the database "
+             "are out of date. Builds them in the right order according to "
+             "their dependency relation.")
     parser.add_argument(
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")

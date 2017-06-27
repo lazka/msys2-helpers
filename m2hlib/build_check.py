@@ -33,7 +33,7 @@ from .pacman import PacmanPackage
 
 def add_parser(subparsers):
     parser = subparsers.add_parser("buildcheck",
-        help="Compares the packages versions of PKGBUILD files with the "
+        help="Compares the package versions of PKGBUILD files with the "
              "versions in the database and reports packages which need to "
              "be build/updated")
     parser.add_argument(

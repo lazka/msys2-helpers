@@ -192,7 +192,7 @@ def main(args):
 
 def add_parser(subparsers):
     parser = subparsers.add_parser("dllcheck",
-        help="Searches for missing dependencies")
+        help="Searches for missing DLL dependencies")
     parser.add_argument("--all", help="check all packages",
                         action="store_true")
     parser.set_defaults(func=main)

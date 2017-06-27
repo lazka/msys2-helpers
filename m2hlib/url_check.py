@@ -35,7 +35,7 @@ from .pacman import PacmanPackage
 
 def add_parser(subparsers):
     parser = subparsers.add_parser("urlcheck",
-        help="Check if the source URLs of all packages are reachable")
+        help="Checks if the source URLs of all packages are still reachable")
     parser.add_argument(
         "path", help="path to the directory containg PKGBUILD files or a "
                      "PKGBUILD file itself")
