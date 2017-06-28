@@ -25,7 +25,7 @@ from __future__ import print_function
 import subprocess
 from multiprocessing.pool import ThreadPool
 
-from .utils import package_name_is_vcs, progress
+from .utils import package_name_is_vcs, progress, version_is_newer_than
 from .pacman import PacmanPackage
 
 
@@ -98,25 +98,6 @@ def package_get_arch_name(package_name):
         package_name = package_name.replace("python3-", "python-")
 
     return package_name.lower()
-
-
-def version_is_newer_than(v1, v2):
-    """
-    Args:
-        v1 (str): 1st version
-        v2 (str): 2nd version
-    Returns:
-        boolean: True if v1 is newer than v2
-    """
-
-    assert v1 and v2
-
-    # fast path
-    if v1 == v2:
-        return False
-
-    return int(
-        subprocess.check_output(["vercmp", v1, v2]).decode("ascii")) == 1
 
 
 def _fetch_version(args):

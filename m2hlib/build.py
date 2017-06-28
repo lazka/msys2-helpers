@@ -30,6 +30,7 @@ import subprocess
 
 from .srcinfo import SrcInfoPool, iter_packages
 from .pacman import PacmanPackage
+from .utils import version_is_newer_than
 
 
 def get_pkgbuilds_to_build_in_order(packages_todo):
@@ -249,7 +250,7 @@ def main(args):
             continue
         if package.pkgname in repo_packages:
             repo_pkg = repo_packages[package.pkgname]
-            if package.build_version != repo_pkg.version:
+            if version_is_newer_than(package.build_version, repo_pkg.version):
                 # TODO
                 if not package.pkgname.startswith("mingw-w64-"):
                     raise Exception(
@@ -261,14 +262,14 @@ def main(args):
     # before any of its dependencies
     pool, pkgbuilds = get_pkgbuilds_to_build_in_order(packages_todo)
 
+    print("%d PKGBUILDs to build" % len(pkgbuilds))
+
     if args.dry_run:
         for path, packages in pkgbuilds:
             print(path)
             for package in packages:
                 print("    -> ", package.pkgname)
         return
-
-    print("%d PKGBUILDs to build" % len(pkgbuilds))
 
     if pkgbuilds:
         try:

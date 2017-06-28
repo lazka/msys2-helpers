@@ -23,6 +23,7 @@
 from __future__ import print_function
 
 import sys
+import subprocess
 from contextlib import contextmanager
 
 
@@ -36,6 +37,25 @@ def package_name_is_vcs(package_name):
 
     return package_name.endswith(
         ("-cvs", "-svn", "-hg", "-darcs", "-bzr", "-git"))
+
+
+def version_is_newer_than(v1, v2):
+    """
+    Args:
+        v1 (str): 1st version
+        v2 (str): 2nd version
+    Returns:
+        boolean: True if v1 is newer than v2
+    """
+
+    assert v1 and v2
+
+    # fast path
+    if v1 == v2:
+        return False
+
+    return int(
+        subprocess.check_output(["vercmp", v1, v2]).decode("ascii")) == 1
 
 
 @contextmanager

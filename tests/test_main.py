@@ -30,6 +30,12 @@ def test_utils():
     with utils.progress(1) as update:
         update(1)
 
+    assert utils.version_is_newer_than("2", "1")
+    assert utils.version_is_newer_than("2~1", "1~2")
+    assert utils.version_is_newer_than("2", "2rc")
+    assert utils.version_is_newer_than("1.0-2", "1.0-1")
+    assert not utils.version_is_newer_than("1.0-1", "1.0-1")
+
 
 def test_pacman():
     pacman.PacmanPackage.get_all_packages()

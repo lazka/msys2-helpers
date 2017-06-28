@@ -26,7 +26,7 @@ from __future__ import print_function
 
 import os
 
-from .utils import package_name_is_vcs
+from .utils import package_name_is_vcs, version_is_newer_than
 from .srcinfo import iter_packages
 from .pacman import PacmanPackage
 
@@ -61,7 +61,7 @@ def main(args):
                 packages_todo.add(package)
         else:
             repo_pkg = repo_packages[package.pkgname]
-            if package.build_version != repo_pkg.version:
+            if version_is_newer_than(package.build_version, repo_pkg.version):
                 packages_todo.add(package)
 
     for package in sorted(packages_todo, key=lambda p: p.pkgname):
