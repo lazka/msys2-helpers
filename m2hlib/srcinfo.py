@@ -181,11 +181,12 @@ def get_srcinfo_for_pkgbuild(pkgbuild_path):
 
     if text is None:
         try:
-            text = subprocess.check_output(
-                ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
-                 os.path.basename(pkgbuild_path)],
-                cwd=os.path.dirname(pkgbuild_path),
-                stderr=subprocess.STDOUT).decode("utf-8")
+            with open(os.devnull, 'wb') as devnull:
+                text = subprocess.check_output(
+                    ["bash", "/usr/bin/makepkg-mingw", "--printsrcinfo", "-p",
+                     os.path.basename(pkgbuild_path)],
+                    cwd=os.path.dirname(pkgbuild_path),
+                    stderr=devnull).decode("utf-8")
         except subprocess.CalledProcessError as e:
             print(
                 "ERROR: %s %s" % (pkgbuild_path, e.output.splitlines()),
