@@ -56,10 +56,14 @@ class PacmanPackage(object):
         return version
 
     @classmethod
-    def get_all_packages(cls):
+    def get_all_packages(cls, remote_versions=False):
         """Returns a set of packages with the version they are installed
         (not the version they are in the repo)
 
+        Args:
+            remote_versions (bool): If True returns the versions of the
+                package in the repo, not the possibly newer locally installed
+                one.
         Returns:
             set(PacmanPackage)
         """
@@ -71,16 +75,20 @@ class PacmanPackage(object):
             if not line:
                 continue
             repo, package_name, version = line.split()[:3]
-            if "[installed:" in line:
+            if not remote_versions and "[installed:" in line:
                 version = line.rsplit(":", 1)[-1].strip("]").strip()
             pkgbuilds_in_repo.add(cls(repo, package_name, version))
         return pkgbuilds_in_repo
 
     @classmethod
-    def get_installed_packages(cls):
+    def get_installed_packages(cls, remote_versions=False):
         """Returns a set of installed packages with the version they are
         installed (not the version they are in the repo)
 
+        Args:
+            remote_versions (bool): If True returns the versions of the
+                package in the repo, not the possibly newer locally installed
+                one.
         Returns:
             set(PacmanPackage)
         """
@@ -93,5 +101,5 @@ class PacmanPackage(object):
                 continue
             installed.add(line.split()[0])
 
-        packages = cls.get_all_packages()
+        packages = cls.get_all_packages(remote_versions=remote_versions)
         return set([p for p in packages if p.pkgname in installed])

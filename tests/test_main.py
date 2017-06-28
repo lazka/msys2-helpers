@@ -38,8 +38,17 @@ def test_utils():
 
 
 def test_pacman():
-    pacman.PacmanPackage.get_all_packages()
-    pacman.PacmanPackage.get_installed_packages()
+    pacman.PacmanPackage.get_all_packages(False)
+    pacman.PacmanPackage.get_all_packages(True)
+    pacman.PacmanPackage.get_installed_packages(False)
+    pacman.PacmanPackage.get_installed_packages(True)
+
+    pkg = pacman.PacmanPackage("mingw64", "mingw-w64-x86_64-perl", "5.22.0-1")
+    assert pkg.repo == "mingw64"
+    assert pkg.pkgname == "mingw-w64-x86_64-perl"
+    assert pkg.pkgver == "5.22.0"
+    assert pkg.pkgrel == "1"
+    assert pkg.build_version == "5.22.0-1"
 
 
 def test_srcinfo():
