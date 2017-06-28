@@ -50,7 +50,7 @@ def main(args):
     repo_path = os.path.abspath(args.path)
 
     repo_packages = PacmanPackage.get_all_packages()
-    repo_packages = dict((p.name, p) for p in repo_packages)
+    repo_packages = dict((p.pkgname, p) for p in repo_packages)
 
     packages_todo = set()
     for package in iter_packages(repo_path):
@@ -61,7 +61,8 @@ def main(args):
                 packages_todo.add(package)
         else:
             repo_pkg = repo_packages[package.pkgname]
-            if version_is_newer_than(package.build_version, repo_pkg.version):
+            if version_is_newer_than(package.build_version,
+                                     repo_pkg.build_version):
                 packages_todo.add(package)
 
     for package in sorted(packages_todo, key=lambda p: p.pkgname):
@@ -72,5 +73,5 @@ def main(args):
         else:
             repo_pkg = repo_packages[package.pkgname]
             print("%-50s local=%-25s db=%-25s %s" % (
-                package.pkgname, package.build_version, repo_pkg.version,
+                package.pkgname, package.build_version, repo_pkg.build_version,
                 package.pkgbuild_path))

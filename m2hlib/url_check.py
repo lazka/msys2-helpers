@@ -71,7 +71,7 @@ def main(args):
     repo_path = os.path.abspath(args.path)
 
     repo_packages = PacmanPackage.get_all_packages()
-    repo_package_names = set(p.name for p in repo_packages)
+    repo_package_names = set(p.pkgname for p in repo_packages)
 
     for package in iter_packages(repo_path):
         # only check packages which are in the repo, all others are many

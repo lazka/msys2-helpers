@@ -39,6 +39,15 @@ def package_name_is_vcs(package_name):
         ("-cvs", "-svn", "-hg", "-darcs", "-bzr", "-git"))
 
 
+def package_name_get_repo(pkgname):
+    if pkgname.startswith("mingw-w64-i686"):
+        return "mingw32"
+    elif pkgname.startswith("mingw-w64-x86_64"):
+        return "mingw64"
+    else:
+        return "msys"
+
+
 def version_cmp(v1, v2):
     """
     Args:

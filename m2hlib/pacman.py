@@ -24,24 +24,36 @@ from __future__ import print_function
 
 import subprocess
 
-from .utils import package_name_is_vcs
+from .utils import package_name_is_vcs, package_name_get_repo
 
 
 class PacmanPackage(object):
 
-    def __init__(self, repo, name, version):
+    def __init__(self, repo, pkgname, version):
         self.repo = repo
-        self.name = name
-        self.version = version
+        assert package_name_get_repo(pkgname) == repo
+        self.pkgname = pkgname
+        self.epoch = None
+        if "~" in version:
+            self.epoch, version = version.split("~", 1)
+        self.pkgver, self.pkgrel = version.rsplit("-", 1)
 
     def __repr__(self):
-        return "<%s %s %s>" % (type(self).__name__, self.name, self.version)
+        return "<%s %s %s>" % (
+            type(self).__name__, self.pkgname, self.build_version)
 
     @property
     def is_vcs(self):
         """bool: If the package is a VCS one"""
 
-        return package_name_is_vcs(self.name)
+        return package_name_is_vcs(self.pkgname)
+
+    @property
+    def build_version(self):
+        version = "%s-%s" % (self.pkgver, self.pkgrel)
+        if self.epoch:
+            version = "%s~%s" % (self.epoch, version)
+        return version
 
     @classmethod
     def get_all_packages(cls):
@@ -82,4 +94,4 @@ class PacmanPackage(object):
             installed.add(line.split()[0])
 
         packages = cls.get_all_packages()
-        return set([p for p in packages if p.name in installed])
+        return set([p for p in packages if p.pkgname in installed])

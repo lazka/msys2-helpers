@@ -166,9 +166,9 @@ def main(args):
         packages = PacmanPackage.get_installed_packages()
 
     packages = [p for p in packages if p.repo == "mingw32" and not p.is_vcs
-                and not msys2_package_should_skip(p.name)]
+                and not msys2_package_should_skip(p.pkgname)]
 
-    work_items = [(p.name,) for p in packages]
+    work_items = [(p.pkgname,) for p in packages]
     pool = ThreadPool(20)
     arch_versions = {}
     pool_iter = pool.imap_unordered(_fetch_version, work_items)
@@ -183,16 +183,16 @@ def main(args):
 
     print("%-30s %-20s %-20s %s" % ("Name", "Local", "Arch", "Arch Package"))
     print("%-30s %-20s %-20s %s" % ("-" * 30, "-" * 20 , "-" * 20, "-" * 20))
-    for p in sorted(packages, key=lambda p: p.name):
-        arch_name = package_get_arch_name(p.name)
+    for p in sorted(packages, key=lambda p: p.pkgname):
+        arch_name = package_get_arch_name(p.pkgname)
         arch_info = arch_versions.get(arch_name)
         if arch_info is not None:
             arch_version, arch_url = arch_info
-            if not version_is_newer_than(arch_version, p.version):
+            if not version_is_newer_than(arch_version, p.pkgver):
                 continue
         else:
             arch_version = "???"
             arch_url = ""
 
         print("%-30s %-20s %-20s %s" % (
-            p.name.split("-", 3)[-1], p.version, arch_version, arch_url))
+            p.pkgname.split("-", 3)[-1], p.pkgver, arch_version, arch_url))

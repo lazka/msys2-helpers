@@ -244,7 +244,7 @@ def main(args):
     target_path = os.path.abspath(args.target)
 
     repo_packages = PacmanPackage.get_all_packages()
-    repo_packages = dict((p.name, p) for p in repo_packages)
+    repo_packages = dict((p.pkgname, p) for p in repo_packages)
 
     # Find packages which not are not VCS and which are out of date
     packages_todo = set()
@@ -253,7 +253,8 @@ def main(args):
             continue
         if package.pkgname in repo_packages:
             repo_pkg = repo_packages[package.pkgname]
-            if version_is_newer_than(package.build_version, repo_pkg.version):
+            if version_is_newer_than(package.build_version,
+                                     repo_pkg.build_version):
                 packages_todo.add(package)
 
     # Throw away PKGBUILDS which build a package which is available from
@@ -268,13 +269,16 @@ def main(args):
             packages, lambda a, b: version_cmp(a.build_version,
                                                b.build_version))
         for to_blacklist in packages_by_version[:-1]:
-            pkgbuilds_to_skip.add(to_blacklist.pkgbuild_path)
+            if to_blacklist.pkgbuild_path != \
+                    packages_by_version[-1].pkgbuild_path:
+                pkgbuilds_to_skip.add(to_blacklist.pkgbuild_path)
     packages_todo = set([p for p in packages_todo
                          if p.pkgbuild_path not in pkgbuilds_to_skip])
 
     # TODO: Support MSYS2 packages
     for package in packages_todo:
-        if not package.pkgname.startswith("mingw-w64-"):
+        print(package.repo)
+        if package.repo == "msys":
             raise Exception(
                 "Only mingw builds supported atm, please add "
                 "support! (%s isn't)" % (package.pkgbuild_path,))

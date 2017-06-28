@@ -32,7 +32,7 @@ import subprocess
 from multiprocessing.pool import ThreadPool
 from multiprocessing import cpu_count
 
-from .utils import progress, package_name_is_vcs
+from .utils import progress, package_name_is_vcs, package_name_get_repo
 
 
 class SrcInfoPool(object):
@@ -75,12 +75,17 @@ class SrcInfoPackage(object):
         self.sources = []
 
     def __repr__(self):
-        return "<%s %s %s>" % (
-            type(self).__name__, self.pkgname, self.build_version)
+        return "<%s %s %s %s>" % (
+            type(self).__name__, self.pkgname, self.build_version,
+            self.pkgbuild_path)
 
     @property
     def is_vcs(self):
         return package_name_is_vcs(self.pkgname)
+
+    @property
+    def repo(self):
+        return package_name_get_repo(self.pkgname)
 
     @property
     def build_version(self):
