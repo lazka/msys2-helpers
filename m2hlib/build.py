@@ -30,7 +30,28 @@ import subprocess
 
 from .srcinfo import SrcInfoPool, iter_packages
 from .pacman import PacmanPackage
-from .utils import version_is_newer_than
+from .utils import version_is_newer_than, version_cmp
+
+
+def sorted_with_cmp(sequence, cmp_func, **kwargs):
+    # sort with a cmp func which works under both Python 2 and 3
+
+    if sys.version_info[0] == 3:
+        from functools import cmp_to_key
+
+        key = cmp_to_key(cmp_func)
+
+        def do_sort(x):
+            return sorted(x, key=key, **kwargs)
+    else:
+        def do_sort(x):
+            return sorted(x, cmp=cmp_func, **kwargs)
+
+    return do_sort(sequence)
+
+
+def cmp_(a, b):
+    return (a > b) - (a < b)
 
 
 def get_pkgbuilds_to_build_in_order(packages_todo):
@@ -43,11 +64,6 @@ def get_pkgbuilds_to_build_in_order(packages_todo):
         pkgbuilds.setdefault(package.pkgbuild_path, set()).add(package)
 
     # now sort the pkgbuilds by the dependencies of the contained packages
-
-    try:
-        cmp
-    except NameError:
-        cmp = lambda a, b: (a > b) - (a < b)
 
     def cmp_func(aa, bb):
         """Takes two sets of packages ands sorts according to their
@@ -71,29 +87,16 @@ def get_pkgbuilds_to_build_in_order(packages_todo):
 
         if a_name in bt and b_name in at:
             # cyclic dependency!
-            return cmp(a_key, b_key)
+            return cmp_(a_key, b_key)
         elif a_name in bt:
             return -1
         elif b_name in at:
             return 1
         else:
-            return cmp(a_key, b_key)
+            return cmp_(a_key, b_key)
 
-    real_cmp = lambda a, b: cmp_func(a[1], b[1])
-
-    if sys.version_info[0] == 3:
-        from functools import cmp_to_key
-
-        key = cmp_to_key(real_cmp)
-
-        def do_sort(x):
-            return sorted(x, key=key)
-    else:
-        def do_sort(x):
-            return sorted(x, cmp=real_cmp)
-
-    return pool, do_sort(pkgbuilds.items())
-
+    return pool, sorted_with_cmp(
+        pkgbuilds.items(), lambda a, b: cmp_func(a[1], b[1]))
 
 
 class BuildError(Exception):
@@ -243,7 +246,7 @@ def main(args):
     repo_packages = PacmanPackage.get_all_packages()
     repo_packages = dict((p.name, p) for p in repo_packages)
 
-    # Find packages which not VCS and which are out of date
+    # Find packages which not are not VCS and which are out of date
     packages_todo = set()
     for package in iter_packages(repo_path):
         if package.is_vcs:
@@ -251,12 +254,30 @@ def main(args):
         if package.pkgname in repo_packages:
             repo_pkg = repo_packages[package.pkgname]
             if version_is_newer_than(package.build_version, repo_pkg.version):
-                # TODO
-                if not package.pkgname.startswith("mingw-w64-"):
-                    raise Exception(
-                        "Only mingw builds supported atm, please add "
-                        "support! (%s isn't)" % (package.pkgbuild_path,))
                 packages_todo.add(package)
+
+    # Throw away PKGBUILDS which build a package which is available from
+    # another PKGBUILD but newer there.
+    per_pkgname = {}
+    for p in packages_todo:
+        per_pkgname.setdefault(p.pkgname, set()).add(p)
+    pkgbuilds_to_skip = set()
+    for pkgname, packages in per_pkgname.items():
+        # last is the newest
+        packages_by_version = sorted_with_cmp(
+            packages, lambda a, b: version_cmp(a.build_version,
+                                               b.build_version))
+        for to_blacklist in packages_by_version[:-1]:
+            pkgbuilds_to_skip.add(to_blacklist.pkgbuild_path)
+    packages_todo = set([p for p in packages_todo
+                         if p.pkgbuild_path not in pkgbuilds_to_skip])
+
+    # TODO: Support MSYS2 packages
+    for package in packages_todo:
+        if not package.pkgname.startswith("mingw-w64-"):
+            raise Exception(
+                "Only mingw builds supported atm, please add "
+                "support! (%s isn't)" % (package.pkgbuild_path,))
 
     # Sort them according to their dependencies so no package is build
     # before any of its dependencies

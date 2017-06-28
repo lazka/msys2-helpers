@@ -22,7 +22,6 @@
 
 from __future__ import print_function
 
-import subprocess
 from multiprocessing.pool import ThreadPool
 
 from .utils import package_name_is_vcs, progress, version_is_newer_than
