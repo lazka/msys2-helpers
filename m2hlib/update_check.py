@@ -22,10 +22,12 @@
 
 from __future__ import print_function
 
+import os
 from multiprocessing.pool import ThreadPool
 
 from .utils import package_name_is_vcs, progress, version_is_newer_than
 from .pacman import PacmanPackage
+from .srcinfo import iter_packages
 
 
 def msys2_package_should_skip(package_name):
@@ -154,6 +156,9 @@ def add_parser(subparsers):
         help="Compares package versions in the package database against "
              "versions in the Arch Linux distribution and reports out of date "
              "ones")
+    parser.add_argument('repo_path', nargs='?',
+        help="Optional path to a PKGBUILD repo. Uses the versions of the "
+             "PKGBUILD files instead of the database if given.")
     parser.add_argument("--all", help="check all packages",
                         action="store_true")
     parser.set_defaults(func=main)
@@ -167,6 +172,15 @@ def main(args):
 
     packages = [p for p in packages if p.repo == "mingw32" and not p.is_vcs
                 and not msys2_package_should_skip(p.pkgname)]
+
+    if args.repo_path is not None:
+        repo_path = os.path.abspath(args.repo_path)
+        new_packages = []
+        package_names = set([p.pkgname for p in packages])
+        for package in iter_packages(repo_path):
+            if package.pkgname in package_names:
+                new_packages.append(package)
+        packages = new_packages
 
     work_items = [(p.pkgname,) for p in packages]
     pool = ThreadPool(20)

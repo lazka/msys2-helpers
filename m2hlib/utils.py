@@ -85,7 +85,10 @@ def progress(total):
     last_blocks = [-1]
 
     def update(current, clear=False):
-        blocks = int((float(current) / total) * width)
+        if total == 0:
+            blocks = 0
+        else:
+            blocks = int((float(current) / total) * width)
         if blocks == last_blocks[0] and not clear:
             return
         last_blocks[0] = blocks
