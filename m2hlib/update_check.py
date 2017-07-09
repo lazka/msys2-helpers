@@ -93,6 +93,7 @@ def package_get_arch_name(package_name):
         "gtksourceviewmm3": "gtksourceviewmm",
         "librest": "rest",
         "gcc-libgfortran": "gcc-fortran",
+        "meld3": "meld",
     }
 
     if package_name in mapping:
