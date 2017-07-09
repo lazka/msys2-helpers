@@ -152,6 +152,12 @@ def _fetch_version(args):
     return {}
 
 
+def extract_upstream_version(version):
+    """Given a package version, try to extract the upstream one"""
+
+    return version.rsplit("-")[0].split("+", 1)[0].split("~", 1)[-1]
+
+
 def add_parser(subparsers):
     parser = subparsers.add_parser("updatecheck",
         help="Compares package versions in the package database against "
@@ -163,6 +169,16 @@ def add_parser(subparsers):
     parser.add_argument("--all", help="check all packages",
                         action="store_true")
     parser.set_defaults(func=main)
+
+
+def version_is_newer_than_lax(a, b):
+    # workaround for 2.28 not matching 2.28.0, while there is a difference
+    # for package updates etc. we don't care in this context
+    while a.count(".") < b.count(".") and b.startswith(a):
+        a += ".0"
+    while b.count(".") < a.count(".") and a.startswith(b):
+        b += ".0"
+    return version_is_newer_than(a, b)
 
 
 def main(args):
@@ -201,13 +217,15 @@ def main(args):
     for p in sorted(packages, key=lambda p: p.pkgname):
         arch_name = package_get_arch_name(p.pkgname)
         arch_info = arch_versions.get(arch_name)
+        pkgver = extract_upstream_version(p.pkgver)
         if arch_info is not None:
             arch_version, arch_url = arch_info
-            if not version_is_newer_than(arch_version, p.pkgver):
+            arch_version = extract_upstream_version(arch_version)
+            if not version_is_newer_than_lax(arch_version, pkgver):
                 continue
         else:
             arch_version = "???"
             arch_url = ""
 
         print("%-30s %-20s %-20s %s" % (
-            p.pkgname.split("-", 3)[-1], p.pkgver, arch_version, arch_url))
+            p.pkgname.split("-", 3)[-1], pkgver, arch_version, arch_url))
