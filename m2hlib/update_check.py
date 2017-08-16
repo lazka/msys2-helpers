@@ -173,10 +173,9 @@ def add_parser(subparsers):
 
 def version_is_newer_than_lax(a, b):
     # workaround for 2.28 not matching 2.28.0, while there is a difference
-    # for package updates etc. we don't care in this context
-    while a.count(".") < b.count(".") and b.startswith(a):
+    if b == a + ".0":
         a += ".0"
-    while b.count(".") < a.count(".") and a.startswith(b):
+    if a == b + ".0":
         b += ".0"
     return version_is_newer_than(a, b)
 
