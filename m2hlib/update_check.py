@@ -124,16 +124,27 @@ def _fetch_version(args):
             r["repo"], r["arch"], r["pkgname"])
 
     versions = {}
+
+    def set_version(name, ver, url):
+        if name in versions:
+            old_ver = versions[name][0]
+            if version_is_newer_than_lax(ver, old_ver):
+                versions[name] = (ver, url)
+        else:
+            versions[name] = (ver, url)
+
     for result in results:
         url = build_url(result)
-        versions[arch_name] = (result["pkgver"], url)
+        set_version(arch_name, result["pkgver"], url)
         for vs in result["provides"]:
             if "=" in vs:
                 prov_name, ver = vs.split("=", 1)
                 ver = ver.rsplit("-", 1)[0]
-                versions[prov_name] = (ver, url)
+                set_version(prov_name, ver, url)
             else:
-                versions[vs] = (result["pkgver"], url)
+                set_version(vs, result["pkgver"], url)
+
+    if versions:
         return versions
 
     # If all fails, search the AUR
