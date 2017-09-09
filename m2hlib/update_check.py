@@ -166,7 +166,8 @@ def _fetch_version(args):
 def extract_upstream_version(version):
     """Given a package version, try to extract the upstream one"""
 
-    return version.rsplit("-")[0].split("+", 1)[0].split("~", 1)[-1]
+    return version.rsplit(
+        "-")[0].split("+", 1)[0].split("~", 1)[-1].split(":", 1)[-1]
 
 
 def add_parser(subparsers):
