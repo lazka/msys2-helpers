@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2017 Christoph Reiter
 #
@@ -21,32 +20,29 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
-
 from __future__ import print_function
 
-import sys
-import argparse
+import os
 
-from m2hlib import build_check, update_check, dll_check, url_check, build,\
-    check
+from .srcinfo import iter_packages
 
 
-def main(argv):
-    parser = argparse.ArgumentParser(
-        description="Provides various tools for automating maintainance work "
-                    "for the MSYS2 repositories")
-    subparser = parser.add_subparsers(title="subcommands")
-
-    build_check.add_parser(subparser)
-    update_check.add_parser(subparser)
-    dll_check.add_parser(subparser)
-    url_check.add_parser(subparser)
-    build.add_parser(subparser)
-    check.add_parser(subparser)
-
-    args = parser.parse_args(argv[1:])
-    return args.func(args)
+def add_parser(subparsers):
+    parser = subparsers.add_parser("check")
+    parser.add_argument("repo_path")
+    parser.set_defaults(func=main)
 
 
-if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+
+def main(args):
+    repo_path = os.path.abspath(args.repo_path)
+    packages = list(iter_packages(repo_path))
+    nomatch = set()
+    for p in packages:
+        dirname = os.path.basename(os.path.dirname(p.pkgbuild_path))
+        pkgbase = p.pkgbase
+        if dirname != pkgbase:
+            nomatch.add((p.pkgbuild_path, pkgbase))
+
+    for pkgbuild_path, pkgbase in sorted(nomatch):
+        print(pkgbuild_path, "-->", pkgbase)
