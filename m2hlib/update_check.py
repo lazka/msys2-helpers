@@ -94,6 +94,7 @@ def package_get_arch_name(package_name):
         "librest": "rest",
         "gcc-libgfortran": "gcc-fortran",
         "meld3": "meld",
+        "transmission": "transmission-gtk",
     }
 
     if package_name in mapping:

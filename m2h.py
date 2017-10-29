@@ -35,6 +35,7 @@ def main(argv):
     parser = argparse.ArgumentParser(
         description="Provides various tools for automating maintainance work "
                     "for the MSYS2 repositories")
+    parser.set_defaults(func=lambda *x: parser.print_help())
     subparser = parser.add_subparsers(title="subcommands")
 
     build_check.add_parser(subparser)
