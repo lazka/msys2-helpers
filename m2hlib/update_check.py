@@ -96,7 +96,7 @@ def package_get_arch_name(package_name):
         "gcc-libgfortran": "gcc-fortran",
         "meld3": "meld",
         "transmission": "transmission-gtk",
-        "fdk-aac": "fdkaac",
+        "fdk-aac": "libfdk-aac",
         "ladspa-sdk": "ladspa",
     }
 
