@@ -54,6 +54,7 @@ def msys2_package_should_skip(package_name):
         "xpm-nox",
         "flexdll",
         "winsparkle",
+        "glib-openssl",
     ]
 
     if package_name in skip:
@@ -95,6 +96,7 @@ def package_get_arch_name(package_name):
         "gcc-libgfortran": "gcc-fortran",
         "meld3": "meld",
         "transmission": "transmission-gtk",
+        "fdk-aac": "fdkaac",
     }
 
     if package_name in mapping:
