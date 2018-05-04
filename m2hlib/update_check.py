@@ -97,6 +97,7 @@ def package_get_arch_name(package_name):
         "meld3": "meld",
         "transmission": "transmission-gtk",
         "fdk-aac": "fdkaac",
+        "ladspa-sdk": "ladspa",
     }
 
     if package_name in mapping:
