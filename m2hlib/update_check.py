@@ -98,6 +98,9 @@ def package_get_arch_name(package_name):
         "transmission": "transmission-gtk",
         "fdk-aac": "libfdk-aac",
         "ladspa-sdk": "ladspa",
+        "libgd": "gd",
+        "tepl4": "tepl",
+        "vulkan": "vulkan-tools",
     }
 
     if package_name in mapping:
