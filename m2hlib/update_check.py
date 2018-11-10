@@ -101,6 +101,7 @@ def package_get_arch_name(package_name):
         "libgd": "gd",
         "tepl4": "tepl",
         "vulkan": "vulkan-tools",
+        "python3-flake8": "flake8",
     }
 
     if package_name in mapping:
